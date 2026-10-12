@@ -58,3 +58,10 @@ footer a:hover { text-decoration: underline; }
 .legal .meta { color: var(--muted); font-size: .9rem; }
 .back { color: var(--purple); text-decoration: none; }
 .back:hover { text-decoration: underline; }
+
+/* Vidéo de présentation */
+.video { display: flex; justify-content: center; width: 100%; margin: 0 0 2rem; }
+.play { display: inline-flex; align-items: center; gap: .6rem; padding: .65rem 1.25rem; border: 1px solid var(--purple); border-radius: 999px; color: var(--purple); text-decoration: none; }
+.play svg { width: 1.1rem; height: 1.1rem; fill: currentColor; }
+.play:hover { background: rgba(176, 108, 174, .12); }
+.video iframe { width: min(100%, 20rem); aspect-ratio: 9 / 16; border: 0; border-radius: 1rem; background: #000; }

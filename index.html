@@ -20,6 +20,13 @@
     <p class="tagline">Chapelet et méditation biblique</p>
     <p>Une application pour prier le chapelet et méditer les mystères à la lumière de l'Évangile, dans une interface sobre et apaisée.</p>
 
+    <div class="video">
+      <a class="play" href="https://www.youtube.com/shorts/VibaLH3brls" data-id="VibaLH3brls">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5 19 12 7 19.5z"/></svg>
+        Voir la présentation en vidéo
+      </a>
+    </div>
+
     <section class="beta">
       <p class="date">Vous êtes invités aux tests privés</p>
       <h2>Soyez parmi les premiers à prier avec Oraison</h2>
@@ -57,6 +64,19 @@
       </span>
     </div>
   </main>
-  <footer>© 2026 Oraison · <a href="privacy.html">Confidentialité</a></footer>
+  <footer>© tous droits réservés · Oraison · vacarelm · <a href="privacy.html">Confidentialité</a></footer>
+  <script>
+    // La vidéo n'est chargée depuis YouTube qu'au clic (sans JavaScript, le lien ouvre YouTube).
+    document.querySelector('.play').addEventListener('click', function (e) {
+      e.preventDefault();
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + this.dataset.id + '?autoplay=1&rel=0';
+      f.title = "Présentation d'Oraison";
+      f.allow = 'autoplay; encrypted-media; picture-in-picture';
+      f.allowFullscreen = true;
+      f.referrerPolicy = 'strict-origin-when-cross-origin';
+      this.replaceWith(f);
+    });
+  </script>
 </body>
 </html>
