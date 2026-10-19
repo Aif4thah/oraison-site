@@ -29,6 +29,7 @@
       padding: 0;
       width: 100%;
       height: 100%;
+      height: 100dvh;
       overflow: hidden;
       overscroll-behavior: none;
       touch-action: none;
@@ -44,6 +45,37 @@
       Oraison nécessite l'activation de JavaScript pour afficher le chapelet interactif et les méditations hors-ligne.
     </p>
   </noscript>
+  <script>
+    (function () {
+      // Masque automatiquement les barres Chrome / Android / iPadOS (adresse, heure, notifications, navigation)
+      // dès le premier contact tactile sur appareil mobile ou tablette.
+      var isTouchDevice = function () {
+        return (
+          (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) ||
+          navigator.maxTouchPoints > 0 ||
+          /Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '')
+        );
+      };
+
+      var enterImmersiveFullscreen = function () {
+        if (!isTouchDevice()) return;
+        if (document.fullscreenElement || document.webkitFullscreenElement) return;
+        var el = document.documentElement;
+        var req = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
+        if (req) {
+          try {
+            var p = req.call(el, { navigationUI: 'hide' });
+            if (p && typeof p.catch === 'function') {
+              p.catch(function () {});
+            }
+          } catch (_) {}
+        }
+      };
+
+      window.addEventListener('click', enterImmersiveFullscreen, { passive: true });
+      window.addEventListener('touchend', enterImmersiveFullscreen, { passive: true });
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
