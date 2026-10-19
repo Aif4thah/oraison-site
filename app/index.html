@@ -23,6 +23,7 @@
   <link rel="manifest" href="manifest.json">
   <link rel="preload" href="icons/Icon-192.png" as="image">
   <link rel="preload" href="flutter_bootstrap.js" as="script">
+  <link rel="preload" href="main.dart.js" as="script">
   <style>
     html, body {
       background-color: #121212;
@@ -171,6 +172,21 @@
         }, 350);
       }
     });
+
+    // Nettoyage de l'ancien worker Flutter déprécié et enregistrement du nouveau SW de cache ultra-rapide
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        for (var i = 0; i < registrations.length; i++) {
+          var reg = registrations[i];
+          if (reg.active && reg.active.scriptURL && reg.active.scriptURL.indexOf('flutter_service_worker.js') !== -1) {
+            reg.unregister();
+          }
+        }
+      });
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js').catch(function () {});
+      });
+    }
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
