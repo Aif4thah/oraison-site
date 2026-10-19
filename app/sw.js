@@ -35,46 +35,51 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
 
   const url = new URL(req.url);
+  const isOraisonOrigin = url.origin === self.location.origin;
+  const isGoogleCdn = url.hostname === 'www.gstatic.com' ||
+                      url.hostname === 'fonts.gstatic.com' ||
+                      url.hostname === 'fonts.googleapis.com';
 
-  // Uniquement pour les requêtes de l'application Oraison
-  if (url.origin === self.location.origin) {
-    // Ressources statiques et lourdes (Dart JS, CanvasKit, JSON, icônes, polices)
-    // Stratégie : Cache-First avec rafraîchissement en arrière-plan sans bloquer
-    const isStaticAsset = (
-      url.pathname.endsWith('.js') ||
-      url.pathname.endsWith('.wasm') ||
-      url.pathname.endsWith('.json') ||
-      url.pathname.endsWith('.png') ||
-      url.pathname.endsWith('.otf') ||
-      url.pathname.endsWith('.ttf') ||
-      url.pathname.includes('/assets/') ||
-      url.pathname.includes('/canvaskit/')
-    );
+  if (!isOraisonOrigin && !isGoogleCdn) return;
 
-    if (isStaticAsset) {
-      event.respondWith(
-        caches.match(req).then((cached) => {
-          if (cached) {
-            // Mise à jour discrète du cache en arrière-plan
-            fetch(req).then((res) => {
-              if (res && res.status === 200) {
-                const clone = res.clone();
-                caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
-              }
-            }).catch(() => {});
-            return cached;
-          }
-          return fetch(req).then((res) => {
+  // Ressources statiques et lourdes (Dart JS, CanvasKit, WASM, JSON, icônes, polices)
+  // Stratégie : Cache-First avec mise à jour discrète en arrière-plan
+  const isStaticAsset = (
+    url.pathname.endsWith('.js') ||
+    url.pathname.endsWith('.wasm') ||
+    url.pathname.endsWith('.json') ||
+    url.pathname.endsWith('.png') ||
+    url.pathname.endsWith('.otf') ||
+    url.pathname.endsWith('.ttf') ||
+    url.pathname.endsWith('.woff2') ||
+    url.pathname.includes('/assets/') ||
+    url.pathname.includes('/canvaskit/') ||
+    isGoogleCdn
+  );
+
+  if (isStaticAsset) {
+    event.respondWith(
+      caches.match(req).then((cached) => {
+        if (cached) {
+          fetch(req).then((res) => {
             if (res && res.status === 200) {
               const clone = res.clone();
               caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
             }
-            return res;
-          });
-        })
-      );
-      return;
-    }
+          }).catch(() => {});
+          return cached;
+        }
+        return fetch(req).then((res) => {
+          if (res && (res.status === 200 || res.type === 'opaque')) {
+            const clone = res.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
+          }
+          return res;
+        });
+      })
+    );
+    return;
+  }
 
     // Pour index.html : Stale-While-Revalidate (affichage instantané + actualisation discrète)
     event.respondWith(

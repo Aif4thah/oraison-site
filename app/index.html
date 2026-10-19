@@ -35,7 +35,7 @@
       height: 100dvh;
       overflow: hidden;
       overscroll-behavior: none;
-      touch-action: none;
+      touch-action: manipulation;
       -webkit-tap-highlight-color: transparent;
       -webkit-user-select: none;
       user-select: none;
@@ -54,11 +54,12 @@
       justify-content: center;
       z-index: 99999;
       opacity: 1;
-      transition: opacity 0.35s ease-out;
+      transition: opacity 0.4s ease-out;
       pointer-events: none;
     }
     #splash-screen.splash-fade-out {
       opacity: 0;
+      pointer-events: none;
     }
     .splash-logo {
       width: 72px;
@@ -162,16 +163,25 @@
       window.addEventListener('touchend', enterImmersiveFullscreen, { passive: true });
     })();
 
-    // Disparition en douceur dès que Flutter affiche sa première image
-    window.addEventListener('flutter-first-frame', function () {
+    // Disparition douce du splash uniquement lorsque Flutter a peint sa première trame
+    var _splashDismissed = false;
+    window.dismissSplashScreen = function () {
+      if (_splashDismissed) return;
+      _splashDismissed = true;
       var splash = document.getElementById('splash-screen');
       if (splash) {
         splash.classList.add('splash-fade-out');
         setTimeout(function () {
           if (splash && splash.parentNode) splash.parentNode.removeChild(splash);
-        }, 350);
+        }, 450);
       }
-    });
+    };
+
+    // Flutter Web émet 'flutter-first-frame' dès la première trame peinte sur le canvas
+    window.addEventListener('flutter-first-frame', window.dismissSplashScreen);
+
+    // Filet de sécurité : masquage automatique après 6s si l'événement tardait
+    setTimeout(window.dismissSplashScreen, 6000);
 
     // Nettoyage de l'ancien worker Flutter déprécié et enregistrement du nouveau SW de cache ultra-rapide
     if ('serviceWorker' in navigator) {
