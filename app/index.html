@@ -5,14 +5,14 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Oraison, application sobre et silencieuse de prière, chapelet guidé et méditation des mystères du Rosaire à la lumière de la Bible.">
   <meta name="theme-color" content="#121212">
 
   <!-- iOS / iPhone PWA meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Oraison">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 
@@ -47,18 +47,31 @@
   </noscript>
   <script>
     (function () {
-      // Masque automatiquement les barres Chrome / Android / iPadOS (adresse, heure, notifications, navigation)
-      // dès le premier contact tactile sur appareil mobile ou tablette.
+      // Masque automatiquement les barres Chrome / Android (adresse, heure, notifications, navigation)
+      // dès le premier contact tactile hors iOS et hors mode PWA déjà installé.
+      var ua = navigator.userAgent || '';
+      var isIOS = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+      var isStandalone = function () {
+        return (
+          window.navigator.standalone === true ||
+          (window.matchMedia && (
+            window.matchMedia('(display-mode: standalone)').matches ||
+            window.matchMedia('(display-mode: fullscreen)').matches
+          ))
+        );
+      };
+
       var isTouchDevice = function () {
         return (
           (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) ||
           navigator.maxTouchPoints > 0 ||
-          /Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '')
+          /Android/i.test(ua)
         );
       };
 
       var enterImmersiveFullscreen = function () {
-        if (!isTouchDevice()) return;
+        if (isIOS || isStandalone() || !isTouchDevice()) return;
         if (document.fullscreenElement || document.webkitFullscreenElement) return;
         var el = document.documentElement;
         var req = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
