@@ -69844,10 +69844,10 @@ n=a.ax
 n.toString
 return i*(n*s)}m=i?this.d:o
 l=q-m
-k=B.c.ca(24/r,0.05,0.11)
+k=B.c.ca(4/r,0.008,0.025)
 if(i&&Math.abs(l)>=1)j=B.c.j8(q)
-else if(c<-100||l<=-k)j=m-1
-else j=c>100||l>=k?m+1:m
+else if(c<-15||l<=-k)j=m-1
+else j=c>15||l>=k?m+1:m
 if(!i)j=B.c.ca(j,m-1,m+1)
 i=a.z
 i.toString
