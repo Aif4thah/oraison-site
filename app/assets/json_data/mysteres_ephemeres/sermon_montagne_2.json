@@ -1,0 +1,166 @@
+[
+  {
+    "id": "sermon_tresor",
+    "periode": {
+      "debut": "01-01",
+      "fin": "06-15"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.1,
+        "y": 0.78
+      },
+      {
+        "op": "lineTo",
+        "x": 0.38,
+        "y": 0.3
+      },
+      {
+        "op": "lineTo",
+        "x": 0.52,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.62,
+        "y": 0.38
+      },
+      {
+        "op": "lineTo",
+        "x": 0.9,
+        "y": 0.78
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.31,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.35,
+        "y": 0.46
+      },
+      {
+        "op": "lineTo",
+        "x": 0.39,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.43,
+        "y": 0.46
+      },
+      {
+        "op": "lineTo",
+        "x": 0.464,
+        "y": 0.42
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "Le Trésor du cœur",
+    "type": "Sermon sur la montagne 2/2",
+    "numero": 1,
+    "fruit": "L'amour céleste",
+    "theme": "Priorité spirituelle",
+    "auteur": "Matthieu",
+    "chapitre": 6,
+    "premier_verset": 19,
+    "verset_fin": 21,
+    "traduction": "Crampon 1923",
+    "texte": "Ne vous amassez pas des trésors sur la terre... mais amassez-vous des trésors dans le ciel, où ni les vers ni la rouille ne détruisent... Car là où est ton trésor, là aussi sera ton cœur."
+  },
+  {
+    "id": "sermon_providence",
+    "nom": "La Confiance en la Providence",
+    "type": "Sermon sur la montagne 2/2",
+    "numero": 2,
+    "fruit": "La sérénité spirituelle",
+    "theme": "Abandon à Dieu",
+    "auteur": "Matthieu",
+    "chapitre": 6,
+    "premier_verset": 31,
+    "verset_fin": 33,
+    "traduction": "Crampon 1923",
+    "texte": "Ne vous inquiétez donc point, disant: Que mangerons-nous? ou que boirons-nous?... Cherchez premièrement le royaume de Dieu et sa justice, et toutes ces choses vous seront données par-dessus."
+  },
+  {
+    "id": "sermon_jugement",
+    "nom": "Ne pas juger",
+    "type": "Sermon sur la montagne 2/2",
+    "numero": 3,
+    "fruit": "La miséricorde envers autrui",
+    "theme": "Bienveillance",
+    "auteur": "Matthieu",
+    "chapitre": 7,
+    "premier_verset": 1,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Ne jugez point, afin que vous ne soyez point jugés. Car on vous jugera du jugement dont vous aurez jugé, et l'on vous mesurera avec la mesure dont vous aurez mesuré."
+  },
+  {
+    "id": "sermon_demande",
+    "nom": "La Demande confiante",
+    "type": "Sermon sur la montagne 2/2",
+    "numero": 4,
+    "fruit": "La foi constante",
+    "theme": "Persévérance dans la prière",
+    "auteur": "Matthieu",
+    "chapitre": 7,
+    "premier_verset": 7,
+    "verset_fin": 8,
+    "traduction": "Crampon 1923",
+    "texte": "Demandez, et l'on vous donnera; cherchez, et vous trouverez; frappez, et l'on vous ouvrira. Car quiconque demande reçoit, celui qui cherche trouve, et l'on ouvre à celui qui frappe."
+  },
+  {
+    "id": "sermon_regle_or",
+    "nom": "La Règle d'or",
+    "type": "Sermon sur la montagne 2/2",
+    "numero": 5,
+    "fruit": "La justice et l'amour du prochain",
+    "theme": "Charité active",
+    "auteur": "Matthieu",
+    "chapitre": 7,
+    "premier_verset": 12,
+    "verset_fin": 12,
+    "traduction": "Crampon 1923",
+    "texte": "Tout ce que vous voulez que les hommes fassent pour vous, faites-le de même pour eux: car c'est la loi et les prophètes."
+  },
+  {
+    "id": "sermon_porte_etroite",
+    "nom": "La Porte étroite",
+    "type": "Sermon sur la montagne 2/2",
+    "numero": 6,
+    "fruit": "La vigilance spirituelle",
+    "theme": "Exigence de la voie divine",
+    "auteur": "Matthieu",
+    "chapitre": 7,
+    "premier_verset": 13,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "Entrez par la porte étroite. Car large est la porte, spacieux est le chemin qui mènent à la perdition, et il y en a beaucoup qui entrent par là. Mais étroite est la porte, resserré le chemin qui mènent à la vie, et il y en a peu qui les trouvent."
+  },
+  {
+    "id": "sermon_maison_roc",
+    "nom": "La Maison bâtie sur le roc",
+    "type": "Sermon sur la montagne 2/2",
+    "numero": 7,
+    "fruit": "La constance dans la foi",
+    "theme": "Pratique de la parole",
+    "auteur": "Matthieu",
+    "chapitre": 7,
+    "premier_verset": 24,
+    "verset_fin": 25,
+    "traduction": "Crampon 1923",
+    "texte": "Quiconque entend ces paroles que je dis et les met en pratique, sera comparé à un homme prudent qui a bâti sa maison sur le roc. La pluie est tombée, les torrents sont venus, les vents ont soufflé... et elle n'est point tombée, car elle était fondée sur le roc."
+  }
+]

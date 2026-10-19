@@ -1,0 +1,92 @@
+[
+  {
+    "id": "assomption_1",
+    "periode": {
+      "debut": "07-25",
+      "fin": "08-15"
+    },
+    "commands": [
+      { "op": "moveTo", "x": 0.64, "y": 0.16 },
+      { "op": "cubicTo", "x1": 0.2, "y1": 0.22, "x2": 0.2, "y2": 0.78, "x": 0.64, "y": 0.84 },
+      { "op": "cubicTo", "x1": 0.4, "y1": 0.7, "x2": 0.4, "y2": 0.3, "x": 0.64, "y": 0.16 },
+      { "op": "close" },
+      { "op": "stroke" },
+      { "op": "moveTo", "x": 0.76, "y": 0.16 },
+      { "op": "lineTo", "x": 0.76, "y": 0.4 },
+      { "op": "moveTo", "x": 0.64, "y": 0.28 },
+      { "op": "lineTo", "x": 0.88, "y": 0.28 },
+      { "op": "moveTo", "x": 0.68, "y": 0.2 },
+      { "op": "lineTo", "x": 0.84, "y": 0.36 },
+      { "op": "moveTo", "x": 0.84, "y": 0.2 },
+      { "op": "lineTo", "x": 0.68, "y": 0.36 },
+      { "op": "stroke", "trait": "fin" }
+    ],
+    "nom": "La Femme revêtue du soleil",
+    "type": "Mystères de l'Assomption",
+    "numero": 1,
+    "fruit": "L'espérance de la gloire du ciel",
+    "clausule_et_jesus": "couronnant sa Mère",
+    "auteur": "Apocalypse",
+    "chapitre": 12,
+    "premier_verset": 1,
+    "verset_fin": 1,
+    "traduction": "Crampon 1923",
+    "texte": "Puis il parut dans le ciel un grand signe : une femme revêtue du soleil, la lune sous ses pieds, et une couronne de douze étoiles sur sa tête."
+  },
+  {
+    "id": "assomption_2",
+    "nom": "La Visitation",
+    "type": "Mystères de l'Assomption",
+    "numero": 2,
+    "fruit": "Le zèle du service",
+    "clausule_et_jesus": "porté en hâte chez Élisabeth",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 39,
+    "verset_fin": 41,
+    "traduction": "Crampon 1923",
+    "texte": "Et elle entra dans la maison de Zacharie, et salua Élisabeth. Or, dès qu'Élisabeth eut entendu la salutation de Marie, l'enfant tressaillit dans son sein, et elle fut remplie du Saint-Esprit."
+  },
+  {
+    "id": "assomption_3",
+    "nom": "Bénie entre les femmes",
+    "type": "Mystères de l'Assomption",
+    "numero": 3,
+    "fruit": "La foi de Marie",
+    "clausule_et_jesus": "Seigneur et fils de Marie",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 42,
+    "verset_fin": 45,
+    "traduction": "Crampon 1923",
+    "texte": "Et élevant la voix, elle s'écria : « Vous êtes bénie entre les femmes, et le fruit de vos entrailles est béni. Et d'où m'est-il donné que la mère de mon Seigneur vienne à moi ? »"
+  },
+  {
+    "id": "assomption_4",
+    "nom": "Le Magnificat",
+    "type": "Mystères de l'Assomption",
+    "numero": 4,
+    "fruit": "La louange et l'action de grâces",
+    "clausule_et_jesus": "qui a fait de grandes choses",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 46,
+    "verset_fin": 50,
+    "traduction": "Crampon 1923",
+    "texte": "Et Marie dit : « Mon âme glorifie le Seigneur. Et mon esprit tressaille de joie en Dieu, mon Sauveur, parce qu'il a jeté les yeux sur la bassesse de sa servante. Voici, en effet, que désormais toutes les générations m'appelleront bienheureuse. »"
+  },
+  {
+    "id": "assomption_5",
+    "nom": "Il a élevé les petits",
+    "type": "Mystères de l'Assomption",
+    "numero": 5,
+    "fruit": "L'humilité devant Dieu",
+    "clausule_et_jesus": "qui élève les humbles",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 51,
+    "verset_fin": 53,
+    "traduction": "Crampon 1923",
+    "texte": "Il a renversé de leur trône les potentats, et il a élevé les petits ; il a comblé de biens les affamés, et les riches, il les a renvoyés les mains vides."
+  }
+]

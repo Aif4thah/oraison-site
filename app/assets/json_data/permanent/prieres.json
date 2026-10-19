@@ -1,0 +1,92 @@
+[
+  {
+    "id": "credo_fr",
+    "code": "credo",
+    "nom": "Je crois en Dieu (Symbole des Apôtres)",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "chapelet",
+    "texte": "Je crois en Dieu, le Père tout-puissant, Créateur du ciel et de la terre. Et en Jésus-Christ, son Fils unique, notre Seigneur, qui a été conçu du Saint-Esprit, est né de la Vierge Marie, a souffert sous Ponce Pilate, a été crucifié, est mort et a été enseveli, est descendu aux enfers, le troisième jour est ressuscité des morts, est monté aux cieux, est assis à la droite de Dieu le Père tout-puissant, d'où il viendra juger les vivants et les morts. Je crois en l'Esprit Saint, à la sainte Église catholique, à la communion des saints, à la rémission des péchés, à la résurrection de la chair, à la vie éternelle. Amen."
+  },
+  {
+    "id": "credo_la",
+    "code": "credo",
+    "nom": "Credo (Symbolum Apostolorum)",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "chapelet",
+    "texte": "Credo in Deum Patrem omnipotentem, Creatorem caeli et terrae. Et in Iesum Christum, Filium eius unicum, Dominum nostrum, qui conceptus est de Spiritu Sancto, natus ex Maria Virgine, passus sub Pontio Pilato, crucifixus, mortuus, et sepultus, descendit ad inferos, tertia die resurrexit a mortuis, ascendit ad caelos, sedet ad dexteram Dei Patris omnipotentis, inde venturus est iudicare vivos et mortuos. Credo in Spiritum Sanctum, sanctam Ecclesiam catholicam, sanctorum communionem, remissionem peccatorum, carnis resurrectionem, vitam aeternam. Amen."
+  },
+  {
+    "id": "pater_noster_fr",
+    "code": "pater_noster",
+    "nom": "Notre Père",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "chapelet",
+    "texte": "Notre Père, qui es aux cieux, que ton nom soit sanctifié, que ton règne vienne, que ta volonté soit faite sur la terre comme au ciel. Donne-nous aujourd'hui notre pain de ce jour. Pardonne-nous nos offenses, comme nous pardonnons aussi à ceux qui nous ont offensés. Et ne nous laisse pas entrer en tentation, mais délivre-nous du Mal. Amen."
+  },
+  {
+    "id": "pater_noster_la",
+    "code": "pater_noster",
+    "nom": "Pater Noster",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "chapelet",
+    "texte": "Pater noster, qui es in caelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in caelo et in terra. Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo. Amen."
+  },
+  {
+    "id": "ave_maria_fr",
+    "code": "ave_maria",
+    "nom": "Je vous salue Marie",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "chapelet",
+    "texte": "Je vous salue Marie, pleine de grâce ; le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous pauvres pécheurs, maintenant et à l'heure de notre mort. Amen."
+  },
+  {
+    "id": "ave_maria_la",
+    "code": "ave_maria",
+    "nom": "Ave Maria",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "chapelet",
+    "texte": "Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen."
+  },
+  {
+    "id": "gloria_patri_fr",
+    "code": "gloria_patri",
+    "nom": "Gloire au Père",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "chapelet",
+    "texte": "Gloire au Père, et au Fils, et au Saint-Esprit. Comme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen."
+  },
+  {
+    "id": "gloria_patri_la",
+    "code": "gloria_patri",
+    "nom": "Gloria Patri",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "chapelet",
+    "texte": "Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen."
+  },
+  {
+    "id": "fatima_fr",
+    "code": "fatima",
+    "nom": "Prière de Fatima",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "chapelet",
+    "texte": "Ô mon Jésus, pardonnez-nous nos péchés, préservez-nous du feu de l'enfer, et conduisez au ciel toutes les âmes, surtout celles qui ont le plus besoin de votre miséricorde. Amen."
+  },
+  {
+    "id": "fatima_la",
+    "code": "fatima",
+    "nom": "Oratio Fatimae",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "chapelet",
+    "texte": "Domine Iesu, dimitte nobis debita nostra, salva nos ab igne inferiori, perduc in caelum omnes animas, praesertim eas quae misericordiae tuae maxime indigent. Amen."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "toussaint_1",
+    "periode": {
+      "debut": "10-10",
+      "fin": "11-01"
+    },
+    "commands": [
+      { "op": "moveTo", "x": 0.18, "y": 0.72 },
+      { "op": "lineTo", "x": 0.12, "y": 0.32 },
+      { "op": "lineTo", "x": 0.34, "y": 0.52 },
+      { "op": "lineTo", "x": 0.5, "y": 0.22 },
+      { "op": "lineTo", "x": 0.66, "y": 0.52 },
+      { "op": "lineTo", "x": 0.88, "y": 0.32 },
+      { "op": "lineTo", "x": 0.82, "y": 0.72 },
+      { "op": "close" },
+      { "op": "stroke" },
+      { "op": "moveTo", "x": 0.18, "y": 0.82 },
+      { "op": "lineTo", "x": 0.82, "y": 0.82 },
+      { "op": "stroke", "trait": "fin" }
+    ],
+    "nom": "Une foule immense",
+    "type": "Mystères de la Toussaint",
+    "numero": 1,
+    "fruit": "L'espérance de la sainteté",
+    "clausule_et_jesus": "Agneau au milieu du trône",
+    "auteur": "Apocalypse",
+    "chapitre": 7,
+    "premier_verset": 9,
+    "verset_fin": 10,
+    "traduction": "Crampon 1923",
+    "texte": "Je vis une foule immense que personne ne pouvait compter, de toute nation et de toute langue. Ils étaient debout devant le trône et devant l'Agneau, vêtus de robes blanches. Ils criaient : « Le salut vient de notre Dieu et de l'Agneau ! »"
+  },
+  {
+    "id": "toussaint_2",
+    "nom": "La Louange du ciel",
+    "type": "Mystères de la Toussaint",
+    "numero": 2,
+    "fruit": "L'esprit de louange",
+    "clausule_et_jesus": "digne de toute louange",
+    "auteur": "Apocalypse",
+    "chapitre": 7,
+    "premier_verset": 11,
+    "verset_fin": 12,
+    "traduction": "Crampon 1923",
+    "texte": "Tous les anges se tenaient autour du trône ; et ils se prosternèrent devant le trône, en disant : « Amen ! La louange, la gloire, la sagesse, l'action de grâces, l'honneur, la puissance et la force soient à notre Dieu, pour les siècles ! »"
+  },
+  {
+    "id": "toussaint_3",
+    "nom": "La grande tribulation",
+    "type": "Mystères de la Toussaint",
+    "numero": 3,
+    "fruit": "La persévérance dans l'épreuve",
+    "clausule_et_jesus": "qui nous lave dans son sang",
+    "auteur": "Apocalypse",
+    "chapitre": 7,
+    "premier_verset": 13,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "Un des vieillards, prenant la parole me dit : « Ce sont ceux qui viennent de la grande tribulation ; ils ont lavé leurs robes et les ont blanchies dans le sang de l'Agneau. »"
+  },
+  {
+    "id": "toussaint_4",
+    "nom": "Devant le trône de Dieu",
+    "type": "Mystères de la Toussaint",
+    "numero": 4,
+    "fruit": "La confiance en la miséricorde",
+    "clausule_et_jesus": "pasteur des saints",
+    "auteur": "Apocalypse",
+    "chapitre": 7,
+    "premier_verset": 15,
+    "verset_fin": 17,
+    "traduction": "Crampon 1923",
+    "texte": "C'est pour cela qu'ils sont devant le trône de Dieu et le servent. Ils n'auront plus faim, ils n'auront plus soif ; car l'Agneau qui est au milieu du trône sera le pasteur et les conduira aux sources des eaux de la vie, et Dieu essuiera toute larme."
+  },
+  {
+    "id": "toussaint_5",
+    "nom": "Ils verront sa face",
+    "type": "Mystères de la Toussaint",
+    "numero": 5,
+    "fruit": "Le désir de voir Dieu",
+    "clausule_et_jesus": "lumière des bienheureux",
+    "auteur": "Apocalypse",
+    "chapitre": 22,
+    "premier_verset": 3,
+    "verset_fin": 5,
+    "traduction": "Crampon 1923",
+    "texte": "Le trône de Dieu et de l'Agneau sera dans la ville ; ses serviteurs le serviront, et ils verront sa face. Il n'y aura plus de nuit, et ils n'auront besoin ni de lumière, ni du soleil, parce que le Seigneur Dieu les illuminera."
+  }
+]

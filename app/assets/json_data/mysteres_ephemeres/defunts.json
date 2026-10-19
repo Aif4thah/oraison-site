@@ -1,0 +1,91 @@
+[
+  {
+    "id": "defunts_1",
+    "periode": {
+      "debut": "10-18",
+      "fin": "11-02"
+    },
+    "commands": [
+      { "op": "moveTo", "x": 0.28, "y": 0.86 },
+      { "op": "lineTo", "x": 0.28, "y": 0.4 },
+      { "op": "cubicTo", "x1": 0.28, "y1": 0.14, "x2": 0.72, "y2": 0.14, "x": 0.72, "y": 0.4 },
+      { "op": "lineTo", "x": 0.72, "y": 0.86 },
+      { "op": "close" },
+      { "op": "stroke" },
+      { "op": "moveTo", "x": 0.5, "y": 0.34 },
+      { "op": "lineTo", "x": 0.5, "y": 0.68 },
+      { "op": "moveTo", "x": 0.4, "y": 0.46 },
+      { "op": "lineTo", "x": 0.6, "y": 0.46 },
+      { "op": "moveTo", "x": 0.14, "y": 0.86 },
+      { "op": "lineTo", "x": 0.86, "y": 0.86 },
+      { "op": "stroke", "trait": "fin" }
+    ],
+    "nom": "Le Vivant",
+    "type": "Mystères des défunts",
+    "numero": 1,
+    "fruit": "L'espérance en la résurrection",
+    "clausule_et_jesus": "qui tient les clefs de la mort",
+    "auteur": "Apocalypse",
+    "chapitre": 1,
+    "premier_verset": 17,
+    "verset_fin": 18,
+    "traduction": "Crampon 1923",
+    "texte": "Il posa sur moi sa main droite, en disant : « Ne crains point ; je suis le Premier et le Dernier, et le Vivant ; j'ai été mort, et voici que je suis vivant aux siècles des siècles ; je tiens les clefs de la mort et de l'enfer. »"
+  },
+  {
+    "id": "defunts_2",
+    "nom": "Heureux les morts",
+    "type": "Mystères des défunts",
+    "numero": 2,
+    "fruit": "La paix pour les défunts",
+    "clausule_et_jesus": "accueillant ceux qui meurent en lui",
+    "auteur": "Apocalypse",
+    "chapitre": 14,
+    "premier_verset": 13,
+    "verset_fin": 13,
+    "traduction": "Crampon 1923",
+    "texte": "Et j'entendis une voix venant du ciel, qui disait : « Écris : Heureux dès maintenant les morts qui meurent dans le Seigneur ! » — « Oui, dit l'Esprit, qu'ils se reposent de leurs travaux, car leurs œuvres les suivent. »"
+  },
+  {
+    "id": "defunts_3",
+    "nom": "Un ciel nouveau",
+    "type": "Mystères des défunts",
+    "numero": 3,
+    "fruit": "L'attente du monde nouveau",
+    "clausule_et_jesus": "préparant une terre nouvelle",
+    "auteur": "Apocalypse",
+    "chapitre": 21,
+    "premier_verset": 1,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Et je vis un nouveau ciel et une nouvelle terre ; car le premier ciel et la première terre avaient disparu, et il n'y avait plus de mer. Et je vis descendre du ciel, d'auprès de Dieu, la ville sainte, une Jérusalem nouvelle."
+  },
+  {
+    "id": "defunts_4",
+    "nom": "Dieu essuiera toute larme",
+    "type": "Mystères des défunts",
+    "numero": 4,
+    "fruit": "La consolation des endeuillés",
+    "clausule_et_jesus": "essuyant toute larme",
+    "auteur": "Apocalypse",
+    "chapitre": 21,
+    "premier_verset": 3,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Et Dieu essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n'y aura plus ni deuil, ni cri, ni douleur, car les premières choses ont disparu."
+  },
+  {
+    "id": "defunts_5",
+    "nom": "Toutes choses nouvelles",
+    "type": "Mystères des défunts",
+    "numero": 5,
+    "fruit": "La soif de la vie éternelle",
+    "clausule_et_jesus": "source de la vie éternelle",
+    "auteur": "Apocalypse",
+    "chapitre": 21,
+    "premier_verset": 5,
+    "verset_fin": 6,
+    "traduction": "Crampon 1923",
+    "texte": "Puis il me dit : « C'est fait ! Je suis l'alpha et l'oméga, le commencement et la fin. À celui qui a soif, je donnerai gratuitement de la source de l'eau de la vie. »"
+  }
+]

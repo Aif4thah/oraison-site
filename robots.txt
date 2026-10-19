@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /app/canvaskit/
+
+Sitemap: https://oraison.app/sitemap.xml

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "careme_1",
+    "periode": { "debut": "02-01", "fin": "03-15" },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.20,
+        "y": 0.80
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.50,
+        "y1": 0.65,
+        "x": 0.80,
+        "y": 0.80
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.50,
+        "y": 0.72
+      },
+      {
+        "op": "lineTo",
+        "x": 0.50,
+        "y": 0.20
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.35,
+        "y": 0.35
+      },
+      {
+        "op": "lineTo",
+        "x": 0.65,
+        "y": 0.35
+      },
+      {
+        "op": "stroke"
+      }
+    ],
+    "nom": "Repentez-vous",
+    "type": "Mystères du Carême",
+    "numero": 1,
+    "fruit": "La conversion du cœur",
+    "clausule_et_jesus": "appelant à la conversion",
+    "auteur": "Matthieu",
+    "chapitre": 4,
+    "premier_verset": 17,
+    "verset_fin": 17,
+    "traduction": "Crampon 1923",
+    "texte": "Dès lors Jésus commença à prêcher, en disant : « Repentez-vous, car le royaume des cieux est proche. »"
+  },
+  {
+    "id": "careme_2",
+    "nom": "Quarante jours au désert",
+    "type": "Mystères du Carême",
+    "numero": 2,
+    "fruit": "Le courage de la pénitence",
+    "clausule_et_jesus": "conduit par l'Esprit",
+    "auteur": "Matthieu",
+    "chapitre": 4,
+    "premier_verset": 1,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Alors Jésus fut conduit par l'Esprit dans le désert pour y être tenté par le diable. Après avoir jeûné pendant quarante jours et quarante nuits, il eut faim."
+  },
+  {
+    "id": "careme_3",
+    "nom": "La Parole qui nourrit",
+    "type": "Mystères du Carême",
+    "numero": 3,
+    "fruit": "La confiance en la Parole de Dieu",
+    "clausule_et_jesus": "nourri de la Parole",
+    "auteur": "Matthieu",
+    "chapitre": 4,
+    "premier_verset": 4,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Jésus lui répondit : « Il est écrit : L'homme ne vit pas seulement de pain, mais de toute parole qui sort de la bouche de Dieu. »"
+  },
+  {
+    "id": "careme_4",
+    "nom": "La Prière dans le secret",
+    "type": "Mystères du Carême",
+    "numero": 4,
+    "fruit": "L'intimité avec le Père",
+    "clausule_et_jesus": "qui prie dans le secret",
+    "auteur": "Matthieu",
+    "chapitre": 6,
+    "premier_verset": 6,
+    "verset_fin": 6,
+    "traduction": "Crampon 1923",
+    "texte": "Pour toi, quand tu veux prier, entre dans ta chambre, et, ayant fermé ta porte, prie ton Père qui est présent dans le secret ; et ton Père, qui voit dans le secret, te le rendra."
+  },
+  {
+    "id": "careme_5",
+    "nom": "Le Jeûne caché",
+    "type": "Mystères du Carême",
+    "numero": 5,
+    "fruit": "La sobriété du cœur",
+    "clausule_et_jesus": "notre récompense",
+    "auteur": "Matthieu",
+    "chapitre": 6,
+    "premier_verset": 17,
+    "verset_fin": 18,
+    "traduction": "Crampon 1923",
+    "texte": "Pour toi, quand tu jeûnes, parfume ta tête et lave ton visage, afin qu'il ne paraisse pas aux hommes que tu jeûnes, mais à ton Père qui est présent dans le secret ; et ton Père, qui voit dans le secret, te le rendra."
+  }
+]

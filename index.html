@@ -3,110 +3,376 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Chapelet et méditation chrétienne | Oraison</title>
-  <meta name="description" content="Découvrez Oraison, une application pour prier le chapelet et méditer les mystères du Christ à la lumière de l'Évangile. Tests privés sur Android.">
+  <script>
+    if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+      window.location.replace('app/');
+    }
+  </script>
+  <title>Oraison — Chapelet, méditation et prière dans le calme</title>
+  <meta name="description" content="Oraison est une application gratuite, sobre et silencieuse pour prier le chapelet, pratiquer l'oraison et vivre la méditation à la lumière de la Bible. Sans publicité, sans compte et 100 % hors-ligne sur Android, iPhone et ordinateur.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#121212">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Oraison">
   <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
+  <link rel="apple-touch-icon" sizes="180x180" href="app/icons/apple-touch-icon.png">
+  <link rel="manifest" href="app/manifest.json">
   <link rel="canonical" href="https://oraison.app/">
+
+  <!-- Open Graph / Partage -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
-  <meta property="og:title" content="Chapelet et méditation chrétienne | Oraison">
-  <meta property="og:description" content="Une application pour prier le chapelet et méditer les mystères du Christ à la lumière de l'Évangile.">
+  <meta property="og:site_name" content="Oraison">
+  <meta property="og:title" content="Oraison — Chapelet, méditation et prière dans le calme">
+  <meta property="og:description" content="Un espace sobre et silencieux pour prier le chapelet, entrer dans l'oraison et méditer à la lumière de la Bible. Disponible hors-ligne sur Android, iPhone et ordinateur.">
   <meta property="og:image" content="https://oraison.app/og.png">
+  <meta property="og:image:alt" content="Oraison, application sobre de chapelet et méditation à la lumière de la Bible">
   <meta property="og:url" content="https://oraison.app/">
+
+  <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Chapelet et méditation chrétienne | Oraison">
-  <meta name="twitter:description" content="Prier le chapelet et méditer les mystères du Christ avec Oraison.">
+  <meta name="twitter:title" content="Oraison — Chapelet, méditation et prière dans le calme">
+  <meta name="twitter:description" content="Prier le chapelet et vivre l'oraison à la lumière de la Bible, dans le silence, sans publicité ni collecte de données.">
   <meta name="twitter:image" content="https://oraison.app/og.png">
+
+  <!-- Données structurées Schema.org (Application Web + FAQ SEO Oraison / Chapelet / Méditation) -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Oraison",
-      "applicationCategory": "LifestyleApplication",
-      "operatingSystem": "Android",
-      "inLanguage": "fr",
-      "description": "Une application pour prier le chapelet et méditer les mystères du Christ à la lumière de l'Évangile.",
-      "url": "https://oraison.app/",
-      "downloadUrl": "https://play.google.com/store/apps/details?id=app.oraison",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR"
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["WebApplication", "SoftwareApplication"],
+        "name": "Oraison",
+        "headline": "Oraison — Chapelet, méditation et prière dans le calme",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "Android, iOS, Windows, macOS, Linux, Web",
+        "browserRequirements": "Requires JavaScript. Fonctionne hors-ligne (PWA).",
+        "inLanguage": ["fr", "la"],
+        "description": "Application catholique sobre et épurée pour prier le chapelet, pratiquer l'oraison et méditer les mystères du Rosaire à la lumière de la Bible, sans publicité ni distraction.",
+        "url": "https://oraison.app/",
+        "installUrl": "https://oraison.app/app/",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=app.oraison",
+        "image": "https://oraison.app/og.png",
+        "keywords": "oraison, chapelet, méditation, prière, rosaire, bible, mystères joyeux, mystères lumineux, mystères douloureux, mystères glorieux, liturgie catholique, calme, silence",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Comment installer et utiliser Oraison sur iPhone, Android ou ordinateur ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application), sans passer par une boutique d'applications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "En quoi Oraison se distingue-t-elle des autres applications de prière et de méditation ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Contrairement aux applications chargées de notifications, de compteurs, de comptes utilisateurs ou d'abonnements, Oraison cultive le dépouillement et le silence visuel. Son interface sombre et apaisée laisse toute la place à l'oraison, au chapelet et à la méditation de la Bible, sans aucune distraction."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quels mystères du chapelet et quels textes de la Bible sont proposés ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L'application réunit les quatre séries traditionnelles du Rosaire (mystères joyeux, lumineux, douloureux et glorieux) accompagnées de passages de la Bible pour chaque grain, de fruits spirituels, de séries liturgiques au fil de l'année et des prières en français et en latin."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Oraison fonctionne-t-elle hors-ligne dans une église ou en retraite ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui. Une fois ouverte ou ajoutée à l'écran d'accueil, l'application fonctionne intégralement hors-ligne, en mode avion, sans publicité et sans aucun pistage."
+            }
+          }
+        ]
       }
-    }
+    ]
+  }
   </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <img src="logo.svg" alt="Logo Oraison : une bougie dont la flamme porte une croix" width="96" height="99">
-    <h1>Oraison : Chapelet et méditation chrétienne</h1>
-    <p class="tagline">Une application d'oraison à la lumière de l'Évangile</p>
-    <p>Oraison vous accompagne pour prier le chapelet et méditer les mystères du Christ à la lumière de l'Évangile. Une expérience sobre, sans publicité ni collecte de données, pour laisser place au recueillement.</p>
+    <header class="hero">
+      <img src="logo.svg" alt="Logo Oraison, bougie blanche sur fond violet liturgique" width="88" height="91">
+      <h1>Oraison</h1>
+      <p class="tagline">Chapelet, méditation et prière dans le calme</p>
+      <p class="lead">Loin du bruit, des notifications et de l'agitation des applications habituelles, Oraison offre un espace nu et apaisé pour prier le <strong>chapelet</strong>, entrer dans l'<strong>oraison</strong> et approfondir la <strong>méditation</strong> à la lumière de la <strong>Bible</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer — simplement s'asseoir, respirer et prier.</p>
+    </header>
 
-    <div class="video">
-      <a class="play" href="https://www.youtube.com/shorts/VibaLH3brls" target="_blank" rel="noopener" data-id="VibaLH3brls">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5 19 12 7 19.5z"/></svg>
-        Voir la présentation en vidéo
-      </a>
-    </div>
+    <!-- VOIE PRIVILÉGIÉE : ACCÈS DIRECT & INSTALLATION EN 2 GESTES -->
+    <section class="pwa-card" aria-labelledby="pwa-title">
+      <p class="kicker-badge">Gratuit · 100 % Hors-ligne · Sans compte</p>
+      <h2 id="pwa-title">Entrer dans le silence</h2>
+      <p class="pwa-intro">Ouvrez directement Oraison dans votre navigateur, ou posez son icône sur votre écran d'accueil pour méditer partout, même sans réseau ou en mode avion.</p>
 
-    <section class="beta">
-      <p class="date">Vous êtes invités aux tests privés</p>
-      <h2>Soyez parmi les premiers à prier avec Oraison</h2>
-      <p>Si vous aimez prier le chapelet ou méditer l'Évangile, et souhaitez nous aider à rendre l'application fidèle, simple et propice au recueillement, votre retour sera précieux.</p>
-      <ol class="steps">
-        <li>
-          <small class="kicker">Étape 1 sur 3</small>
-          <strong>D'abord, rejoignez le groupe des testeurs</strong>
-          <span>Avec le compte Google que vous utilisez sur le Play Store de votre téléphone.</span>
-          <a class="btn" href="https://groups.google.com/g/oraison-testeurs" target="_blank" rel="noopener">Rejoindre le groupe</a>
-        </li>
-        <li>
-          <small class="kicker">Étape 2 sur 3</small>
-          <strong>Ensuite, devenez testeur</strong>
-          <span>Ouvrez le lien et acceptez l'invitation. Si la page n'est pas disponible, patientez quelques minutes après l'étape 1.</span>
-          <a class="btn" href="https://play.google.com/apps/testing/app.oraison" target="_blank" rel="noopener">Devenir testeur</a>
-        </li>
-        <li>
-          <small class="kicker">Étape 3 sur 3</small>
-          <strong>Enfin, téléchargez Oraison</strong>
-          <span>Grâce au lien fourni en fin d'étape 2, ou avec le bouton Google Play ci-dessous.</span>
-          <a class="store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.2 20.5 12 5 20.8z"/></svg>
-            <span><b>Google Play</b><small>Test privé</small></span>
-          </a>
-        </li>
-      </ol>
+      <div class="pwa-actions">
+        <a class="btn btn-primary" href="app/">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
+          Ouvrir Oraison maintenant
+        </a>
+        <button type="button" id="btn-install-pwa" class="btn btn-outline" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Installer en 1 clic sur cet appareil
+        </button>
+      </div>
 
-      <div class="help">
-        <strong>Pas à l'aise avec l'informatique, ou vous avez un iPhone ?</strong>
-        <span>Écrivez-moi : je m'occupe de vous inscrire, ou je vous préviens dès que ce sera possible.</span>
-        <a class="btn btn-outline" href="mailto:vacarelm@gmail.com?subject=Acc%C3%A8s%20anticip%C3%A9%20Oraison&amp;body=Bonjour%2C%0A%0AJe%20souhaite%20rejoindre%20les%20tests%20d%27Oraison.%0A%0AMon%20t%C3%A9l%C3%A9phone%20%3A%20Android%20/%20iPhone%0AAdresse%20e-mail%20de%20mon%20compte%20Google%20Play%20%28Android%29%20%3A%0A%0AMerci%20%21"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m3 6 9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>vacarelm@gmail.com</a>
+      <!-- Guide d'installation immédiat selon l'appareil (réalisable directement depuis cette page) -->
+      <div class="install-guide" aria-label="Guide d'installation rapide sur l'écran d'accueil">
+        <p class="install-title">Ajouter l'application sur votre écran d'accueil dès maintenant</p>
+        <div class="device-tabs" role="tablist" aria-label="Choisir votre appareil">
+          <button type="button" role="tab" id="tab-ios" aria-selected="false" aria-controls="panel-ios" data-target="ios">iPhone / iPad</button>
+          <button type="button" role="tab" id="tab-android" aria-selected="true" aria-controls="panel-android" data-target="android">Android</button>
+          <button type="button" role="tab" id="tab-pc" aria-selected="false" aria-controls="panel-pc" data-target="pc">Ordinateur</button>
+        </div>
+
+        <div id="panel-ios" class="device-panel" role="tabpanel" aria-labelledby="tab-ios" hidden>
+          <ol class="steps compact-steps">
+            <li>
+              <strong>Touchez l'icône Partager <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12-4 4m4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> de Safari</strong>
+              <span>Située dans la barre de votre navigateur (en bas sur iPhone, en haut sur iPad), directement depuis cette page ou depuis l'application.</span>
+            </li>
+            <li>
+              <strong>Appuyez sur « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></strong>
+              <span>Validez sur <strong>Ajouter</strong> en haut à droite. L'icône d'Oraison est prête sur votre écran d'accueil, sans passer par l'App Store.</span>
+            </li>
+          </ol>
+        </div>
+
+        <div id="panel-android" class="device-panel" role="tabpanel" aria-labelledby="tab-android">
+          <ol class="steps compact-steps">
+            <li>
+              <strong>Ouvrez le menu <span class="badge-icon" aria-hidden="true">⋮</span> de votre navigateur</strong>
+              <span>Si le bouton <em>« Installer en 1 clic »</em> ne s'affiche pas ci-dessus, touchez les trois points en haut à droite de Chrome, Samsung Internet ou Edge.</span>
+            </li>
+            <li>
+              <strong>Sélectionnez « Installer l'application » ou « Ajouter à l'écran d'accueil »</strong>
+              <span>Confirmez l'ajout. L'application Oraison s'installe aussitôt sur votre téléphone, légère et 100 % autonome.</span>
+            </li>
+          </ol>
+        </div>
+
+        <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
+          <ol class="steps compact-steps">
+            <li>
+              <strong>Méditez sur grand écran</strong>
+              <span>Cliquez sur <em>« Ouvrir Oraison maintenant »</em>. L'interface s'adapte aux écrans larges et se parcourt à la souris, à la molette ou avec les flèches du clavier.</span>
+            </li>
+            <li>
+              <strong>Raccourci bureau optionnel</strong>
+              <span>Dans Chrome ou Edge, cliquez sur l'icône d'installation à droite de la barre d'adresse pour ouvrir Oraison dans sa propre fenêtre hors-ligne.</span>
+            </li>
+          </ol>
+        </div>
       </div>
     </section>
 
-    <div class="stores">
-      <span class="store soon" aria-disabled="true">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.200 1.800-3.200 1.900-3.300-1-1.500-2.600-1.700-3.200-1.700-1.400-.1-2.600.8-3.300.8-.7 0-1.700-.8-2.800-.8-1.400 0-2.800.9-3.500 2.100-1.500 2.600-.4 6.500 1.100 8.600.7 1 1.600 2.200 2.700 2.200 1.100 0 1.500-.7 2.800-.7s1.700.7 2.800.7c1.200 0 1.900-1 2.600-2.100.8-1.200 1.100-2.300 1.200-2.400-.1 0-2.300-.9-2.300-3.400zM14.300 5.400c.6-.7 1-1.700.9-2.700-.9 0-1.900.6-2.500 1.300-.5.600-1 1.600-.9 2.600 1 .1 2-.5 2.500-1.200z"/></svg>
-        <span><b>App Store</b><small>Pour bientôt</small></span>
-      </span>
+    <!-- VIDÉO DE PRÉSENTATION -->
+    <div class="video">
+      <a class="play" href="https://www.youtube.com/shorts/VibaLH3brls" target="_blank" rel="noopener" data-id="VibaLH3brls">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5 19 12 7 19.5z"/></svg>
+        Découvrir l'atmosphère en vidéo
+      </a>
     </div>
+
+    <!-- CONTENU ÉDITORIAL : SOBRIÉTÉ, DÉPOUILLEMENT & LITURGIE (SEO) -->
+    <section class="editorial" aria-labelledby="meditation-title">
+      <h2 id="meditation-title">Une sobriété pensée pour le recueillement</h2>
+      <p>Là où la plupart des applications multiplient les sollicitations, les statistiques et les écrans lumineux, Oraison choisit le dépouillement. Chaque élément superflu s'efface pour laisser place au silence intérieur, à la prière du chapelet et à l'écoute de la Bible.</p>
+
+      <ul class="pillars">
+        <li>
+          <strong>Un calme visuel immédiat</strong>
+          <span>Thème sombre aux contrastes adoucis pour reposer les yeux dans la pénombre d'une église, en retraite ou lors de la prière du soir.</span>
+        </li>
+        <li>
+          <strong>La méditation sans attente ni artifice</strong>
+          <span>Aucun compteur de performance, aucune notification, aucune publicité. On ouvre l'application uniquement pour être présent et méditer en paix.</span>
+        </li>
+        <li>
+          <strong>La richesse de la Bible et de la tradition</strong>
+          <span>Un verset biblique accompagne chaque grain du chapelet pour soutenir l'attention, avec les prières en français ou en latin (<em>Pater Noster</em>, <em>Ave Maria</em>, <em>Gloria Patri</em>).</span>
+        </li>
+      </ul>
+
+      <h2 class="sub-heading">Les mystères du chapelet au fil de la semaine</h2>
+      <p class="sub-intro">Fidèle à la tradition catholique et au rythme liturgique, l'application propose chaque jour la série de mystères correspondante ainsi que des méditations propres aux temps de l'année.</p>
+
+      <div class="mysteries-grid">
+        <article class="mystery-item">
+          <h3>Mystères joyeux</h3>
+          <p class="mystery-days">Lundi &amp; Samedi</p>
+          <p>L'accueil silencieux et humble de la vie, de l'Annonciation à Nazareth jusqu'à la présentation au Temple.</p>
+        </article>
+        <article class="mystery-item">
+          <h3>Mystères lumineux</h3>
+          <p class="mystery-days">Jeudi</p>
+          <p>Les grands récits de la Bible, du baptême au Jourdain et du signe de Cana jusqu'au partage du pain.</p>
+        </article>
+        <article class="mystery-item">
+          <h3>Mystères douloureux</h3>
+          <p class="mystery-days">Mardi &amp; Vendredi</p>
+          <p>La veille intérieure à Gethsémani, l'épreuve de la patience et le don silencieux du Christ sur la Croix.</p>
+        </article>
+        <article class="mystery-item">
+          <h3>Mystères glorieux</h3>
+          <p class="mystery-days">Mercredi &amp; Dimanche</p>
+          <p>La paix de la Résurrection, le souffle intérieur de la Pentecôte et l'espérance qui traverse le temps.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTINUITÉ DISCRÈTE POUR LES TESTEURS ALPHA ANDROID (GOOGLE PLAY) -->
+    <section class="beta" aria-labelledby="alpha-title">
+      <details class="alpha-details">
+        <summary>
+          <span class="kicker">Programme Alpha Google Play</span>
+          <strong id="alpha-title">Vous faisiez partie des premiers testeurs Android sur Google Play ?</strong>
+          <small>Afficher les accès au canal de test Google Play</small>
+        </summary>
+        <div class="alpha-content">
+          <p class="note">Merci pour votre présence depuis l'origine du projet. La version Web (PWA) proposée en haut de cette page est désormais la voie privilégiée, plus directe et sans dépendance au Play Store. Si vous préférez toutefois conserver l'installation via le canal Alpha Google Play, les trois étapes restent accessibles ci-dessous.</p>
+          <ol class="steps">
+            <li>
+              <small class="kicker">Étape 1 sur 3</small>
+              <strong>Rejoindre le groupe des testeurs</strong>
+              <span>Avec l'adresse Google associée au Play Store de votre téléphone Android.</span>
+              <a class="btn btn-outline" href="https://groups.google.com/g/oraison-testeurs" target="_blank" rel="noopener">Rejoindre le groupe</a>
+            </li>
+            <li>
+              <small class="kicker">Étape 2 sur 3</small>
+              <strong>Valider l'accès au test</strong>
+              <span>Acceptez l'invitation au programme de test après avoir rejoint le groupe.</span>
+              <a class="btn btn-outline" href="https://play.google.com/apps/testing/app.oraison" target="_blank" rel="noopener">Activer l'accès testeur</a>
+            </li>
+            <li>
+              <small class="kicker">Étape 3 sur 3</small>
+              <strong>Ouvrir la fiche sur Google Play</strong>
+              <span>Téléchargez ou mettez à jour l'application depuis la boutique Google Play.</span>
+              <a class="store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.2 20.5 12 5 20.8z"/></svg>
+                <span><b>Google Play</b><small>Canal testeurs Alpha</small></span>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </details>
+    </section>
   </main>
-  <footer>© tous droits réservés · Oraison · vacarelm · <a href="privacy.html">Confidentialité</a></footer>
+
+  <footer>
+    <span>© 2026 Oraison · Tous droits réservés · vacarelm</span>
+    <span class="footer-sep" aria-hidden="true">·</span>
+    <a href="privacy.html">Confidentialité</a>
+    <span class="footer-sep" aria-hidden="true">·</span>
+    <button type="button" id="contact-reveal" class="footer-link-btn">Contact</button>
+    <span id="contact-container" class="contact-inline" hidden></span>
+  </footer>
+
   <script>
-    // La vidéo n'est chargée depuis YouTube qu'au clic (sans JavaScript, le lien ouvre YouTube).
-    document.querySelector('.play').addEventListener('click', function (e) {
-      e.preventDefault();
-      var f = document.createElement('iframe');
-      f.src = 'https://www.youtube-nocookie.com/embed/' + this.dataset.id + '?autoplay=1&rel=0';
-      f.title = "Présentation d'Oraison";
-      f.allow = 'autoplay; encrypted-media; picture-in-picture';
-      f.allowFullscreen = true;
-      f.referrerPolicy = 'strict-origin-when-cross-origin';
-      this.replaceWith(f);
-    });
+    (function () {
+      // 1. Chargement différé de la vidéo YouTube uniquement au clic (zéro pistage par défaut)
+      var playBtn = document.querySelector('.play');
+      if (playBtn) {
+        playBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          var f = document.createElement('iframe');
+          f.src = 'https://www.youtube-nocookie.com/embed/' + this.dataset.id + '?autoplay=1&rel=0';
+          f.title = "Présentation d'Oraison";
+          f.allow = 'autoplay; encrypted-media; picture-in-picture';
+          f.allowFullscreen = true;
+          f.referrerPolicy = 'strict-origin-when-cross-origin';
+          this.replaceWith(f);
+        });
+      }
+
+      // 2. Onglets du guide d'installation PWA + détection automatique de l'appareil
+      var tabs = document.querySelectorAll('.device-tabs [role="tab"]');
+      var panels = {
+        ios: document.getElementById('panel-ios'),
+        android: document.getElementById('panel-android'),
+        pc: document.getElementById('panel-pc')
+      };
+
+      function selectDeviceTab(target) {
+        tabs.forEach(function (t) {
+          var active = t.dataset.target === target;
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        Object.keys(panels).forEach(function (k) {
+          if (panels[k]) panels[k].hidden = (k !== target);
+        });
+      }
+
+      tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+          selectDeviceTab(this.dataset.target);
+        });
+      });
+
+      var ua = navigator.userAgent || '';
+      var isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      var isAndroid = /Android/i.test(ua);
+      if (isIOS) {
+        selectDeviceTab('ios');
+      } else if (isAndroid) {
+        selectDeviceTab('android');
+      } else {
+        selectDeviceTab('pc');
+      }
+
+      // 3. Bouton d'installation PWA natif 1-clic (Chrome / Edge sur Android & PC)
+      var deferredPrompt = null;
+      var installBtn = document.getElementById('btn-install-pwa');
+      window.addEventListener('beforeinstallprompt', function (e) {
+        e.preventDefault();
+        deferredPrompt = e;
+        if (installBtn) installBtn.hidden = false;
+      });
+
+      if (installBtn) {
+        installBtn.addEventListener('click', function () {
+          if (!deferredPrompt) return;
+          deferredPrompt.prompt();
+          deferredPrompt.userChoice.finally(function () {
+            deferredPrompt = null;
+            installBtn.hidden = true;
+          });
+        });
+      }
+
+      // 4. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
+      var contactBtn = document.getElementById('contact-reveal');
+      var contactBox = document.getElementById('contact-container');
+      if (contactBtn && contactBox) {
+        contactBtn.addEventListener('click', function () {
+          var u = 'vacarelm';
+          var d = 'gmail.com';
+          var addr = u + '@' + d;
+          var link = document.createElement('a');
+          link.href = 'mailto:' + addr + '?subject=Oraison';
+          link.textContent = addr;
+          contactBox.innerHTML = '';
+          contactBox.appendChild(link);
+          contactBox.hidden = false;
+          contactBtn.hidden = true;
+        });
+      }
+    })();
   </script>
 </body>
 </html>

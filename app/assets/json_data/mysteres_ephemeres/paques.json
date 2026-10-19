@@ -1,0 +1,92 @@
+[
+  {
+    "id": "paques_1",
+    "periode": {
+      "debut": "03-15",
+      "fin": "05-02"
+    },
+    "commands": [
+      { "op": "moveTo", "x": 0.26, "y": 0.66 },
+      { "op": "cubicTo", "x1": 0.26, "y1": 0.5275, "x2": 0.3675, "y2": 0.42, "x": 0.5, "y": 0.42 },
+      { "op": "cubicTo", "x1": 0.6325, "y1": 0.42, "x2": 0.74, "y2": 0.5275, "x": 0.74, "y": 0.66 },
+      { "op": "close" },
+      { "op": "stroke" },
+      { "op": "moveTo", "x": 0.5, "y": 0.35 },
+      { "op": "lineTo", "x": 0.5, "y": 0.22 },
+      { "op": "moveTo", "x": 0.281, "y": 0.441 },
+      { "op": "lineTo", "x": 0.189, "y": 0.349 },
+      { "op": "moveTo", "x": 0.719, "y": 0.441 },
+      { "op": "lineTo", "x": 0.811, "y": 0.349 },
+      { "op": "moveTo", "x": 0.1, "y": 0.66 },
+      { "op": "lineTo", "x": 0.9, "y": 0.66 },
+      { "op": "stroke", "trait": "fin" }
+    ],
+    "nom": "Le Tombeau vide",
+    "type": "Mystères de Pâques",
+    "numero": 1,
+    "fruit": "La faith en la Résurrection",
+    "clausule_et_jesus": "premier-né d'entre les morts",
+    "auteur": "Jean",
+    "chapitre": 20,
+    "premier_verset": 6,
+    "verset_fin": 9,
+    "traduction": "Crampon 1923",
+    "texte": "Simon-Pierre entra dans le sépulcre ; il vit les linges posés à terre, et le suaire roulé dans un autre endroit. Alors l'autre disciple, qui était arrivé le premier, entra aussi ; et il vit, et il crut."
+  },
+  {
+    "id": "paques_2",
+    "nom": "Marie-Madeleine",
+    "type": "Mystères de Pâques",
+    "numero": 2,
+    "fruit": "L'amour qui reconnaît le Seigneur",
+    "clausule_et_jesus": "appelant chacun par son nom",
+    "auteur": "Jean",
+    "chapitre": 20,
+    "premier_verset": 14,
+    "verset_fin": 16,
+    "traduction": "Crampon 1923",
+    "texte": "Elle vit Jésus debout. Jésus lui dit : « Femme, pourquoi pleurez-vous ? » Elle, pensant que c'était le jardinier, lui dit : « Seigneur, si c'est vous qui l'avez emporté, dites-moi où vous l'avez mis. » Jésus lui dit : « Marie ! »"
+  },
+  {
+    "id": "paques_3",
+    "nom": "La Paix du Ressuscité",
+    "type": "Mystères de Pâques",
+    "numero": 3,
+    "fruit": "La paix du Christ",
+    "clausule_et_jesus": "notre paix",
+    "auteur": "Jean",
+    "chapitre": 20,
+    "premier_verset": 19,
+    "verset_fin": 20,
+    "traduction": "Crampon 1923",
+    "texte": "Le soir de ce même jour, les portes du lieu où se trouvaient les disciples étant fermées, Jésus vint, et se présentant au milieu d'eux, il leur dit : « Paix avec vous ! » Il leur montra ses mains et son côté, et ils furent remplis de joie."
+  },
+  {
+    "id": "paques_4",
+    "nom": "Je vous envoie",
+    "type": "Mystères de Pâques",
+    "numero": 4,
+    "fruit": "La joie d'être envoyé",
+    "clausule_et_jesus": "envoyant son Église",
+    "auteur": "Jean",
+    "chapitre": 20,
+    "premier_verset": 21,
+    "verset_fin": 23,
+    "traduction": "Crampon 1923",
+    "texte": "Il leur dit : « Paix avec vous ! Comme mon Père m'a envoyé, moi aussi je vous envoie. » Après ces paroles, il souffla sur eux et leur dit : « Recevez l'Esprit-Saint. Ceux à qui vous remettrez les péchés, ils leur seront remis. »"
+  },
+  {
+    "id": "paques_5",
+    "nom": "Mon Seigneur et mon Dieu",
+    "type": "Mystères de Pâques",
+    "numero": 5,
+    "fruit": "La foi sans avoir vu",
+    "clausule_et_jesus": "mon Seigneur et mon Dieu",
+    "auteur": "Jean",
+    "chapitre": 20,
+    "premier_verset": 27,
+    "verset_fin": 29,
+    "traduction": "Crampon 1923",
+    "texte": "Puis il dit à Thomas : « Mets ici ton doigt, regarde mes mains ; et ne sois pas incrédule, mais croyant. » Thomas lui répondit : « Mon Seigneur, et mon Dieu ! » Jésus lui dit : « Heureux ceux qui n'ont pas vu et qui ont cru. »"
+  }
+]

@@ -3,40 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Politique de confidentialité – Oraison</title>
+  <title>Politique de confidentialité — Oraison</title>
+  <meta name="description" content="Politique de confidentialité d'Oraison, application sobre de chapelet et méditation à la lumière de la Bible, sans collecte de données personnelles, sans publicité et sans pistage.">
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#121212">
   <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
+  <link rel="canonical" href="https://oraison.app/privacy.html">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="legal">
-    <a href="/" class="back">← Oraison</a>
+    <a href="/" class="back">← Retour à l'accueil Oraison</a>
     <h1>Politique de confidentialité</h1>
-    <p class="meta">Dernière mise à jour : 8 octobre 2026</p>
+    <p class="meta">Mise à jour du 19 octobre 2026</p>
 
     <h2>En bref</h2>
     <p>Oraison ne collecte, ne stocke et ne partage aucune donnée personnelle vous concernant.</p>
 
     <h2>Données collectées</h2>
-    <p>L'application ne demande ni compte, ni adresse e-mail, ni autre information d'identification. Elle ne contient ni publicité, ni outil de mesure d'audience, ni outil de suivi. Vos réglages et votre progression éventuels restent enregistrés uniquement sur votre appareil et ne nous sont jamais transmis.</p>
+    <p>L'application (qu'elle soit utilisée directement sur le web en PWA sur iPhone, Android et ordinateur, ou via Google Play) ne demande ni compte, ni adresse e-mail, ni aucune information d'identification. Elle ne contient ni publicité, ni outil de mesure d'audience, ni traceur. Vos réglages locaux restent enregistrés exclusivement sur votre appareil et ne nous sont jamais transmis.</p>
 
-    <h2>Services tiers</h2>
-    <p>Le téléchargement de l'application passe par Google Play ou l'App Store, qui appliquent leurs propres politiques de confidentialité. Oraison ne leur transmet aucune donnée supplémentaire.</p>
-    <p>Le site oraison.app propose une vidéo de présentation hébergée par YouTube (Google). Rien n'est chargé depuis YouTube tant que vous ne lancez pas la vidéo ; une fois lancée, YouTube peut collecter des données selon sa propre politique de confidentialité.</p>
+    <h2>Hébergement et services tiers</h2>
+    <p>Le site <code>oraison.app</code> et l'application web (PWA) sont hébergés statiquement via GitHub Pages. Lorsque vous utilisez la version Android issue de Google Play, Google applique sa propre politique de confidentialité sans qu'Oraison ne lui transmette de données supplémentaires.</p>
+    <p>La page d'accueil propose un aperçu vidéo hébergé par YouTube (en mode sans cookie <code>youtube-nocookie.com</code>). Aucune requête n'est envoyée vers YouTube tant que vous ne cliquez pas volontairement sur le bouton de lecture.</p>
 
     <h2>Enfants</h2>
-    <p>Comme aucune donnée personnelle n'est collectée, l'application peut être utilisée par tous sans que des informations sur des enfants soient recueillies.</p>
+    <p>Comme aucune donnée personnelle n'est collectée, l'application peut être utilisée par tous en toute sérénité.</p>
 
     <h2>Vos droits</h2>
-    <p>Conformément au Règlement général sur la protection des données (RGPD), vous disposez de droits d'accès, de rectification et d'effacement de vos données. Aucune donnée n'étant détenue, il n'y a rien à consulter ni à supprimer ; vous pouvez néanmoins nous écrire pour toute question. Vous pouvez aussi saisir la CNIL (cnil.fr).</p>
+    <p>Conformément au Règlement général sur la protection des données (RGPD), vous disposez de droits d'accès, de rectification et d'effacement de vos données. Aucune donnée n'étant détenue par Oraison, il n'y a rien à consulter ni à supprimer. Vous pouvez néanmoins saisir la CNIL (cnil.fr) ou nous écrire en cas de question.</p>
 
     <h2>Modifications</h2>
-    <p>Si l'application évolue et que cette politique change, la nouvelle version sera publiée sur cette page avec sa date de mise à jour.</p>
+    <p>Si l'application évolue et que cette politique est amenée à changer, la nouvelle version sera publiée sur cette page avec sa date de mise à jour.</p>
 
     <h2>Contact</h2>
-    <p>Éditeur : vacarelm<br>E-mail : vacarelm@gmail.com</p>
+    <p>Éditeur · vacarelm · <button type="button" id="privacy-contact-btn" class="footer-link-btn">Afficher l'adresse de contact</button><span id="privacy-contact-slot" hidden></span></p>
   </main>
-  <footer>© 2026 Oraison</footer>
+  <footer>© 2026 Oraison · Tous droits réservés · vacarelm · <a href="/">Accueil</a></footer>
+  <script>
+    (function () {
+      var btn = document.getElementById('privacy-contact-btn');
+      var slot = document.getElementById('privacy-contact-slot');
+      if (btn && slot) {
+        btn.addEventListener('click', function () {
+          var addr = 'vacarelm' + '@' + 'gmail.com';
+          var a = document.createElement('a');
+          a.href = 'mailto:' + addr + '?subject=Oraison';
+          a.textContent = addr;
+          slot.appendChild(a);
+          slot.hidden = false;
+          btn.hidden = true;
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

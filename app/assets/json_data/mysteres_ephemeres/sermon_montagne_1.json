@@ -1,0 +1,166 @@
+[
+  {
+    "id": "sermon_sel",
+    "periode": {
+      "debut": "01-01",
+      "fin": "12-31"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.1,
+        "y": 0.78
+      },
+      {
+        "op": "lineTo",
+        "x": 0.38,
+        "y": 0.3
+      },
+      {
+        "op": "lineTo",
+        "x": 0.52,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.62,
+        "y": 0.38
+      },
+      {
+        "op": "lineTo",
+        "x": 0.9,
+        "y": 0.78
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.31,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.35,
+        "y": 0.46
+      },
+      {
+        "op": "lineTo",
+        "x": 0.39,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.43,
+        "y": 0.46
+      },
+      {
+        "op": "lineTo",
+        "x": 0.464,
+        "y": 0.42
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "Le Sel de la terre",
+    "type": "Sermon sur la montagne 1/2",
+    "numero": 1,
+    "fruit": "La ferveur spirituelle",
+    "theme": "Témoignage du monde",
+    "auteur": "Matthieu",
+    "chapitre": 5,
+    "premier_verset": 13,
+    "verset_fin": 13,
+    "traduction": "Crampon 1923",
+    "texte": "Vous êtes le sel de la terre."
+  },
+  {
+    "id": "sermon_lumiere",
+    "nom": "La Lumière du monde",
+    "type": "Sermon sur la montagne 1/2",
+    "numero": 2,
+    "fruit": "L'exemple chrétien",
+    "theme": "Rayonnement de la foi",
+    "auteur": "Matthieu",
+    "chapitre": 5,
+    "premier_verset": 14,
+    "verset_fin": 16,
+    "traduction": "Crampon 1923",
+    "texte": "Vous êtes la lumière du monde. Une ville située sur une montagne ne peut être cachée... Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes œuvres, et qu'ils glorifient votre Père qui est dans les cieux."
+  },
+  {
+    "id": "sermon_accomplissement",
+    "nom": "L'Accomplissement de la Loi",
+    "type": "Sermon sur la montagne 1/2",
+    "numero": 3,
+    "fruit": "L'obéissance aux commandements",
+    "theme": "Fidélité à la Loi divine",
+    "auteur": "Matthieu",
+    "chapitre": 5,
+    "premier_verset": 17,
+    "verset_fin": 17,
+    "traduction": "Crampon 1923",
+    "texte": "Ne pensez pas que je sois venu pour abolir la loi ou les prophètes; je suis venu non pour abolir, mais pour accomplir."
+  },
+  {
+    "id": "sermon_reconciliation",
+    "nom": "La Réconciliation fraternelle",
+    "type": "Sermon sur la montagne 1/2",
+    "numero": 4,
+    "fruit": "La charité fraternelle",
+    "theme": "Pardon et paix",
+    "auteur": "Matthieu",
+    "chapitre": 5,
+    "premier_verset": 23,
+    "verset_fin": 24,
+    "traduction": "Crampon 1923",
+    "texte": "Si donc tu présentes ton offrande à l'autel, et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande devant l'autel, et va d'abord te réconcilier avec ton frère; puis viens présenter ton offrande."
+  },
+  {
+    "id": "sermon_amour_ennemis",
+    "nom": "L'Amour des ennemis",
+    "type": "Sermon sur la montagne 1/2",
+    "numero": 5,
+    "fruit": "L'amour universel",
+    "theme": "Perfection de l'amour",
+    "auteur": "Matthieu",
+    "chapitre": 5,
+    "premier_verset": 44,
+    "verset_fin": 45,
+    "traduction": "Crampon 1923",
+    "texte": "Mais moi, je vous dis: Aimez vos ennemis, bénissez ceux qui vous maudissent, faites du bien à ceux qui vous haïssent, et priez pour ceux qui vous maltraitent et qui vous persécutent, afin que vous soyez les enfants de votre Père qui est dans les cieux."
+  },
+  {
+    "id": "sermon_aumone",
+    "nom": "L'Aumône discrète",
+    "type": "Sermon sur la montagne 1/2",
+    "numero": 6,
+    "fruit": "La pureté d'intention",
+    "theme": "Humilité et discrétion",
+    "auteur": "Matthieu",
+    "chapitre": 6,
+    "premier_verset": 3,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Mais toi, quand tu fais l'aumône, que ta main gauche ne sache pas ce que fait ta main droite, afin que ton aumône se fasse en secret; et ton Père, qui voit dans le secret, te le rendra."
+  },
+  {
+    "id": "sermon_pater",
+    "nom": "La Prière du Seigneur",
+    "type": "Sermon sur la montagne 1/2",
+    "numero": 7,
+    "fruit": "L'esprit d'oraison",
+    "theme": "Prière filiale",
+    "auteur": "Matthieu",
+    "chapitre": 6,
+    "premier_verset": 9,
+    "verset_fin": 10,
+    "traduction": "Crampon 1923",
+    "texte": "Vous donc, priez ainsi: Notre Père qui es dans les cieux, que ton nom soit sanctifié; que ton règne vienne; que ta volonté soit faite sur la terre comme au ciel."
+  }
+]

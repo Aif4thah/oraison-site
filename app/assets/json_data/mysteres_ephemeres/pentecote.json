@@ -1,0 +1,89 @@
+[
+  {
+    "id": "pentecote_1",
+    "periode": {
+      "debut": "05-01",
+      "fin": "06-14"
+    },
+    "commands": [
+      { "op": "moveTo", "x": 0.5, "y": 0.1 },
+      { "op": "cubicTo", "x1": 0.74, "y1": 0.36, "x2": 0.82, "y2": 0.52, "x": 0.72, "y": 0.7 },
+      { "op": "cubicTo", "x1": 0.64, "y1": 0.86, "x2": 0.36, "y2": 0.86, "x": 0.28, "y": 0.7 },
+      { "op": "cubicTo", "x1": 0.2, "y1": 0.52, "x2": 0.34, "y2": 0.4, "x": 0.5, "y": 0.1 },
+      { "op": "close" },
+      { "op": "stroke" },
+      { "op": "moveTo", "x": 0.5, "y": 0.46 },
+      { "op": "cubicTo", "x1": 0.62, "y1": 0.58, "x2": 0.62, "y2": 0.7, "x": 0.5, "y": 0.76 },
+      { "op": "cubicTo", "x1": 0.38, "y1": 0.7, "x2": 0.38, "y2": 0.58, "x": 0.5, "y": 0.46 },
+      { "op": "close" },
+      { "op": "stroke", "trait": "fin" }
+    ],
+    "nom": "Au Cénacle avec Marie",
+    "type": "Mystères de la Pentecôte",
+    "numero": 1,
+    "fruit": "La persévérance dans la prière",
+    "clausule_et_jesus": "présent là où l'on prie",
+    "auteur": "Actes",
+    "chapitre": 1,
+    "premier_verset": 14,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "Tous, dans un même esprit, persévéraient dans la prière, avec quelques femmes et Marie, mère de Jésus, et ses frères."
+  },
+  {
+    "id": "pentecote_2",
+    "nom": "Un vent venu du ciel",
+    "type": "Mystères de la Pentecôte",
+    "numero": 2,
+    "fruit": "L'ouverture à l'Esprit",
+    "clausule_et_jesus": "envoyant son Esprit",
+    "auteur": "Actes",
+    "chapitre": 2,
+    "premier_verset": 1,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Le jour de la Pentecôte étant arrivé, ils étaient tous ensemble en un même lieu. Tout à coup il vint du ciel un bruit comme celui d'un vent qui souffle avec force et il remplit toute la maison où ils étaient assis."
+  },
+  {
+    "id": "pentecote_3",
+    "nom": "Les Langues de feu",
+    "type": "Mystères de la Pentecôte",
+    "numero": 3,
+    "fruit": "Les dons du Saint-Esprit",
+    "clausule_et_jesus": "baptisant dans l'Esprit et le feu",
+    "auteur": "Actes",
+    "chapitre": 2,
+    "premier_verset": 3,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Et ils virent paraître comme des langues de feu qui se partagèrent et se posèrent sur chacun d'eux. Ils furent tous remplis du Saint-Esprit, et ils se mirent à parler d'autres langues, selon que l'Esprit-Saint leur donnait de s'exprimer."
+  },
+  {
+    "id": "pentecote_4",
+    "nom": "Chacun les entendait",
+    "type": "Mystères de la Pentecôte",
+    "numero": 4,
+    "fruit": "L'unité dans la diversité",
+    "clausule_et_jesus": "annoncé à tous les peuples",
+    "auteur": "Actes",
+    "chapitre": 2,
+    "premier_verset": 6,
+    "verset_fin": 8,
+    "traduction": "Crampon 1923",
+    "texte": "Ils accoururent en foule, et ils étaient tout hors d'eux-mêmes, de ce que chacun les entendait parler sa propre langue. Surpris et étonnés, ils disaient : « Comment se fait-il que nous les entendions parler chacun notre idiome natal ? »"
+  },
+  {
+    "id": "pentecote_5",
+    "nom": "Que ferons-nous ?",
+    "type": "Mystères de la Pentecôte",
+    "numero": 5,
+    "fruit": "La conversion et le baptême",
+    "clausule_et_jesus": "pardonnant les péchés",
+    "auteur": "Actes",
+    "chapitre": 2,
+    "premier_verset": 37,
+    "verset_fin": 39,
+    "traduction": "Crampon 1923",
+    "texte": "Ils dirent à Pierre et aux autres apôtres : « Frères, que ferons-nous ? » Pierre répondit : « Repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ pour obtenir le pardon de vos péchés ; et vous recevrez le Saint-Esprit. »"
+  }
+]

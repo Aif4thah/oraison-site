@@ -1,0 +1,11 @@
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.log
+
+# Sécurité : ne jamais publier de sourcemaps ni de variables d'environnement
+*.map
+.env
+.env.*

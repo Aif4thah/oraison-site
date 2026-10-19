@@ -1,0 +1,187 @@
+[
+  {
+    "id": "annonciation_1",
+    "periode": {
+      "debut": "03-04",
+      "fin": "03-25"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.4,
+        "y1": 0.4,
+        "x2": 0.4,
+        "y2": 0.24,
+        "x": 0.5,
+        "y": 0.1
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.6,
+        "y1": 0.24,
+        "x2": 0.6,
+        "y2": 0.4,
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.38,
+        "y1": 0.5,
+        "x2": 0.22,
+        "y2": 0.4,
+        "x": 0.16,
+        "y": 0.22
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.32,
+        "y1": 0.28,
+        "x2": 0.44,
+        "y2": 0.38,
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.62,
+        "y1": 0.5,
+        "x2": 0.78,
+        "y2": 0.4,
+        "x": 0.84,
+        "y": 0.22
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.68,
+        "y1": 0.28,
+        "x2": 0.56,
+        "y2": 0.38,
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.9
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.84
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.62,
+        "y1": 0.82,
+        "x2": 0.7,
+        "y2": 0.74,
+        "x": 0.72,
+        "y": 0.66
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "L'Ange Gabriel",
+    "type": "Mystères de l'Annonciation",
+    "numero": 1,
+    "fruit": "L'humilité",
+    "clausule_et_jesus": "annoncé par l'ange",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 28,
+    "verset_fin": 28,
+    "traduction": "Crampon 1923",
+    "texte": "L'ange étant entré où elle était, lui dit : « Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes. »"
+  },
+  {
+    "id": "annonciation_2",
+    "nom": "Ne craignez point",
+    "type": "Mystères de l'Annonciation",
+    "numero": 2,
+    "fruit": "La confiance en Dieu",
+    "clausule_et_jesus": "dont le nom est Jésus",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 30,
+    "verset_fin": 31,
+    "traduction": "Crampon 1923",
+    "texte": "L'ange lui dit : « Ne craignez point, Marie, car vous avez trouvé grâce devant Dieu. Voici que vous concevrez en votre sein, et vous enfanterez un fils, et vous lui donnerez le nom de Jésus. »"
+  },
+  {
+    "id": "annonciation_3",
+    "nom": "Le Fils du Très-Haut",
+    "type": "Mystères de l'Annonciation",
+    "numero": 3,
+    "fruit": "L'espérance du Royaume",
+    "clausule_et_jesus": "roi pour les siècles",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 32,
+    "verset_fin": 33,
+    "traduction": "Crampon 1923",
+    "texte": "Il sera grand, on l'appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ; il règnera éternellement sur la maison de Jacob, et son règne n'aura point de fin."
+  },
+  {
+    "id": "annonciation_4",
+    "nom": "Comment cela se fera-t-il ?",
+    "type": "Mystères de l'Annonciation",
+    "numero": 4,
+    "fruit": "L'ouverture à l'Esprit-Saint",
+    "clausule_et_jesus": "conçu du Saint-Esprit",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 35,
+    "verset_fin": 35,
+    "traduction": "Crampon 1923",
+    "texte": "L'ange lui répondit : « L'Esprit-Saint viendra sur vous, et la vertu du Très-Haut vous couvrira de son ombre. C'est pourquoi l'être saint qui naîtra (de vous) sera appelé Fils de Dieu. »"
+  },
+  {
+    "id": "annonciation_5",
+    "nom": "Qu'il me soit fait",
+    "type": "Mystères de l'Annonciation",
+    "numero": 5,
+    "fruit": "L'abandon à la volonté de Dieu",
+    "clausule_et_jesus": "Verbe fait chair",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 38,
+    "verset_fin": 38,
+    "traduction": "Crampon 1923",
+    "texte": "Marie dit alors : « Voici la servante du Seigneur, qu'il me soit fait selon votre parole. » Et l'ange la quitta."
+  }
+]
