@@ -335,6 +335,31 @@ h1 {
   font-size: 0.9rem;
   line-height: 1.45;
 }
+.mysteries-extra {
+  margin-top: 1.35rem;
+  padding-top: 1.25rem;
+  border-top: 1px dashed var(--line);
+}
+.mysteries-extra-lead {
+  max-width: 38rem;
+  margin: 0 auto 1.15rem;
+  color: #cfc9d4;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.mysteries-extra-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.9rem;
+}
+.mystery-item-special {
+  border-color: rgba(181, 126, 194, 0.3);
+  background: rgba(181, 126, 194, 0.04);
+}
+.mystery-item-special .mystery-days {
+  color: #c9a4d6;
+}
 .badge-icon {
   display: inline-block;
   padding: 0 0.35rem;
