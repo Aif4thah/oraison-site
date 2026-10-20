@@ -6,22 +6,85 @@
       "fin": "02-02"
     },
     "commands": [
-      { "op": "moveTo", "x": 0.4, "y": 0.52 },
-      { "op": "lineTo", "x": 0.6, "y": 0.52 },
-      { "op": "lineTo", "x": 0.6, "y": 0.88 },
-      { "op": "lineTo", "x": 0.4, "y": 0.88 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.5, "y": 0.12 },
-      { "op": "cubicTo", "x1": 0.64, "y1": 0.28, "x2": 0.62, "y2": 0.43, "x": 0.5, "y": 0.47 },
-      { "op": "cubicTo", "x1": 0.38, "y1": 0.43, "x2": 0.36, "y2": 0.28, "x": 0.5, "y": 0.12 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.5, "y": 0.47 },
-      { "op": "lineTo", "x": 0.5, "y": 0.52 },
-      { "op": "moveTo", "x": 0.32, "y": 0.88 },
-      { "op": "lineTo", "x": 0.68, "y": 0.88 },
-      { "op": "stroke", "trait": "fin" }
+      {
+        "op": "moveTo",
+        "x": 0.4,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.6,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.6,
+        "y": 0.88
+      },
+      {
+        "op": "lineTo",
+        "x": 0.4,
+        "y": 0.88
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.64,
+        "y1": 0.28,
+        "x2": 0.62,
+        "y2": 0.43,
+        "x": 0.5,
+        "y": 0.47
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.38,
+        "y1": 0.43,
+        "x2": 0.36,
+        "y2": 0.28,
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.47
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "moveTo",
+        "x": 0.32,
+        "y": 0.88
+      },
+      {
+        "op": "lineTo",
+        "x": 0.68,
+        "y": 0.88
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
     ],
     "nom": "La Présentation au Temple",
     "type": "Mystères de la Chandeleur",
@@ -83,7 +146,7 @@
     "type": "Mystères de la Chandeleur",
     "numero": 5,
     "fruit": "La fidélité dans la prière",
-    "clausule_et_jesus": "rédemption de son peuple",
+    "clausule_et_jesus": "rédempteur de son peuple",
     "auteur": "Luc",
     "chapitre": 2,
     "premier_verset": 36,

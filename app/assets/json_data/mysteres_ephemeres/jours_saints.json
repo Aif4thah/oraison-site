@@ -6,23 +6,106 @@
       "fin": "04-22"
     },
     "commands": [
-      { "op": "moveTo", "x": 0.28, "y": 0.34 },
-      { "op": "cubicTo", "x1": 0.28, "y1": 0.56, "x2": 0.4, "y2": 0.64, "x": 0.5, "y": 0.64 },
-      { "op": "cubicTo", "x1": 0.6, "y1": 0.64, "x2": 0.72, "y2": 0.56, "x": 0.72, "y": 0.34 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.5, "y": 0.09 },
-      { "op": "cubicTo", "x1": 0.5497, "y1": 0.09, "x2": 0.59, "y2": 0.1303, "x": 0.59, "y": 0.18 },
-      { "op": "cubicTo", "x1": 0.59, "y1": 0.2297, "x2": 0.5497, "y2": 0.27, "x": 0.5, "y": 0.27 },
-      { "op": "cubicTo", "x1": 0.4503, "y1": 0.27, "x2": 0.41, "y2": 0.2297, "x": 0.41, "y": 0.18 },
-      { "op": "cubicTo", "x1": 0.41, "y1": 0.1303, "x2": 0.4503, "y2": 0.09, "x": 0.5, "y": 0.09 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.5, "y": 0.64 },
-      { "op": "lineTo", "x": 0.5, "y": 0.84 },
-      { "op": "moveTo", "x": 0.34, "y": 0.84 },
-      { "op": "lineTo", "x": 0.66, "y": 0.84 },
-      { "op": "stroke", "trait": "fin" }
+      {
+        "op": "moveTo",
+        "x": 0.28,
+        "y": 0.34
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.28,
+        "y1": 0.56,
+        "x2": 0.4,
+        "y2": 0.64,
+        "x": 0.5,
+        "y": 0.64
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.6,
+        "y1": 0.64,
+        "x2": 0.72,
+        "y2": 0.56,
+        "x": 0.72,
+        "y": 0.34
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.09
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.5497,
+        "y1": 0.09,
+        "x2": 0.59,
+        "y2": 0.1303,
+        "x": 0.59,
+        "y": 0.18
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.59,
+        "y1": 0.2297,
+        "x2": 0.5497,
+        "y2": 0.27,
+        "x": 0.5,
+        "y": 0.27
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.4503,
+        "y1": 0.27,
+        "x2": 0.41,
+        "y2": 0.2297,
+        "x": 0.41,
+        "y": 0.18
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.41,
+        "y1": 0.1303,
+        "x2": 0.4503,
+        "y2": 0.09,
+        "x": 0.5,
+        "y": 0.09
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.64
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.84
+      },
+      {
+        "op": "moveTo",
+        "x": 0.34,
+        "y": 0.84
+      },
+      {
+        "op": "lineTo",
+        "x": 0.66,
+        "y": 0.84
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
     ],
     "nom": "Hosanna au Fils de David",
     "type": "Mystères de la Semaine sainte",
@@ -56,7 +139,7 @@
     "type": "Mystères de la Semaine sainte",
     "numero": 3,
     "fruit": "L'amour de Dieu et du prochain",
-    "clausule_et_jesus": "commandement de l'amour",
+    "clausule_et_jesus": "enseignant le commandement d'amour",
     "auteur": "Matthieu",
     "chapitre": 22,
     "premier_verset": 37,

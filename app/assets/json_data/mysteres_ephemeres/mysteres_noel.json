@@ -1,20 +1,69 @@
 [
   {
     "id": "noel_1",
-    "periode": { "debut": "12-01", "fin": "12-31" },
+    "periode": {
+      "debut": "12-01",
+      "fin": "12-31"
+    },
     "commands": [
-      { "op": "moveTo", "x": 0.50, "y": 0.12 },
-      { "op": "lineTo", "x": 0.50, "y": 0.60 },
-      { "op": "moveTo", "x": 0.292, "y": 0.48 },
-      { "op": "lineTo", "x": 0.708, "y": 0.24 },
-      { "op": "moveTo", "x": 0.292, "y": 0.24 },
-      { "op": "lineTo", "x": 0.708, "y": 0.48 },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.22, "y": 0.72 },
-      { "op": "quadraticBezierTo", "x1": 0.50, "y1": 0.98, "x": 0.78, "y": 0.72 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "circle", "cx": 0.50, "cy": 0.36, "r": 0.03, "trait": "fin" }
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.6
+      },
+      {
+        "op": "moveTo",
+        "x": 0.292,
+        "y": 0.48
+      },
+      {
+        "op": "lineTo",
+        "x": 0.708,
+        "y": 0.24
+      },
+      {
+        "op": "moveTo",
+        "x": 0.292,
+        "y": 0.24
+      },
+      {
+        "op": "lineTo",
+        "x": 0.708,
+        "y": 0.48
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.22,
+        "y": 0.72
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.98,
+        "x": 0.78,
+        "y": 0.72
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.36,
+        "r": 0.03,
+        "trait": "fin"
+      }
     ],
     "nom": "L'Annonce à Marie",
     "type": "Mystères de Noël",
@@ -62,7 +111,7 @@
     "type": "Mystères de Noël",
     "numero": 4,
     "fruit": "La joie de la bonne nouvelle",
-    "clausule_et_jesus": "le Sauveur qui nous est né",
+    "clausule_et_jesus": "annoncé aux bergers",
     "auteur": "Luc",
     "chapitre": 2,
     "premier_verset": 10,
