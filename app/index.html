@@ -20,6 +20,11 @@
   <link rel="icon" type="image/png" href="favicon.png">
 
   <title>Oraison — Chapelet et méditation</title>
+  <link rel="canonical" href="https://oraison.app/app/">
+
+  <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
+  <script data-goatcounter="https://vacarelm.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
   <link rel="manifest" href="manifest.json">
   <link rel="preload" href="icons/Icon-192.png" as="image">
   <link rel="preload" href="flutter_bootstrap.js" as="script">
@@ -197,6 +202,45 @@
         navigator.serviceWorker.register('sw.js').catch(function () {});
       });
     }
+
+    // Mesure d'audience anonyme de l'ouverture de l'application (PWA installée vs Navigateur)
+    (function () {
+      var isStandalone = (
+        window.navigator.standalone === true ||
+        (window.matchMedia && (
+          window.matchMedia('(display-mode: standalone)').matches ||
+          window.matchMedia('(display-mode: fullscreen)').matches ||
+          window.matchMedia('(display-mode: minimal-ui)').matches
+        )) ||
+        (document.referrer && document.referrer.indexOf('android-app://') !== -1)
+      );
+
+      function reportAppOpen() {
+        if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+          if (isStandalone) {
+            window.goatcounter.count({
+              path: 'pwa-open-standalone',
+              title: 'Ouverture PWA (Écran d\'accueil / Standalone)',
+              event: true
+            });
+          } else {
+            window.goatcounter.count({
+              path: 'pwa-open-browser',
+              title: 'Ouverture App (Navigateur Web)',
+              event: true
+            });
+          }
+        } else {
+          setTimeout(reportAppOpen, 150);
+        }
+      }
+
+      if (document.readyState === 'complete') {
+        reportAppOpen();
+      } else {
+        window.addEventListener('load', reportAppOpen);
+      }
+    })();
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>

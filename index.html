@@ -26,6 +26,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="app/icons/apple-touch-icon.png">
   <link rel="manifest" href="app/manifest.json">
   <link rel="canonical" href="https://oraison.app/">
+  <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
+  <script data-goatcounter="https://vacarelm.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
   <link rel="prefetch" href="app/">
   <link rel="prefetch" href="app/index.html">
 
@@ -308,10 +311,43 @@
 
   <script>
     (function () {
-      // 1. Chargement différé de la vidéo YouTube uniquement au clic (zéro pistage par défaut)
+      // 1. Mesure d'audience anonyme (GoatCounter) — File d'attente résiliente
+      var _goatQueue = [];
+      function trackEvent(name, title) {
+        if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+          window.goatcounter.count({
+            path: name,
+            title: title || name,
+            event: true
+          });
+        } else {
+          _goatQueue.push({ path: name, title: title || name, event: true });
+        }
+      }
+      function flushGoatQueue() {
+        if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+          while (_goatQueue.length > 0) {
+            window.goatcounter.count(_goatQueue.shift());
+          }
+        } else {
+          setTimeout(flushGoatQueue, 150);
+        }
+      }
+      flushGoatQueue();
+
+      // Suivi de conversion : Clic sur le bouton principal d'ouverture de l'application
+      var openAppBtn = document.querySelector('.pwa-actions .btn-primary');
+      if (openAppBtn) {
+        openAppBtn.addEventListener('click', function () {
+          trackEvent('cta-ouvrir-app', 'Clic CTA Ouvrir Oraison');
+        });
+      }
+
+      // 2. Chargement différé de la vidéo YouTube uniquement au clic (zéro pistage par défaut)
       var playBtn = document.querySelector('.play');
       if (playBtn) {
         playBtn.addEventListener('click', function (e) {
+          trackEvent('video-presentation', 'Lecture vidéo de présentation');
           e.preventDefault();
           var f = document.createElement('iframe');
           f.src = 'https://www.youtube-nocookie.com/embed/' + this.dataset.id + '?autoplay=1&rel=0';
@@ -323,7 +359,7 @@
         });
       }
 
-      // 2. Onglets du guide d'installation PWA + détection automatique de l'appareil
+      // 3. Onglets du guide d'installation PWA + détection automatique de l'appareil
       var tabs = document.querySelectorAll('.device-tabs [role="tab"]');
       var panels = {
         ios: document.getElementById('panel-ios'),
@@ -344,6 +380,7 @@
       tabs.forEach(function (tab) {
         tab.addEventListener('click', function () {
           selectDeviceTab(this.dataset.target);
+          trackEvent('guide-install-' + this.dataset.target, 'Consultation guide ' + this.dataset.target);
         });
       });
 
@@ -358,7 +395,7 @@
         selectDeviceTab('pc');
       }
 
-      // 3. Bouton d'installation PWA natif 1-clic (Chrome / Edge sur Android & PC)
+      // 4. Bouton d'installation PWA natif 1-clic (Chrome / Edge sur Android & PC)
       var deferredPrompt = null;
       var installBtn = document.getElementById('btn-install-pwa');
       window.addEventListener('beforeinstallprompt', function (e) {
@@ -369,20 +406,61 @@
 
       if (installBtn) {
         installBtn.addEventListener('click', function () {
+          trackEvent('pwa-install-click', 'Clic Bouton Installer PWA');
           if (!deferredPrompt) return;
           deferredPrompt.prompt();
-          deferredPrompt.userChoice.finally(function () {
+          if (deferredPrompt.userChoice) {
+            deferredPrompt.userChoice.then(function (choice) {
+              if (choice && choice.outcome === 'accepted') {
+                trackEvent('pwa-install-accepted', 'Installation PWA acceptée');
+              } else {
+                trackEvent('pwa-install-dismissed', 'Installation PWA refusée');
+              }
+            }).finally(function () {
+              deferredPrompt = null;
+              installBtn.hidden = true;
+            });
+          } else {
             deferredPrompt = null;
             installBtn.hidden = true;
-          });
+          }
         });
       }
 
-      // 4. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
+      // Suivi de l'installation effective de la PWA
+      window.addEventListener('appinstalled', function () {
+        trackEvent('pwa-installed-success', 'PWA installée avec succès');
+      });
+
+      // 5. Suivi d'intérêt pour le canal testeurs Alpha Google Play
+      var alphaDetails = document.querySelector('.alpha-details');
+      if (alphaDetails) {
+        alphaDetails.addEventListener('toggle', function () {
+          if (this.open) {
+            trackEvent('alpha-details-open', 'Consultation section Alpha Play Store');
+          }
+        });
+      }
+      var alphaLinks = document.querySelectorAll('.alpha-content a');
+      alphaLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+          var href = this.getAttribute('href') || '';
+          if (href.indexOf('groups.google.com') !== -1) {
+            trackEvent('alpha-groupe-click', 'Clic Rejoindre groupe Alpha');
+          } else if (href.indexOf('play.google.com/apps/testing') !== -1) {
+            trackEvent('alpha-activer-click', 'Clic Activer accès Alpha');
+          } else if (href.indexOf('play.google.com/store') !== -1) {
+            trackEvent('alpha-playstore-click', 'Clic Fiche Google Play Store');
+          }
+        });
+      });
+
+      // 6. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
       var contactBtn = document.getElementById('contact-reveal');
       var contactBox = document.getElementById('contact-container');
       if (contactBtn && contactBox) {
         contactBtn.addEventListener('click', function () {
+          trackEvent('contact-reveal', 'Affichage adresse email de contact');
           var u = 'vacarelm';
           var d = 'gmail.com';
           var addr = u + '@' + d;
