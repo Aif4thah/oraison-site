@@ -191,14 +191,6 @@
       </div>
     </section>
 
-    <!-- VIDÉO DE PRÉSENTATION -->
-    <div class="video">
-      <a class="play" href="https://www.youtube.com/shorts/VibaLH3brls" target="_blank" rel="noopener" data-id="VibaLH3brls">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5 19 12 7 19.5z"/></svg>
-        Découvrir l'atmosphère en vidéo
-      </a>
-    </div>
-
     <!-- CONTENU ÉDITORIAL : SOBRIÉTÉ, DÉPOUILLEMENT & LITURGIE (SEO) -->
     <section class="editorial" aria-labelledby="meditation-title">
       <h2 id="meditation-title">Une sobriété pensée pour le recueillement</h2>
@@ -343,23 +335,7 @@
         });
       }
 
-      // 2. Chargement différé de la vidéo YouTube uniquement au clic (zéro pistage par défaut)
-      var playBtn = document.querySelector('.play');
-      if (playBtn) {
-        playBtn.addEventListener('click', function (e) {
-          trackEvent('video-presentation', 'Lecture vidéo de présentation');
-          e.preventDefault();
-          var f = document.createElement('iframe');
-          f.src = 'https://www.youtube-nocookie.com/embed/' + this.dataset.id + '?autoplay=1&rel=0';
-          f.title = "Présentation d'Oraison";
-          f.allow = 'autoplay; encrypted-media; picture-in-picture';
-          f.allowFullscreen = true;
-          f.referrerPolicy = 'strict-origin-when-cross-origin';
-          this.replaceWith(f);
-        });
-      }
-
-      // 3. Onglets du guide d'installation PWA + détection automatique de l'appareil
+      // 2. Onglets du guide d'installation PWA + détection automatique de l'appareil
       var tabs = document.querySelectorAll('.device-tabs [role="tab"]');
       var panels = {
         ios: document.getElementById('panel-ios'),
@@ -395,7 +371,7 @@
         selectDeviceTab('pc');
       }
 
-      // 4. Bouton d'installation PWA natif 1-clic (Chrome / Edge sur Android & PC)
+      // 3. Bouton d'installation PWA natif 1-clic (Chrome / Edge sur Android & PC)
       var deferredPrompt = null;
       var installBtn = document.getElementById('btn-install-pwa');
       window.addEventListener('beforeinstallprompt', function (e) {
@@ -432,7 +408,7 @@
         trackEvent('pwa-installed-success', 'PWA installée avec succès');
       });
 
-      // 5. Suivi d'intérêt pour le canal testeurs Alpha Google Play
+      // 4. Suivi d'intérêt pour le canal testeurs Alpha Google Play
       var alphaDetails = document.querySelector('.alpha-details');
       if (alphaDetails) {
         alphaDetails.addEventListener('toggle', function () {
@@ -455,7 +431,7 @@
         });
       });
 
-      // 6. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
+      // 5. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
       var contactBtn = document.getElementById('contact-reveal');
       var contactBox = document.getElementById('contact-container');
       if (contactBtn && contactBox) {
