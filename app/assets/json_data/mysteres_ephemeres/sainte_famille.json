@@ -7,106 +7,82 @@
     },
     "commands": [
       {
-        "op": "moveTo",
-        "x": 0.18,
-        "y": 0.52
-      },
-      {
-        "op": "lineTo",
-        "x": 0.5,
-        "y": 0.22
-      },
-      {
-        "op": "lineTo",
-        "x": 0.82,
-        "y": 0.52
-      },
-      {
-        "op": "stroke"
+        "op": "circle",
+        "cx": 0.25,
+        "cy": 0.36,
+        "r": 0.07
       },
       {
         "op": "moveTo",
-        "x": 0.35,
-        "y": 0.65
-      },
-      {
-        "op": "lineTo",
-        "x": 0.65,
-        "y": 0.65
-      },
-      {
-        "op": "lineTo",
-        "x": 0.58,
+        "x": 0.13,
         "y": 0.82
       },
       {
-        "op": "lineTo",
-        "x": 0.42,
+        "op": "quadraticBezierTo",
+        "x1": 0.13,
+        "y1": 0.5,
+        "x": 0.25,
+        "y": 0.5
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.37,
+        "y1": 0.5,
+        "x": 0.37,
         "y": 0.82
-      },
-      {
-        "op": "close"
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.36,
-        "y": 0.82
-      },
-      {
-        "op": "lineTo",
-        "x": 0.42,
-        "y": 0.94
-      },
-      {
-        "op": "moveTo",
-        "x": 0.64,
-        "y": 0.82
-      },
-      {
-        "op": "lineTo",
-        "x": 0.58,
-        "y": 0.94
-      },
-      {
-        "op": "stroke",
-        "trait": "fin"
       },
       {
         "op": "circle",
         "cx": 0.5,
-        "cy": 0.54,
-        "r": 0.05
-      },
-      {
-        "op": "stroke",
-        "trait": "fin"
+        "cy": 0.52,
+        "r": 0.055
       },
       {
         "op": "moveTo",
-        "x": 0.5,
-        "y": 0.08
+        "x": 0.4,
+        "y": 0.82
       },
       {
-        "op": "lineTo",
+        "op": "quadraticBezierTo",
+        "x1": 0.4,
+        "y1": 0.64,
         "x": 0.5,
-        "y": 0.2
+        "y": 0.64
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.6,
+        "y1": 0.64,
+        "x": 0.6,
+        "y": 0.82
+      },
+      {
+        "op": "circle",
+        "cx": 0.75,
+        "cy": 0.32,
+        "r": 0.075
       },
       {
         "op": "moveTo",
-        "x": 0.44,
-        "y": 0.14
+        "x": 0.63,
+        "y": 0.82
       },
       {
-        "op": "lineTo",
-        "x": 0.56,
-        "y": 0.14
+        "op": "quadraticBezierTo",
+        "x1": 0.63,
+        "y1": 0.46,
+        "x": 0.75,
+        "y": 0.46
       },
       {
-        "op": "stroke",
-        "trait": "fin"
+        "op": "quadraticBezierTo",
+        "x1": 0.87,
+        "y1": 0.46,
+        "x": 0.87,
+        "y": 0.82
+      },
+      {
+        "op": "stroke"
       }
     ],
     "nom": "Le Foyer Saint de Nazareth",
