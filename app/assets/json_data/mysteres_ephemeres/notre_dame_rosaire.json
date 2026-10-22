@@ -1,0 +1,207 @@
+[
+  {
+    "id": "rosaire_1",
+    "periode": {
+      "debut": "09-25",
+      "fin": "10-25"
+    },
+    "commands": [
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.48,
+        "r": 0.34
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "circle",
+        "cx": 0.84,
+        "cy": 0.48,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.78,
+        "cy": 0.68,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.6,
+        "cy": 0.8,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.4,
+        "cy": 0.8,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.22,
+        "cy": 0.68,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.16,
+        "cy": 0.48,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.22,
+        "cy": 0.28,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.4,
+        "cy": 0.16,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.6,
+        "cy": 0.16,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.78,
+        "cy": 0.28,
+        "r": 0.025
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.98
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.89
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.89
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.48,
+        "r": 0.09
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.39
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.42,
+        "y1": 0.32,
+        "x": 0.5,
+        "y": 0.28
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.58,
+        "y1": 0.32,
+        "x": 0.5,
+        "y": 0.39
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "La Couronne de Roses Mystiques",
+    "type": "Notre-Dame du Rosaire",
+    "numero": 1,
+    "fruit": "L'amour de la prière du chapelet",
+    "clausule_et_jesus": "contemplé avec Marie",
+    "auteur": "Siracide",
+    "chapitre": 24,
+    "premier_verset": 14,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "J'ai grandi comme les palmiers d'Engaddi, comme les plants de rosiers de Jéricho, comme un bel olivier dans la plaine.",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "rosaire_2",
+    "nom": "La Méditation dans le Cœur",
+    "type": "Notre-Dame du Rosaire",
+    "numero": 2,
+    "fruit": "La mémoire vivante des paroles du Sauveur",
+    "clausule_et_jesus": "gardé dans le silence du cœur",
+    "auteur": "Luc",
+    "chapitre": 2,
+    "premier_verset": 19,
+    "verset_fin": 19,
+    "traduction": "Crampon 1923",
+    "texte": "Marie conservait toutes ces choses, les repassant dans son cœur."
+  },
+  {
+    "id": "rosaire_3",
+    "nom": "L'Arme de Paix et de Secours",
+    "type": "Notre-Dame du Rosaire",
+    "numero": 3,
+    "fruit": "La confiance inébranlable dans les combats de la vie",
+    "clausule_et_jesus": "notre paix et notre secours",
+    "auteur": "2 Corinthiens",
+    "chapitre": 10,
+    "premier_verset": 4,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Car les armes de notre guerre ne sont point charnelles, mais puissantes par Dieu, pour renverser des forteresses."
+  },
+  {
+    "id": "rosaire_4",
+    "nom": "Faites tout ce qu'il vous dira",
+    "type": "Notre-Dame du Rosaire",
+    "numero": 4,
+    "fruit": "La docilité à la volonté du Christ",
+    "clausule_et_jesus": "prié à la voix de sa Mère",
+    "auteur": "Jean",
+    "chapitre": 2,
+    "premier_verset": 5,
+    "verset_fin": 5,
+    "traduction": "Crampon 1923",
+    "texte": "Sa mère dit aux serviteurs : « Tout ce qu'il vous dira, faites-le. »"
+  },
+  {
+    "id": "rosaire_5",
+    "nom": "L'Encens des Prières des Saints",
+    "type": "Notre-Dame du Rosaire",
+    "numero": 5,
+    "fruit": "La communion des saints et la louange éternelle",
+    "clausule_et_jesus": "roi d'éternelle gloire",
+    "auteur": "Apocalypse",
+    "chapitre": 8,
+    "premier_verset": 3,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Et un autre ange vint se placer devant l'autel... et la fumée des parfums, avec les prières des saints, monta de la main de l'ange devant Dieu."
+  }
+]

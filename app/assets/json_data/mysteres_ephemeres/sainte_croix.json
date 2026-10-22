@@ -1,0 +1,195 @@
+[
+  {
+    "id": "croix_1",
+    "periode": {
+      "debut": "09-11",
+      "fin": "09-22"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.3,
+        "y": 0.86
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.76,
+        "x": 0.7,
+        "y": 0.86
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.8
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.16
+      },
+      {
+        "op": "moveTo",
+        "x": 0.24,
+        "y": 0.36
+      },
+      {
+        "op": "lineTo",
+        "x": 0.76,
+        "y": 0.36
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.16
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.16
+      },
+      {
+        "op": "moveTo",
+        "x": 0.24,
+        "y": 0.3
+      },
+      {
+        "op": "lineTo",
+        "x": 0.24,
+        "y": 0.42
+      },
+      {
+        "op": "moveTo",
+        "x": 0.76,
+        "y": 0.3
+      },
+      {
+        "op": "lineTo",
+        "x": 0.76,
+        "y": 0.42
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.42,
+        "y": 0.28
+      },
+      {
+        "op": "lineTo",
+        "x": 0.34,
+        "y": 0.2
+      },
+      {
+        "op": "moveTo",
+        "x": 0.58,
+        "y": 0.28
+      },
+      {
+        "op": "lineTo",
+        "x": 0.66,
+        "y": 0.2
+      },
+      {
+        "op": "moveTo",
+        "x": 0.42,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.34,
+        "y": 0.52
+      },
+      {
+        "op": "moveTo",
+        "x": 0.58,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.66,
+        "y": 0.52
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "L'Arbre de Vie Relevé",
+    "type": "Mystères de la Sainte-Croix",
+    "numero": 1,
+    "fruit": "L'amour et l'attachement à la sainte Croix",
+    "clausule_et_jesus": "élevé pour attirer tout à lui",
+    "auteur": "Jean",
+    "chapitre": 12,
+    "premier_verset": 32,
+    "verset_fin": 32,
+    "traduction": "Crampon 1923",
+    "texte": "Et moi, quand j'aurai été élevé de la terre, j'attirerai tout à moi.",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "croix_2",
+    "nom": "Le Salut par le Bois de la Croix",
+    "type": "Mystères de la Sainte-Croix",
+    "numero": 2,
+    "fruit": "La reconnaissance pour le sacrifice rédempteur",
+    "clausule_et_jesus": "qui a porté nos péchés",
+    "auteur": "1 Pierre",
+    "chapitre": 2,
+    "premier_verset": 24,
+    "verset_fin": 24,
+    "traduction": "Crampon 1923",
+    "texte": "Lui qui a porté nos péchés en son corps sur le bois, afin que, morts aux péchés, nous vivions pour la justice ; lui par les meurtrissures duquel vous avez été guéris."
+  },
+  {
+    "id": "croix_3",
+    "nom": "La Victoire sur la Mort et le Mal",
+    "type": "Mystères de la Sainte-Croix",
+    "numero": 3,
+    "fruit": "L'espérance victorieuse dans les épreuves",
+    "clausule_et_jesus": "vainqueur par la Croix",
+    "auteur": "Colossiens",
+    "chapitre": 2,
+    "premier_verset": 14,
+    "verset_fin": 15,
+    "traduction": "Crampon 1923",
+    "texte": "Il a effacé l'acte dont les ordonnances nous condamnaient... et il l'a détruit en le clouant à la croix ; il a dépouillé les principautés et les puissances, et les a données en spectacle à la face du monde, en triomphant d'elles par la croix."
+  },
+  {
+    "id": "croix_4",
+    "nom": "Le Signe du Fils de l'Homme",
+    "type": "Mystères de la Sainte-Croix",
+    "numero": 4,
+    "fruit": "Le courage de confesser notre foi",
+    "clausule_et_jesus": "signe glorieux de notre salut",
+    "auteur": "Matthieu",
+    "chapitre": 24,
+    "premier_verset": 30,
+    "verset_fin": 30,
+    "traduction": "Crampon 1923",
+    "texte": "Alors le signe du Fils de l'homme paraîtra dans le ciel... et ils verront le Fils de l'homme venant sur les nuées du ciel avec grande puissance et gloire."
+  },
+  {
+    "id": "croix_5",
+    "nom": "L'Exaltation Souveraine du Fils",
+    "type": "Mystères de la Sainte-Croix",
+    "numero": 5,
+    "fruit": "L'adoration du Nom au-dessus de tout nom",
+    "clausule_et_jesus": "souverainement élevé par le Père",
+    "auteur": "Philippiens",
+    "chapitre": 2,
+    "premier_verset": 8,
+    "verset_fin": 9,
+    "traduction": "Crampon 1923",
+    "texte": "Il s'est humilié lui-même, se faisant obéissant jusqu'à la mort, et à la mort de la croix. C'est pourquoi aussi Dieu l'a souverainement élevé, et lui a donné le nom qui est au-dessus de tout nom."
+  }
+]

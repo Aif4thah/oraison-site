@@ -2,7 +2,7 @@
   {
     "id": "jours_saints_1",
     "periode": {
-      "debut": "03-12",
+      "debut": "03-15",
       "fin": "04-22"
     },
     "commands": [
@@ -117,7 +117,8 @@
     "premier_verset": 8,
     "verset_fin": 9,
     "traduction": "Crampon 1923",
-    "texte": "Et toute cette multitude, en avant de Jésus et derrière lui, criait : « Hosanna au fils de David ! Béni soit celui qui vient au nom du Seigneur ! Hosanna au plus haut des cieux ! »"
+    "texte": "Et toute cette multitude, en avant de Jésus et derrière lui, criait : « Hosanna au fils de David ! Béni soit celui qui vient au nom du Seigneur ! Hosanna au plus haut des cieux ! »",
+    "categorie": "liturgique"
   },
   {
     "id": "jours_saints_2",

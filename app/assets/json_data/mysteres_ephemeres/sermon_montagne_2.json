@@ -2,34 +2,62 @@
   {
     "id": "sermon_tresor",
     "periode": {
-      "debut": "01-01",
-      "fin": "06-15"
+      "debut": "02-01",
+      "fin": "02-28"
     },
     "commands": [
       {
         "op": "moveTo",
-        "x": 0.1,
-        "y": 0.78
+        "x": 0.12,
+        "y": 0.84
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.78,
+        "x": 0.88,
+        "y": 0.84
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.3,
+        "y": 0.81
       },
       {
         "op": "lineTo",
-        "x": 0.38,
-        "y": 0.3
-      },
-      {
-        "op": "lineTo",
-        "x": 0.52,
+        "x": 0.3,
         "y": 0.52
       },
       {
         "op": "lineTo",
-        "x": 0.62,
-        "y": 0.38
+        "x": 0.7,
+        "y": 0.52
       },
       {
         "op": "lineTo",
-        "x": 0.9,
-        "y": 0.78
+        "x": 0.7,
+        "y": 0.81
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.24,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.26
+      },
+      {
+        "op": "lineTo",
+        "x": 0.76,
+        "y": 0.52
       },
       {
         "op": "close"
@@ -39,28 +67,49 @@
       },
       {
         "op": "moveTo",
-        "x": 0.31,
-        "y": 0.42
+        "x": 0.44,
+        "y": 0.81
       },
       {
         "op": "lineTo",
-        "x": 0.35,
-        "y": 0.46
+        "x": 0.44,
+        "y": 0.65
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.6,
+        "x": 0.56,
+        "y": 0.65
       },
       {
         "op": "lineTo",
-        "x": 0.39,
-        "y": 0.42
+        "x": 0.56,
+        "y": 0.81
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.26
       },
       {
         "op": "lineTo",
-        "x": 0.43,
-        "y": 0.46
+        "x": 0.5,
+        "y": 0.14
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.18
       },
       {
         "op": "lineTo",
-        "x": 0.464,
-        "y": 0.42
+        "x": 0.56,
+        "y": 0.18
       },
       {
         "op": "stroke",
@@ -71,13 +120,15 @@
     "type": "Sermon sur la montagne 2/2",
     "numero": 1,
     "fruit": "L'amour céleste",
+    "clausule_et_jesus": "notre unique trésor",
     "theme": "Priorité spirituelle",
     "auteur": "Matthieu",
     "chapitre": 6,
     "premier_verset": 19,
     "verset_fin": 21,
     "traduction": "Crampon 1923",
-    "texte": "Ne vous amassez pas des trésors sur la terre... mais amassez-vous des trésors dans le ciel, où ni les vers ni la rouille ne détruisent... Car là où est ton trésor, là aussi sera ton cœur."
+    "texte": "Ne vous amassez pas des trésors sur la terre... mais amassez-vous des trésors dans le ciel, où ni les vers ni la rouille ne détruisent... Car là où est ton trésor, là aussi sera ton cœur.",
+    "categorie": "decouverte"
   },
   {
     "id": "sermon_providence",
@@ -85,6 +136,7 @@
     "type": "Sermon sur la montagne 2/2",
     "numero": 2,
     "fruit": "La sérénité spirituelle",
+    "clausule_et_jesus": "notre divine providence",
     "theme": "Abandon à Dieu",
     "auteur": "Matthieu",
     "chapitre": 6,
@@ -99,6 +151,7 @@
     "type": "Sermon sur la montagne 2/2",
     "numero": 3,
     "fruit": "La miséricorde envers autrui",
+    "clausule_et_jesus": "juge plein de miséricorde",
     "theme": "Bienveillance",
     "auteur": "Matthieu",
     "chapitre": 7,
@@ -113,6 +166,7 @@
     "type": "Sermon sur la montagne 2/2",
     "numero": 4,
     "fruit": "La foi constante",
+    "clausule_et_jesus": "qui exauce nos prières",
     "theme": "Persévérance dans la prière",
     "auteur": "Matthieu",
     "chapitre": 7,
@@ -127,6 +181,7 @@
     "type": "Sermon sur la montagne 2/2",
     "numero": 5,
     "fruit": "La justice et l'amour du prochain",
+    "clausule_et_jesus": "règle de charité",
     "theme": "Charité active",
     "auteur": "Matthieu",
     "chapitre": 7,
@@ -141,6 +196,7 @@
     "type": "Sermon sur la montagne 2/2",
     "numero": 6,
     "fruit": "La vigilance spirituelle",
+    "clausule_et_jesus": "porte de la vie",
     "theme": "Exigence de la voie divine",
     "auteur": "Matthieu",
     "chapitre": 7,
@@ -155,6 +211,7 @@
     "type": "Sermon sur la montagne 2/2",
     "numero": 7,
     "fruit": "La constance dans la foi",
+    "clausule_et_jesus": "roc inébranlable",
     "theme": "Pratique de la parole",
     "auteur": "Matthieu",
     "chapitre": 7,

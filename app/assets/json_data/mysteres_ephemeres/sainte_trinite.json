@@ -1,0 +1,155 @@
+[
+  {
+    "id": "trinite_1",
+    "periode": {
+      "debut": "05-18",
+      "fin": "06-20"
+    },
+    "commands": [
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.54,
+        "r": 0.22
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.16
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.68,
+        "y1": 0.45,
+        "x": 0.5,
+        "y": 0.76
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.32,
+        "y1": 0.45,
+        "x": 0.5,
+        "y": 0.16
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.22,
+        "y": 0.7
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.56,
+        "y1": 0.7,
+        "x": 0.65,
+        "y": 0.4
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.35,
+        "y1": 0.35,
+        "x": 0.22,
+        "y": 0.7
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.78,
+        "y": 0.7
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.44,
+        "y1": 0.7,
+        "x": 0.35,
+        "y": 0.4
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.65,
+        "y1": 0.35,
+        "x": 0.78,
+        "y": 0.7
+      },
+      {
+        "op": "stroke"
+      }
+    ],
+    "nom": "Le Père, Source de tout Amour",
+    "type": "Mystères de la Sainte Trinité",
+    "numero": 1,
+    "fruit": "La louange filiale envers le Père",
+    "clausule_et_jesus": "Fils bien-aimé du Père",
+    "auteur": "1 Jean",
+    "chapitre": 4,
+    "premier_verset": 8,
+    "verset_fin": 9,
+    "traduction": "Crampon 1923",
+    "texte": "Celui qui n'aime pas n'a pas connu Dieu, car Dieu est amour. En ceci s'est manifesté l'amour de Dieu pour nous, c'est que Dieu a envoyé son Fils unique dans le monde, afin que nous vivions par lui.",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "trinite_2",
+    "nom": "L'Unité du Père et du Fils",
+    "type": "Mystères de la Sainte Trinité",
+    "numero": 2,
+    "fruit": "La communion dans l'Amour divin",
+    "clausule_et_jesus": "un avec le Père",
+    "auteur": "Jean",
+    "chapitre": 10,
+    "premier_verset": 30,
+    "verset_fin": 30,
+    "traduction": "Crampon 1923",
+    "texte": "« Moi et le Père, nous sommes un. »"
+  },
+  {
+    "id": "trinite_3",
+    "nom": "L'Esprit Saint consolateur",
+    "type": "Mystères de la Sainte Trinité",
+    "numero": 3,
+    "fruit": "L'ouverture aux dons du Saint-Esprit",
+    "clausule_et_jesus": "qui nous donne l'Esprit Saint",
+    "auteur": "Jean",
+    "chapitre": 14,
+    "premier_verset": 26,
+    "verset_fin": 26,
+    "traduction": "Crampon 1923",
+    "texte": "Mais le Consolateur, l'Esprit-Saint, que le Père enverra en mon nom, vous enseignera toutes choses, et vous rappellera tout ce que je vous ai dit."
+  },
+  {
+    "id": "trinite_4",
+    "nom": "L'Unité dans la Charité",
+    "type": "Mystères de la Sainte Trinité",
+    "numero": 4,
+    "fruit": "L'unité et la communion fraternelle",
+    "clausule_et_jesus": "un avec le Père",
+    "auteur": "Jean",
+    "chapitre": 17,
+    "premier_verset": 21,
+    "verset_fin": 21,
+    "traduction": "Crampon 1923",
+    "texte": "Afin que tous soient un, comme vous, mon Père, vous êtes en moi, et moi en vous, qu'eux aussi soient un en nous, pour que le monde croie que vous m'avez envoyé."
+  },
+  {
+    "id": "trinite_5",
+    "nom": "L'Envoi au Nom de la Trinité",
+    "type": "Mystères de la Sainte Trinité",
+    "numero": 5,
+    "fruit": "La foi trinitaire et le zèle apostolique",
+    "clausule_et_jesus": "loué dans la Trinité sainte",
+    "auteur": "Matthieu",
+    "chapitre": 28,
+    "premier_verset": 19,
+    "verset_fin": 19,
+    "traduction": "Crampon 1923",
+    "texte": "Allez donc, et instruisez toutes les nations, les baptisant au nom du Père, et du Fils, et du Saint-Esprit."
+  }
+]

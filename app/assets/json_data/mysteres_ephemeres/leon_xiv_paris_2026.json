@@ -2,8 +2,8 @@
   {
     "id": "leon_xiv_1",
     "periode": {
-      "debut": "02-01",
-      "fin": "12-31"
+      "debut": "09-01",
+      "fin": "09-30"
     },
     "commands": [
       {
@@ -100,7 +100,8 @@
     "premier_verset": 9,
     "verset_fin": 2026,
     "traduction": "Veillée de prière avec la jeunesse au Stade de France, Saint-Denis, 25 Septembre 2026",
-    "texte": "Merci pour votre courage, merci pour votre présence, merci pour votre foi. Vous êtes les saints de France !"
+    "texte": "Merci pour votre courage, merci pour votre présence, merci pour votre foi. Vous êtes les saints de France !",
+    "categorie": "decouverte"
   },
   {
     "id": "leon_xiv_2",
@@ -125,7 +126,7 @@
     "clausule_et_jesus": "qui fait toutes choses nouvelles",
     "auteur": "Pape Léon XIV",
     "chapitre": 27,
-    "premier_verset": 9,
+    "premier_verset": 10,
     "verset_fin": 2026,
     "traduction": "Parvis de Notre-Dame, Paris, 27 Septembre 2026",
     "texte": "Regardez cette cathédrale meurtrie puis relevée. L'Église, tout comme votre belle nation, est appelée à renaître continuellement de ses cendres par le souffle ardent et purificateur de l'Esprit Saint."
@@ -139,7 +140,7 @@
     "clausule_et_jesus": "lumière inextinguible",
     "auteur": "Pape Léon XIV",
     "chapitre": 27,
-    "premier_verset": 9,
+    "premier_verset": 20,
     "verset_fin": 2026,
     "traduction": "Basilique du Sacré-Cœur de Montmartre, Paris, 27 Septembre 2026",
     "texte": "Depuis cette colline qui veille sur la cité, que vos cœurs battent au rythme du Sacré-Cœur. Ne laissez jamais les lumières artificielles du siècle éteindre l'étoile brillante de votre foi."

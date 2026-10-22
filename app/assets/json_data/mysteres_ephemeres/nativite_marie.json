@@ -1,0 +1,163 @@
+[
+  {
+    "id": "nat_marie_1",
+    "periode": {
+      "debut": "09-04",
+      "fin": "09-10"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.15,
+        "y": 0.78
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.35,
+        "y1": 0.65,
+        "x": 0.55,
+        "y": 0.75
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.75,
+        "y1": 0.85,
+        "x": 0.85,
+        "y": 0.72
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.38,
+        "y": 0.68
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.46,
+        "x": 0.62,
+        "y": 0.68
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.18
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.38
+      },
+      {
+        "op": "moveTo",
+        "x": 0.4,
+        "y": 0.28
+      },
+      {
+        "op": "lineTo",
+        "x": 0.6,
+        "y": 0.28
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.43,
+        "y": 0.21
+      },
+      {
+        "op": "lineTo",
+        "x": 0.57,
+        "y": 0.35
+      },
+      {
+        "op": "moveTo",
+        "x": 0.43,
+        "y": 0.35
+      },
+      {
+        "op": "lineTo",
+        "x": 0.57,
+        "y": 0.21
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "L'Aurore du Salut",
+    "type": "Nativité de la Vierge Marie",
+    "numero": 1,
+    "fruit": "La joie spirituelle et la pureté",
+    "clausule_et_jesus": "précédé par l'aurore bénie",
+    "auteur": "Cantique des Cantiques",
+    "chapitre": 6,
+    "premier_verset": 10,
+    "verset_fin": 10,
+    "traduction": "Crampon 1923",
+    "texte": "Qui est celle-ci qui apparaît comme l'aurore, belle comme la lune, pure comme le soleil, terrible comme des bataillons sous leurs bannières ?",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "nat_marie_2",
+    "nom": "La Fille de Sion Bénie",
+    "type": "Nativité de la Vierge Marie",
+    "numero": 2,
+    "fruit": "La confiance en la bénédiction divine",
+    "clausule_et_jesus": "joie de la fille de Sion",
+    "auteur": "Sophonie",
+    "chapitre": 3,
+    "premier_verset": 14,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "Pousse des cris de joie, fille de Sion ! Pousse des cris d'allégresse, Israël ! Réjouis-toi et triomphe de tout ton cœur, fille de Jérusalem !"
+  },
+  {
+    "id": "nat_marie_3",
+    "nom": "L'Enfant de la Promesse",
+    "type": "Nativité de la Vierge Marie",
+    "numero": 3,
+    "fruit": "L'espérance dans l'accomplissement des desseins de Dieu",
+    "clausule_et_jesus": "fruit de la promesse",
+    "auteur": "Psaumes",
+    "chapitre": 132,
+    "premier_verset": 11,
+    "verset_fin": 11,
+    "traduction": "Crampon 1923",
+    "texte": "Yahweh a juré à David la vérité, il ne s'en détournera point : « Je mettrai sur ton trône le fruit de tes entrailles. »"
+  },
+  {
+    "id": "nat_marie_4",
+    "nom": "Le Nom Sacré de Marie",
+    "type": "Nativité de la Vierge Marie",
+    "numero": 4,
+    "fruit": "La dévotion au saint nom de Marie",
+    "clausule_et_jesus": "fils de Marie bien-aimée",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 27,
+    "verset_fin": 27,
+    "traduction": "Crampon 1923",
+    "texte": "À une vierge fiancée à un homme de la maison de David, nommé Joseph ; et le nom de la vierge était Marie."
+  },
+  {
+    "id": "nat_marie_5",
+    "nom": "Le Sanctuaire de la Grâce",
+    "type": "Nativité de la Vierge Marie",
+    "numero": 5,
+    "fruit": "La sainteté du corps et de l'âme",
+    "clausule_et_jesus": "sanctuaire de la grâce",
+    "auteur": "Proverbes",
+    "chapitre": 8,
+    "premier_verset": 22,
+    "verset_fin": 23,
+    "traduction": "Crampon 1923",
+    "texte": "Yahweh m'a possédée au commencement de ses voies, avant ses œuvres les plus anciennes. Dès l'éternité j'ai été établie, dès le commencement, avant l'origine de la terre."
+  }
+]

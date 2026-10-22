@@ -86,7 +86,7 @@
         "trait": "fin"
       }
     ],
-    "nom": "La Présentation au Temple",
+    "nom": "L'Entrée au Sanctuaire",
     "type": "Mystères de la Chandeleur",
     "numero": 1,
     "fruit": "L'offrande de soi à Dieu",
@@ -96,7 +96,8 @@
     "premier_verset": 22,
     "verset_fin": 24,
     "traduction": "Crampon 1923",
-    "texte": "Puis, lorsque les jours de leur purification furent accomplis, selon la loi de Moïse, Marie et Joseph portèrent l'Enfant à Jérusalem pour le présenter au Seigneur, suivant ce qui est écrit dans la loi du Seigneur."
+    "texte": "Puis, lorsque les jours de leur purification furent accomplis, selon la loi de Moïse, Marie et Joseph portèrent l'Enfant à Jérusalem pour le présenter au Seigneur, suivant ce qui est écrit dans la loi du Seigneur.",
+    "categorie": "liturgique"
   },
   {
     "id": "chandeleur_2",

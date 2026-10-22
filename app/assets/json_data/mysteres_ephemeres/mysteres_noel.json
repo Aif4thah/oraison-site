@@ -2,7 +2,7 @@
   {
     "id": "noel_1",
     "periode": {
-      "debut": "12-01",
+      "debut": "12-15",
       "fin": "12-31"
     },
     "commands": [
@@ -75,7 +75,8 @@
     "premier_verset": 30,
     "verset_fin": 31,
     "traduction": "Crampon 1923",
-    "texte": "L'ange lui dit : « Ne crains point, Marie ; car tu as trouvé grâce devant Dieu. Et voici que tu concevras dans ton sein, et tu enfanteras un fils, et tu lui donneras le nom de Jésus. »"
+    "texte": "L'ange lui dit : « Ne crains point, Marie ; car tu as trouvé grâce devant Dieu. Et voici que tu concevras dans ton sein, et tu enfanteras un fils, et tu lui donneras le nom de Jésus. »",
+    "categorie": "liturgique"
   },
   {
     "id": "noel_2",
@@ -121,16 +122,16 @@
   },
   {
     "id": "noel_5",
-    "nom": "L'Adoration des Mages",
+    "nom": "Le Gloria des Anges",
     "type": "Mystères de Noël",
     "numero": 5,
-    "fruit": "L'adoration et le don de soi",
-    "clausule_et_jesus": "adoré par les mages",
-    "auteur": "Matthieu",
+    "fruit": "La paix et la louange du ciel",
+    "clausule_et_jesus": "chanté par les anges",
+    "auteur": "Luc",
     "chapitre": 2,
-    "premier_verset": 11,
-    "verset_fin": 11,
+    "premier_verset": 13,
+    "verset_fin": 14,
     "traduction": "Crampon 1923",
-    "texte": "Ils entrèrent dans la maison, virent le petit enfant avec Marie, sa mère, et, se prosternant, ils l'adorèrent ; puis, ouvrant leurs trésors, ils lui offrirent en présent de l'or, de l'encens et de la myrrhe."
+    "texte": "Et soudain il se joignit à l'ange une troupe de l'armée céleste, louant Dieu et disant : « Gloire à Dieu au plus haut des cieux, et sur la terre paix aux hommes de bonne volonté ! »"
   }
 ]

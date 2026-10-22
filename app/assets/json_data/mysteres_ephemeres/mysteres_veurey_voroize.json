@@ -1,34 +1,135 @@
 [
   {
     "id": "veurey_1",
-    "periode": { "debut": "01-01", "fin": "12-31" },
+    "periode": {
+      "debut": "05-01",
+      "fin": "05-31"
+    },
     "commands": [
-      { "op": "moveTo", "x": 0.20, "y": 0.80 },
-      { "op": "lineTo", "x": 0.20, "y": 0.52 },
-      { "op": "lineTo", "x": 0.50, "y": 0.36 },
-      { "op": "lineTo", "x": 0.80, "y": 0.52 },
-      { "op": "lineTo", "x": 0.80, "y": 0.80 },
-      { "op": "lineTo", "x": 0.20, "y": 0.80 },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.43, "y": 0.40 },
-      { "op": "lineTo", "x": 0.43, "y": 0.26 },
-      { "op": "lineTo", "x": 0.50, "y": 0.16 },
-      { "op": "lineTo", "x": 0.57, "y": 0.26 },
-      { "op": "lineTo", "x": 0.57, "y": 0.40 },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.50, "y": 0.16 },
-      { "op": "lineTo", "x": 0.50, "y": 0.06 },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.46, "y": 0.10 },
-      { "op": "lineTo", "x": 0.54, "y": 0.10 },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.43, "y": 0.80 },
-      { "op": "lineTo", "x": 0.43, "y": 0.64 },
-      { "op": "quadraticBezierTo", "x1": 0.50, "y1": 0.54, "x": 0.57, "y": 0.64 },
-      { "op": "lineTo", "x": 0.57, "y": 0.80 },
-      { "op": "stroke" },
-      { "op": "circle", "cx": 0.31, "cy": 0.64, "r": 0.03 },
-      { "op": "circle", "cx": 0.69, "cy": 0.64, "r": 0.03 }
+      {
+        "op": "moveTo",
+        "x": 0.2,
+        "y": 0.8
+      },
+      {
+        "op": "lineTo",
+        "x": 0.2,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.36
+      },
+      {
+        "op": "lineTo",
+        "x": 0.8,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.8,
+        "y": 0.8
+      },
+      {
+        "op": "lineTo",
+        "x": 0.2,
+        "y": 0.8
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.43,
+        "y": 0.4
+      },
+      {
+        "op": "lineTo",
+        "x": 0.43,
+        "y": 0.26
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.16
+      },
+      {
+        "op": "lineTo",
+        "x": 0.57,
+        "y": 0.26
+      },
+      {
+        "op": "lineTo",
+        "x": 0.57,
+        "y": 0.4
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.16
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.06
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.46,
+        "y": 0.1
+      },
+      {
+        "op": "lineTo",
+        "x": 0.54,
+        "y": 0.1
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.43,
+        "y": 0.8
+      },
+      {
+        "op": "lineTo",
+        "x": 0.43,
+        "y": 0.64
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.54,
+        "x": 0.57,
+        "y": 0.64
+      },
+      {
+        "op": "lineTo",
+        "x": 0.57,
+        "y": 0.8
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "circle",
+        "cx": 0.31,
+        "cy": 0.64,
+        "r": 0.03
+      },
+      {
+        "op": "circle",
+        "cx": 0.69,
+        "cy": 0.64,
+        "r": 0.03
+      }
     ],
     "nom": "Une lampe pour mes pas",
     "type": "Église de Veurey-Voroize",
@@ -40,7 +141,8 @@
     "premier_verset": 105,
     "verset_fin": 105,
     "traduction": "Crampon 1923",
-    "texte": "Ta parole est une lampe à mes pieds, et une lumière sur mon sentier."
+    "texte": "Ta parole est une lampe à mes pieds, et une lumière sur mon sentier.",
+    "categorie": "decouverte"
   },
   {
     "id": "veurey_2",
@@ -86,7 +188,7 @@
   },
   {
     "id": "veurey_5",
-    "nom": "Le parfum de Béthanie",
+    "nom": "L'Onction d'amour à Béthanie",
     "type": "Église de Veurey-Voroize",
     "numero": 5,
     "fruit": "La générosité",
@@ -128,7 +230,7 @@
   },
   {
     "id": "veurey_8",
-    "nom": "La Transfiguration",
+    "nom": "La Vision du Thabor",
     "type": "Église de Veurey-Voroize",
     "numero": 8,
     "fruit": "L'écoute du Fils bien-aimé",

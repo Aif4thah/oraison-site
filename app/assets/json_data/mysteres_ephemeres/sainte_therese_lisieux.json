@@ -1,0 +1,207 @@
+[
+  {
+    "id": "therese_1",
+    "periode": {
+      "debut": "10-01",
+      "fin": "10-31"
+    },
+    "commands": [
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.36,
+        "r": 0.08
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.28
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.36,
+        "y1": 0.16,
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.64,
+        "y1": 0.16,
+        "x": 0.5,
+        "y": 0.28
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.42,
+        "y": 0.36
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.22,
+        "y1": 0.26,
+        "x": 0.24,
+        "y": 0.44
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.34,
+        "y1": 0.48,
+        "x": 0.42,
+        "y": 0.36
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.58,
+        "y": 0.36
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.78,
+        "y1": 0.26,
+        "x": 0.76,
+        "y": 0.44
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.66,
+        "y1": 0.48,
+        "x": 0.58,
+        "y": 0.36
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.32,
+        "y": 0.46
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.62,
+        "x": 0.68,
+        "y": 0.46
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.58
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.48,
+        "y1": 0.74,
+        "x": 0.5,
+        "y": 0.88
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.49,
+        "y": 0.7
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.34,
+        "y1": 0.64,
+        "x": 0.32,
+        "y": 0.73
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.42,
+        "y1": 0.78,
+        "x": 0.49,
+        "y": 0.74
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "L'Enfance Spirituelle",
+    "type": "La Petite Voie de Sainte Thérèse",
+    "numero": 1,
+    "fruit": "La simplicité et l'humilité",
+    "clausule_et_jesus": "modèle des petits",
+    "auteur": "Matthieu",
+    "chapitre": 18,
+    "premier_verset": 3,
+    "verset_fin": 3,
+    "traduction": "Crampon 1923",
+    "texte": "En vérité je vous le dis, si vous ne changez et ne devenez comme les petits enfants, vous n'entrerez point dans le royaume des cieux.",
+    "categorie": "decouverte"
+  },
+  {
+    "id": "therese_2",
+    "nom": "L'Abandon et la Confiance Totale",
+    "type": "La Petite Voie de Sainte Thérèse",
+    "numero": 2,
+    "fruit": "L'abandon filial entre les bras du Père",
+    "clausule_et_jesus": "repos de nos âmes",
+    "auteur": "Psaumes",
+    "chapitre": 131,
+    "premier_verset": 2,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Loin de là, j'ai tenu mon âme calme et tranquille ; comme un enfant sevré sur le sein de sa mère, comme un enfant sevré, mon âme est en moi."
+  },
+  {
+    "id": "therese_3",
+    "nom": "Ma Vocation, c'est l'Amour",
+    "type": "La Petite Voie de Sainte Thérèse",
+    "numero": 3,
+    "fruit": "Le don absolu de soi par amour",
+    "clausule_et_jesus": "Amour infini",
+    "auteur": "1 Corinthiens",
+    "chapitre": 13,
+    "premier_verset": 13,
+    "verset_fin": 13,
+    "traduction": "Crampon 1923",
+    "texte": "Maintenant donc ces trois choses demeurent : la foi, l'espérance, la charité ; mais la plus grande de ces trois, c'est la charité."
+  },
+  {
+    "id": "therese_4",
+    "nom": "L'Ascenseur de la Miséricorde Divine",
+    "type": "La Petite Voie de Sainte Thérèse",
+    "numero": 4,
+    "fruit": "L'abandon d'un petit enfant dans les bras de Dieu",
+    "clausule_et_jesus": "ascenseur divin élevant les petits",
+    "auteur": "Isaïe",
+    "chapitre": 66,
+    "premier_verset": 12,
+    "verset_fin": 13,
+    "traduction": "Crampon 1923",
+    "texte": "Car ainsi parle Yahweh : Voici que je vais diriger vers elle la paix comme un fleuve... vous serez allaités, vous serez portés sur les bras et caressés sur les genoux. Comme un homme que sa mère console, ainsi je vous consolerai."
+  },
+  {
+    "id": "therese_5",
+    "nom": "La Pluie de Grâces Célestes",
+    "type": "La Petite Voie de Sainte Thérèse",
+    "numero": 5,
+    "fruit": "L'espérance de la gloire et la fécondité apostolique",
+    "clausule_et_jesus": "parfum de nos vies",
+    "auteur": "Cantique des Cantiques",
+    "chapitre": 2,
+    "premier_verset": 11,
+    "verset_fin": 12,
+    "traduction": "Crampon 1923",
+    "texte": "Car voilà que l'hiver est passé, la pluie a cessé, elle s'en est allée. Les fleurs paraissent sur la terre, le temps des chants est arrivé."
+  }
+]

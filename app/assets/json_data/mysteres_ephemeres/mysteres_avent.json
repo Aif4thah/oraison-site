@@ -1,0 +1,155 @@
+[
+  {
+    "id": "avent_1",
+    "periode": {
+      "debut": "11-25",
+      "fin": "12-24"
+    },
+    "commands": [
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.58,
+        "r": 0.28
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.35,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.35,
+        "y": 0.3
+      },
+      {
+        "op": "moveTo",
+        "x": 0.65,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.65,
+        "y": 0.3
+      },
+      {
+        "op": "moveTo",
+        "x": 0.28,
+        "y": 0.64
+      },
+      {
+        "op": "lineTo",
+        "x": 0.28,
+        "y": 0.5
+      },
+      {
+        "op": "moveTo",
+        "x": 0.72,
+        "y": 0.64
+      },
+      {
+        "op": "lineTo",
+        "x": 0.72,
+        "y": 0.5
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "circle",
+        "cx": 0.35,
+        "cy": 0.25,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.65,
+        "cy": 0.25,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.28,
+        "cy": 0.45,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.72,
+        "cy": 0.45,
+        "r": 0.025
+      }
+    ],
+    "nom": "La Vigilance et la Veille dans la Nuit",
+    "type": "Mystères de l'Avent",
+    "numero": 1,
+    "fruit": "La vigilance du cœur et le désir du Sauveur",
+    "clausule_et_jesus": "attendu dans la vigilance",
+    "auteur": "Marc",
+    "chapitre": 13,
+    "premier_verset": 33,
+    "verset_fin": 33,
+    "traduction": "Crampon 1923",
+    "texte": "Prenez garde, veillez et priez ; car vous ne savez quand ce temps viendra.",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "avent_2",
+    "nom": "La Voix de Jean dans le Désert",
+    "type": "Mystères de l'Avent",
+    "numero": 2,
+    "fruit": "La conversion et la droiture des chemins",
+    "clausule_et_jesus": "annoncé par le Précurseur",
+    "auteur": "Luc",
+    "chapitre": 3,
+    "premier_verset": 4,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Voix de celui qui crie dans le désert : « Préparez le chemin du Seigneur, aplanissez ses sentiers. »"
+  },
+  {
+    "id": "avent_3",
+    "nom": "Le Seigneur est Proche",
+    "type": "Mystères de l'Avent",
+    "numero": 3,
+    "fruit": "La sainte joie de l'espérance",
+    "clausule_et_jesus": "source de notre joie",
+    "auteur": "Philippiens",
+    "chapitre": 4,
+    "premier_verset": 4,
+    "verset_fin": 5,
+    "traduction": "Crampon 1923",
+    "texte": "Réjouissez-vous toujours dans le Seigneur ; je le répète, réjouissez-vous ! Que votre modération soit connue de tous les hommes. Le Seigneur est proche."
+  },
+  {
+    "id": "avent_4",
+    "nom": "La Rosée des Cieux",
+    "type": "Mystères de l'Avent",
+    "numero": 4,
+    "fruit": "La soif de la venue du Juste",
+    "clausule_et_jesus": "rosée céleste féconde",
+    "auteur": "Isaïe",
+    "chapitre": 45,
+    "premier_verset": 8,
+    "verset_fin": 8,
+    "traduction": "Crampon 1923",
+    "texte": "Cieux, répandez d'en haut votre rosée, et que les nuées fassent pleuvoir la justice ! Que la terre s'ouvre, et que le salut germe !"
+  },
+  {
+    "id": "avent_5",
+    "nom": "Le Cantique d'Action de Grâces",
+    "type": "Mystères de l'Avent",
+    "numero": 5,
+    "fruit": "La louange et la confiance humble",
+    "clausule_et_jesus": "Sauveur glorifié par Marie",
+    "auteur": "Luc",
+    "chapitre": 1,
+    "premier_verset": 46,
+    "verset_fin": 48,
+    "traduction": "Crampon 1923",
+    "texte": "Et Marie dit : « Mon âme glorifie le Seigneur, et mon esprit tressaille de joie en Dieu mon Sauveur, parce qu'il a jeté les yeux sur la bassesse de sa servante ; car voici que désormais toutes les générations me diront bienheureuse. »"
+  }
+]

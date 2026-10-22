@@ -1,0 +1,182 @@
+[
+  {
+    "id": "prophetes_1",
+    "periode": {
+      "debut": "12-01",
+      "fin": "12-31"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.88
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.65,
+        "x": 0.5,
+        "y": 0.42
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.7
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.35,
+        "y1": 0.65,
+        "x": 0.32,
+        "y": 0.58
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.42,
+        "y1": 0.58,
+        "x": 0.5,
+        "y": 0.64
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.56
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.65,
+        "y1": 0.51,
+        "x": 0.68,
+        "y": 0.44
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.58,
+        "y1": 0.44,
+        "x": 0.5,
+        "y": 0.5
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.14
+      },
+      {
+        "op": "lineTo",
+        "x": 0.62,
+        "y": 0.35
+      },
+      {
+        "op": "lineTo",
+        "x": 0.38,
+        "y": 0.35
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.62,
+        "y": 0.21
+      },
+      {
+        "op": "lineTo",
+        "x": 0.38,
+        "y": 0.21
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      }
+    ],
+    "nom": "Le Rameau de Jessé",
+    "type": "L'Attente des Prophètes",
+    "numero": 1,
+    "fruit": "L'espérance messianique",
+    "clausule_et_jesus": "fleur de la racine de Jessé",
+    "auteur": "Isaïe",
+    "chapitre": 11,
+    "premier_verset": 1,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Puis un rameau sortira de la souche de Jessé, et un rejeton de ses racines sera fécond. Sur lui reposera l'Esprit de Yahweh, esprit de sagesse et d'intelligence, esprit de conseil et de force.",
+    "categorie": "decouverte"
+  },
+  {
+    "id": "prophetes_2",
+    "nom": "L'Emmanuel, Dieu avec nous",
+    "type": "L'Attente des Prophètes",
+    "numero": 2,
+    "fruit": "La foi dans l'Incarnation",
+    "clausule_et_jesus": "Emmanuel, Dieu avec nous",
+    "auteur": "Isaïe",
+    "chapitre": 7,
+    "premier_verset": 14,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "C'est pourquoi le Seigneur lui-même vous donnera un signe : Voici que la jeune femme concevra et enfantera un fils, et elle lui donnera le nom d'Emmanuel."
+  },
+  {
+    "id": "prophetes_3",
+    "nom": "Le Berger né à Bethléem",
+    "type": "L'Attente des Prophètes",
+    "numero": 3,
+    "fruit": "L'humilité des commencements",
+    "clausule_et_jesus": "pasteur né à Bethléem",
+    "auteur": "Michée",
+    "chapitre": 5,
+    "premier_verset": 2,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Et toi, Bethléem Éphrata, petite entre les milliers de Juda, de toi sortira pour moi celui qui doit dominer en Israël, et dont l'origine remonte aux temps anciens, aux jours de l'éternité."
+  },
+  {
+    "id": "prophetes_4",
+    "nom": "Le Peuple dans les Ténèbres",
+    "type": "L'Attente des Prophètes",
+    "numero": 4,
+    "fruit": "La lumière spirituelle",
+    "clausule_et_jesus": "grande lumière des nations",
+    "auteur": "Isaïe",
+    "chapitre": 9,
+    "premier_verset": 2,
+    "verset_fin": 2,
+    "traduction": "Crampon 1923",
+    "texte": "Le peuple qui marchait dans les ténèbres a vu une grande lumière ; sur ceux qui habitaient le pays de l'ombre de la mort, une lumière a brillé."
+  },
+  {
+    "id": "prophetes_5",
+    "nom": "La Voix qui Crie dans le Désert",
+    "type": "L'Attente des Prophètes",
+    "numero": 5,
+    "fruit": "La préparation des cœurs",
+    "clausule_et_jesus": "dont la voie est préparée",
+    "auteur": "Isaïe",
+    "chapitre": 40,
+    "premier_verset": 3,
+    "verset_fin": 3,
+    "traduction": "Crampon 1923",
+    "texte": "Une voix crie : « Préparez dans le désert le chemin de Yahweh ; aplanissez dans la solitude une route pour notre Dieu. »"
+  }
+]

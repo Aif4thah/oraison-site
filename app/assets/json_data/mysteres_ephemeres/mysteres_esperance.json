@@ -1,18 +1,58 @@
 [
   {
     "id": "esperance_1",
-    "periode": { "debut": "01-01", "fin": "05-31" },
+    "periode": {
+      "debut": "04-01",
+      "fin": "04-30"
+    },
     "commands": [
-      { "op": "circle", "cx": 0.50, "cy": 0.17, "r": 0.07 },
-      { "op": "moveTo", "x": 0.50, "y": 0.24 },
-      { "op": "lineTo", "x": 0.50, "y": 0.80 },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.37, "y": 0.36 },
-      { "op": "lineTo", "x": 0.63, "y": 0.36 },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.20, "y": 0.60 },
-      { "op": "quadraticBezierTo", "x1": 0.50, "y1": 1.00, "x": 0.80, "y": 0.60 },
-      { "op": "stroke" }
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.17,
+        "r": 0.07
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.24
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.8
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.37,
+        "y": 0.36
+      },
+      {
+        "op": "lineTo",
+        "x": 0.63,
+        "y": 0.36
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.2,
+        "y": 0.6
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 1.0,
+        "x": 0.8,
+        "y": 0.6
+      },
+      {
+        "op": "stroke"
+      }
     ],
     "nom": "L'Attente de la Promesse",
     "type": "Mystères de l'Espérance",
@@ -24,7 +64,8 @@
     "premier_verset": 24,
     "verset_fin": 25,
     "traduction": "Crampon 1923",
-    "texte": "Car c'est en espérance que nous sommes sauvés. Or, voir ce qu'on espère, ce n'est plus espérer : ce qu'on voit, comment l'espérer encore ? Mais si nous espérons ce que nous ne voyons pas, nous l'attendons avec patience."
+    "texte": "Car c'est en espérance que nous sommes sauvés. Or, voir ce qu'on espère, ce n'est plus espérer : ce qu'on voit, comment l'espérer encore ? Mais si nous espérons ce que nous ne voyons pas, nous l'attendons avec patience.",
+    "categorie": "decouverte"
   },
   {
     "id": "esperance_2",
@@ -70,16 +111,16 @@
   },
   {
     "id": "esperance_5",
-    "nom": "La Nouvelle Création",
+    "nom": "La Victoire de l'Amour du Christ",
     "type": "Mystères de l'Espérance",
     "numero": 5,
-    "fruit": "L'attente du Royaume de Dieu",
-    "clausule_et_jesus": "qui essuie toute larme",
-    "auteur": "Apocalypse",
-    "chapitre": 21,
-    "premier_verset": 3,
-    "verset_fin": 4,
+    "fruit": "La certitude inébranlable du salut",
+    "clausule_et_jesus": "victoire sur la mort",
+    "auteur": "Romains",
+    "chapitre": 8,
+    "premier_verset": 38,
+    "verset_fin": 39,
     "traduction": "Crampon 1923",
-    "texte": "Et j'entendis du trône une forte voix qui disait : « Voici le tabernacle de Dieu avec les hommes ! Il habitera avec eux, et ils seront son peuple ; et Dieu lui-même sera avec eux, il sera leur Dieu. Il essuiera toute larme de leurs yeux, et la mort ne sera plus ; il n'y aura plus ni deuil, ni cri, ni souffrance, car les premières choses ont disparu. »"
+    "texte": "Car j'ai l'assurance que ni la mort ni la vie, ni les anges ni les dominations, ni le présent ni l'avenir, ni les puissances, ni la hauteur ni la profondeur, ni aucune autre créature ne pourra nous séparer de l'amour de Dieu manifesté en Jésus-Christ notre Seigneur."
   }
 ]

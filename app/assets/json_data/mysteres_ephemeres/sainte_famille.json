@@ -1,0 +1,181 @@
+[
+  {
+    "id": "famille_1",
+    "periode": {
+      "debut": "12-26",
+      "fin": "12-31"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.18,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.22
+      },
+      {
+        "op": "lineTo",
+        "x": 0.82,
+        "y": 0.52
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.35,
+        "y": 0.65
+      },
+      {
+        "op": "lineTo",
+        "x": 0.65,
+        "y": 0.65
+      },
+      {
+        "op": "lineTo",
+        "x": 0.58,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.42,
+        "y": 0.82
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.36,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.42,
+        "y": 0.94
+      },
+      {
+        "op": "moveTo",
+        "x": 0.64,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.58,
+        "y": 0.94
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.54,
+        "r": 0.05
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.08
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.14
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.14
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "Le Foyer Saint de Nazareth",
+    "type": "La Sainte Famille",
+    "numero": 1,
+    "fruit": "La sainteté et la paix dans les familles",
+    "clausule_et_jesus": "grandissant dans la grâce",
+    "auteur": "Luc",
+    "chapitre": 2,
+    "premier_verset": 39,
+    "verset_fin": 40,
+    "traduction": "Crampon 1923",
+    "texte": "Et l'enfant grandissait et se fortifiait, étant rempli de sagesse ; et la grâce de Dieu était sur lui.",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "famille_2",
+    "nom": "L'Obéissance Filiale",
+    "type": "La Sainte Famille",
+    "numero": 2,
+    "fruit": "L'obéissance, le respect et la piété filiale",
+    "clausule_et_jesus": "soumis avec amour à ses parents",
+    "auteur": "Luc",
+    "chapitre": 2,
+    "premier_verset": 51,
+    "verset_fin": 51,
+    "traduction": "Crampon 1923",
+    "texte": "Puis il descendit avec eux pour aller à Nazareth, et il leur était soumis. Et sa mère conservait toutes ces choses dans son cœur."
+  },
+  {
+    "id": "famille_3",
+    "nom": "L'Exil et l'Union dans l'Épreuve",
+    "type": "La Sainte Famille",
+    "numero": 3,
+    "fruit": "La solidarité familiale et la confiance dans les difficultés",
+    "clausule_et_jesus": "refuge des familles éprouvées",
+    "auteur": "Matthieu",
+    "chapitre": 2,
+    "premier_verset": 14,
+    "verset_fin": 15,
+    "traduction": "Crampon 1923",
+    "texte": "Joseph s'étant levé, prit de nuit le petit enfant et sa mère, et se retira en Égypte. Il y resta jusqu'à la mort d'Hérode."
+  },
+  {
+    "id": "famille_4",
+    "nom": "La Prière en Famille à Jérusalem",
+    "type": "La Sainte Famille",
+    "numero": 4,
+    "fruit": "La fidélité à la prière commune et aux sacrements",
+    "clausule_et_jesus": "fidèle à la loi du Père",
+    "auteur": "Luc",
+    "chapitre": 2,
+    "premier_verset": 41,
+    "verset_fin": 42,
+    "traduction": "Crampon 1923",
+    "texte": "Ses parents allaient chaque année à Jérusalem, à la fête de Pâque. Et lorsqu'il eut douze ans, ils y montèrent selon la coutume de la fête."
+  },
+  {
+    "id": "famille_5",
+    "nom": "La Sanctification des Foyers",
+    "type": "La Sainte Famille",
+    "numero": 5,
+    "fruit": "L'amour mutuel, le pardon et la charité",
+    "clausule_et_jesus": "paix et sanctification des familles",
+    "auteur": "Colossiens",
+    "chapitre": 3,
+    "premier_verset": 12,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "Revêtez-vous donc, comme des élus de Dieu, saints et bien-aimés, d'entrailles de miséricorde, de bonté, d'humilité, de douceur, de patience... Mais par-dessus toutes ces choses, revêtez-vous de la charité, qui est le lien de la perfection."
+  }
+]

@@ -6,20 +6,79 @@
       "fin": "08-15"
     },
     "commands": [
-      { "op": "moveTo", "x": 0.64, "y": 0.16 },
-      { "op": "cubicTo", "x1": 0.2, "y1": 0.22, "x2": 0.2, "y2": 0.78, "x": 0.64, "y": 0.84 },
-      { "op": "cubicTo", "x1": 0.4, "y1": 0.7, "x2": 0.4, "y2": 0.3, "x": 0.64, "y": 0.16 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.76, "y": 0.16 },
-      { "op": "lineTo", "x": 0.76, "y": 0.4 },
-      { "op": "moveTo", "x": 0.64, "y": 0.28 },
-      { "op": "lineTo", "x": 0.88, "y": 0.28 },
-      { "op": "moveTo", "x": 0.68, "y": 0.2 },
-      { "op": "lineTo", "x": 0.84, "y": 0.36 },
-      { "op": "moveTo", "x": 0.84, "y": 0.2 },
-      { "op": "lineTo", "x": 0.68, "y": 0.36 },
-      { "op": "stroke", "trait": "fin" }
+      {
+        "op": "moveTo",
+        "x": 0.64,
+        "y": 0.16
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.2,
+        "y1": 0.22,
+        "x2": 0.2,
+        "y2": 0.78,
+        "x": 0.64,
+        "y": 0.84
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.4,
+        "y1": 0.7,
+        "x2": 0.4,
+        "y2": 0.3,
+        "x": 0.64,
+        "y": 0.16
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.76,
+        "y": 0.16
+      },
+      {
+        "op": "lineTo",
+        "x": 0.76,
+        "y": 0.4
+      },
+      {
+        "op": "moveTo",
+        "x": 0.64,
+        "y": 0.28
+      },
+      {
+        "op": "lineTo",
+        "x": 0.88,
+        "y": 0.28
+      },
+      {
+        "op": "moveTo",
+        "x": 0.68,
+        "y": 0.2
+      },
+      {
+        "op": "lineTo",
+        "x": 0.84,
+        "y": 0.36
+      },
+      {
+        "op": "moveTo",
+        "x": 0.84,
+        "y": 0.2
+      },
+      {
+        "op": "lineTo",
+        "x": 0.68,
+        "y": 0.36
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
     ],
     "nom": "La Femme revêtue du soleil",
     "type": "Mystères de l'Assomption",
@@ -31,11 +90,12 @@
     "premier_verset": 1,
     "verset_fin": 1,
     "traduction": "Crampon 1923",
-    "texte": "Puis il parut dans le ciel un grand signe : une femme revêtue du soleil, la lune sous ses pieds, et une couronne de douze étoiles sur sa tête."
+    "texte": "Puis il parut dans le ciel un grand signe : une femme revêtue du soleil, la lune sous ses pieds, et une couronne de douze étoiles sur sa tête.",
+    "categorie": "liturgique"
   },
   {
     "id": "assomption_2",
-    "nom": "La Visitation",
+    "nom": "La Rencontre d'Élisabeth",
     "type": "Mystères de l'Assomption",
     "numero": 2,
     "fruit": "Le zèle du service",

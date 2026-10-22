@@ -6,18 +6,61 @@
       "fin": "11-01"
     },
     "commands": [
-      { "op": "moveTo", "x": 0.18, "y": 0.72 },
-      { "op": "lineTo", "x": 0.12, "y": 0.32 },
-      { "op": "lineTo", "x": 0.34, "y": 0.52 },
-      { "op": "lineTo", "x": 0.5, "y": 0.22 },
-      { "op": "lineTo", "x": 0.66, "y": 0.52 },
-      { "op": "lineTo", "x": 0.88, "y": 0.32 },
-      { "op": "lineTo", "x": 0.82, "y": 0.72 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.18, "y": 0.82 },
-      { "op": "lineTo", "x": 0.82, "y": 0.82 },
-      { "op": "stroke", "trait": "fin" }
+      {
+        "op": "moveTo",
+        "x": 0.18,
+        "y": 0.72
+      },
+      {
+        "op": "lineTo",
+        "x": 0.12,
+        "y": 0.32
+      },
+      {
+        "op": "lineTo",
+        "x": 0.34,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.22
+      },
+      {
+        "op": "lineTo",
+        "x": 0.66,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.88,
+        "y": 0.32
+      },
+      {
+        "op": "lineTo",
+        "x": 0.82,
+        "y": 0.72
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.18,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.82,
+        "y": 0.82
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
     ],
     "nom": "Une foule immense",
     "type": "Mystères de la Toussaint",
@@ -29,7 +72,8 @@
     "premier_verset": 9,
     "verset_fin": 10,
     "traduction": "Crampon 1923",
-    "texte": "Je vis une foule immense que personne ne pouvait compter, de toute nation et de toute langue. Ils étaient debout devant le trône et devant l'Agneau, vêtus de robes blanches. Ils criaient : « Le salut vient de notre Dieu et de l'Agneau ! »"
+    "texte": "Je vis une foule immense que personne ne pouvait compter, de toute nation et de toute langue. Ils étaient debout devant le trône et devant l'Agneau, vêtus de robes blanches. Ils criaient : « Le salut vient de notre Dieu et de l'Agneau ! »",
+    "categorie": "liturgique"
   },
   {
     "id": "toussaint_2",

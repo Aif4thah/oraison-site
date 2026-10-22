@@ -1,0 +1,221 @@
+[
+  {
+    "id": "coeur_1",
+    "periode": {
+      "debut": "06-01",
+      "fin": "07-05"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.82
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.24,
+        "y1": 0.62,
+        "x2": 0.18,
+        "y2": 0.44,
+        "x": 0.24,
+        "y": 0.34
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.3,
+        "y1": 0.24,
+        "x2": 0.44,
+        "y2": 0.25,
+        "x": 0.5,
+        "y": 0.38
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.56,
+        "y1": 0.25,
+        "x2": 0.7,
+        "y2": 0.24,
+        "x": 0.76,
+        "y": 0.34
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.82,
+        "y1": 0.44,
+        "x2": 0.76,
+        "y2": 0.62,
+        "x": 0.5,
+        "y": 0.82
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.24
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.1
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.15
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.15
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.22
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.4,
+        "y1": 0.14,
+        "x": 0.45,
+        "y": 0.12
+      },
+      {
+        "op": "moveTo",
+        "x": 0.56,
+        "y": 0.22
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.6,
+        "y1": 0.14,
+        "x": 0.55,
+        "y": 0.12
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.25,
+        "y": 0.48
+      },
+      {
+        "op": "lineTo",
+        "x": 0.75,
+        "y": 0.48
+      },
+      {
+        "op": "moveTo",
+        "x": 0.35,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.37,
+        "y": 0.52
+      },
+      {
+        "op": "moveTo",
+        "x": 0.48,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.52
+      },
+      {
+        "op": "moveTo",
+        "x": 0.62,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.64,
+        "y": 0.52
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "Le Cœur Doux et Humble",
+    "type": "Mystères du Sacré-Cœur",
+    "numero": 1,
+    "fruit": "La douceur et la confiance filiale",
+    "clausule_et_jesus": "doux et humble de cœur",
+    "auteur": "Matthieu",
+    "chapitre": 11,
+    "premier_verset": 28,
+    "verset_fin": 29,
+    "traduction": "Crampon 1923",
+    "texte": "Venez à moi, vous tous qui êtes fatigués et ployez sous le fardeau, et je vous soulagerai. Prenez mon joug sur vous et recevez mes instructions, car je suis doux et humble de cœur, et vous trouverez le repos de vos âmes.",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "coeur_2",
+    "nom": "Le Transpercement au Calvaire",
+    "type": "Mystères du Sacré-Cœur",
+    "numero": 2,
+    "fruit": "La contrition et la réparation",
+    "clausule_et_jesus": "transpercé pour nos péchés",
+    "auteur": "Jean",
+    "chapitre": 19,
+    "premier_verset": 34,
+    "verset_fin": 34,
+    "traduction": "Crampon 1923",
+    "texte": "Mais un des soldats lui transperça le côté avec sa lance, et aussitôt il sortit du sang et de l'eau."
+  },
+  {
+    "id": "coeur_3",
+    "nom": "Les Flots d'Eau Vive",
+    "type": "Mystères du Sacré-Cœur",
+    "numero": 3,
+    "fruit": "La soif de la sainteté",
+    "clausule_et_jesus": "source d'eau vive",
+    "auteur": "Jean",
+    "chapitre": 7,
+    "premier_verset": 37,
+    "verset_fin": 38,
+    "traduction": "Crampon 1923",
+    "texte": "Jésus se tint debout et s'écria : « Si quelqu'un a soif, qu'il vienne à moi et qu'il boive ! Celui qui croit en moi, des fleuves d'eau vive couleront de son sein. »"
+  },
+  {
+    "id": "coeur_4",
+    "nom": "Le Bon Pasteur",
+    "type": "Mystères du Sacré-Cœur",
+    "numero": 4,
+    "fruit": "La compassion pour les pécheurs",
+    "clausule_et_jesus": "bon pasteur plein d'amour",
+    "auteur": "Luc",
+    "chapitre": 15,
+    "premier_verset": 4,
+    "verset_fin": 6,
+    "traduction": "Crampon 1923",
+    "texte": "Quel est l'homme d'entre vous qui, ayant cent brebis, s'il en perd une, ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue, jusqu'à ce qu'il la trouve ? Et quand il l'a trouvée, il la met avec joie sur ses épaules."
+  },
+  {
+    "id": "coeur_5",
+    "nom": "L'Amour qui Surpasse toute Connaissance",
+    "type": "Mystères du Sacré-Cœur",
+    "numero": 5,
+    "fruit": "L'enracinement dans l'Amour divin",
+    "clausule_et_jesus": "dont l'Amour surpasse tout",
+    "auteur": "Éphésiens",
+    "chapitre": 3,
+    "premier_verset": 17,
+    "verset_fin": 19,
+    "traduction": "Crampon 1923",
+    "texte": "Que le Christ habite dans vos cœurs par la foi ; en sorte que, enracinés et fondés dans la charité, vous puissiez... connaître l'amour du Christ, qui surpasse toute connaissance."
+  }
+]

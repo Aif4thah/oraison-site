@@ -1,0 +1,179 @@
+[
+  {
+    "id": "benoit_1",
+    "periode": {
+      "debut": "07-01",
+      "fin": "07-31"
+    },
+    "commands": [
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.38
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.8
+      },
+      {
+        "op": "moveTo",
+        "x": 0.2,
+        "y": 0.5
+      },
+      {
+        "op": "lineTo",
+        "x": 0.8,
+        "y": 0.5
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.2
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.2
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.8
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.8
+      },
+      {
+        "op": "moveTo",
+        "x": 0.2,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.2,
+        "y": 0.56
+      },
+      {
+        "op": "moveTo",
+        "x": 0.8,
+        "y": 0.44
+      },
+      {
+        "op": "lineTo",
+        "x": 0.8,
+        "y": 0.56
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "circle",
+        "cx": 0.35,
+        "cy": 0.35,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.65,
+        "cy": 0.35,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.35,
+        "cy": 0.65,
+        "r": 0.025
+      },
+      {
+        "op": "circle",
+        "cx": 0.65,
+        "cy": 0.65,
+        "r": 0.025
+      }
+    ],
+    "nom": "Le Joug doux du Seigneur",
+    "type": "Sur les pas de Saint Benoît",
+    "numero": 1,
+    "fruit": "L'obéissance du cœur et la paix intérieure",
+    "clausule_et_jesus": "maître doux et humble de cœur",
+    "auteur": "Matthieu",
+    "chapitre": 11,
+    "premier_verset": 28,
+    "verset_fin": 30,
+    "traduction": "Crampon 1923",
+    "texte": "« Venez à moi, vous tous qui êtes fatigués et ployez sous le fardeau, et je vous soulagerai. Prenez mon joug sur vous et recevez mes leçons, car je suis doux et humble de cœur, et vous trouverez le repos pour vos âmes. Car mon joug est doux et mon fardeau léger. »",
+    "categorie": "decouverte"
+  },
+  {
+    "id": "benoit_2",
+    "nom": "La Croix comme Armure et Lumière",
+    "type": "Sur les pas de Saint Benoît",
+    "numero": 2,
+    "fruit": "La force dans le combat spirituel",
+    "clausule_et_jesus": "notre unique gloire",
+    "auteur": "Galates",
+    "chapitre": 6,
+    "premier_verset": 14,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "Pour moi, à Dieu ne plaise que je me glorifie en autre chose qu'en la croix de notre Seigneur Jésus-Christ, par qui le monde est crucifié pour moi, et moi pour le monde !"
+  },
+  {
+    "id": "benoit_3",
+    "nom": "Ora et Labora : Prière et Travail",
+    "type": "Sur les pas de Saint Benoît",
+    "numero": 3,
+    "fruit": "La sanctification du quotidien",
+    "clausule_et_jesus": "glorifié dans nos œuvres",
+    "auteur": "Colossiens",
+    "chapitre": 3,
+    "premier_verset": 17,
+    "verset_fin": 17,
+    "traduction": "Crampon 1923",
+    "texte": "Et quoi que vous fassiez, en parole ou en œuvre, faites tout au nom du Seigneur Jésus, en rendant par lui des actions de grâces à Dieu le Père."
+  },
+  {
+    "id": "benoit_4",
+    "nom": "L'Hospitalité envers le Pauvre",
+    "type": "Sur les pas de Saint Benoît",
+    "numero": 4,
+    "fruit": "La charité fraternelle",
+    "clausule_et_jesus": "accueilli dans nos frères",
+    "auteur": "Matthieu",
+    "chapitre": 25,
+    "premier_verset": 40,
+    "verset_fin": 40,
+    "traduction": "Crampon 1923",
+    "texte": "En vérité je vous le dis, toutes les fois que vous l'avez fait à l'un de ces plus petits de mes frères, c'est à moi que vous l'avez fait."
+  },
+  {
+    "id": "benoit_5",
+    "nom": "La Paix du Christ",
+    "type": "Sur les pas de Saint Benoît",
+    "numero": 5,
+    "fruit": "La paix et l'harmonie de l'âme",
+    "clausule_et_jesus": "dispensateur de la paix",
+    "auteur": "Jean",
+    "chapitre": 20,
+    "premier_verset": 19,
+    "verset_fin": 19,
+    "traduction": "Crampon 1923",
+    "texte": "Le soir de ce même jour, qui était le premier de la semaine, Jésus vint, et se tint au milieu d'eux, et il leur dit : « La paix soit avec vous ! »"
+  }
+]

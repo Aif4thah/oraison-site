@@ -1,0 +1,329 @@
+[
+  {
+    "id": "caterina_1",
+    "periode": {
+      "debut": "08-01",
+      "fin": "08-31"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.18,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.22,
+        "y": 0.65
+      },
+      {
+        "op": "lineTo",
+        "x": 0.18,
+        "y": 0.52
+      },
+      {
+        "op": "lineTo",
+        "x": 0.26,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.38,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.38,
+        "y": 0.82
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.2,
+        "y": 0.58
+      },
+      {
+        "op": "lineTo",
+        "x": 0.36,
+        "y": 0.58
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.38,
+        "y": 0.78
+      },
+      {
+        "op": "lineTo",
+        "x": 0.78,
+        "y": 0.78
+      },
+      {
+        "op": "lineTo",
+        "x": 0.78,
+        "y": 0.5
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.5
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.78
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.42,
+        "y": 0.78
+      },
+      {
+        "op": "lineTo",
+        "x": 0.42,
+        "y": 0.65
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.47,
+        "y1": 0.57,
+        "x": 0.52,
+        "y": 0.65
+      },
+      {
+        "op": "lineTo",
+        "x": 0.52,
+        "y": 0.78
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.58,
+        "y": 0.78
+      },
+      {
+        "op": "lineTo",
+        "x": 0.58,
+        "y": 0.65
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.63,
+        "y1": 0.57,
+        "x": 0.68,
+        "y": 0.65
+      },
+      {
+        "op": "lineTo",
+        "x": 0.68,
+        "y": 0.78
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.68,
+        "y": 0.5
+      },
+      {
+        "op": "lineTo",
+        "x": 0.68,
+        "y": 0.22
+      },
+      {
+        "op": "lineTo",
+        "x": 0.78,
+        "y": 0.22
+      },
+      {
+        "op": "lineTo",
+        "x": 0.78,
+        "y": 0.5
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.65,
+        "y": 0.22
+      },
+      {
+        "op": "lineTo",
+        "x": 0.73,
+        "y": 0.12
+      },
+      {
+        "op": "lineTo",
+        "x": 0.81,
+        "y": 0.22
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.73,
+        "y": 0.12
+      },
+      {
+        "op": "lineTo",
+        "x": 0.73,
+        "y": 0.05
+      },
+      {
+        "op": "moveTo",
+        "x": 0.7,
+        "y": 0.08
+      },
+      {
+        "op": "lineTo",
+        "x": 0.76,
+        "y": 0.08
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "circle",
+        "cx": 0.73,
+        "cy": 0.32,
+        "r": 0.035
+      },
+      {
+        "op": "moveTo",
+        "x": 0.12,
+        "y": 0.88
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.3,
+        "y1": 0.85,
+        "x": 0.48,
+        "y": 0.88
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.66,
+        "y1": 0.91,
+        "x": 0.88,
+        "y": 0.88
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.24,
+        "y": 0.94
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.44,
+        "y1": 0.92,
+        "x": 0.62,
+        "y": 0.94
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.75,
+        "y1": 0.96,
+        "x": 0.84,
+        "y": 0.94
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "Le Naufrage et le Cri vers Dieu",
+    "type": "Ermitage de Santa Caterina del Sasso",
+    "numero": 1,
+    "fruit": "La confiance en Dieu dans la détresse",
+    "clausule_et_jesus": "notre refuge dans la tempête",
+    "auteur": "Psaumes",
+    "chapitre": 107,
+    "premier_verset": 28,
+    "verset_fin": 30,
+    "traduction": "Crampon 1923",
+    "texte": "Dans leur détresse, ils crièrent à Yahweh, et il les délivra de leurs angoisses. Il calma la tempête, fit taire le tumulte, et les flots s'apaisèrent. Ils se réjouirent de ce que les eaux étaient calmes, et Yahweh les conduisit au port désiré.",
+    "categorie": "decouverte"
+  },
+  {
+    "id": "caterina_2",
+    "nom": "La Solitude sur le Rocher",
+    "type": "Ermitage de Santa Caterina del Sasso",
+    "numero": 2,
+    "fruit": "L'esprit de recueillement et de prière",
+    "clausule_et_jesus": "rocher de notre salut",
+    "auteur": "Psaumes",
+    "chapitre": 62,
+    "premier_verset": 2,
+    "verset_fin": 3,
+    "traduction": "Crampon 1923",
+    "texte": "Oui, c'est en Dieu que mon âme se confie ; de lui vient mon salut. Oui, c'est lui qui est mon rocher et mon salut, ma haute retraite : je ne serai pas ébranlé."
+  },
+  {
+    "id": "caterina_3",
+    "nom": "La Fidélité de Sainte Catherine",
+    "type": "Ermitage de Santa Caterina del Sasso",
+    "numero": 3,
+    "fruit": "La fermeté de la foi",
+    "clausule_et_jesus": "force et sagesse de Dieu",
+    "auteur": "1 Corinthiens",
+    "chapitre": 1,
+    "premier_verset": 24,
+    "verset_fin": 25,
+    "traduction": "Crampon 1923",
+    "texte": "Le Christ, puissance de Dieu et sagesse de Dieu. Car la folie de Dieu est plus sage que les hommes, et la faiblesse de Dieu est plus forte que les hommes."
+  },
+  {
+    "id": "caterina_4",
+    "nom": "Le Miracle des Rochers Suspendus",
+    "type": "Ermitage de Santa Caterina del Sasso",
+    "numero": 4,
+    "fruit": "L'abandon à la divine Providence",
+    "clausule_et_jesus": "notre fidèle gardien",
+    "auteur": "Psaumes",
+    "chapitre": 91,
+    "premier_verset": 11,
+    "verset_fin": 12,
+    "traduction": "Crampon 1923",
+    "texte": "Car il ordonnera à ses anges de te garder dans toutes tes voies. Ils te porteront sur leurs mains, de peur que ton pied ne heurte contre la pierre."
+  },
+  {
+    "id": "caterina_5",
+    "nom": "La Paix sur les Eaux du Lac",
+    "type": "Ermitage de Santa Caterina del Sasso",
+    "numero": 5,
+    "fruit": "La paix du cœur",
+    "clausule_et_jesus": "paix véritable",
+    "auteur": "Jean",
+    "chapitre": 14,
+    "premier_verset": 27,
+    "verset_fin": 27,
+    "traduction": "Crampon 1923",
+    "texte": "Je vous laisse la paix, je vous donne ma paix ; ce n'est pas comme le monde donne que je vous donne. Que votre cœur ne se trouble point, et ne s'effraie point."
+  }
+]

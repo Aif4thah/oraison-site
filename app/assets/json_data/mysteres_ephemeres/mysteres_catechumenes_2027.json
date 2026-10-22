@@ -2,8 +2,8 @@
   {
     "id": "catechumenes_1",
     "periode": {
-      "debut": "01-01",
-      "fin": "12-31"
+      "debut": "03-01",
+      "fin": "03-31"
     },
     "commands": [
       {
@@ -110,7 +110,8 @@
     "premier_verset": 14,
     "verset_fin": 14,
     "traduction": "Crampon 1923",
-    "texte": "Et le Verbe s'est fait chair, et il a habité parmi nous, et nous avons vu sa gloire, gloire comme celle du Fils unique venu du Père, plein de grâce et de vérité."
+    "texte": "Et le Verbe s'est fait chair, et il a habité parmi nous, et nous avons vu sa gloire, gloire comme celle du Fils unique venu du Père, plein de grâce et de vérité.",
+    "categorie": "decouverte"
   },
   {
     "id": "catechumenes_2",
@@ -128,7 +129,7 @@
   },
   {
     "id": "catechumenes_3",
-    "nom": "La Lumière du monde",
+    "nom": "Le Christ, Lumière du Monde",
     "type": "Sélection des Catéchumènes 2027",
     "numero": 3,
     "fruit": "La marche dans la lumière",

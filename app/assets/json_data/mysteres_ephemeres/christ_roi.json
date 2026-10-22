@@ -1,0 +1,163 @@
+[
+  {
+    "id": "roi_1",
+    "periode": {
+      "debut": "11-14",
+      "fin": "11-28"
+    },
+    "commands": [
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.56,
+        "r": 0.28
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.22,
+        "y": 0.56
+      },
+      {
+        "op": "lineTo",
+        "x": 0.78,
+        "y": 0.56
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.28
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.56
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.28
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.1
+      },
+      {
+        "op": "moveTo",
+        "x": 0.4,
+        "y": 0.18
+      },
+      {
+        "op": "lineTo",
+        "x": 0.6,
+        "y": 0.18
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.4,
+        "y": 0.14
+      },
+      {
+        "op": "lineTo",
+        "x": 0.4,
+        "y": 0.22
+      },
+      {
+        "op": "moveTo",
+        "x": 0.6,
+        "y": 0.14
+      },
+      {
+        "op": "lineTo",
+        "x": 0.6,
+        "y": 0.22
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "Mon Royaume n'est pas de ce Monde",
+    "type": "Christ Roi de l'Univers",
+    "numero": 1,
+    "fruit": "La fidélité au règne du Christ dans nos vies",
+    "clausule_et_jesus": "roi de vérité et d'amour",
+    "auteur": "Jean",
+    "chapitre": 18,
+    "premier_verset": 36,
+    "verset_fin": 37,
+    "traduction": "Crampon 1923",
+    "texte": "Jésus répondit : « Mon royaume n'est pas de ce monde... Je suis né et je suis venu dans le monde pour rendre témoignage à la vérité : quiconque est de la vérité écoute ma voix. »",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "roi_2",
+    "nom": "Le Trône de Grâce et de Paix",
+    "type": "Christ Roi de l'Univers",
+    "numero": 2,
+    "fruit": "La confiance en la miséricorde royale du Christ",
+    "clausule_et_jesus": "trônant dans la sainteté",
+    "auteur": "Hébreux",
+    "chapitre": 4,
+    "premier_verset": 16,
+    "verset_fin": 16,
+    "traduction": "Crampon 1923",
+    "texte": "Approchons-nous donc avec assurance du trône de la grâce, afin d'obtenir miséricorde et de trouver grâce, pour être secourus au moment favorable."
+  },
+  {
+    "id": "roi_3",
+    "nom": "Tout Pouvoir m'a été donné",
+    "type": "Christ Roi de l'Univers",
+    "numero": 3,
+    "fruit": "La soumission amoureuse à la seigneurie du Christ",
+    "clausule_et_jesus": "seigneur de toute puissance",
+    "auteur": "Matthieu",
+    "chapitre": 28,
+    "premier_verset": 18,
+    "verset_fin": 18,
+    "traduction": "Crampon 1923",
+    "texte": "Et Jésus s'approchant leur parla ainsi : « Toute puissance m'a été donnée dans le ciel et sur la terre. »"
+  },
+  {
+    "id": "roi_4",
+    "nom": "Le Pasteur des Nations",
+    "type": "Christ Roi de l'Univers",
+    "numero": 4,
+    "fruit": "La pratique des œuvres de miséricorde",
+    "clausule_et_jesus": "pasteur et juge miséricordieux",
+    "auteur": "Matthieu",
+    "chapitre": 25,
+    "premier_verset": 31,
+    "verset_fin": 34,
+    "traduction": "Crampon 1923",
+    "texte": "Lorsque le Fils de l'homme viendra dans sa gloire... il séparera les uns d'avec les autres, comme le pasteur sépare les brebis d'avec les boucs... Alors le Roi dira : « Venez, les bénis de mon Père ! »"
+  },
+  {
+    "id": "roi_5",
+    "nom": "Le Règne Éternel sans Fin",
+    "type": "Christ Roi de l'Univers",
+    "numero": 5,
+    "fruit": "L'espérance de la vie éternelle dans le Royaume",
+    "clausule_et_jesus": "régnant pour les siècles des siècles",
+    "auteur": "Apocalypse",
+    "chapitre": 11,
+    "premier_verset": 15,
+    "verset_fin": 15,
+    "traduction": "Crampon 1923",
+    "texte": "Et le septième ange sonna de la trompette, et de grandes voix retentirent dans le ciel, disant : « L'empire du monde est passé à notre Seigneur et à son Christ, et il régnera aux siècles des siècles. »"
+  }
+]

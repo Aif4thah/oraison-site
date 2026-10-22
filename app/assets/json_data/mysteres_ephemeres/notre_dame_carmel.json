@@ -1,0 +1,149 @@
+[
+  {
+    "id": "carmel_1",
+    "periode": {
+      "debut": "07-08",
+      "fin": "07-24"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.18,
+        "y": 0.85
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.35
+      },
+      {
+        "op": "lineTo",
+        "x": 0.82,
+        "y": 0.85
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.35
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.15
+      },
+      {
+        "op": "moveTo",
+        "x": 0.42,
+        "y": 0.22
+      },
+      {
+        "op": "lineTo",
+        "x": 0.58,
+        "y": 0.22
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.58,
+        "r": 0.04
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "circle",
+        "cx": 0.34,
+        "cy": 0.72,
+        "r": 0.035
+      },
+      {
+        "op": "circle",
+        "cx": 0.66,
+        "cy": 0.72,
+        "r": 0.035
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "La Nuée d'Élie sur la Mer",
+    "type": "Notre-Dame du Mont-Carmel",
+    "numero": 1,
+    "fruit": "La persévérance dans l'attente du salut",
+    "clausule_et_jesus": "annoncé par la nuée d'Élie",
+    "auteur": "1 Rois",
+    "chapitre": 18,
+    "premier_verset": 44,
+    "verset_fin": 44,
+    "traduction": "Crampon 1923",
+    "texte": "Et à la septième fois, le serviteur dit : « Voici une petite nuée, comme la paume de la main d'un homme, qui monte de la mer. » Et Élie dit : « Monte, dis à Achab : Attelle et descends, de peur que la pluie ne t'arrête. »",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "carmel_2",
+    "nom": "Le Vêtement de Salut",
+    "type": "Notre-Dame du Mont-Carmel",
+    "numero": 2,
+    "fruit": "La dévotion filiale à Marie et la pureté",
+    "clausule_et_jesus": "vêtement de salut",
+    "auteur": "Isaïe",
+    "chapitre": 61,
+    "premier_verset": 10,
+    "verset_fin": 10,
+    "traduction": "Crampon 1923",
+    "texte": "Je tressaillirai de joie en Yahweh, et mon âme sera ravie d'allégresse en mon Dieu ; car il m'a revêtu des vêtements du salut, il m'a couvert du manteau de la justice."
+  },
+  {
+    "id": "carmel_3",
+    "nom": "L'Oraison et le Silence Intérieur",
+    "type": "Notre-Dame du Mont-Carmel",
+    "numero": 3,
+    "fruit": "Le recueillement et la prière contemplative",
+    "clausule_et_jesus": "écouté dans le silence",
+    "auteur": "1 Rois",
+    "chapitre": 19,
+    "premier_verset": 12,
+    "verset_fin": 13,
+    "traduction": "Crampon 1923",
+    "texte": "Et après le feu, le murmure d'une brise légère. Quand Élie l'entendit, il s'enveloppa le visage de son manteau, et il sortit se tenir à l'entrée de la caverne."
+  },
+  {
+    "id": "carmel_4",
+    "nom": "Marie, Beauté du Carmel",
+    "type": "Notre-Dame du Mont-Carmel",
+    "numero": 4,
+    "fruit": "La contemplation de la beauté de la grâce",
+    "clausule_et_jesus": "parure de la Vierge sainte",
+    "auteur": "Cantique des Cantiques",
+    "chapitre": 7,
+    "premier_verset": 5,
+    "verset_fin": 5,
+    "traduction": "Crampon 1923",
+    "texte": "Ta tête s'élève comme le Carmel, et la chevelure de ta tête est comme la pourpre d'un roi."
+  },
+  {
+    "id": "carmel_5",
+    "nom": "L'Espérance du Salut Éternel",
+    "type": "Notre-Dame du Mont-Carmel",
+    "numero": 5,
+    "fruit": "La protection maternelle à l'heure de la mort",
+    "clausule_et_jesus": "gardien de notre départ",
+    "auteur": "Psaumes",
+    "chapitre": 121,
+    "premier_verset": 7,
+    "verset_fin": 8,
+    "traduction": "Crampon 1923",
+    "texte": "Yahweh te gardera de tout mal, il gardera ton âme ; Yahweh gardera ton départ et ton arrivée, dès maintenant et à jamais."
+  }
+]

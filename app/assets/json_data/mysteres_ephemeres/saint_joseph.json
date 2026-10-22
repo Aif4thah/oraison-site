@@ -1,0 +1,197 @@
+[
+  {
+    "id": "joseph_1",
+    "periode": {
+      "debut": "03-10",
+      "fin": "03-25"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.3,
+        "y": 0.25
+      },
+      {
+        "op": "lineTo",
+        "x": 0.3,
+        "y": 0.75
+      },
+      {
+        "op": "lineTo",
+        "x": 0.7,
+        "y": 0.75
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.38,
+        "y": 0.35
+      },
+      {
+        "op": "lineTo",
+        "x": 0.38,
+        "y": 0.67
+      },
+      {
+        "op": "lineTo",
+        "x": 0.62,
+        "y": 0.67
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.48,
+        "y": 0.85
+      },
+      {
+        "op": "lineTo",
+        "x": 0.48,
+        "y": 0.25
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.48,
+        "y": 0.25
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.44,
+        "y1": 0.14,
+        "x": 0.48,
+        "y": 0.1
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.52,
+        "y1": 0.14,
+        "x": 0.48,
+        "y": 0.25
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.48,
+        "y": 0.25
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.36,
+        "y1": 0.18,
+        "x": 0.38,
+        "y": 0.26
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.44,
+        "y1": 0.28,
+        "x": 0.48,
+        "y": 0.25
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.48,
+        "y": 0.25
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.6,
+        "y1": 0.18,
+        "x": 0.58,
+        "y": 0.26
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.52,
+        "y1": 0.28,
+        "x": 0.48,
+        "y": 0.25
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "L'Appel de Joseph le Juste",
+    "type": "Mystères de Saint Joseph",
+    "numero": 1,
+    "fruit": "La foi et l'obéissance silencieuse",
+    "clausule_et_jesus": "confié à Joseph le Juste",
+    "auteur": "Matthieu",
+    "chapitre": 1,
+    "premier_verset": 19,
+    "verset_fin": 20,
+    "traduction": "Crampon 1923",
+    "texte": "Joseph, son époux, qui était un homme juste... voici qu'un ange du Seigneur lui apparut en songe, disant : « Joseph, fils de David, ne crains point de prendre avec toi Marie, ton épouse, car ce qui a été conçu en elle vient du Saint-Esprit. »",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "joseph_2",
+    "nom": "La Fuite et l'Exil en Égypte",
+    "type": "Mystères de Saint Joseph",
+    "numero": 2,
+    "fruit": "La protection et le dévouement familial",
+    "clausule_et_jesus": "protégé en Égypte",
+    "auteur": "Matthieu",
+    "chapitre": 2,
+    "premier_verset": 13,
+    "verset_fin": 14,
+    "traduction": "Crampon 1923",
+    "texte": "Un ange du Seigneur apparut en songe à Joseph, et dit : « Lève-toi, prends le petit enfant et sa mère, et fuis en Égypte »... Joseph s'étant levé, prit de nuit le petit enfant et sa mère, et se retira en Égypte."
+  },
+  {
+    "id": "joseph_3",
+    "nom": "L'Atelier et le Silence de Nazareth",
+    "type": "Mystères de Saint Joseph",
+    "numero": 3,
+    "fruit": "La dignité du travail humble",
+    "clausule_et_jesus": "humble artisan de Nazareth",
+    "auteur": "Matthieu",
+    "chapitre": 13,
+    "premier_verset": 55,
+    "verset_fin": 55,
+    "traduction": "Crampon 1923",
+    "texte": "N'est-ce pas le fils du charpentier ? Sa mère ne s'appelle-t-elle pas Marie, et ses frères Jacques, Joseph, Simon et Jude ?"
+  },
+  {
+    "id": "joseph_4",
+    "nom": "La Recherche à Jérusalem",
+    "type": "Mystères de Saint Joseph",
+    "numero": 4,
+    "fruit": "La persévérance dans la recherche de Dieu",
+    "clausule_et_jesus": "cherché dans la douleur",
+    "auteur": "Luc",
+    "chapitre": 2,
+    "premier_verset": 48,
+    "verset_fin": 49,
+    "traduction": "Crampon 1923",
+    "texte": "Sa mère lui dit : « Mon enfant, pourquoi as-tu agi ainsi avec nous ? Vois, ton père et moi, nous te cherchions avec angoisse. » Il leur dit : « Pourquoi me cherchiez-vous ? Ne saviez-vous pas qu'il faut que je sois aux affaires de mon Père ? »"
+  },
+  {
+    "id": "joseph_5",
+    "nom": "L'Espérance des Mourants",
+    "type": "Mystères de Saint Joseph",
+    "numero": 5,
+    "fruit": "La grâce d'une sainte agonie et d'une heureuse mort",
+    "clausule_et_jesus": "espérance des mourants",
+    "auteur": "Luc",
+    "chapitre": 2,
+    "premier_verset": 29,
+    "verset_fin": 30,
+    "traduction": "Crampon 1923",
+    "texte": "Maintenant, Seigneur, tu laisses ton serviteur s'en aller en paix, selon ta parole ; car mes yeux ont vu ton salut."
+  }
+]

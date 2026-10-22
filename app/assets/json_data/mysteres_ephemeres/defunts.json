@@ -6,19 +6,70 @@
       "fin": "11-02"
     },
     "commands": [
-      { "op": "moveTo", "x": 0.28, "y": 0.86 },
-      { "op": "lineTo", "x": 0.28, "y": 0.4 },
-      { "op": "cubicTo", "x1": 0.28, "y1": 0.14, "x2": 0.72, "y2": 0.14, "x": 0.72, "y": 0.4 },
-      { "op": "lineTo", "x": 0.72, "y": 0.86 },
-      { "op": "close" },
-      { "op": "stroke" },
-      { "op": "moveTo", "x": 0.5, "y": 0.34 },
-      { "op": "lineTo", "x": 0.5, "y": 0.68 },
-      { "op": "moveTo", "x": 0.4, "y": 0.46 },
-      { "op": "lineTo", "x": 0.6, "y": 0.46 },
-      { "op": "moveTo", "x": 0.14, "y": 0.86 },
-      { "op": "lineTo", "x": 0.86, "y": 0.86 },
-      { "op": "stroke", "trait": "fin" }
+      {
+        "op": "moveTo",
+        "x": 0.28,
+        "y": 0.86
+      },
+      {
+        "op": "lineTo",
+        "x": 0.28,
+        "y": 0.4
+      },
+      {
+        "op": "cubicTo",
+        "x1": 0.28,
+        "y1": 0.14,
+        "x2": 0.72,
+        "y2": 0.14,
+        "x": 0.72,
+        "y": 0.4
+      },
+      {
+        "op": "lineTo",
+        "x": 0.72,
+        "y": 0.86
+      },
+      {
+        "op": "close"
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.34
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.68
+      },
+      {
+        "op": "moveTo",
+        "x": 0.4,
+        "y": 0.46
+      },
+      {
+        "op": "lineTo",
+        "x": 0.6,
+        "y": 0.46
+      },
+      {
+        "op": "moveTo",
+        "x": 0.14,
+        "y": 0.86
+      },
+      {
+        "op": "lineTo",
+        "x": 0.86,
+        "y": 0.86
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
     ],
     "nom": "Le Vivant",
     "type": "Mystères des défunts",
@@ -30,7 +81,8 @@
     "premier_verset": 17,
     "verset_fin": 18,
     "traduction": "Crampon 1923",
-    "texte": "Il posa sur moi sa main droite, en disant : « Ne crains point ; je suis le Premier et le Dernier, et le Vivant ; j'ai été mort, et voici que je suis vivant aux siècles des siècles ; je tiens les clefs de la mort et de l'enfer. »"
+    "texte": "Il posa sur moi sa main droite, en disant : « Ne crains point ; je suis le Premier et le Dernier, et le Vivant ; j'ai été mort, et voici que je suis vivant aux siècles des siècles ; je tiens les clefs de la mort et de l'enfer. »",
+    "categorie": "liturgique"
   },
   {
     "id": "defunts_2",

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "immaculee_1",
+    "periode": {
+      "debut": "12-01",
+      "fin": "12-15"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.76
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.4
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.4
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.44,
+        "y1": 0.26,
+        "x": 0.5,
+        "y": 0.22
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.56,
+        "y1": 0.26,
+        "x": 0.5,
+        "y": 0.4
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.4
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.36,
+        "y1": 0.32,
+        "x": 0.38,
+        "y": 0.42
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.4
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.64,
+        "y1": 0.32,
+        "x": 0.62,
+        "y": 0.42
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "circle",
+        "cx": 0.88,
+        "cy": 0.5,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.83,
+        "cy": 0.69,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.69,
+        "cy": 0.83,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.88,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.31,
+        "cy": 0.83,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.17,
+        "cy": 0.69,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.12,
+        "cy": 0.5,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.17,
+        "cy": 0.31,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.31,
+        "cy": 0.17,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.12,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.69,
+        "cy": 0.17,
+        "r": 0.018
+      },
+      {
+        "op": "circle",
+        "cx": 0.83,
+        "cy": 0.31,
+        "r": 0.018
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "La Victoire Promise sur le Mal",
+    "type": "L'Immaculée Conception",
+    "numero": 1,
+    "fruit": "La préservation du péché et la pureté",
+    "clausule_et_jesus": "vainqueur du serpent ancien",
+    "auteur": "Genèse",
+    "chapitre": 3,
+    "premier_verset": 15,
+    "verset_fin": 15,
+    "traduction": "Crampon 1923",
+    "texte": "Je mettrai une inimitié entre toi et la femme, entre ta postérité et sa postérité ; celle-ci te brisera la tête, et tu la blesseras au talon.",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "immaculee_2",
+    "nom": "La Toute Belle sans Tache",
+    "type": "L'Immaculée Conception",
+    "numero": 2,
+    "fruit": "La beauté de la grâce sanctifiante",
+    "clausule_et_jesus": "sanctifiant sa Mère",
+    "auteur": "Cantique des Cantiques",
+    "chapitre": 4,
+    "premier_verset": 7,
+    "verset_fin": 7,
+    "traduction": "Crampon 1923",
+    "texte": "Tu es toute belle, mon amie, et il n'y a point de tache en toi."
+  },
+  {
+    "id": "immaculee_3",
+    "nom": "Toute Belle et Sans Tache",
+    "type": "L'Immaculée Conception",
+    "numero": 3,
+    "fruit": "La pureté du cœur et la sainteté",
+    "clausule_et_jesus": "fils de l'Immaculée",
+    "auteur": "Cantique",
+    "chapitre": 4,
+    "premier_verset": 7,
+    "verset_fin": 7,
+    "traduction": "Crampon 1923",
+    "texte": "Tu es toute belle, mon amie, et il n'y a point en toi de tache."
+  },
+  {
+    "id": "immaculee_4",
+    "nom": "L'Arche Sainte de l'Alliance",
+    "type": "L'Immaculée Conception",
+    "numero": 4,
+    "fruit": "La vénération du sanctuaire divin",
+    "clausule_et_jesus": "arche sainte de l'Alliance",
+    "auteur": "Apocalypse",
+    "chapitre": 11,
+    "premier_verset": 19,
+    "verset_fin": 19,
+    "traduction": "Crampon 1923",
+    "texte": "Et le temple de Dieu fut ouvert dans le ciel, et l'arche de son alliance apparut dans son temple."
+  },
+  {
+    "id": "immaculee_5",
+    "nom": "L'Élection Éternelle dans la Grâce",
+    "type": "L'Immaculée Conception",
+    "numero": 5,
+    "fruit": "La sainteté et la pureté filiale",
+    "clausule_et_jesus": "source de toute sainteté",
+    "auteur": "Éphésiens",
+    "chapitre": 1,
+    "premier_verset": 3,
+    "verset_fin": 4,
+    "traduction": "Crampon 1923",
+    "texte": "Béni soit le Dieu et Père de notre Seigneur Jésus-Christ, qui nous a comblés en Jésus-Christ de toutes les bénédictions spirituelles dans les cieux ! En lui, il nous a élus avant la fondation du monde, pour que nous soyons saints et sans tache devant lui dans l'amour."
+  }
+]

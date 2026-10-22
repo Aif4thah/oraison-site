@@ -1,0 +1,192 @@
+[
+  {
+    "id": "sacrement_1",
+    "periode": {
+      "debut": "05-25",
+      "fin": "06-28"
+    },
+    "commands": [
+      {
+        "op": "moveTo",
+        "x": 0.35,
+        "y": 0.88
+      },
+      {
+        "op": "lineTo",
+        "x": 0.65,
+        "y": 0.88
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.88
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.65
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "circle",
+        "cx": 0.5,
+        "cy": 0.42,
+        "r": 0.12
+      },
+      {
+        "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.36
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.48
+      },
+      {
+        "op": "moveTo",
+        "x": 0.44,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.56,
+        "y": 0.42
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.26
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.16
+      },
+      {
+        "op": "moveTo",
+        "x": 0.34,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.24,
+        "y": 0.42
+      },
+      {
+        "op": "moveTo",
+        "x": 0.66,
+        "y": 0.42
+      },
+      {
+        "op": "lineTo",
+        "x": 0.76,
+        "y": 0.42
+      },
+      {
+        "op": "moveTo",
+        "x": 0.38,
+        "y": 0.3
+      },
+      {
+        "op": "lineTo",
+        "x": 0.3,
+        "y": 0.22
+      },
+      {
+        "op": "moveTo",
+        "x": 0.62,
+        "y": 0.3
+      },
+      {
+        "op": "lineTo",
+        "x": 0.7,
+        "y": 0.22
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      }
+    ],
+    "nom": "La Manne au Désert et le Pain Vivant",
+    "type": "Mystères du Saint-Sacrement",
+    "numero": 1,
+    "fruit": "La faim de la nourriture divine",
+    "clausule_et_jesus": "pain vivant descendu du ciel",
+    "auteur": "Jean",
+    "chapitre": 6,
+    "premier_verset": 32,
+    "verset_fin": 35,
+    "traduction": "Crampon 1923",
+    "texte": "Jésus leur dit : « En vérité, en vérité, je vous le dis, Moïse ne vous a pas donné le pain du ciel, mais mon Père vous donne le vrai pain du ciel... Je suis le pain de vie ; celui qui vient à moi n'aura jamais faim. »",
+    "categorie": "liturgique"
+  },
+  {
+    "id": "sacrement_2",
+    "nom": "La Cène et l'Offrande du Corps",
+    "type": "Mystères du Saint-Sacrement",
+    "numero": 2,
+    "fruit": "L'action de grâces eucharistique",
+    "clausule_et_jesus": "corps livré pour nous",
+    "auteur": "Luc",
+    "chapitre": 22,
+    "premier_verset": 19,
+    "verset_fin": 19,
+    "traduction": "Crampon 1923",
+    "texte": "Puis il prit du pain, et après avoir rendu grâces, il le rompit et le leur donna, disant : « Ceci est mon corps, qui est donné pour vous ; faites ceci en mémoire de moi. »"
+  },
+  {
+    "id": "sacrement_3",
+    "nom": "Le Sang de la Nouvelle Alliance",
+    "type": "Mystères du Saint-Sacrement",
+    "numero": 3,
+    "fruit": "Le respect et la pureté du cœur",
+    "clausule_et_jesus": "sang de l'alliance nouvelle",
+    "auteur": "1 Corinthiens",
+    "chapitre": 11,
+    "premier_verset": 25,
+    "verset_fin": 25,
+    "traduction": "Crampon 1923",
+    "texte": "De même, après avoir soupé, il prit la coupe, en disant : « Cette coupe est la nouvelle alliance en mon sang ; faites ceci toutes les fois que vous en boirez, en mémoire de moi. »"
+  },
+  {
+    "id": "sacrement_4",
+    "nom": "L'Adoration du Cœur à Cœur",
+    "type": "Mystères du Saint-Sacrement",
+    "numero": 4,
+    "fruit": "L'intimité avec le Christ dans l'oraison",
+    "clausule_et_jesus": "demeurant en nous",
+    "auteur": "Jean",
+    "chapitre": 6,
+    "premier_verset": 56,
+    "verset_fin": 56,
+    "traduction": "Crampon 1923",
+    "texte": "Celui qui mange ma chair et qui boit mon sang, demeure en moi, et moi en lui."
+  },
+  {
+    "id": "sacrement_5",
+    "nom": "Le Viatique pour la Vie Éternelle",
+    "type": "Mystères du Saint-Sacrement",
+    "numero": 5,
+    "fruit": "L'espérance de la résurrection",
+    "clausule_et_jesus": "promesse de résurrection",
+    "auteur": "Jean",
+    "chapitre": 6,
+    "premier_verset": 54,
+    "verset_fin": 54,
+    "traduction": "Crampon 1923",
+    "texte": "Celui qui mange ma chair et qui boit mon sang a la vie éternelle, et moi, je le ressusciterai au dernier jour."
+  }
+]
