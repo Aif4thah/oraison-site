@@ -412,6 +412,12 @@ footer {
   color: var(--muted);
   font-size: 0.82rem;
 }
+.footer-initiative {
+  max-width: 38rem;
+  margin: 0 auto 0.65rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
 .footer-sep {
   margin: 0 0.35rem;
   opacity: 0.6;
