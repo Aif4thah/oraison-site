@@ -24,7 +24,7 @@
 
   <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
   <script data-goatcounter="https://vacarelm.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+          async src="https://gc.zgo.at/count.js"></script>
   <link rel="manifest" href="manifest.json">
   <link rel="preload" href="icons/Icon-192.png" as="image">
   <link rel="preload" href="flutter_bootstrap.js" as="script">
@@ -215,6 +215,9 @@
         (document.referrer && document.referrer.indexOf('android-app://') !== -1)
       );
 
+      var _openReportAttempts = 0;
+      var MAX_OPEN_REPORT_ATTEMPTS = 20;
+
       function reportAppOpen() {
         if (window.goatcounter && typeof window.goatcounter.count === 'function') {
           if (isStandalone) {
@@ -230,7 +233,8 @@
               event: true
             });
           }
-        } else {
+        } else if (_openReportAttempts < MAX_OPEN_REPORT_ATTEMPTS) {
+          _openReportAttempts++;
           setTimeout(reportAppOpen, 150);
         }
       }

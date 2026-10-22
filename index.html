@@ -28,7 +28,7 @@
   <link rel="canonical" href="https://oraison.app/">
   <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
   <script data-goatcounter="https://vacarelm.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+          async src="https://gc.zgo.at/count.js"></script>
   <link rel="prefetch" href="app/">
   <link rel="prefetch" href="app/index.html">
 
@@ -316,8 +316,24 @@
 
   <script>
     (function () {
-      // 1. Mesure d'audience anonyme (GoatCounter) — File d'attente résiliente
+      // 1. Mesure d'audience anonyme (GoatCounter) — File d'attente résiliente avec garde-fou
       var _goatQueue = [];
+      var _flushAttempts = 0;
+      var MAX_FLUSH_ATTEMPTS = 20; // Arrêt au bout de ~3s si GoatCounter est indisponible ou en local
+
+      function scheduleFlush() {
+        setTimeout(function () {
+          if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+            while (_goatQueue.length > 0) {
+              window.goatcounter.count(_goatQueue.shift());
+            }
+          } else if (_goatQueue.length > 0 && _flushAttempts < MAX_FLUSH_ATTEMPTS) {
+            _flushAttempts++;
+            scheduleFlush();
+          }
+        }, 150);
+      }
+
       function trackEvent(name, title) {
         if (window.goatcounter && typeof window.goatcounter.count === 'function') {
           window.goatcounter.count({
@@ -327,18 +343,11 @@
           });
         } else {
           _goatQueue.push({ path: name, title: title || name, event: true });
-        }
-      }
-      function flushGoatQueue() {
-        if (window.goatcounter && typeof window.goatcounter.count === 'function') {
-          while (_goatQueue.length > 0) {
-            window.goatcounter.count(_goatQueue.shift());
+          if (_flushAttempts < MAX_FLUSH_ATTEMPTS) {
+            scheduleFlush();
           }
-        } else {
-          setTimeout(flushGoatQueue, 150);
         }
       }
-      flushGoatQueue();
 
       // Suivi de conversion : Clic sur le bouton principal d'ouverture de l'application
       var openAppBtn = document.querySelector('.pwa-actions .btn-primary');
