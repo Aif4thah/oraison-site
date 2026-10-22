@@ -141,54 +141,60 @@
         </button>
       </div>
 
-      <!-- Guide d'installation immédiat selon l'appareil (réalisable directement depuis cette page) -->
-      <div class="install-guide" aria-label="Guide d'installation rapide sur l'écran d'accueil">
-        <p class="install-title">Ajouter l'application sur votre écran d'accueil dès maintenant</p>
-        <div class="device-tabs" role="tablist" aria-label="Choisir votre appareil">
-          <button type="button" role="tab" id="tab-ios" aria-selected="false" aria-controls="panel-ios" data-target="ios">iPhone / iPad</button>
-          <button type="button" role="tab" id="tab-android" aria-selected="true" aria-controls="panel-android" data-target="android">Android</button>
-          <button type="button" role="tab" id="tab-pc" aria-selected="false" aria-controls="panel-pc" data-target="pc">Ordinateur</button>
-        </div>
+      <!-- Guide d'installation rapide replié par défaut dans un accordéon sobre -->
+      <details class="install-accordion" aria-label="Guide d'installation sur l'écran d'accueil">
+        <summary>
+          <svg class="summary-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Comment ajouter le raccourci sur mon écran d'accueil ?</span>
+          <svg class="chevron-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </summary>
+        <div class="install-accordion-content">
+          <div class="device-tabs" role="tablist" aria-label="Choisir votre appareil">
+            <button type="button" role="tab" id="tab-ios" aria-selected="false" aria-controls="panel-ios" data-target="ios">iPhone / iPad</button>
+            <button type="button" role="tab" id="tab-android" aria-selected="true" aria-controls="panel-android" data-target="android">Android</button>
+            <button type="button" role="tab" id="tab-pc" aria-selected="false" aria-controls="panel-pc" data-target="pc">Ordinateur</button>
+          </div>
 
-        <div id="panel-ios" class="device-panel" role="tabpanel" aria-labelledby="tab-ios" hidden>
-          <ol class="steps compact-steps">
-            <li>
-              <strong>Touchez l'icône Partager <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12-4 4m4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> de Safari</strong>
-              <span>Située dans la barre de votre navigateur (en bas sur iPhone, en haut sur iPad), directement depuis cette page ou depuis l'application.</span>
-            </li>
-            <li>
-              <strong>Appuyez sur « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></strong>
-              <span>Validez sur <strong>Ajouter</strong> en haut à droite. Oraison s'ouvre alors en plein écran, sans les barres de navigation de Safari.</span>
-            </li>
-          </ol>
-        </div>
+          <div id="panel-ios" class="device-panel" role="tabpanel" aria-labelledby="tab-ios" hidden>
+            <ol class="steps compact-steps">
+              <li>
+                <strong>Touchez l'icône Partager <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12-4 4m4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> de Safari</strong>
+                <span>Située dans la barre de votre navigateur (en bas sur iPhone, en haut sur iPad), directement depuis cette page ou depuis l'application.</span>
+              </li>
+              <li>
+                <strong>Appuyez sur « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></strong>
+                <span>Validez sur <strong>Ajouter</strong> en haut à droite. Oraison s'ouvre alors en plein écran, sans les barres de navigation de Safari.</span>
+              </li>
+            </ol>
+          </div>
 
-        <div id="panel-android" class="device-panel" role="tabpanel" aria-labelledby="tab-android">
-          <ol class="steps compact-steps">
-            <li>
-              <strong>Ouvrez le menu <span class="badge-icon" aria-hidden="true">⋮</span> de votre navigateur</strong>
-              <span>Si le bouton <em>« Installer en 1 clic »</em> ne s'affiche pas ci-dessus, touchez les trois points en haut à droite de Chrome, Samsung Internet ou Edge.</span>
-            </li>
-            <li>
-              <strong>Sélectionnez « Installer l'application » ou « Ajouter à l'écran d'accueil »</strong>
-              <span>Confirmez l'ajout. L'application s'ouvre en plein écran épuré (sans barre d'adresse, d'heure ni de notifications), propice au recueillement.</span>
-            </li>
-          </ol>
-        </div>
+          <div id="panel-android" class="device-panel" role="tabpanel" aria-labelledby="tab-android">
+            <ol class="steps compact-steps">
+              <li>
+                <strong>Ouvrez le menu <span class="badge-icon" aria-hidden="true">⋮</span> de votre navigateur</strong>
+                <span>Si le bouton <em>« Installer en 1 clic »</em> ne s'affiche pas ci-dessus, touchez les trois points en haut à droite de Chrome, Samsung Internet ou Edge.</span>
+              </li>
+              <li>
+                <strong>Sélectionnez « Installer l'application » ou « Ajouter à l'écran d'accueil »</strong>
+                <span>Confirmez l'ajout. L'application s'ouvre en plein écran épuré (sans barre d'adresse, d'heure ni de notifications), propice au recueillement.</span>
+              </li>
+            </ol>
+          </div>
 
-        <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
-          <ol class="steps compact-steps">
-            <li>
-              <strong>Méditez sur grand écran</strong>
-              <span>Cliquez sur <em>« Ouvrir Oraison maintenant »</em>. L'interface s'adapte aux écrans larges et se parcourt à la souris, à la molette ou avec les flèches du clavier.</span>
-            </li>
-            <li>
-              <strong>Raccourci bureau optionnel</strong>
-              <span>Dans Chrome ou Edge, cliquez sur l'icône d'installation à droite de la barre d'adresse pour ouvrir Oraison dans sa propre fenêtre épurée.</span>
-            </li>
-          </ol>
+          <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
+            <ol class="steps compact-steps">
+              <li>
+                <strong>Méditez sur grand écran</strong>
+                <span>Cliquez sur <em>« Ouvrir Oraison maintenant »</em>. L'interface s'adapte aux écrans larges et se parcourt à la souris, à la molette ou avec les flèches du clavier.</span>
+              </li>
+              <li>
+                <strong>Raccourci bureau optionnel</strong>
+                <span>Dans Chrome ou Edge, cliquez sur l'icône d'installation à droite de la barre d'adresse pour ouvrir Oraison dans sa propre fenêtre épurée.</span>
+              </li>
+            </ol>
+          </div>
         </div>
-      </div>
+      </details>
     </section>
 
     <!-- CONTENU ÉDITORIAL : SOBRIÉTÉ, DÉPOUILLEMENT & LITURGIE (SEO) -->
@@ -204,6 +210,7 @@
         <li>
           <strong>La méditation sans attente ni artifice</strong>
           <span>Aucun compteur de performance, aucune notification, aucune publicité. On ouvre l'application uniquement pour être présent et méditer en paix.</span>
+          <p class="pillar-note"><strong>Compatible avec le mode avion&nbsp;:</strong> Une fois votre prière ouverte (et mise en cache par votre téléphone), vous pouvez passer votre appareil en mode avion le temps de votre chapelet ou de votre oraison à l'église, pour n'être dérangé par aucune sollicitation extérieure.</p>
         </li>
         <li>
           <strong>La richesse de la Bible et de la tradition</strong>
@@ -262,6 +269,10 @@
           </article>
         </div>
       </div>
+
+      <div class="transparency-note" role="note" aria-label="Transparence et gratuité">
+        <p><strong>Un accès libre et désintéressé&nbsp;:</strong> En dehors de l'appel facultatif à soutenir l'application (qui permet de couvrir les modestes frais du projet et d'ouvrir l'intégralité du recueil en réserve), l'ensemble du contenu proposé — les 4 mystères traditionnels du chapelet, le cycle liturgique en cours et la série paroissiale du mois — est et restera entièrement gratuit, sans publicité ni compte à créer.</p>
+      </div>
     </section>
 
     <!-- CONTINUITÉ DISCRÈTE POUR LES TESTEURS ALPHA ANDROID (GOOGLE PLAY) -->
@@ -303,7 +314,7 @@
   </main>
 
   <footer>
-    <p class="footer-initiative">Initiative indépendante née en paroisse (France), conçue bénévolement au service de la prière et fidèle au Magistère de l'Église catholique.</p>
+    <p class="footer-initiative">Initiative catholique indépendante née en paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
     <div>
       <span>© 2026 Oraison · Tous droits réservés · vacarelm</span>
       <span class="footer-sep" aria-hidden="true">·</span>
@@ -393,10 +404,28 @@
         selectDeviceTab('pc');
       }
 
+      // Accordéon du guide d'installation : suivi analytique à l'ouverture
+      var installAccordion = document.querySelector('.install-accordion');
+      if (installAccordion) {
+        installAccordion.addEventListener('toggle', function () {
+          if (this.open) {
+            trackEvent('guide-install-accordion-open', 'Ouverture accordéon guide installation');
+          }
+        });
+      }
+
       // 3. Bouton d'installation PWA natif 1-clic (Chrome / Edge sur Android & PC)
       var deferredPrompt = null;
       var installBtn = document.getElementById('btn-install-pwa');
+
+      // Masquage absolu sur iOS/Safari (l'installation 1-clic native n'existe pas sous iOS)
+      if (isIOS && installBtn) {
+        installBtn.hidden = true;
+        installBtn.style.display = 'none';
+      }
+
       window.addEventListener('beforeinstallprompt', function (e) {
+        if (isIOS) return; // Sécurité supplémentaire anti-confusion iOS
         e.preventDefault();
         deferredPrompt = e;
         if (installBtn) installBtn.hidden = false;

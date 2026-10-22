@@ -113,12 +113,18 @@ h1 {
   cursor: pointer;
   transition: filter 0.15s ease, background-color 0.15s ease;
 }
-.btn[hidden] { display: none; }
+.btn[hidden] { display: none !important; }
 .btn-primary {
-  padding: 0.85rem 1.75rem;
-  font-size: 1.05rem;
+  padding: 0.95rem 2.2rem;
+  font-size: 1.12rem;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 20px rgba(181, 126, 194, 0.28);
 }
-.btn:hover { filter: brightness(1.1); }
+.btn-primary:hover {
+  filter: brightness(1.12);
+  box-shadow: 0 6px 26px rgba(181, 126, 194, 0.45);
+  transform: translateY(-1px);
+}
 .btn svg { width: 1.15rem; height: 1.15rem; flex-shrink: 0; }
 .btn-outline {
   border-color: var(--purple);
@@ -130,17 +136,63 @@ h1 {
   filter: none;
 }
 
-/* Guide d'installation multi-plateforme (iPhone / Android / PC) */
-.install-guide {
-  padding-top: 1.35rem;
+/* Guide d'installation multi-plateforme replié par défaut en accordéon sobre */
+.install-accordion {
+  margin-top: 1.25rem;
+  padding-top: 1.15rem;
   border-top: 1px solid var(--line);
   text-align: left;
 }
-.install-title {
-  margin: 0 0 0.85rem;
+.install-accordion summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  border: 1px solid rgba(181, 126, 194, 0.25);
+  border-radius: 0.65rem;
+  background: rgba(18, 18, 18, 0.4);
+  color: var(--purple);
+  font-size: 0.92rem;
+  font-weight: 500;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+  user-select: none;
+}
+.install-accordion summary::-webkit-details-marker { display: none; }
+.install-accordion summary:hover {
+  background: rgba(181, 126, 194, 0.12);
+  border-color: rgba(181, 126, 194, 0.5);
+}
+.install-accordion summary .summary-icon {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex-shrink: 0;
+  color: var(--purple);
+}
+.install-accordion summary .chevron-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  margin-left: 0.25rem;
   color: var(--muted);
-  font-size: 0.9rem;
-  text-align: center;
+  transition: transform 0.2s ease;
+}
+.install-accordion[open] summary .chevron-icon {
+  transform: rotate(180deg);
+}
+.install-accordion[open] summary {
+  margin-bottom: 1.25rem;
+  border-color: var(--purple);
+}
+.install-accordion-content {
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 .device-tabs {
   display: flex;
@@ -278,6 +330,21 @@ h1 {
   font-size: 0.92rem;
   line-height: 1.5;
 }
+.pillar-note {
+  margin: 0.65rem 0 0;
+  padding-top: 0.55rem;
+  border-top: 1px dashed rgba(181, 126, 194, 0.25);
+  color: #cfc9d4;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.pillar-note strong {
+  display: inline;
+  color: var(--purple);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+}
 .mysteries-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -331,6 +398,26 @@ h1 {
 }
 .mystery-item-special .mystery-days {
   color: #c9a4d6;
+}
+.transparency-note {
+  margin-top: 1.5rem;
+  padding: 1.15rem 1.35rem;
+  border: 1px solid rgba(181, 126, 194, 0.35);
+  border-radius: 0.75rem;
+  background: rgba(181, 126, 194, 0.05);
+  text-align: left;
+}
+.transparency-note p {
+  margin: 0;
+  color: #d6d0dc;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+.transparency-note strong {
+  color: var(--purple);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 0.98rem;
 }
 .badge-icon {
   display: inline-block;
