@@ -5,7 +5,8 @@
     "type": "Conseils pour la méditation",
     "numero": 1,
     "texte": "Prier le Rosaire, c'est avant tout contempler le visage du Christ aux côtés de sa Mère, en se laissant instruire par elle. Les paroles ne sont qu'un chemin : le but est de se tenir devant Jésus.",
-    "reference": "Rosarium Virginis Mariae, n° 3"
+    "reference": "Rosarium Virginis Mariae n° 3",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_2",
@@ -13,7 +14,8 @@
     "type": "Conseils pour la méditation",
     "numero": 2,
     "texte": "Sans contemplation, le chapelet risque de n'être qu'une répétition mécanique de formules. Il demande un rythme calme et du temps, pour méditer les mystères de la vie du Seigneur à travers le cœur de Marie.",
-    "reference": "Rosarium Virginis Mariae, n° 12"
+    "reference": "Rosarium Virginis Mariae n° 12",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_3",
@@ -21,7 +23,8 @@
     "type": "Conseils pour la méditation",
     "numero": 3,
     "texte": "Marie gardait tous ces événements et les méditait dans son cœur : ses souvenirs de Jésus ont été son propre « rosaire ». En priant, nous nous mettons en harmonie avec sa mémoire et son regard.",
-    "reference": "Rosarium Virginis Mariae, n° 11"
+    "reference": "Rosarium Virginis Mariae n° 11",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_4",
@@ -29,7 +32,8 @@
     "type": "Conseils pour la méditation",
     "numero": 4,
     "texte": "Nul ne connaît le Christ mieux que sa Mère. À chaque mystère, comme à l'Annonciation, on peut lui poser humblement ses questions, jusqu'à l'obéissance de la foi : apprendre non seulement ce que Jésus enseigne, mais à le connaître lui.",
-    "reference": "Rosarium Virginis Mariae, n° 14"
+    "reference": "Rosarium Virginis Mariae n° 14",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_5",
@@ -37,7 +41,8 @@
     "type": "Conseils pour la méditation",
     "numero": 5,
     "texte": "Nommer le mystère, et si possible regarder une image qui le représente, plante le décor où se fixe l'attention. Les mots guident l'imagination vers l'épisode de la vie du Christ que l'on va contempler.",
-    "reference": "Rosarium Virginis Mariae, n° 29"
+    "reference": "Rosarium Virginis Mariae n° 29",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_6",
@@ -45,7 +50,8 @@
     "type": "Conseils pour la méditation",
     "numero": 6,
     "texte": "Un passage biblique donne au mystère son fondement et sa profondeur. Il s'écoute comme une Parole adressée à moi aujourd'hui : il ne s'agit pas de se rappeler une information, mais de laisser Dieu parler.",
-    "reference": "Rosarium Virginis Mariae, n° 30"
+    "reference": "Rosarium Virginis Mariae n° 30",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_7",
@@ -53,7 +59,8 @@
     "type": "Conseils pour la méditation",
     "numero": 7,
     "texte": "L'écoute et la méditation se nourrissent du silence. Après la Parole, on s'arrête un vrai temps pour fixer le regard sur le mystère, avant de commencer la prière vocale.",
-    "reference": "Rosarium Virginis Mariae, n° 31"
+    "reference": "Rosarium Virginis Mariae n° 31",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_8",
@@ -61,7 +68,8 @@
     "type": "Conseils pour la méditation",
     "numero": 8,
     "texte": "Dans chaque mystère, Jésus nous conduit au Père. Le Notre Père oriente donc l'esprit vers lui et, même prié dans la solitude, fait de la méditation une expérience d'Église.",
-    "reference": "Rosarium Virginis Mariae, n° 32"
+    "reference": "Rosarium Virginis Mariae n° 32",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_9",
@@ -69,7 +77,8 @@
     "type": "Conseils pour la méditation",
     "numero": 9,
     "texte": "Le centre de l'Ave Maria est le nom de Jésus. Récité trop vite, on le perd, et avec lui le lien au mystère. Le souligner, par exemple par une courte clausule évoquant le mystère, garde l'esprit attentif.",
-    "reference": "Rosarium Virginis Mariae, n° 33"
+    "reference": "Rosarium Virginis Mariae n° 33",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_10",
@@ -77,7 +86,8 @@
     "type": "Conseils pour la méditation",
     "numero": 10,
     "texte": "Le Gloria est le sommet de la contemplation. Après chaque dizaine, il n'est pas une conclusion expédiée mais l'aboutissement du chemin : louer, adorer et remercier le Père, le Fils et l'Esprit.",
-    "reference": "Rosarium Virginis Mariae, n° 34"
+    "reference": "Rosarium Virginis Mariae n° 34",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_11",
@@ -85,7 +95,8 @@
     "type": "Conseils pour la méditation",
     "numero": 11,
     "texte": "Il est fécond d'achever chaque mystère par une prière qui demande le fruit propre de sa méditation. Le Rosaire montre ainsi son lien avec la vie : imiter ce que les mystères contiennent, obtenir ce qu'ils promettent.",
-    "reference": "Rosarium Virginis Mariae, n° 35"
+    "reference": "Rosarium Virginis Mariae n° 35",
+    "traduction": "Saint Jean-Paul II"
   },
   {
     "id": "rosarium_12",
@@ -93,6 +104,7 @@
     "type": "Conseils pour la méditation",
     "numero": 12,
     "texte": "Le mystère du Christ éclaire le mystère de l'homme. Méditer le Rosaire, c'est aussi remettre au cœur miséricordieux du Christ et de sa Mère nos fardeaux, nos soucis et nos projets : la prière épouse le rythme de la vie humaine.",
-    "reference": "Rosarium Virginis Mariae, n° 25"
+    "reference": "Rosarium Virginis Mariae n° 25",
+    "traduction": "Saint Jean-Paul II"
   }
 ]
