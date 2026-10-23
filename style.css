@@ -418,7 +418,7 @@ h1 {
   border-radius: 0.75rem;
   background: rgba(18, 18, 18, 0.45);
 }
-.pillars strong {
+.pillars > li > strong:first-child {
   display: block;
   margin-bottom: 0.2rem;
   color: var(--purple);
@@ -429,6 +429,12 @@ h1 {
   color: #cfc9d4;
   font-size: 0.92rem;
   line-height: 1.5;
+}
+.pillars span strong {
+  display: inline;
+  color: inherit;
+  font: inherit;
+  font-weight: 600;
 }
 .pillar-note {
   margin: 0.65rem 0 0;
@@ -518,6 +524,9 @@ h1 {
   color: #d6d0dc;
   font-size: 0.94rem;
   line-height: 1.55;
+}
+.transparency-note p + p {
+  margin-top: 0.65rem;
 }
 .transparency-note strong {
   color: var(--purple);
