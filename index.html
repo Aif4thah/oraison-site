@@ -116,25 +116,40 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <header class="hero">
-      <img src="logo.svg" alt="Logo Oraison, bougie blanche sur fond violet liturgique" width="88" height="88">
+  <!-- PREMIÈRE IMPRESSION (CADRE RESPONSIVE HAUTEUR D'ÉCRAN) -->
+  <header class="hero-screen">
+    <div class="hero-content">
+      <img src="logo.svg" alt="Logo Oraison, bougie blanche sur fond violet liturgique" width="92" height="92" class="hero-logo">
       <h1>Oraison</h1>
       <p class="tagline">Chapelet, méditation et prière dans le calme</p>
-      <p class="lead">Pensée comme une halte de silence et de paix intérieure, Oraison offre un espace sobre et apaisé pour prier le <strong>chapelet</strong>, entrer dans l'<strong>oraison</strong> et approfondir la <strong>méditation</strong> à la lumière de la <strong>Bible</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer — simplement s'asseoir, respirer et prier.</p>
-    </header>
 
-    <!-- VOIE PRIVILÉGIÉE : ACCÈS DIRECT & INSTALLATION EN 2 GESTES -->
-    <section class="pwa-card" aria-labelledby="pwa-title">
-      <p class="kicker-badge">Gratuit · Sans publicité · Sans compte</p>
-      <h2 id="pwa-title">Entrer dans le silence</h2>
-      <p class="pwa-intro">Ouvrez directement Oraison dans votre navigateur, ou posez son icône sur votre écran d'accueil pour entrer instantanément dans le calme et la méditation.</p>
-
-      <div class="pwa-actions">
-        <a class="btn btn-primary" href="app/">
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-hero" href="app/">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
           Ouvrir Oraison maintenant
         </a>
+      </div>
+    </div>
+
+    <a href="#decouvrir" class="scroll-cue" aria-label="Découvrir l'application et l'installer">
+      <span>Découvrir</span>
+      <svg class="scroll-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </header>
+
+  <!-- APRÈS LE SCROLL : PRÉSENTATION, INSTALLATION & CONTENU -->
+  <main id="decouvrir">
+    <section class="manifesto-section" aria-label="Présentation d'Oraison">
+      <p class="lead">Pensée comme une halte de silence et de paix intérieure, Oraison offre un espace sobre et apaisé pour prier le <strong>chapelet</strong>, entrer dans l'<strong>oraison</strong> et approfondir la <strong>méditation</strong> à la lumière de la <strong>Bible</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer — simplement s'asseoir, respirer et prier.</p>
+    </section>
+
+    <!-- INSTALLATION SUR L'ÉCRAN D'ACCUEIL -->
+    <section class="pwa-card" aria-labelledby="pwa-title">
+      <p class="kicker-badge">Gratuit · Sans publicité · Sans compte</p>
+      <h2 id="pwa-title">Poser l'application sur votre écran d'accueil</h2>
+      <p class="pwa-intro">Pour retrouver Oraison d'un geste chaque jour dans le calme et la méditation, ajoutez-la sur votre appareil sans passer par une boutique d'applications.</p>
+
+      <div class="pwa-actions" id="pwa-install-actions">
         <button type="button" id="btn-install-pwa" class="btn btn-outline" hidden>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           Installer en 1 clic sur cet appareil
@@ -185,7 +200,7 @@
             <ol class="steps compact-steps">
               <li>
                 <strong>Méditez sur grand écran</strong>
-                <span>Cliquez sur <em>« Ouvrir Oraison maintenant »</em>. L'interface s'adapte aux écrans larges et se parcourt à la souris, à la molette ou avec les flèches du clavier.</span>
+                <span>Cliquez sur <a href="app/"><em>« Ouvrir Oraison maintenant »</em></a>. L'interface s'adapte aux écrans larges et se parcourt à la souris, à la molette ou avec les flèches du clavier.</span>
               </li>
               <li>
                 <strong>Raccourci bureau optionnel</strong>
@@ -361,10 +376,18 @@
       }
 
       // Suivi de conversion : Clic sur le bouton principal d'ouverture de l'application
-      var openAppBtn = document.querySelector('.pwa-actions .btn-primary');
+      var openAppBtn = document.querySelector('.btn-hero') || document.querySelector('.btn-primary');
       if (openAppBtn) {
         openAppBtn.addEventListener('click', function () {
           trackEvent('cta-ouvrir-app', 'Clic CTA Ouvrir Oraison');
+        });
+      }
+
+      // Suivi : Défilement vers le contenu via l'indicateur
+      var scrollCue = document.querySelector('.scroll-cue');
+      if (scrollCue) {
+        scrollCue.addEventListener('click', function () {
+          trackEvent('scroll-cue-click', 'Clic Découvrir Oraison vers le bas');
         });
       }
 
