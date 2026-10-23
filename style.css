@@ -89,6 +89,18 @@ h1 {
   box-shadow: 0 8px 30px rgba(181, 126, 194, 0.48);
   transform: translateY(-2px);
 }
+.hero-microcopy {
+  margin: 0.75rem 0 0;
+  color: #b8b2be;
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
+  user-select: none;
+}
+.hero-microcopy .dot {
+  color: var(--purple);
+  margin: 0 0.35rem;
+  font-weight: 700;
+}
 .scroll-cue {
   display: inline-flex;
   flex-direction: column;
@@ -648,6 +660,10 @@ footer a:hover { text-decoration: underline; }
     padding: 0.95rem 1.75rem;
     font-size: 1.1rem;
   }
+  .hero-microcopy {
+    font-size: 0.82rem;
+    margin-top: 0.65rem;
+  }
   main { padding: 2rem 1rem 1.5rem; }
   .manifesto-section { margin-bottom: 2rem; }
   .lead { font-size: 0.98rem; line-height: 1.6; }
@@ -663,6 +679,7 @@ footer a:hover { text-decoration: underline; }
   h1 { margin: 0.5rem 0 0.15rem; font-size: 1.95rem; }
   .tagline { margin-bottom: 1.1rem; font-size: 0.95rem; }
   .btn-hero { padding: 0.75rem 1.6rem; font-size: 1rem; }
+  .hero-microcopy { font-size: 0.78rem; margin-top: 0.45rem; }
   .scroll-cue { margin-top: 0.75rem; }
 }
 
