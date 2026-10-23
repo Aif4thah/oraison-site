@@ -479,6 +479,12 @@ h1 {
   padding-top: 1.25rem;
   border-top: 1px dashed var(--line);
 }
+.mysteries-extra-title {
+  margin: 0 0 0.65rem;
+  font: 400 1.25rem/1.3 Georgia, "Times New Roman", serif;
+  color: var(--purple);
+  text-align: center;
+}
 .mysteries-extra-lead {
   max-width: 38rem;
   margin: 0 auto 1.15rem;
