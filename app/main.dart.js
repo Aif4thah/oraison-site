@@ -68634,7 +68634,7 @@ if(B.d.aG(r,"les "))return"Temps des "+B.d.bn(s,4)
 return"Temps de "+s},
 gRB(){var s,r,q=this
 if(q.gpH())return"Aujourd\u2019hui"
-if(q.f)return"S\xe9rie sp\xe9ciale"
+if(q.f)return"D\u2019apr\xe8s Saint Jean-Paul II"
 if(q.y===B.da){s=q.x
 if(s.a===101&&s.b===1231)return"D\xe9couverte du mois"
 return"D\xe9couverte du mois \xb7 Jusqu'au "+A.ag8(s.b)}if(q.e){s=q.x
