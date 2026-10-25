@@ -620,6 +620,13 @@ footer {
   line-height: 1.5;
   opacity: 0.9;
 }
+.footer-thanks {
+  max-width: 38rem;
+  margin: 0 auto 0.75rem;
+  line-height: 1.5;
+  color: var(--purple);
+  opacity: 0.95;
+}
 .footer-sep {
   margin: 0 0.35rem;
   opacity: 0.6;
