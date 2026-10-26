@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   background: radial-gradient(ellipse at 50% 0%, #271b2c, var(--bg) 60%) no-repeat;
   color: var(--fg);
-  font: 1.0625rem/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font: 1.0625rem/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   text-align: center;
 }
 main {
@@ -25,7 +25,7 @@ main {
   width: 100%;
   max-width: 52rem;
   margin: 0 auto;
-  padding: 3rem 1.25rem 2rem;
+  padding: 3.75rem 1.5rem 3rem;
 }
 a { color: var(--purple); }
 a:focus-visible, button:focus-visible, summary:focus-visible {
@@ -133,60 +133,62 @@ h1 {
 /* Section Manifeste / Accroche (après le scroll) */
 .manifesto-section {
   width: 100%;
-  max-width: 38rem;
-  margin: 0 auto 2.75rem;
-  padding: 0 0.5rem;
+  max-width: 40rem;
+  margin: 0 auto 3.5rem;
+  padding: 0 0.75rem;
 }
 .lead {
-  max-width: 38rem;
-  margin: 0;
+  max-width: 40rem;
+  margin: 0 auto;
   color: #d6d0dc;
-  font-size: 1.0625rem;
-  line-height: 1.7;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
 }
 .lead strong { color: var(--fg); font-weight: 500; }
 
 /* Carte Principale PWA (Installation après le scroll) */
 .pwa-card {
   width: 100%;
-  max-width: 40rem;
-  margin: 0 0 2.25rem;
-  padding: 2rem 1.75rem;
+  max-width: 42rem;
+  margin: 0 0 3.5rem;
+  padding: 2.5rem 2.25rem;
   border: 1px solid rgba(181, 126, 194, 0.45);
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   background: rgba(181, 126, 194, 0.08);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
 }
 .kicker-badge {
   display: inline-block;
-  margin: 0 0 0.6rem;
-  padding: 0.2rem 0.75rem;
+  margin: 0 0 0.85rem;
+  padding: 0.25rem 0.85rem;
   border: 1px solid rgba(181, 126, 194, 0.4);
   border-radius: 999px;
   color: var(--purple);
   font-size: 0.75rem;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 .pwa-card h2 {
-  margin: 0 0 0.75rem;
-  font: 400 1.6rem/1.25 Georgia, "Times New Roman", serif;
+  margin: 0 0 0.95rem;
+  font: 400 1.65rem/1.3 Georgia, "Times New Roman", serif;
 }
 .pwa-intro {
-  max-width: 34rem;
-  margin: 0 auto 1.4rem;
+  max-width: 35rem;
+  margin: 0 auto 1.75rem;
   color: #d6d0dc;
-  font-size: 0.98rem;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 .pwa-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.85rem;
+  gap: 1rem;
   justify-content: center;
   margin-bottom: 0;
 }
 #btn-install-pwa:not([hidden]) {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Boutons */
@@ -375,60 +377,61 @@ h1 {
 /* Section éditoriale & liturgique (SEO & présentation des mystères) */
 .editorial {
   width: 100%;
-  max-width: 44rem;
-  margin: 0 0 2.5rem;
-  padding: 2rem 1.75rem;
+  max-width: 46rem;
+  margin: 0 0 3.75rem;
+  padding: 2.75rem 2.25rem;
   border: 1px solid var(--line);
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   background: rgba(255, 255, 255, 0.015);
   text-align: left;
 }
 .editorial h2 {
-  margin: 0 0 0.65rem;
-  font: 400 1.45rem/1.3 Georgia, "Times New Roman", serif;
+  margin: 0 0 0.85rem;
+  font: 400 1.55rem/1.3 Georgia, "Times New Roman", serif;
   color: var(--fg);
   text-align: center;
 }
 .editorial > p {
-  max-width: 36rem;
-  margin: 0 auto 1.5rem;
+  max-width: 38rem;
+  margin: 0 auto 2rem;
   color: #cfc9d4;
-  font-size: 0.96rem;
+  font-size: 1rem;
+  line-height: 1.7;
   text-align: center;
 }
 .editorial .sub-heading {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
+  margin-top: 2.75rem;
+  padding-top: 2rem;
   border-top: 1px solid var(--line);
-  font-size: 1.3rem;
+  font-size: 1.35rem;
 }
 .editorial .sub-intro {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
 }
 .pillars {
   margin: 0;
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 0.85rem;
+  gap: 1.15rem;
 }
 .pillars li {
-  padding: 0.9rem 1.1rem;
+  padding: 1.2rem 1.35rem;
   border: 1px solid rgba(181, 126, 194, 0.2);
-  border-radius: 0.75rem;
+  border-radius: 0.85rem;
   background: rgba(18, 18, 18, 0.45);
 }
 .pillars > li > strong:first-child {
   display: block;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.35rem;
   color: var(--purple);
-  font: 400 1.05rem Georgia, "Times New Roman", serif;
+  font: 400 1.1rem Georgia, "Times New Roman", serif;
 }
 .pillars span {
   display: block;
   color: #cfc9d4;
-  font-size: 0.92rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 .pillars span strong {
   display: inline;
@@ -437,12 +440,12 @@ h1 {
   font-weight: 600;
 }
 .pillar-note {
-  margin: 0.65rem 0 0;
-  padding-top: 0.55rem;
+  margin: 0.85rem 0 0;
+  padding-top: 0.75rem;
   border-top: 1px dashed rgba(181, 126, 194, 0.25);
   color: #cfc9d4;
-  font-size: 0.88rem;
-  line-height: 1.45;
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 .pillar-note strong {
   display: inline;
@@ -453,56 +456,56 @@ h1 {
 }
 .mysteries-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
+  gap: 1.25rem;
 }
 .mystery-item {
-  padding: 1rem 1.1rem;
+  padding: 1.45rem 1.35rem;
   border: 1px solid var(--line);
-  border-radius: 0.75rem;
+  border-radius: 0.9rem;
   background: rgba(18, 18, 18, 0.55);
 }
 .mystery-item h3 {
-  margin: 0;
-  font: 400 1.12rem Georgia, "Times New Roman", serif;
+  margin: 0 0 0.25rem;
+  font: 400 1.2rem Georgia, "Times New Roman", serif;
   color: var(--purple);
 }
 .mystery-days {
-  margin: 0.1rem 0 0.45rem;
+  margin: 0.15rem 0 0.65rem;
   color: var(--muted);
   font-size: 0.76rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
 }
 .mystery-item p:last-child {
   margin: 0;
   color: #cfc9d4;
-  font-size: 0.9rem;
-  line-height: 1.45;
+  font-size: 0.94rem;
+  line-height: 1.6;
 }
 .mysteries-extra {
-  margin-top: 1.35rem;
-  padding-top: 1.25rem;
+  margin-top: 2.75rem;
+  padding-top: 2.25rem;
   border-top: 1px dashed var(--line);
 }
 .mysteries-extra-title {
-  margin: 0 0 0.65rem;
-  font: 400 1.25rem/1.3 Georgia, "Times New Roman", serif;
+  margin: 0 0 0.85rem;
+  font: 400 1.35rem/1.3 Georgia, "Times New Roman", serif;
   color: var(--purple);
   text-align: center;
 }
 .mysteries-extra-lead {
-  max-width: 38rem;
-  margin: 0 auto 1.15rem;
+  max-width: 40rem;
+  margin: 0 auto 1.75rem;
   color: #cfc9d4;
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 0.98rem;
+  line-height: 1.65;
   text-align: center;
 }
 .mysteries-extra-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
+  gap: 1.25rem;
 }
 .mystery-item-special {
   border-color: rgba(181, 126, 194, 0.3);
@@ -512,10 +515,10 @@ h1 {
   color: #c9a4d6;
 }
 .transparency-note {
-  margin-top: 1.5rem;
-  padding: 1.15rem 1.35rem;
+  margin-top: 2.25rem;
+  padding: 1.35rem 1.65rem;
   border: 1px solid rgba(181, 126, 194, 0.35);
-  border-radius: 0.75rem;
+  border-radius: 0.9rem;
   background: rgba(181, 126, 194, 0.05);
   text-align: left;
 }
@@ -686,19 +689,19 @@ a.mystery-item:hover {
 .mystery-link-cue {
   display: inline-flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.35rem;
   margin-top: auto;
-  padding-top: 0.65rem;
+  padding-top: 1rem;
   color: var(--purple);
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   font-weight: 500;
 }
 .editorial-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 1rem;
   justify-content: center;
-  margin: 1.35rem 0 0.25rem;
+  margin: 2.25rem 0 0.5rem;
 }
 
 /* Navigation de pied de page (Cocon Sémantique) */
@@ -706,13 +709,13 @@ a.mystery-item:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.35rem 0.85rem;
-  max-width: 46rem;
-  margin: 0 auto 0.9rem;
-  padding: 0.75rem 0;
+  gap: 0.45rem 1rem;
+  max-width: 48rem;
+  margin: 0 auto 1.25rem;
+  padding: 1.15rem 0;
   border-top: 1px solid rgba(58, 52, 64, 0.55);
   border-bottom: 1px solid rgba(58, 52, 64, 0.55);
-  font-size: 0.84rem;
+  font-size: 0.86rem;
 }
 .footer-nav a {
   color: #cfc9d4;
@@ -728,7 +731,7 @@ a.mystery-item:hover {
   width: 100%;
   max-width: 52rem;
   margin: 0 auto;
-  padding: 1.15rem 1.25rem 0;
+  padding: 1.75rem 1.5rem 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -737,32 +740,32 @@ a.mystery-item:hover {
 .brand-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.65rem;
   color: var(--fg);
   text-decoration: none;
-  font: 400 1.25rem Georgia, "Times New Roman", serif;
+  font: 400 1.28rem Georgia, "Times New Roman", serif;
 }
 .brand-link img {
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   filter: drop-shadow(0 2px 8px rgba(181, 126, 194, 0.28));
 }
 .brand-link:hover { color: var(--purple); }
 .btn-compact {
-  padding: 0.5rem 1rem;
+  padding: 0.55rem 1.15rem;
   font-size: 0.88rem;
-  border-radius: 0.6rem;
+  border-radius: 0.65rem;
 }
 .pillar-main {
   align-items: stretch;
   text-align: left;
-  max-width: 46rem;
-  padding-top: 1.5rem;
+  max-width: 48rem;
+  padding-top: 2.25rem;
 }
 .breadcrumb {
-  margin: 0 0 1.25rem;
+  margin: 0 0 2rem;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.84rem;
 }
 .breadcrumb ol {
   margin: 0;
@@ -771,7 +774,7 @@ a.mystery-item:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.4rem;
 }
 .breadcrumb a {
   color: var(--muted);
@@ -785,31 +788,33 @@ a.mystery-item:hover {
   color: var(--purple);
 }
 .pillar-hero {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 3.25rem;
+  padding-bottom: 2.25rem;
   border-bottom: 1px solid var(--line);
   text-align: center;
 }
 .pillar-hero h1 {
-  margin: 0.5rem 0 0.65rem;
-  font-size: clamp(1.85rem, 5.5vw, 2.65rem);
+  margin: 0.75rem 0 1rem;
+  font-size: clamp(1.95rem, 5.5vw, 2.75rem);
+  letter-spacing: -0.01em;
 }
 .pillar-hero .lead {
-  margin: 0 auto 1.35rem;
-  max-width: 38rem;
+  margin: 0 auto 2rem;
+  max-width: 40rem;
+  line-height: 1.8;
 }
 
 /* Cartes détaillées des 5 mystères */
 .mystery-detail-list {
   display: flex;
   flex-direction: column;
-  gap: 1.35rem;
-  margin: 1.5rem 0 2rem;
+  gap: 2.25rem;
+  margin: 2rem 0 3.25rem;
 }
 .mystery-detail-card {
-  padding: 1.5rem 1.45rem;
+  padding: 2.25rem 2rem;
   border: 1px solid var(--line);
-  border-radius: 0.9rem;
+  border-radius: 1.15rem;
   background: rgba(18, 18, 18, 0.6);
 }
 .mystery-detail-header {
@@ -817,14 +822,14 @@ a.mystery-item:hover {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: 0.5rem 1rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.65rem;
+  gap: 0.6rem 1rem;
+  margin-bottom: 1.15rem;
+  padding-bottom: 0.95rem;
   border-bottom: 1px solid rgba(58, 52, 64, 0.7);
 }
 .mystery-detail-header h2 {
   margin: 0;
-  font: 400 1.35rem/1.25 Georgia, "Times New Roman", serif;
+  font: 400 1.4rem/1.3 Georgia, "Times New Roman", serif;
   color: var(--fg);
 }
 .mystery-num {
@@ -834,44 +839,44 @@ a.mystery-item:hover {
 }
 .fruit-badge {
   display: inline-block;
-  padding: 0.2rem 0.7rem;
+  padding: 0.25rem 0.8rem;
   border: 1px solid rgba(181, 126, 194, 0.35);
   border-radius: 999px;
   background: rgba(181, 126, 194, 0.08);
   color: #d7b4e2;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
 }
 .mystery-meditation {
-  margin: 0 0 1rem;
+  margin: 0 0 1.5rem;
   color: #d6d0dc;
-  font-size: 0.96rem;
-  line-height: 1.6;
+  font-size: 0.98rem;
+  line-height: 1.75;
 }
 .verse-list {
   margin: 0;
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 0.65rem;
+  gap: 1rem;
 }
 .verse-item {
-  padding: 0.75rem 0.95rem;
-  border-left: 2px solid var(--purple);
-  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 1.1rem 1.35rem;
+  border-left: 2.5px solid var(--purple);
+  border-radius: 0 0.65rem 0.65rem 0;
   background: rgba(255, 255, 255, 0.02);
 }
 .verse-quote {
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.55rem;
   color: var(--fg);
-  font: italic 0.95rem/1.55 Georgia, "Times New Roman", serif;
+  font: italic 0.98rem/1.7 Georgia, "Times New Roman", serif;
 }
 .verse-meta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 0.4rem;
-  font-size: 0.8rem;
+  gap: 0.5rem;
+  font-size: 0.82rem;
   color: var(--muted);
 }
 .clausule-tag {
@@ -883,92 +888,93 @@ a.mystery-item:hover {
 .prayer-list {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
-  margin: 1.5rem 0 2rem;
+  gap: 2rem;
+  margin: 2rem 0 3.25rem;
 }
 .prayer-card {
-  padding: 1.35rem;
+  padding: 2rem 1.75rem;
   border: 1px solid var(--line);
-  border-radius: 0.85rem;
+  border-radius: 1.1rem;
   background: rgba(18, 18, 18, 0.55);
 }
 .prayer-card h3 {
-  margin: 0 0 0.85rem;
-  font: 400 1.2rem Georgia, "Times New Roman", serif;
+  margin: 0 0 1.15rem;
+  font: 400 1.25rem Georgia, "Times New Roman", serif;
   color: var(--purple);
   text-align: center;
 }
 .prayer-dual-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1rem;
+  gap: 1.35rem;
 }
 .prayer-col {
-  padding: 0.85rem 1rem;
+  padding: 1.25rem 1.35rem;
   border: 1px solid rgba(58, 52, 64, 0.65);
-  border-radius: 0.65rem;
+  border-radius: 0.75rem;
   background: rgba(255, 255, 255, 0.015);
 }
 .prayer-lang {
   display: block;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   color: var(--muted);
   font-size: 0.74rem;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
 }
 .prayer-text {
   margin: 0;
   color: #e6e1ec;
-  font: 0.95rem/1.6 Georgia, "Times New Roman", serif;
+  font: 0.96rem/1.75 Georgia, "Times New Roman", serif;
 }
 
 /* Tunnel de conversion vers la PWA (/app/) */
 .cta-tunnel {
-  margin: 2rem 0;
-  padding: 1.75rem 1.5rem;
+  margin: 3.75rem 0;
+  padding: 2.75rem 2.25rem;
   border: 1px solid rgba(181, 126, 194, 0.5);
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   background: radial-gradient(ellipse at 50% 0%, rgba(181, 126, 194, 0.14), rgba(18, 18, 18, 0.7) 75%);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.32);
   text-align: center;
 }
 .cta-tunnel h2, .cta-tunnel h3 {
-  margin: 0 0 0.55rem;
-  font: 400 1.4rem/1.3 Georgia, "Times New Roman", serif;
+  margin: 0 0 0.75rem;
+  font: 400 1.5rem/1.3 Georgia, "Times New Roman", serif;
   color: var(--fg);
 }
 .cta-tunnel p {
-  max-width: 35rem;
-  margin: 0 auto 1.25rem;
+  max-width: 36rem;
+  margin: 0 auto 1.75rem;
   color: #d6d0dc;
-  font-size: 0.96rem;
+  font-size: 1rem;
+  line-height: 1.75;
 }
 .cta-tunnel .hero-microcopy {
-  margin-top: 0.85rem;
+  margin-top: 1.15rem;
 }
 
 /* Maillage interne circulaire (Silo Liturgique) */
 .silo-section {
-  margin: 2rem 0 1rem;
-  padding-top: 1.5rem;
+  margin: 3.5rem 0 1.5rem;
+  padding-top: 2.5rem;
   border-top: 1px solid var(--line);
 }
 .silo-section h2 {
-  margin: 0 0 1rem;
-  font: 400 1.3rem Georgia, "Times New Roman", serif;
+  margin: 0 0 1.35rem;
+  font: 400 1.35rem Georgia, "Times New Roman", serif;
   text-align: center;
 }
 .silo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr));
-  gap: 0.75rem;
+  gap: 1rem;
 }
 .silo-card {
   display: block;
-  padding: 0.85rem 1rem;
+  padding: 1.15rem 1.25rem;
   border: 1px solid var(--line);
-  border-radius: 0.7rem;
+  border-radius: 0.85rem;
   background: rgba(18, 18, 18, 0.5);
   color: var(--fg);
   text-decoration: none;
@@ -989,37 +995,55 @@ a.mystery-item:hover {
 }
 .silo-card small {
   display: block;
-  margin-top: 0.15rem;
+  margin-top: 0.25rem;
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.78rem;
 }
 
 @media (max-width: 32rem) {
   .hero-screen {
-    padding: 2.25rem 1rem 1.5rem;
+    padding: 2.5rem 1.25rem 1.75rem;
   }
   .hero-logo { width: 78px; }
-  h1 { margin: 1rem 0 0.25rem; font-size: 2.25rem; }
-  .tagline { margin-bottom: 1.75rem; font-size: 1.08rem; }
+  h1 { margin: 1.15rem 0 0.35rem; font-size: 2.25rem; }
+  .tagline { margin-bottom: 2rem; font-size: 1.1rem; }
   .btn-hero {
     width: 100%;
     max-width: 22rem;
-    padding: 0.95rem 1.75rem;
-    font-size: 1.1rem;
+    padding: 1.05rem 1.75rem;
+    font-size: 1.12rem;
   }
   .hero-microcopy {
-    font-size: clamp(0.68rem, 2.9vw, 0.82rem);
-    margin-top: 0.65rem;
+    font-size: clamp(0.7rem, 3vw, 0.85rem);
+    margin-top: 0.85rem;
     white-space: nowrap;
   }
   .hero-microcopy .dot {
-    margin: 0 0.22rem;
+    margin: 0 0.25rem;
   }
-  main { padding: 2rem 1rem 1.5rem; }
-  .manifesto-section { margin-bottom: 2rem; }
-  .lead { font-size: 0.98rem; line-height: 1.6; }
-  .pwa-card, .editorial, .beta { padding: 1.35rem 1.1rem; }
+  main { padding: 2.75rem 1.25rem 2.25rem; }
+  .manifesto-section { margin-bottom: 2.75rem; }
+  .lead { font-size: 1.02rem; line-height: 1.75; }
+  .pwa-card, .editorial, .beta {
+    padding: 2rem 1.35rem;
+    margin-bottom: 2.75rem;
+    border-radius: 1.1rem;
+  }
   .pwa-actions .btn { width: 100%; }
+  .mysteries-grid, .mysteries-extra-grid { gap: 1.15rem; }
+  .mystery-item { padding: 1.35rem 1.25rem; }
+  .page-topbar { padding: 1.35rem 1.15rem 0; }
+  .pillar-hero { margin-bottom: 2.5rem; padding-bottom: 1.75rem; }
+  .mystery-detail-list { gap: 1.75rem; margin-bottom: 2.5rem; }
+  .mystery-detail-card { padding: 1.65rem 1.25rem; border-radius: 1rem; }
+  .verse-item { padding: 1rem 1.15rem; }
+  .prayer-list { gap: 1.75rem; margin-bottom: 2.5rem; }
+  .prayer-card { padding: 1.6rem 1.25rem; border-radius: 1rem; }
+  .prayer-col { padding: 1.1rem 1.2rem; }
+  .cta-tunnel { padding: 2.25rem 1.35rem; margin: 3rem 0; border-radius: 1.1rem; }
+  .silo-section { margin: 2.75rem 0 1rem; padding-top: 2rem; }
+  .silo-grid { gap: 0.85rem; }
+  .silo-card { padding: 1rem 1.1rem; }
 }
 
 @media (max-height: 650px) {
