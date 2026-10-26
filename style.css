@@ -683,12 +683,6 @@ a.mystery-item:hover {
   background: rgba(181, 126, 194, 0.1);
   transform: translateY(-2px);
 }
-.mystery-item-head {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.5rem;
-}
 .mystery-link-cue {
   display: inline-flex;
   align-items: center;
@@ -698,23 +692,6 @@ a.mystery-item:hover {
   color: var(--purple);
   font-size: 0.82rem;
   font-weight: 500;
-}
-.today-badge {
-  display: inline-block;
-  padding: 0.12rem 0.55rem;
-  border: 1px solid rgba(181, 126, 194, 0.55);
-  border-radius: 999px;
-  background: rgba(181, 126, 194, 0.18);
-  color: var(--fg);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-.mystery-item.is-today {
-  border-color: rgba(181, 126, 194, 0.65);
-  box-shadow: 0 4px 20px rgba(181, 126, 194, 0.14);
 }
 .editorial-actions {
   display: flex;
@@ -821,19 +798,6 @@ a.mystery-item:hover {
   margin: 0 auto 1.35rem;
   max-width: 38rem;
 }
-.today-callout {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.85rem;
-  padding: 0.35rem 0.9rem;
-  border: 1px solid rgba(181, 126, 194, 0.55);
-  border-radius: 999px;
-  background: rgba(181, 126, 194, 0.14);
-  color: var(--fg);
-  font-size: 0.84rem;
-}
-.today-callout[hidden] { display: none; }
 
 /* Cartes détaillées des 5 mystères */
 .mystery-detail-list {

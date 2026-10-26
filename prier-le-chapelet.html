@@ -198,41 +198,29 @@
       <p>Le <strong>Rosaire</strong> complet comprend vingt mystères répartis en quatre séries de cinq dizaines. Au fil de la semaine, l'Église propose de méditer chaque jour une série spécifique :</p>
 
       <div class="mysteries-grid">
-        <a href="mysteres-joyeux.html" class="mystery-item" data-days="1,6">
-          <div class="mystery-item-head">
-            <h3>Mystères joyeux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-joyeux.html" class="mystery-item">
+          <h3>Mystères joyeux</h3>
           <p class="mystery-days">Lundi &amp; Samedi</p>
           <p>L'Annonciation, la Visitation, la Nativité, la Présentation au Temple et le Recouvrement au Temple.</p>
           <span class="mystery-link-cue">Voir les 5 mystères joyeux →</span>
         </a>
 
-        <a href="mysteres-lumineux.html" class="mystery-item" data-days="4">
-          <div class="mystery-item-head">
-            <h3>Mystères lumineux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-lumineux.html" class="mystery-item">
+          <h3>Mystères lumineux</h3>
           <p class="mystery-days">Jeudi</p>
           <p>Le Baptême au Jourdain, les Noces de Cana, l'Annonce du Royaume, la Transfiguration et l'Eucharistie.</p>
           <span class="mystery-link-cue">Voir les 5 mystères lumineux →</span>
         </a>
 
-        <a href="mysteres-douloureux.html" class="mystery-item" data-days="2,5">
-          <div class="mystery-item-head">
-            <h3>Mystères douloureux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-douloureux.html" class="mystery-item">
+          <h3>Mystères douloureux</h3>
           <p class="mystery-days">Mardi &amp; Vendredi</p>
           <p>L'Agonie à Gethsémani, la Flagellation, le Couronnement d'épines, le Portement de la Croix et la Crucifixion.</p>
           <span class="mystery-link-cue">Voir les 5 mystères douloureux →</span>
         </a>
 
-        <a href="mysteres-glorieux.html" class="mystery-item" data-days="0,3">
-          <div class="mystery-item-head">
-            <h3>Mystères glorieux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-glorieux.html" class="mystery-item">
+          <h3>Mystères glorieux</h3>
           <p class="mystery-days">Mercredi &amp; Dimanche</p>
           <p>La Résurrection, l'Ascension, la Pentecôte, l'Assomption de Marie et son Couronnement au ciel.</p>
           <span class="mystery-link-cue">Voir les 5 mystères glorieux →</span>
@@ -408,17 +396,6 @@
 
   <script>
     (function () {
-      var todayDay = String(new Date().getDay());
-      var mysteryCards = document.querySelectorAll('.mystery-item[data-days]');
-      mysteryCards.forEach(function (card) {
-        var days = (card.getAttribute('data-days') || '').split(',');
-        if (days.indexOf(todayDay) !== -1) {
-          card.classList.add('is-today');
-          var badge = card.querySelector('.today-badge');
-          if (badge) badge.hidden = false;
-        }
-      });
-
       document.querySelectorAll('[data-track]').forEach(function (el) {
         el.addEventListener('click', function () {
           var name = this.getAttribute('data-track');

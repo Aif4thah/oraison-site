@@ -120,9 +120,6 @@
     </nav>
 
     <div class="pillar-hero">
-      <div id="today-banner" class="today-callout" data-days="0,3" hidden>
-        <span>✦ Mystères priés aujourd'hui dans la liturgie</span>
-      </div>
       <p class="kicker-badge">Mercredi &amp; Dimanche</p>
       <h1>Les 5 Mystères Glorieux du Rosaire</h1>
       <p class="lead">Les <strong>mystères glorieux</strong> ouvrent notre prière à la lumière de Pâques et à l'espérance de la vie éternelle. Du matin de la Résurrection au souffle de la Pentecôte et à la gloire céleste de Marie, ils nourrissent en nous la foi, l'espérance et la paix du Christ ressuscité.</p>
@@ -337,13 +334,6 @@
 
   <script>
     (function () {
-      var banner = document.getElementById('today-banner');
-      if (banner) {
-        var days = (banner.getAttribute('data-days') || '').split(',');
-        if (days.indexOf(String(new Date().getDay())) !== -1) {
-          banner.hidden = false;
-        }
-      }
       document.querySelectorAll('[data-track]').forEach(function (el) {
         el.addEventListener('click', function () {
           var name = this.getAttribute('data-track');

@@ -120,9 +120,6 @@
     </nav>
 
     <div class="pillar-hero">
-      <div id="today-banner" class="today-callout" data-days="4" hidden>
-        <span>✦ Mystères priés aujourd'hui dans la liturgie</span>
-      </div>
       <p class="kicker-badge">Jeudi</p>
       <h1>Les 5 Mystères Lumineux du Rosaire</h1>
       <p class="lead">Introduits par Saint Jean-Paul II en 2002 dans <em>Rosarium Virginis Mariae</em>, les <strong>mystères lumineux</strong> nous invitent à contempler la vie publique du Christ, « Lumière du monde », depuis les eaux du Jourdain jusqu'au don silencieux de l'Eucharistie au soir du Jeudi Saint.</p>
@@ -344,13 +341,6 @@
 
   <script>
     (function () {
-      var banner = document.getElementById('today-banner');
-      if (banner) {
-        var days = (banner.getAttribute('data-days') || '').split(',');
-        if (days.indexOf(String(new Date().getDay())) !== -1) {
-          banner.hidden = false;
-        }
-      }
       document.querySelectorAll('[data-track]').forEach(function (el) {
         el.addEventListener('click', function () {
           var name = this.getAttribute('data-track');

@@ -120,9 +120,6 @@
     </nav>
 
     <div class="pillar-hero">
-      <div id="today-banner" class="today-callout" data-days="2,5" hidden>
-        <span>✦ Mystères priés aujourd'hui dans la liturgie</span>
-      </div>
       <p class="kicker-badge">Mardi &amp; Vendredi</p>
       <h1>Les 5 Mystères Douloureux du Rosaire</h1>
       <p class="lead">Les <strong>mystères douloureux</strong> nous invitent à veiller auprès du Christ dans sa Passion. De la nuit silencieuse du Jardin des Oliviers jusqu'au pied de la Croix aux côtés de Marie, la prière du chapelet unit nos épreuves à l'amour rédempteur du Sauveur.</p>
@@ -344,13 +341,6 @@
 
   <script>
     (function () {
-      var banner = document.getElementById('today-banner');
-      if (banner) {
-        var days = (banner.getAttribute('data-days') || '').split(',');
-        if (days.indexOf(String(new Date().getDay())) !== -1) {
-          banner.hidden = false;
-        }
-      }
       document.querySelectorAll('[data-track]').forEach(function (el) {
         el.addEventListener('click', function () {
           var name = this.getAttribute('data-track');

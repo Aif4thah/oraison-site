@@ -244,38 +244,26 @@
       <p class="sub-intro">Fidèle à la tradition catholique et au rythme liturgique, l'application propose chaque jour la série de mystères correspondante ainsi que des méditations propres aux temps de l'année.</p>
 
       <div class="mysteries-grid">
-        <a href="mysteres-joyeux.html" class="mystery-item" data-days="1,6">
-          <div class="mystery-item-head">
-            <h3>Mystères joyeux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-joyeux.html" class="mystery-item">
+          <h3>Mystères joyeux</h3>
           <p class="mystery-days">Lundi &amp; Samedi</p>
           <p>L'accueil silencieux et humble de la vie, de l'Annonciation à Nazareth jusqu'à la présentation au Temple.</p>
           <span class="mystery-link-cue">Découvrir les 5 mystères &amp; versets →</span>
         </a>
-        <a href="mysteres-lumineux.html" class="mystery-item" data-days="4">
-          <div class="mystery-item-head">
-            <h3>Mystères lumineux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-lumineux.html" class="mystery-item">
+          <h3>Mystères lumineux</h3>
           <p class="mystery-days">Jeudi</p>
           <p>Les grands récits de la Bible, du baptême au Jourdain et du signe de Cana jusqu'au partage du pain.</p>
           <span class="mystery-link-cue">Découvrir les 5 mystères &amp; versets →</span>
         </a>
-        <a href="mysteres-douloureux.html" class="mystery-item" data-days="2,5">
-          <div class="mystery-item-head">
-            <h3>Mystères douloureux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-douloureux.html" class="mystery-item">
+          <h3>Mystères douloureux</h3>
           <p class="mystery-days">Mardi &amp; Vendredi</p>
           <p>La veille intérieure à Gethsémani, l'épreuve de la patience et le don silencieux du Christ sur la Croix.</p>
           <span class="mystery-link-cue">Découvrir les 5 mystères &amp; versets →</span>
         </a>
-        <a href="mysteres-glorieux.html" class="mystery-item" data-days="0,3">
-          <div class="mystery-item-head">
-            <h3>Mystères glorieux</h3>
-            <span class="today-badge" hidden>Aujourd'hui</span>
-          </div>
+        <a href="mysteres-glorieux.html" class="mystery-item">
+          <h3>Mystères glorieux</h3>
           <p class="mystery-days">Mercredi &amp; Dimanche</p>
           <p>La paix de la Résurrection, le souffle intérieur de la Pentecôte et l'espérance qui traverse le temps.</p>
           <span class="mystery-link-cue">Découvrir les 5 mystères &amp; versets →</span>
@@ -553,19 +541,7 @@
         });
       });
 
-      // 5. Mise en évidence automatique de la série de mystères du jour
-      var todayDay = String(new Date().getDay());
-      var mysteryCards = document.querySelectorAll('.mystery-item[data-days]');
-      mysteryCards.forEach(function (card) {
-        var days = (card.getAttribute('data-days') || '').split(',');
-        if (days.indexOf(todayDay) !== -1) {
-          card.classList.add('is-today');
-          var badge = card.querySelector('.today-badge');
-          if (badge) badge.hidden = false;
-        }
-      });
-
-      // 6. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
+      // 5. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
       var contactBtn = document.getElementById('contact-reveal');
       var contactBox = document.getElementById('contact-container');
       if (contactBtn && contactBox) {

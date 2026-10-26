@@ -120,9 +120,6 @@
     </nav>
 
     <div class="pillar-hero">
-      <div id="today-banner" class="today-callout" data-days="1,6" hidden>
-        <span>✦ Mystères priés aujourd'hui dans la liturgie</span>
-      </div>
       <p class="kicker-badge">Lundi &amp; Samedi</p>
       <h1>Les 5 Mystères Joyeux du Rosaire</h1>
       <p class="lead">Les <strong>mystères joyeux</strong> nous font entrer dans la joie silencieuse de l'Incarnation. De la maison de Nazareth à la crèche de Bethléem et au Temple de Jérusalem, nous contemplons avec Marie l'humilité d'un Dieu qui se fait enfant et se laisse accueillir dans le silence du cœur.</p>
@@ -358,13 +355,6 @@
 
   <script>
     (function () {
-      var banner = document.getElementById('today-banner');
-      if (banner) {
-        var days = (banner.getAttribute('data-days') || '').split(',');
-        if (days.indexOf(String(new Date().getDay())) !== -1) {
-          banner.hidden = false;
-        }
-      }
       document.querySelectorAll('[data-track]').forEach(function (el) {
         el.addEventListener('click', function () {
           var name = this.getAttribute('data-track');
