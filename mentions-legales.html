@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mentions légales — Oraison</title>
+  <meta name="description" content="Mentions légales du site et de l'application Oraison.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#121212">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
+  <link rel="canonical" href="https://oraison.app/mentions-legales.html">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
+  <script data-goatcounter="https://vacarelm.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <main class="legal">
+    <a href="/" class="back">← Retour à l'accueil Oraison</a>
+    <h1>Mentions légales</h1>
+    <p class="meta">Mise à jour du 26 octobre 2026</p>
+
+    <h2>1. Édition du site</h2>
+    <p>Le site internet <code>oraison.app</code> et l'application associée sont édités à titre non professionnel dans le cadre d'une initiative bénévole et indépendante au service de l'oraison chrétienne.</p>
+    <p>Conformément aux dispositions de l'article 6, III, 2° de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), l'auteur a choisi de préserver son anonymat vis-à-vis du public. Les éléments d'identification personnelle de l'éditeur ont été dûment transmis à l'hébergeur mentionné ci-après.</p>
+
+    <h2>2. Hébergement</h2>
+    <p>Le site et l'application web sont hébergés par la société <strong>GitHub, Inc.</strong> (via le service GitHub Pages) :</p>
+    <ul>
+      <li><strong>Raison sociale :</strong> GitHub, Inc.</li>
+      <li><strong>Adresse :</strong> 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis</li>
+      <li><strong>Site web &amp; assistance :</strong> <a href="https://support.github.com" target="_blank" rel="noopener noreferrer">https://support.github.com</a></li>
+      <li><strong>Téléphone :</strong> +1 877 448 4820</li>
+    </ul>
+
+    <h2>3. Propriété intellectuelle</h2>
+    <p>L'ensemble du code source, des graphismes et des textes originaux composant l'application et le site sont protégés au titre du droit d'auteur. Les textes bibliques et liturgiques utilisés relèvent des traditions liturgiques de l'Église catholique.</p>
+
+    <h2>4. Données personnelles et cookies</h2>
+    <p>Le site <code>oraison.app</code> respecte scrupuleusement la vie privée de ses utilisateurs. Il n'utilise aucun cookie publicitaire ni traceur intrusif, et ne collecte aucune donnée personnelle nominative.</p>
+    <p>Pour en savoir plus sur l'absence de collecte et sur notre outil de mesure d'audience anonyme (GoatCounter), veuillez consulter notre <a href="privacy.html">Politique de confidentialité</a>.</p>
+
+    <h2>5. Contact</h2>
+    <p>Éditeur · vacarelm · <button type="button" id="legal-contact-btn" class="footer-link-btn">Afficher l'adresse de contact</button><span id="legal-contact-slot" hidden></span></p>
+  </main>
+  <footer>
+    <p class="footer-initiative">Initiative catholique indépendante née en paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
+    <p class="footer-thanks">♥ Merci à notre communauté paroissiale et à tous ceux qui soutiennent ce projet par leur prière et leur générosité.</p>
+    <div>
+      <span>© 2026 Oraison · Tous droits réservés · vacarelm</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="privacy.html">Confidentialité</a>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="/">Accueil</a>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var btn = document.getElementById('legal-contact-btn');
+      var slot = document.getElementById('legal-contact-slot');
+      if (btn && slot) {
+        btn.addEventListener('click', function () {
+          var addr = 'vacarelm' + '@' + 'gmail.com';
+          var a = document.createElement('a');
+          a.href = 'mailto:' + addr + '?subject=Oraison';
+          a.textContent = addr;
+          slot.appendChild(a);
+          slot.hidden = false;
+          btn.hidden = true;
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
