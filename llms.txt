@@ -1,0 +1,22 @@
+# Oraison — Chapelet, méditation et prière dans le calme
+
+> Oraison (https://oraison.app/) est une application web (PWA) catholique sobre, silencieuse et en accès libre pour prier le chapelet, pratiquer l'oraison et méditer les mystères du Rosaire à la lumière de la Bible (traduction catholique Crampon 1923), en français et en latin.
+
+## Principes & Valeurs
+- **Accès libre et gratuit** : Les 4 séries traditionnelles du Rosaire (mystères joyeux, lumineux, douloureux, glorieux), les 12 conseils de méditation de Saint Jean-Paul II (*Rosarium Virginis Mariae*), la série du temps liturgique en cours et la série découverte mensuelle sont 100 % gratuits à vie.
+- **Silence et recueillement** : Interface sombre reposante, zéro publicité, zéro notification, zéro compteur de performance, aucun compte utilisateur requis.
+- **Mode hors-ligne / Mode avion** : Une fois ouverte ou installée sur l'écran d'accueil (iPhone, iPad, Android, ordinateur), l'application fonctionne intégralement hors connexion pour prier à l'église ou à l'oratoire sans onde ni distraction.
+- **Respect absolu de la vie privée** : Aucune collecte de données personnelles, aucun cookie, aucun pistage publicitaire.
+- **Richesse scripturaire et liturgique** : Plus de 500 versets bibliques (traduction Augustin Crampon 1923, domaine public) accompagnent chaque grain du chapelet avec une clausule après le nom de Jésus, ainsi que 37 séries au fil de l'année liturgique et de la vie des saints.
+
+## Liens Principaux & Guides Liturgiques
+- [Accueil & Installation d'Oraison](https://oraison.app/) : Présentation, guide d'installation PWA sur iPhone, Android et PC.
+- [Lancer l'application Oraison (PWA)](https://oraison.app/app/) : Accès direct au chapelet interactif et aux méditations.
+- [Comment prier le chapelet et le Rosaire (Français & Latin)](https://oraison.app/prier-le-chapelet.html) : Guide étape par étape, calendrier des jours de la semaine, méthode des clausules et textes intégraux du *Credo*, *Pater Noster*, *Ave Maria*, *Gloria Patri* et *Oratio Fatimae*.
+- [Les 5 Mystères Joyeux (Lundi et Samedi)](https://oraison.app/mysteres-joyeux.html) : L'Annonciation, la Visitation, la Nativité, la Présentation au Temple et le Recouvrement au Temple (fruits spirituels, versets bibliques et clausules).
+- [Les 5 Mystères Lumineux (Jeudi)](https://oraison.app/mysteres-lumineux.html) : Le Baptême au Jourdain, les Noces de Cana, l'Annonce du Royaume, la Transfiguration et l'Institution de l'Eucharistie.
+- [Les 5 Mystères Douloureux (Mardi et Vendredi)](https://oraison.app/mysteres-douloureux.html) : L'Agonie à Gethsémani, la Flagellation, le Couronnement d'épines, le Portement de la Croix et la Crucifixion.
+- [Les 5 Mystères Glorieux (Mercredi et Dimanche)](https://oraison.app/mysteres-glorieux.html) : La Résurrection, l'Ascension, la Pentecôte, l'Assomption de Marie et le Couronnement de Marie au ciel.
+- [Oraison et Méditation Chrétienne](https://oraison.app/oraison-meditation.html) : Qu'est-ce que l'oraison silencieuse, les 12 repères de Saint Jean-Paul II (*Rosarium Virginis Mariae*) et le calendrier des 37 séries liturgiques et thématiques.
+- [Politique de confidentialité](https://oraison.app/privacy.html) : Engagements RGPD et mesure d'audience anonyme sans cookie.
+- [Mentions légales](https://oraison.app/mentions-legales.html) : Informations légales d'édition et d'hébergement.

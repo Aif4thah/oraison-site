@@ -670,6 +670,366 @@ footer a:hover { text-decoration: underline; }
 .back { color: var(--purple); text-decoration: none; }
 .back:hover { text-decoration: underline; }
 
+/* Cartes cliquables (Maillage Cocon Sémantique depuis l'accueil) */
+a.mystery-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.18s ease;
+}
+a.mystery-item:hover {
+  border-color: var(--purple);
+  background: rgba(181, 126, 194, 0.1);
+  transform: translateY(-2px);
+}
+.mystery-item-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.mystery-link-cue {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: auto;
+  padding-top: 0.65rem;
+  color: var(--purple);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+.today-badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border: 1px solid rgba(181, 126, 194, 0.55);
+  border-radius: 999px;
+  background: rgba(181, 126, 194, 0.18);
+  color: var(--fg);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.mystery-item.is-today {
+  border-color: rgba(181, 126, 194, 0.65);
+  box-shadow: 0 4px 20px rgba(181, 126, 194, 0.14);
+}
+.editorial-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 1.35rem 0 0.25rem;
+}
+
+/* Navigation de pied de page (Cocon Sémantique) */
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 0.85rem;
+  max-width: 46rem;
+  margin: 0 auto 0.9rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(58, 52, 64, 0.55);
+  border-bottom: 1px solid rgba(58, 52, 64, 0.55);
+  font-size: 0.84rem;
+}
+.footer-nav a {
+  color: #cfc9d4;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: var(--purple);
+  text-decoration: underline;
+}
+
+/* En-tête et structure des pages piliers liturgiques */
+.page-topbar {
+  width: 100%;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.15rem 1.25rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--fg);
+  text-decoration: none;
+  font: 400 1.25rem Georgia, "Times New Roman", serif;
+}
+.brand-link img {
+  width: 34px;
+  height: 34px;
+  filter: drop-shadow(0 2px 8px rgba(181, 126, 194, 0.28));
+}
+.brand-link:hover { color: var(--purple); }
+.btn-compact {
+  padding: 0.5rem 1rem;
+  font-size: 0.88rem;
+  border-radius: 0.6rem;
+}
+.pillar-main {
+  align-items: stretch;
+  text-align: left;
+  max-width: 46rem;
+  padding-top: 1.5rem;
+}
+.breadcrumb {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.breadcrumb ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  color: var(--purple);
+  text-decoration: underline;
+}
+.breadcrumb [aria-current="page"] {
+  color: var(--purple);
+}
+.pillar-hero {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+.pillar-hero h1 {
+  margin: 0.5rem 0 0.65rem;
+  font-size: clamp(1.85rem, 5.5vw, 2.65rem);
+}
+.pillar-hero .lead {
+  margin: 0 auto 1.35rem;
+  max-width: 38rem;
+}
+.today-callout {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid rgba(181, 126, 194, 0.55);
+  border-radius: 999px;
+  background: rgba(181, 126, 194, 0.14);
+  color: var(--fg);
+  font-size: 0.84rem;
+}
+.today-callout[hidden] { display: none; }
+
+/* Cartes détaillées des 5 mystères */
+.mystery-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  margin: 1.5rem 0 2rem;
+}
+.mystery-detail-card {
+  padding: 1.5rem 1.45rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: rgba(18, 18, 18, 0.6);
+}
+.mystery-detail-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid rgba(58, 52, 64, 0.7);
+}
+.mystery-detail-header h2 {
+  margin: 0;
+  font: 400 1.35rem/1.25 Georgia, "Times New Roman", serif;
+  color: var(--fg);
+}
+.mystery-num {
+  color: var(--purple);
+  font-weight: 400;
+  margin-right: 0.35rem;
+}
+.fruit-badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid rgba(181, 126, 194, 0.35);
+  border-radius: 999px;
+  background: rgba(181, 126, 194, 0.08);
+  color: #d7b4e2;
+  font-size: 0.78rem;
+}
+.mystery-meditation {
+  margin: 0 0 1rem;
+  color: #d6d0dc;
+  font-size: 0.96rem;
+  line-height: 1.6;
+}
+.verse-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.65rem;
+}
+.verse-item {
+  padding: 0.75rem 0.95rem;
+  border-left: 2px solid var(--purple);
+  border-radius: 0 0.5rem 0.5rem 0;
+  background: rgba(255, 255, 255, 0.02);
+}
+.verse-quote {
+  margin: 0 0 0.35rem;
+  color: var(--fg);
+  font: italic 0.95rem/1.55 Georgia, "Times New Roman", serif;
+}
+.verse-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.clausule-tag {
+  color: var(--purple);
+  font-style: italic;
+}
+
+/* Grille de prières bilingues (Français / Latin) */
+.prayer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+.prayer-card {
+  padding: 1.35rem;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: rgba(18, 18, 18, 0.55);
+}
+.prayer-card h3 {
+  margin: 0 0 0.85rem;
+  font: 400 1.2rem Georgia, "Times New Roman", serif;
+  color: var(--purple);
+  text-align: center;
+}
+.prayer-dual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+}
+.prayer-col {
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(58, 52, 64, 0.65);
+  border-radius: 0.65rem;
+  background: rgba(255, 255, 255, 0.015);
+}
+.prayer-lang {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--muted);
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.prayer-text {
+  margin: 0;
+  color: #e6e1ec;
+  font: 0.95rem/1.6 Georgia, "Times New Roman", serif;
+}
+
+/* Tunnel de conversion vers la PWA (/app/) */
+.cta-tunnel {
+  margin: 2rem 0;
+  padding: 1.75rem 1.5rem;
+  border: 1px solid rgba(181, 126, 194, 0.5);
+  border-radius: 1rem;
+  background: radial-gradient(ellipse at 50% 0%, rgba(181, 126, 194, 0.14), rgba(18, 18, 18, 0.7) 75%);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.cta-tunnel h2, .cta-tunnel h3 {
+  margin: 0 0 0.55rem;
+  font: 400 1.4rem/1.3 Georgia, "Times New Roman", serif;
+  color: var(--fg);
+}
+.cta-tunnel p {
+  max-width: 35rem;
+  margin: 0 auto 1.25rem;
+  color: #d6d0dc;
+  font-size: 0.96rem;
+}
+.cta-tunnel .hero-microcopy {
+  margin-top: 0.85rem;
+}
+
+/* Maillage interne circulaire (Silo Liturgique) */
+.silo-section {
+  margin: 2rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+.silo-section h2 {
+  margin: 0 0 1rem;
+  font: 400 1.3rem Georgia, "Times New Roman", serif;
+  text-align: center;
+}
+.silo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr));
+  gap: 0.75rem;
+}
+.silo-card {
+  display: block;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: rgba(18, 18, 18, 0.5);
+  color: var(--fg);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.silo-card:hover {
+  border-color: var(--purple);
+  background: rgba(181, 126, 194, 0.08);
+}
+.silo-card[aria-current="page"] {
+  border-color: var(--purple);
+  background: rgba(181, 126, 194, 0.12);
+}
+.silo-card strong {
+  display: block;
+  color: var(--purple);
+  font: 400 1rem Georgia, "Times New Roman", serif;
+}
+.silo-card small {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
 @media (max-width: 32rem) {
   .hero-screen {
     padding: 2.25rem 1rem 1.5rem;
