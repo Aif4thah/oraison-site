@@ -1,0 +1,61 @@
+Copyright (c) 2026 vacarelm ("Author")
+All Rights Reserved — Tous droits réservés.
+
+PROPRIETARY LICENSE NOTICE
+
+This repository (oraison.app) and all its original contents, including but not
+limited to source code, web pages, application bundles, user interface designs,
+graphics, original written content (prayer guides, meditations, commentary, and
+curated liturgical selections), and all associated assets (collectively, the
+"Software"), are the proprietary property of the Author (vacarelm).
+
+No license, right, or interest in the Software is granted to any person or
+entity by virtue of public access to this repository or website. Except as
+expressly permitted by applicable mandatory law, no part of the Software may be:
+
+  - reproduced, copied, or duplicated, in whole or in part;
+  - modified, adapted, or used to create derivative works;
+  - distributed, published, sublicensed, rented, leased, or sold;
+  - reverse-engineered, decompiled, or disassembled; or
+  - used for any commercial or non-commercial purpose,
+
+without the prior written permission of the Author.
+
+Unauthorized use, copying, modification, or distribution of this Software, in
+whole or in part, is strictly prohibited and may result in civil and/or criminal
+liability under applicable copyright law, including the French Intellectual
+Property Code (Code de la propriété intellectuelle) and international copyright
+treaties.
+
+THIRD-PARTY COMPONENTS & PUBLIC DOMAIN WORKS
+
+This Software incorporates open-source software components and public-domain
+textual works that remain governed by their own original licenses:
+
+1. Flutter & Dart SDK and pub.dev packages
+   Copyright (c) The Flutter Authors and respective package authors.
+   Licensed under BSD-3-Clause, MIT, and Apache-2.0 licenses.
+   Full machine-generated notices and license texts are bundled at:
+   /app/assets/NOTICES (https://oraison.app/app/assets/NOTICES)
+
+2. Biblical Text Data — scrollmapper/bible_databases
+   Source: https://github.com/scrollmapper/bible_databases
+   Copyright (c) scrollmapper/bible_databases contributors (MIT License).
+   Includes public-domain biblical translations:
+   - FreCrampon: La Bible Augustin Crampon (1923 edition, public domain).
+   - VulgClementine: Clementine Vulgate (Latin, public domain).
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of the scrollmapper/bible_databases dataset and associated documentation
+   files, to deal in the dataset without restriction, subject to the preservation
+   of the above copyright notice and MIT license terms as applies solely to the
+   third-party biblical dataset itself.
+
+NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+For legal notices and contact information, visit:
+https://oraison.app/mentions-legales.html
