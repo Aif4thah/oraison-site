@@ -96,7 +96,7 @@ h1 {
   flex-wrap: nowrap;
   margin: 0.85rem auto 0;
   color: #b8b2be;
-  font-size: clamp(0.62rem, 2.4vw, 0.84rem);
+  font-size: clamp(0.75rem, 2.5vw, 0.9rem);
   letter-spacing: 0.01em;
   white-space: nowrap;
   user-select: none;
@@ -104,7 +104,7 @@ h1 {
 }
 .hero-microcopy .dot {
   color: var(--purple);
-  margin: 0 clamp(0.12rem, 0.6vw, 0.25rem);
+  margin: 0 0.25rem;
   font-weight: 700;
 }
 .scroll-cue {
@@ -937,7 +937,7 @@ a.mystery-item:hover {
 /* Tunnel de conversion vers la PWA (/app/) */
 .cta-tunnel {
   margin: 3.75rem 0;
-  padding: 2.75rem 1.85rem;
+  padding: 2.75rem 2.25rem;
   border: 1px solid rgba(181, 126, 194, 0.5);
   border-radius: 1.25rem;
   background: radial-gradient(ellipse at 50% 0%, rgba(181, 126, 194, 0.14), rgba(18, 18, 18, 0.7) 75%);
@@ -945,7 +945,6 @@ a.mystery-item:hover {
   text-align: center;
   box-sizing: border-box;
   max-width: 100%;
-  overflow: hidden;
 }
 .cta-tunnel h2, .cta-tunnel h3 {
   margin: 0 0 0.75rem;
@@ -958,13 +957,6 @@ a.mystery-item:hover {
   color: #d6d0dc;
   font-size: 1rem;
   line-height: 1.75;
-}
-.cta-tunnel .hero-microcopy {
-  margin-top: 1.15rem;
-  font-size: clamp(0.58rem, 2.2vw, 0.8rem);
-}
-.cta-tunnel .hero-microcopy .dot {
-  margin: 0 clamp(0.1rem, 0.5vw, 0.2rem);
 }
 
 /* Maillage interne circulaire (Silo Liturgique) */
@@ -1027,13 +1019,13 @@ a.mystery-item:hover {
     font-size: 1.12rem;
   }
   .hero-microcopy {
-    font-size: clamp(0.55rem, 2.1vw, 0.72rem);
-    margin-top: 0.75rem;
+    font-size: clamp(0.7rem, 3vw, 0.85rem);
+    margin-top: 0.85rem;
     white-space: nowrap;
     letter-spacing: 0;
   }
   .hero-microcopy .dot {
-    margin: 0 0.12rem;
+    margin: 0 0.22rem;
   }
   main { padding: 2.75rem 1.15rem 2.25rem; }
   .manifesto-section { margin-bottom: 2.75rem; }
@@ -1060,13 +1052,7 @@ a.mystery-item:hover {
     padding: 0.85rem 1.35rem;
     font-size: 1.02rem;
   }
-  .cta-tunnel { padding: 2rem 0.75rem; margin: 2.75rem 0; border-radius: 1.1rem; }
-  .cta-tunnel .hero-microcopy {
-    font-size: clamp(0.52rem, 1.95vw, 0.68rem);
-  }
-  .cta-tunnel .hero-microcopy .dot {
-    margin: 0 0.10rem;
-  }
+  .cta-tunnel { padding: 2.25rem 1.25rem; margin: 2.75rem 0; border-radius: 1.1rem; }
   .silo-section { margin: 2.75rem 0 1rem; padding-top: 2rem; }
   .silo-grid { gap: 0.85rem; grid-template-columns: 1fr; }
   .silo-card { padding: 1rem 1.1rem; }
@@ -1080,7 +1066,7 @@ a.mystery-item:hover {
   h1 { margin: 0.5rem 0 0.15rem; font-size: 1.95rem; }
   .tagline { margin-bottom: 1.1rem; font-size: 0.95rem; }
   .btn-hero { padding: 0.75rem 1.6rem; font-size: 1rem; }
-  .hero-microcopy { font-size: clamp(0.58rem, 2.3vw, 0.74rem); margin-top: 0.45rem; white-space: nowrap; }
+  .hero-microcopy { font-size: clamp(0.72rem, 2.6vw, 0.82rem); margin-top: 0.5rem; white-space: nowrap; }
   .scroll-cue { margin-top: 0.75rem; }
 }
 
