@@ -9,7 +9,7 @@
     }
   </script>
   <title>Oraison — Chapelet, méditation et prière dans le calme</title>
-  <meta name="description" content="Oraison est une application en accès libre, sobre et silencieuse pour prier le chapelet, pratiquer l'oraison et vivre la méditation à la lumière de la Bible. Sans publicité, sans inscription et entièrement dédiée au recueillement sur Android, iPhone et ordinateur.">
+  <meta name="description" content="Application gratuite et silencieuse pour prier le chapelet, vivre l'oraison et méditer la Bible. Sans publicité ni inscription sur iPhone, Android et PC.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#121212">
   <meta name="mobile-web-app-capable" content="yes">
@@ -21,6 +21,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="app/icons/apple-touch-icon.png">
   <link rel="manifest" href="app/manifest.json">
   <link rel="canonical" href="https://oraison.app/">
+  <link rel="alternate" type="text/plain" href="https://oraison.app/llms.txt" title="Synthèse pour IA (LLMs)">
   <script data-goatcounter="https://vacarelm.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <link rel="prefetch" href="app/">
   <link rel="prefetch" href="app/index.html">
@@ -43,6 +44,7 @@
   {
     "@context": "https://schema.org",
     "@graph": [
+      { "@type": "WebSite", "@id": "https://oraison.app/#website", "name": "Oraison", "url": "https://oraison.app/", "inLanguage": "fr" },
       {
         "@type": ["WebApplication", "SoftwareApplication"],
         "name": "Oraison",
@@ -76,7 +78,7 @@
 <body>
   <header class="hero-screen">
     <div class="hero-content">
-      <img src="logo.svg" alt="Logo Oraison, bougie blanche sur fond violet liturgique" width="92" height="92" class="hero-logo">
+      <img src="logo.svg" alt="Logo Oraison, bougie blanche sur fond violet liturgique" width="92" height="92" fetchpriority="high" class="hero-logo">
       <h1>Oraison</h1>
       <p class="tagline">Chapelet, méditation et prière dans le calme</p>
       <div class="hero-actions">
@@ -86,7 +88,7 @@
         </a>
       </div>
       <p class="hero-microcopy">
-        <span>Accès libre</span><span class="dot" aria-hidden="true">·</span><span>Sans inscription</span><span class="dot" aria-hidden="true">·</span><span>Sans publicité</span>
+        <span>Accès libre</span> <span class="dot" aria-hidden="true">·</span> <span>Sans inscription</span> <span class="dot" aria-hidden="true">·</span> <span>Sans publicité</span>
       </p>
     </div>
     <a href="#decouvrir" class="scroll-cue" aria-label="Découvrir l'application et l'installer">
@@ -285,7 +287,7 @@
               <span>Téléchargez ou mettez à jour l'application depuis la boutique Google Play.</span>
               <a class="store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.2 20.5 12 5 20.8z"/></svg>
-                <span><b>Google Play</b><small>Canal testeurs Alpha</small></span>
+                <span><b>Google Play</b> <small>Canal testeurs Alpha</small></span>
               </a>
             </li>
           </ol>
