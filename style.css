@@ -258,6 +258,7 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .transparency-note p { margin: 0; color: #d6d0dc; font-size: 0.94rem; line-height: 1.55; }
 .transparency-note p + p { margin-top: 0.65rem; }
 .transparency-note strong { color: var(--purple); font: 500 0.98rem var(--serif); }
+.transparency-action { margin-top: 1rem !important; text-align: center; }
 .badge-icon { display: inline-block; padding: 0 0.35rem; border: 1px solid var(--line); border-radius: 0.3rem; color: var(--purple); font-weight: 700; }
 
 /* Continuité Testeurs Alpha Android */
