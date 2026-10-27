@@ -11,10 +11,7 @@
   <link rel="icon" type="image/png" href="favicon.png" sizes="48x48">
   <link rel="canonical" href="https://oraison.app/privacy.html">
   <link rel="stylesheet" href="style.css">
-
-  <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
-  <script data-goatcounter="https://vacarelm.goatcounter.com/count"
-          async src="https://gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://vacarelm.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
   <main class="legal">
@@ -54,18 +51,12 @@
   </main>
   <footer>
     <nav class="footer-nav" aria-label="Guides liturgiques et mystères du Rosaire">
-      <a href="/">Accueil</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="prier-le-chapelet.html">Guide du Chapelet</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-joyeux.html">Mystères Joyeux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-lumineux.html">Mystères Lumineux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-douloureux.html">Mystères Douloureux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-glorieux.html">Mystères Glorieux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="/">Accueil</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="prier-le-chapelet.html">Guide du Chapelet</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-joyeux.html">Mystères Joyeux</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-lumineux.html">Mystères Lumineux</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-douloureux.html">Mystères Douloureux</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-glorieux.html">Mystères Glorieux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="oraison-meditation.html">Oraison &amp; Méditation</a>
     </nav>
     <p class="footer-initiative">Initiative catholique indépendante née en paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
@@ -74,19 +65,12 @@
   </footer>
   <script>
     (function () {
-      var btn = document.getElementById('privacy-contact-btn');
-      var slot = document.getElementById('privacy-contact-slot');
-      if (btn && slot) {
-        btn.addEventListener('click', function () {
-          var addr = 'vacarelm' + '@' + 'gmail.com';
-          var a = document.createElement('a');
-          a.href = 'mailto:' + addr + '?subject=Oraison';
-          a.textContent = addr;
-          slot.appendChild(a);
-          slot.hidden = false;
-          btn.hidden = true;
-        });
-      }
+      var b = document.getElementById('privacy-contact-btn'), s = document.getElementById('privacy-contact-slot');
+      if (b && s) b.addEventListener('click', function () {
+        var addr = 'vacarelm' + '@' + 'gmail.com', a = document.createElement('a');
+        a.href = 'mailto:' + addr + '?subject=Oraison'; a.textContent = addr;
+        s.appendChild(a); s.hidden = false; b.hidden = true;
+      });
     })();
   </script>
 </body>

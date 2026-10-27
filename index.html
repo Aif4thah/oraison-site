@@ -4,12 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>
-    if (
-      window.matchMedia('(display-mode: fullscreen)').matches ||
-      window.matchMedia('(display-mode: standalone)').matches ||
-      window.matchMedia('(display-mode: minimal-ui)').matches ||
-      window.navigator.standalone === true
-    ) {
+    if (['fullscreen', 'standalone', 'minimal-ui'].some(function (m) { return window.matchMedia('(display-mode: ' + m + ')').matches; }) || window.navigator.standalone === true) {
       window.location.replace('app/');
     }
   </script>
@@ -26,13 +21,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="app/icons/apple-touch-icon.png">
   <link rel="manifest" href="app/manifest.json">
   <link rel="canonical" href="https://oraison.app/">
-  <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
-  <script data-goatcounter="https://vacarelm.goatcounter.com/count"
-          async src="https://gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://vacarelm.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <link rel="prefetch" href="app/">
   <link rel="prefetch" href="app/index.html">
 
-  <!-- Open Graph / Partage -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:site_name" content="Oraison">
@@ -42,13 +34,11 @@
   <meta property="og:image:alt" content="Oraison, application sobre de chapelet et méditation à la lumière de la Bible">
   <meta property="og:url" content="https://oraison.app/">
 
-  <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Oraison — Chapelet, méditation et prière dans le calme">
   <meta name="twitter:description" content="Prier le chapelet et vivre l'oraison à la lumière de la Bible, dans le silence, sans publicité ni collecte de données.">
   <meta name="twitter:image" content="https://oraison.app/og.png">
 
-  <!-- Données structurées Schema.org (Application Web + FAQ SEO Oraison / Chapelet / Méditation) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -67,47 +57,15 @@
         "downloadUrl": "https://play.google.com/store/apps/details?id=app.oraison",
         "image": "https://oraison.app/og.png",
         "keywords": "oraison, chapelet, méditation, prière, rosaire, bible, vie des saints, mystères joyeux, mystères lumineux, mystères douloureux, mystères glorieux, liturgie catholique, calme, silence",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "EUR"
-        }
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Comment installer et utiliser Oraison sur iPhone, Android ou ordinateur ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application), sans passer par une boutique d'applications."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "En quoi Oraison favorise-t-elle le calme et la méditation ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Oraison privilégie le dépouillement, l'accès libre et le silence visuel. Entièrement dédiée au recueillement, son interface sombre et apaisée laisse toute la place à l'oraison, au chapelet et à la méditation de la Bible, sans publicité, sans inscription et sans distraction."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Quels mystères du chapelet et quels textes de la Bible sont proposés ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "L'application réunit les quatre séries traditionnelles du Rosaire (mystères joyeux, lumineux, douloureux et glorieux), une série d'aide à la méditation issue de la lettre apostolique Rosarium Virginis Mariae de Saint Jean-Paul II, des mystères spécifiques présents aux dates liturgiques, des sélections choisies par les paroissiens, ainsi que des séries découverte explorant des passages bibliques méconnus, la vie des saints et des thématiques spirituelles spécifiques. Chaque grain est accompagné de versets bibliques, de fruits spirituels et des prières en français et en latin."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Comment Oraison favorise-t-elle le recueillement et la prière ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "En éliminant toute notification, publicité, compteur ou inscription obligatoire pour offrir une interface sombre, silencieuse et épurée propice au silence intérieur et à la méditation. Une fois la session de prière ouverte, l'application est compatible avec le mode avion pour prier à l'église ou à l'oratoire sans aucune onde ni sollicitation."
-            }
-          }
+          { "@type": "Question", "name": "Comment installer et utiliser Oraison sur iPhone, Android ou ordinateur ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application), sans passer par une boutique d'applications." } },
+          { "@type": "Question", "name": "En quoi Oraison favorise-t-elle le calme et la méditation ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison privilégie le dépouillement, l'accès libre et le silence visuel. Entièrement dédiée au recueillement, son interface sombre et apaisée laisse toute la place à l'oraison, au chapelet et à la méditation de la Bible, sans publicité, sans inscription et sans distraction." } },
+          { "@type": "Question", "name": "Quels mystères du chapelet et quels textes de la Bible sont proposés ?", "acceptedAnswer": { "@type": "Answer", "text": "L'application réunit les quatre séries traditionnelles du Rosaire (mystères joyeux, lumineux, douloureux et glorieux), une série d'aide à la méditation issue de la lettre apostolique Rosarium Virginis Mariae de Saint Jean-Paul II, des mystères spécifiques présents aux dates liturgiques, des sélections choisies par les paroissiens, ainsi que des séries découverte explorant des passages bibliques méconnus, la vie des saints et des thématiques spirituelles spécifiques. Chaque grain est accompagné de versets bibliques, de fruits spirituels et des prières en français et en latin." } },
+          { "@type": "Question", "name": "Comment Oraison favorise-t-elle le recueillement et la prière ?", "acceptedAnswer": { "@type": "Answer", "text": "En éliminant toute notification, publicité, compteur ou inscription obligatoire pour offrir une interface sombre, silencieuse et épurée propice au silence intérieur et à la méditation. Une fois la session de prière ouverte, l'application est compatible avec le mode avion pour prier à l'église ou à l'oratoire sans aucune onde ni sollicitation." } }
         ]
       }
     ]
@@ -116,13 +74,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- PREMIÈRE IMPRESSION (CADRE RESPONSIVE HAUTEUR D'ÉCRAN) -->
   <header class="hero-screen">
     <div class="hero-content">
       <img src="logo.svg" alt="Logo Oraison, bougie blanche sur fond violet liturgique" width="92" height="92" class="hero-logo">
       <h1>Oraison</h1>
       <p class="tagline">Chapelet, méditation et prière dans le calme</p>
-
       <div class="hero-actions">
         <a class="btn btn-primary btn-hero" href="app/">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
@@ -130,27 +86,20 @@
         </a>
       </div>
       <p class="hero-microcopy">
-        <span>Accès libre</span>
-        <span class="dot" aria-hidden="true">·</span>
-        <span>Sans inscription</span>
-        <span class="dot" aria-hidden="true">·</span>
-        <span>Sans publicité</span>
+        <span>Accès libre</span><span class="dot" aria-hidden="true">·</span><span>Sans inscription</span><span class="dot" aria-hidden="true">·</span><span>Sans publicité</span>
       </p>
     </div>
-
     <a href="#decouvrir" class="scroll-cue" aria-label="Découvrir l'application et l'installer">
       <span>Découvrir</span>
       <svg class="scroll-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </a>
   </header>
 
-  <!-- APRÈS LE SCROLL : PRÉSENTATION, INSTALLATION & CONTENU -->
   <main id="decouvrir">
     <section class="manifesto-section" aria-label="Présentation d'Oraison">
       <p class="lead">Pensée comme une halte de silence et de paix intérieure, Oraison offre un espace sobre et apaisé pour prier le <strong>chapelet</strong>, entrer dans l'<strong>oraison</strong> et approfondir la <strong>méditation</strong> à la lumière de la <strong>Bible</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer — simplement s'asseoir, respirer et prier.</p>
     </section>
 
-    <!-- INSTALLATION SUR L'ÉCRAN D'ACCUEIL -->
     <section class="pwa-card" aria-labelledby="pwa-title">
       <p class="kicker-badge">iPhone · Android · Ordinateur</p>
       <h2 id="pwa-title">Poser l'application sur votre écran d'accueil</h2>
@@ -163,7 +112,6 @@
         </button>
       </div>
 
-      <!-- Guide d'installation rapide replié par défaut dans un accordéon sobre -->
       <details class="install-accordion" aria-label="Guide d'installation sur l'écran d'accueil">
         <summary>
           <svg class="summary-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -219,7 +167,6 @@
       </details>
     </section>
 
-    <!-- CONTENU ÉDITORIAL : SOBRIÉTÉ, DÉPOUILLEMENT & LITURGIE (SEO) -->
     <section class="editorial" aria-labelledby="meditation-title">
       <h2 id="meditation-title">Une sobriété pensée pour le recueillement</h2>
       <p>Oraison fait le choix délibéré d'un dépouillement bienfaisant. Chaque élément s'efface naturellement pour laisser toute la place au silence intérieur, à la prière du chapelet et à l'écoute de la Bible.</p>
@@ -310,7 +257,6 @@
       </div>
     </section>
 
-    <!-- CONTINUITÉ DISCRÈTE POUR LES TESTEURS ALPHA ANDROID (GOOGLE PLAY) -->
     <section class="beta" aria-labelledby="alpha-title">
       <details class="alpha-details">
         <summary>
@@ -350,27 +296,19 @@
 
   <footer>
     <nav class="footer-nav" aria-label="Guides liturgiques et mystères du Rosaire">
-      <a href="prier-le-chapelet.html">Guide du Chapelet</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-joyeux.html">Mystères Joyeux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-lumineux.html">Mystères Lumineux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-douloureux.html">Mystères Douloureux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mysteres-glorieux.html">Mystères Glorieux</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="prier-le-chapelet.html">Guide du Chapelet</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-joyeux.html">Mystères Joyeux</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-lumineux.html">Mystères Lumineux</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-douloureux.html">Mystères Douloureux</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mysteres-glorieux.html">Mystères Glorieux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="oraison-meditation.html">Oraison &amp; Méditation</a>
     </nav>
     <p class="footer-initiative">Initiative catholique indépendante née en paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
     <p class="footer-thanks">♥ Merci à notre communauté paroissiale et à tous ceux qui soutiennent ce projet par leur prière et leur générosité.</p>
     <div>
-      <span>© 2026 Oraison · Tous droits réservés · vacarelm</span>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="mentions-legales.html">Mentions légales</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="privacy.html">Confidentialité</a>
-      <span class="footer-sep" aria-hidden="true">·</span>
+      <span>© 2026 Oraison · Tous droits réservés · vacarelm</span> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mentions-legales.html">Mentions légales</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="privacy.html">Confidentialité</a> <span class="footer-sep" aria-hidden="true">·</span>
       <button type="button" id="contact-reveal" class="footer-link-btn">Contact</button>
       <span id="contact-container" class="contact-inline" hidden></span>
     </div>
@@ -378,185 +316,89 @@
 
   <script>
     (function () {
-      // 1. Mesure d'audience anonyme (GoatCounter) — File d'attente résiliente avec garde-fou
-      var _goatQueue = [];
-      var _flushAttempts = 0;
-      var MAX_FLUSH_ATTEMPTS = 20; // Arrêt au bout de ~3s si GoatCounter est indisponible ou en local
-
-      function scheduleFlush() {
+      var queue = [], attempts = 0;
+      function flush() {
         setTimeout(function () {
           if (window.goatcounter && typeof window.goatcounter.count === 'function') {
-            while (_goatQueue.length > 0) {
-              window.goatcounter.count(_goatQueue.shift());
-            }
-          } else if (_goatQueue.length > 0 && _flushAttempts < MAX_FLUSH_ATTEMPTS) {
-            _flushAttempts++;
-            scheduleFlush();
-          }
+            while (queue.length) window.goatcounter.count(queue.shift());
+          } else if (queue.length && attempts++ < 20) flush();
         }, 150);
       }
-
-      function trackEvent(name, title) {
-        if (window.goatcounter && typeof window.goatcounter.count === 'function') {
-          window.goatcounter.count({
-            path: name,
-            title: title || name,
-            event: true
-          });
-        } else {
-          _goatQueue.push({ path: name, title: title || name, event: true });
-          if (_flushAttempts < MAX_FLUSH_ATTEMPTS) {
-            scheduleFlush();
-          }
-        }
+      function track(name, title) {
+        var ev = { path: name, title: title || name, event: true };
+        if (window.goatcounter && typeof window.goatcounter.count === 'function') window.goatcounter.count(ev);
+        else { queue.push(ev); if (attempts < 20) flush(); }
       }
 
-      // Suivi de conversion : Clic sur le bouton principal d'ouverture de l'application
-      var openAppBtn = document.querySelector('.btn-hero') || document.querySelector('.btn-primary');
-      if (openAppBtn) {
-        openAppBtn.addEventListener('click', function () {
-          trackEvent('cta-ouvrir-app', 'Clic CTA Ouvrir Oraison');
-        });
-      }
-
-      // Suivi : Défilement vers le contenu via l'indicateur
+      var openBtn = document.querySelector('.btn-hero') || document.querySelector('.btn-primary');
+      if (openBtn) openBtn.addEventListener('click', function () { track('cta-ouvrir-app', 'Clic CTA Ouvrir Oraison'); });
       var scrollCue = document.querySelector('.scroll-cue');
-      if (scrollCue) {
-        scrollCue.addEventListener('click', function () {
-          trackEvent('scroll-cue-click', 'Clic Découvrir Oraison vers le bas');
-        });
-      }
+      if (scrollCue) scrollCue.addEventListener('click', function () { track('scroll-cue-click', 'Clic Découvrir Oraison vers le bas'); });
 
-      // 2. Onglets du guide d'installation PWA + détection automatique de l'appareil
       var tabs = document.querySelectorAll('.device-tabs [role="tab"]');
-      var panels = {
-        ios: document.getElementById('panel-ios'),
-        android: document.getElementById('panel-android'),
-        pc: document.getElementById('panel-pc')
-      };
-
-      function selectDeviceTab(target) {
-        tabs.forEach(function (t) {
-          var active = t.dataset.target === target;
-          t.setAttribute('aria-selected', active ? 'true' : 'false');
-        });
-        Object.keys(panels).forEach(function (k) {
-          if (panels[k]) panels[k].hidden = (k !== target);
-        });
+      var panels = { ios: document.getElementById('panel-ios'), android: document.getElementById('panel-android'), pc: document.getElementById('panel-pc') };
+      function selectTab(target) {
+        tabs.forEach(function (t) { t.setAttribute('aria-selected', t.dataset.target === target ? 'true' : 'false'); });
+        Object.keys(panels).forEach(function (k) { if (panels[k]) panels[k].hidden = (k !== target); });
       }
-
       tabs.forEach(function (tab) {
         tab.addEventListener('click', function () {
-          selectDeviceTab(this.dataset.target);
-          trackEvent('guide-install-' + this.dataset.target, 'Consultation guide ' + this.dataset.target);
+          selectTab(this.dataset.target);
+          track('guide-install-' + this.dataset.target, 'Consultation guide ' + this.dataset.target);
         });
       });
 
       var ua = navigator.userAgent || '';
       var isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-      var isAndroid = /Android/i.test(ua);
-      if (isIOS) {
-        selectDeviceTab('ios');
-      } else if (isAndroid) {
-        selectDeviceTab('android');
-      } else {
-        selectDeviceTab('pc');
-      }
+      selectTab(isIOS ? 'ios' : (/Android/i.test(ua) ? 'android' : 'pc'));
 
-      // Accordéon du guide d'installation : suivi analytique à l'ouverture
-      var installAccordion = document.querySelector('.install-accordion');
-      if (installAccordion) {
-        installAccordion.addEventListener('toggle', function () {
-          if (this.open) {
-            trackEvent('guide-install-accordion-open', 'Ouverture accordéon guide installation');
-          }
-        });
-      }
+      var acc = document.querySelector('.install-accordion');
+      if (acc) acc.addEventListener('toggle', function () { if (this.open) track('guide-install-accordion-open', 'Ouverture accordéon guide installation'); });
 
-      // 3. Bouton d'installation PWA natif 1-clic (Chrome / Edge sur Android & PC)
-      var deferredPrompt = null;
-      var installBtn = document.getElementById('btn-install-pwa');
-
-      // Masquage absolu sur iOS/Safari (l'installation 1-clic native n'existe pas sous iOS)
-      if (isIOS && installBtn) {
-        installBtn.hidden = true;
-        installBtn.style.display = 'none';
-      }
-
+      var deferredPrompt = null, installBtn = document.getElementById('btn-install-pwa');
+      if (isIOS && installBtn) { installBtn.hidden = true; installBtn.style.display = 'none'; }
       window.addEventListener('beforeinstallprompt', function (e) {
-        if (isIOS) return; // Sécurité supplémentaire anti-confusion iOS
+        if (isIOS) return;
         e.preventDefault();
         deferredPrompt = e;
         if (installBtn) installBtn.hidden = false;
       });
-
       if (installBtn) {
         installBtn.addEventListener('click', function () {
-          trackEvent('pwa-install-click', 'Clic Bouton Installer PWA');
+          track('pwa-install-click', 'Clic Bouton Installer PWA');
           if (!deferredPrompt) return;
           deferredPrompt.prompt();
           if (deferredPrompt.userChoice) {
-            deferredPrompt.userChoice.then(function (choice) {
-              if (choice && choice.outcome === 'accepted') {
-                trackEvent('pwa-install-accepted', 'Installation PWA acceptée');
-              } else {
-                trackEvent('pwa-install-dismissed', 'Installation PWA refusée');
-              }
-            }).finally(function () {
-              deferredPrompt = null;
-              installBtn.hidden = true;
-            });
-          } else {
-            deferredPrompt = null;
-            installBtn.hidden = true;
-          }
+            deferredPrompt.userChoice.then(function (c) {
+              track(c && c.outcome === 'accepted' ? 'pwa-install-accepted' : 'pwa-install-dismissed');
+            }).finally(function () { deferredPrompt = null; installBtn.hidden = true; });
+          } else { deferredPrompt = null; installBtn.hidden = true; }
         });
       }
+      window.addEventListener('appinstalled', function () { track('pwa-installed-success', 'PWA installée avec succès'); });
 
-      // Suivi de l'installation effective de la PWA
-      window.addEventListener('appinstalled', function () {
-        trackEvent('pwa-installed-success', 'PWA installée avec succès');
-      });
-
-      // 4. Suivi d'intérêt pour le canal testeurs Alpha Google Play
-      var alphaDetails = document.querySelector('.alpha-details');
-      if (alphaDetails) {
-        alphaDetails.addEventListener('toggle', function () {
-          if (this.open) {
-            trackEvent('alpha-details-open', 'Consultation section Alpha Play Store');
-          }
-        });
-      }
-      var alphaLinks = document.querySelectorAll('.alpha-content a');
-      alphaLinks.forEach(function (link) {
+      var alpha = document.querySelector('.alpha-details');
+      if (alpha) alpha.addEventListener('toggle', function () { if (this.open) track('alpha-details-open', 'Consultation section Alpha Play Store'); });
+      document.querySelectorAll('.alpha-content a').forEach(function (link) {
         link.addEventListener('click', function () {
-          var href = this.getAttribute('href') || '';
-          if (href.indexOf('groups.google.com') !== -1) {
-            trackEvent('alpha-groupe-click', 'Clic Rejoindre groupe Alpha');
-          } else if (href.indexOf('play.google.com/apps/testing') !== -1) {
-            trackEvent('alpha-activer-click', 'Clic Activer accès Alpha');
-          } else if (href.indexOf('play.google.com/store') !== -1) {
-            trackEvent('alpha-playstore-click', 'Clic Fiche Google Play Store');
-          }
+          var h = this.getAttribute('href') || '';
+          if (h.indexOf('groups.google.com') !== -1) track('alpha-groupe-click', 'Clic Rejoindre groupe Alpha');
+          else if (h.indexOf('play.google.com/apps/testing') !== -1) track('alpha-activer-click', 'Clic Activer accès Alpha');
+          else if (h.indexOf('play.google.com/store') !== -1) track('alpha-playstore-click', 'Clic Fiche Google Play Store');
         });
       });
 
-      // 5. Contact discret (affiché uniquement sur action volontaire de l'utilisateur)
-      var contactBtn = document.getElementById('contact-reveal');
-      var contactBox = document.getElementById('contact-container');
-      if (contactBtn && contactBox) {
-        contactBtn.addEventListener('click', function () {
-          trackEvent('contact-reveal', 'Affichage adresse email de contact');
-          var u = 'vacarelm';
-          var d = 'gmail.com';
-          var addr = u + '@' + d;
-          var link = document.createElement('a');
-          link.href = 'mailto:' + addr + '?subject=Oraison';
-          link.textContent = addr;
-          contactBox.innerHTML = '';
-          contactBox.appendChild(link);
-          contactBox.hidden = false;
-          contactBtn.hidden = true;
+      var cBtn = document.getElementById('contact-reveal'), cBox = document.getElementById('contact-container');
+      if (cBtn && cBox) {
+        cBtn.addEventListener('click', function () {
+          track('contact-reveal', 'Affichage adresse email de contact');
+          var addr = 'vacarelm' + '@' + 'gmail.com', a = document.createElement('a');
+          a.href = 'mailto:' + addr + '?subject=Oraison';
+          a.textContent = addr;
+          cBox.innerHTML = '';
+          cBox.appendChild(a);
+          cBox.hidden = false;
+          cBtn.hidden = true;
         });
       }
     })();

@@ -2,30 +2,21 @@
 <html lang="fr">
 <head>
   <base href="/app/">
-
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Oraison, application sobre et silencieuse de prière, chapelet guidé et méditation des mystères du Rosaire à la lumière de la Bible.">
   <meta name="robots" content="noindex, follow">
   <meta name="theme-color" content="#121212">
-
-  <!-- iOS / iPhone PWA meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Oraison">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png">
-
   <title>Oraison — Chapelet et méditation</title>
   <link rel="canonical" href="https://oraison.app/">
-
-  <!-- Mesure d'audience sobre et anonyme (sans cookies, conforme RGPD/CNIL) -->
-  <script data-goatcounter="https://vacarelm.goatcounter.com/count"
-          async src="https://gc.zgo.at/count.js"></script>
+  <script data-goatcounter="https://vacarelm.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <link rel="manifest" href="manifest.json">
   <link rel="preload" href="icons/Icon-192.png" as="image">
   <link rel="preload" href="flutter_bootstrap.js" as="script">
@@ -48,8 +39,7 @@
     }
     #splash-screen {
       position: fixed;
-      top: 0;
-      left: 0;
+      inset: 0;
       width: 100%;
       height: 100%;
       height: 100dvh;
@@ -63,54 +53,17 @@
       transition: opacity 0.4s ease-out;
       pointer-events: none;
     }
-    #splash-screen.splash-fade-out {
-      opacity: 0;
-      pointer-events: none;
-    }
-    .splash-logo {
-      width: 72px;
-      height: 72px;
-      border-radius: 16px;
-      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
-      animation: splash-pulse 2.2s ease-in-out infinite;
-    }
-    .splash-title {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif;
-      font-size: 20px;
-      font-weight: 400;
-      letter-spacing: 1.5px;
-      color: #EDEDED;
-      margin: 18px 0 0;
-      opacity: 0.9;
-    }
-    .splash-bar {
-      width: 36px;
-      height: 2px;
-      background: #B06CAE;
-      border-radius: 2px;
-      margin-top: 14px;
-      opacity: 0.6;
-      animation: splash-bar-pulse 2.2s ease-in-out infinite;
-    }
+    #splash-screen.splash-fade-out { opacity: 0; pointer-events: none; }
+    .splash-logo { width: 72px; height: 72px; border-radius: 16px; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4); animation: splash-pulse 2.2s ease-in-out infinite; }
+    .splash-title { font: 400 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif; letter-spacing: 1.5px; color: #EDEDED; margin: 18px 0 0; opacity: 0.9; }
+    .splash-bar { width: 36px; height: 2px; background: #B06CAE; border-radius: 2px; margin-top: 14px; opacity: 0.6; animation: splash-bar-pulse 2.2s ease-in-out infinite; }
     @keyframes splash-pulse {
-      0%, 100% {
-        transform: scale(0.97);
-        opacity: 0.85;
-      }
-      50% {
-        transform: scale(1.02);
-        opacity: 1;
-      }
+      0%, 100% { transform: scale(0.97); opacity: 0.85; }
+      50% { transform: scale(1.02); opacity: 1; }
     }
     @keyframes splash-bar-pulse {
-      0%, 100% {
-        opacity: 0.3;
-        transform: scaleX(0.7);
-      }
-      50% {
-        opacity: 0.9;
-        transform: scaleX(1.1);
-      }
+      0%, 100% { opacity: 0.3; transform: scaleX(0.7); }
+      50% { opacity: 0.9; transform: scaleX(1.1); }
     }
   </style>
 </head>
@@ -127,124 +80,54 @@
   </noscript>
   <script>
     (function () {
-      // Masque automatiquement les barres Chrome / Android (adresse, heure, notifications, navigation)
-      // dès le premier contact tactile hors iOS et hors mode PWA déjà installé.
       var ua = navigator.userAgent || '';
       var isIOS = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-
       var isStandalone = function () {
-        return (
-          window.navigator.standalone === true ||
-          (window.matchMedia && (
-            window.matchMedia('(display-mode: standalone)').matches ||
-            window.matchMedia('(display-mode: fullscreen)').matches
-          ))
-        );
+        return window.navigator.standalone === true ||
+          (window.matchMedia && ['standalone', 'fullscreen', 'minimal-ui'].some(function (m) { return window.matchMedia('(display-mode: ' + m + ')').matches; })) ||
+          (document.referrer && document.referrer.indexOf('android-app://') !== -1);
       };
-
-      var isTouchDevice = function () {
-        return (
-          (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) ||
-          navigator.maxTouchPoints > 0 ||
-          /Android/i.test(ua)
-        );
+      var isTouch = (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) || navigator.maxTouchPoints > 0 || /Android/i.test(ua);
+      var enterFullscreen = function () {
+        if (isIOS || isStandalone() || !isTouch || document.fullscreenElement || document.webkitFullscreenElement) return;
+        var el = document.documentElement, req = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
+        if (req) { try { var p = req.call(el, { navigationUI: 'hide' }); if (p && p.catch) p.catch(function () {}); } catch (_) {} }
       };
+      window.addEventListener('click', enterFullscreen, { passive: true });
+      window.addEventListener('touchend', enterFullscreen, { passive: true });
 
-      var enterImmersiveFullscreen = function () {
-        if (isIOS || isStandalone() || !isTouchDevice()) return;
-        if (document.fullscreenElement || document.webkitFullscreenElement) return;
-        var el = document.documentElement;
-        var req = el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen;
-        if (req) {
-          try {
-            var p = req.call(el, { navigationUI: 'hide' });
-            if (p && typeof p.catch === 'function') {
-              p.catch(function () {});
-            }
-          } catch (_) {}
+      var dismissed = false;
+      window.dismissSplashScreen = function () {
+        if (dismissed) return;
+        dismissed = true;
+        var s = document.getElementById('splash-screen');
+        if (s) {
+          s.classList.add('splash-fade-out');
+          setTimeout(function () { if (s.parentNode) s.parentNode.removeChild(s); }, 450);
         }
       };
+      window.addEventListener('flutter-first-frame', window.dismissSplashScreen);
+      setTimeout(window.dismissSplashScreen, 6000);
 
-      window.addEventListener('click', enterImmersiveFullscreen, { passive: true });
-      window.addEventListener('touchend', enterImmersiveFullscreen, { passive: true });
-    })();
-
-    // Disparition douce du splash uniquement lorsque Flutter a peint sa première trame
-    var _splashDismissed = false;
-    window.dismissSplashScreen = function () {
-      if (_splashDismissed) return;
-      _splashDismissed = true;
-      var splash = document.getElementById('splash-screen');
-      if (splash) {
-        splash.classList.add('splash-fade-out');
-        setTimeout(function () {
-          if (splash && splash.parentNode) splash.parentNode.removeChild(splash);
-        }, 450);
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function (regs) {
+          regs.forEach(function (r) { if (r.active && r.active.scriptURL && r.active.scriptURL.indexOf('flutter_service_worker.js') !== -1) r.unregister(); });
+        });
+        window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
       }
-    };
 
-    // Flutter Web émet 'flutter-first-frame' dès la première trame peinte sur le canvas
-    window.addEventListener('flutter-first-frame', window.dismissSplashScreen);
-
-    // Filet de sécurité : masquage automatique après 6s si l'événement tardait
-    setTimeout(window.dismissSplashScreen, 6000);
-
-    // Nettoyage de l'ancien worker Flutter déprécié et enregistrement du nouveau SW de cache ultra-rapide
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function (registrations) {
-        for (var i = 0; i < registrations.length; i++) {
-          var reg = registrations[i];
-          if (reg.active && reg.active.scriptURL && reg.active.scriptURL.indexOf('flutter_service_worker.js') !== -1) {
-            reg.unregister();
-          }
-        }
-      });
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('sw.js').catch(function () {});
-      });
-    }
-
-    // Mesure d'audience anonyme de l'ouverture de l'application (PWA installée vs Navigateur)
-    (function () {
-      var isStandalone = (
-        window.navigator.standalone === true ||
-        (window.matchMedia && (
-          window.matchMedia('(display-mode: standalone)').matches ||
-          window.matchMedia('(display-mode: fullscreen)').matches ||
-          window.matchMedia('(display-mode: minimal-ui)').matches
-        )) ||
-        (document.referrer && document.referrer.indexOf('android-app://') !== -1)
-      );
-
-      var _openReportAttempts = 0;
-      var MAX_OPEN_REPORT_ATTEMPTS = 20;
-
-      function reportAppOpen() {
+      var attempts = 0, standalone = isStandalone();
+      function reportOpen() {
         if (window.goatcounter && typeof window.goatcounter.count === 'function') {
-          if (isStandalone) {
-            window.goatcounter.count({
-              path: 'pwa-open-standalone',
-              title: 'Ouverture PWA (Écran d\'accueil / Standalone)',
-              event: true
-            });
-          } else {
-            window.goatcounter.count({
-              path: 'pwa-open-browser',
-              title: 'Ouverture App (Navigateur Web)',
-              event: true
-            });
-          }
-        } else if (_openReportAttempts < MAX_OPEN_REPORT_ATTEMPTS) {
-          _openReportAttempts++;
-          setTimeout(reportAppOpen, 150);
-        }
+          window.goatcounter.count({
+            path: standalone ? 'pwa-open-standalone' : 'pwa-open-browser',
+            title: standalone ? 'Ouverture PWA (Écran d\'accueil / Standalone)' : 'Ouverture App (Navigateur Web)',
+            event: true
+          });
+        } else if (attempts++ < 20) setTimeout(reportOpen, 150);
       }
-
-      if (document.readyState === 'complete') {
-        reportAppOpen();
-      } else {
-        window.addEventListener('load', reportAppOpen);
-      }
+      if (document.readyState === 'complete') reportOpen();
+      else window.addEventListener('load', reportOpen);
     })();
   </script>
   <script src="flutter_bootstrap.js" async></script>
