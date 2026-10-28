@@ -5,7 +5,7 @@
 
 **[Oraison](https://oraison.app/)** est une application web (PWA) sobre, apaisée et en accès libre pour prier le **chapelet**, pratiquer l'**oraison** et vivre la **méditation** chrétienne à la lumière de la **Bible** (traduction catholique Crampon 1923).
 
-Née au cœur d'une paroisse en France, elle privilégie le silence visuel et le dépouillement : **sans publicité, sans notification, sans création de compte et sans pistage**, disponible immédiatement sur iPhone, iPad, Android et ordinateur, et compatible avec le **mode avion**.
+Née au cœur d'une paroisse en France, l'application a pour vocation de promouvoir la pratique quotidienne du chapelet et le recueillement personnel, en soutien à la vie de foi et sans jamais se substituer à la présence à la messe et à la grâce de l'Eucharistie. Elle privilégie le silence visuel et le dépouillement : **sans publicité, sans notification, sans création de compte et sans pistage**, disponible immédiatement sur iPhone, iPad, Android et ordinateur, et compatible avec le **mode avion**.
 
 ---
 

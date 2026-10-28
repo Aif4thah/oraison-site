@@ -8,6 +8,7 @@
 - **Mode hors-ligne / Mode avion** : Une fois ouverte ou installée sur l'écran d'accueil (iPhone, iPad, Android, ordinateur), l'application fonctionne intégralement hors connexion pour prier à l'église ou à l'oratoire sans onde ni distraction.
 - **Respect absolu de la vie privée** : Aucune collecte de données personnelles, aucun cookie, aucun pistage publicitaire.
 - **Richesse scripturaire et liturgique** : Plus de 500 versets bibliques (traduction Augustin Crampon 1923, domaine public) accompagnent chaque grain du chapelet avec une clausule après le nom de Jésus, ainsi que 37 séries au fil de l'année liturgique et de la vie des saints.
+- **Complémentarité sacramentelle et vie paroissiale** : Oraison a pour vocation d'encourager la pratique régulière du chapelet et de l'oraison silencieuse. Elle s'inscrit au service de la vie de foi et ne remplace en aucun cas la participation à la vie en communauté paroissiale, la présence fidèle à la messe et la communion à l'Eucharistie.
 
 ## Liens Principaux & Guides Liturgiques
 - [Accueil & Installation d'Oraison](https://oraison.app/) : Présentation, guide d'installation PWA sur iPhone, Android et PC.
