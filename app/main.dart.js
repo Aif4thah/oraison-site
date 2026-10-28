@@ -69248,7 +69248,7 @@ i.push(A.am3(A.cz("En union de pri\xe8re",q,B.ar,r.at,B.N),!0,!0,!0,s.r))
 return A.fO(i,B.X,f,B.cw,B.aV)},
 $S:86}
 A.Rj.prototype={
-$0(){return A.aB2("https://donate.stripe.com/eVq00c3Cdg25bTu9vTco002")},
+$0(){return A.aB2("https://donate.stripe.com/aFabIUa0Bg255v6gYlco003")},
 $S:0}
 A.Cm.prototype={
 K(a){var s,r,q=this,p=A.ad(a),o=q.f,n=o!=null&&o.length!==0
