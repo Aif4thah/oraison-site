@@ -2,6 +2,7 @@
     "name": "Oraison — Chapelet & Méditation",
     "short_name": "Oraison",
     "lang": "fr",
+    "id": "/app/",
     "start_url": "/app/",
     "scope": "/app/",
     "display": "fullscreen",

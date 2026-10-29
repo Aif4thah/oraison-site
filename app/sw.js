@@ -1,11 +1,28 @@
 'use strict';
 
-const CACHE_NAME = 'oraison-cache-v1';
-const PRECACHE_URLS = ['./', 'index.html', 'manifest.json', 'favicon.png', 'icons/Icon-192.png', 'icons/Icon-512.png', 'icons/apple-touch-icon.png'];
+const CACHE_NAME = 'oraison-cache-v2';
+const PRECACHE_URLS = [
+  './',
+  'index.html',
+  'manifest.json',
+  'favicon.png',
+  'icons/Icon-192.png',
+  'icons/Icon-512.png',
+  'icons/apple-touch-icon.png',
+  'assets/AssetManifest.bin',
+  'assets/AssetManifest.bin.json',
+  'assets/FontManifest.json',
+  'assets/json_data/permanent/mysteres.json',
+  'assets/json_data/permanent/prieres.json',
+  'assets/json_data/permanent/beatitudes.json',
+  'assets/json_data/permanent/rosarium.json',
+];
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
-  event.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(PRECACHE_URLS)).catch(() => {}));
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((c) => Promise.all(PRECACHE_URLS.map((u) => c.add(u).catch(() => {})))).catch(() => {})
+  );
 });
 
 self.addEventListener('activate', (event) => {
@@ -25,8 +42,8 @@ self.addEventListener('fetch', (event) => {
   const isGoogle = ['www.gstatic.com', 'fonts.gstatic.com', 'fonts.googleapis.com'].includes(url.hostname);
   if (!isOraison && !isGoogle) return;
 
-  const isStatic = isGoogle || ['/assets/', '/canvaskit/'].some((p) => url.pathname.includes(p)) ||
-    /\.(js|wasm|json|png|otf|ttf|woff2)$/.test(url.pathname);
+  const isStatic = isGoogle || url.pathname.includes('/canvaskit/') ||
+    /\.(js|wasm|png|svg|otf|ttf|woff2|frag)$/.test(url.pathname);
 
   const putInCache = (res, allowOpaque) => {
     if (res && (res.status === 200 || (allowOpaque && res.type === 'opaque'))) {
@@ -50,9 +67,10 @@ self.addEventListener('fetch', (event) => {
   }
 
   event.respondWith(
-    caches.match(req).then((cached) => {
-      const network = fetch(req).then((res) => putInCache(res, false)).catch(() => cached);
-      return cached || network;
-    })
+    caches.match(req).then((cached) =>
+      fetch(req)
+        .then((res) => (res && res.status === 200 ? putInCache(res, false) : cached || res))
+        .catch((err) => { if (cached) return cached; throw err; })
+    )
   );
 });

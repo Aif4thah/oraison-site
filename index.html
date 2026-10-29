@@ -381,6 +381,11 @@
         });
       }
       window.addEventListener('appinstalled', function () { track('pwa-installed-success', 'PWA installée avec succès'); });
+      if ('serviceWorker' in navigator && !(navigator.connection && navigator.connection.saveData)) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/app/sw.js', { scope: '/app/' }).catch(function () {});
+        });
+      }
 
       var alpha = document.querySelector('.alpha-details');
       if (alpha) alpha.addEventListener('toggle', function () { if (this.open) track('alpha-details-open', 'Consultation section Alpha Play Store'); });
