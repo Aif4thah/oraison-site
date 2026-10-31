@@ -327,7 +327,7 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
 .breadcrumb [aria-current="page"] { color: var(--purple); }
 .pillar-hero { margin-bottom: 3.25rem; padding-bottom: 2.25rem; border-bottom: 1px solid var(--line); text-align: center; }
 .pillar-hero h1 { margin: 0.75rem 0 1rem; font-size: clamp(1.95rem, 5.5vw, 2.75rem); letter-spacing: -0.01em; }
-.pillar-hero .lead { margin: 0 auto 2rem; max-width: 40rem; line-height: 1.8; }
+.pillar-hero .lead { margin: 0 auto; max-width: 40rem; line-height: 1.8; }
 
 /* Cartes détaillées des 5 mystères & Prières bilingues */
 .mystery-detail-list { display: flex; flex-direction: column; gap: 2.25rem; margin: 2rem 0 3.25rem; }
