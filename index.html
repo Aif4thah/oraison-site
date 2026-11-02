@@ -55,17 +55,19 @@
         "browserRequirements": "Requires JavaScript.",
         "inLanguage": ["fr", "la"],
         "description": "Application catholique sobre et épurée pour prier le chapelet, pratiquer l'oraison et méditer les mystères du Rosaire à la lumière de la Bible, sans publicité ni distraction.",
+        "applicationSubCategory": "Prière & Méditation catholique",
+        "featureList": ["Chapelet interactif complet", "Méditation des 20 mystères du Rosaire", "500 versets bibliques traduction Crampon 1923", "Clausules christologiques en français et en latin", "Mode hors-ligne et mode avion", "Accès libre, sans publicité ni inscription"],
         "url": "https://oraison.app/",
         "installUrl": "https://oraison.app/app/",
         "downloadUrl": "https://play.google.com/store/apps/details?id=app.oraison",
         "image": "https://oraison.app/og.png",
         "keywords": "oraison, chapelet, méditation, prière, rosaire, bible, vie des saints, mystères joyeux, mystères lumineux, mystères douloureux, mystères glorieux, liturgie catholique, messe, eucharistie, vie paroissiale, calme, silence",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" }
       },
       {
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "Comment installer et utiliser Oraison sur iPhone, Android ou ordinateur ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application), sans passer par une boutique d'applications." } },
+          { "@type": "Question", "name": "Comment installer et utiliser Oraison sur iPhone, Android ou ordinateur ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application). Oraison est également disponible en application officielle sur le Google Play Store pour Android, sans publicité ni inscription." } },
           { "@type": "Question", "name": "En quoi Oraison favorise-t-elle le calme et la méditation ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison privilégie le dépouillement, l'accès libre et le silence visuel. Entièrement dédiée au recueillement, son interface sombre et apaisée laisse toute la place à l'oraison, au chapelet et à la méditation de la Bible, sans publicité, sans inscription et sans distraction." } },
           { "@type": "Question", "name": "Quels mystères du chapelet et quels textes de la Bible sont proposés ?", "acceptedAnswer": { "@type": "Answer", "text": "L'application réunit les quatre séries traditionnelles du Rosaire (mystères joyeux, lumineux, douloureux et glorieux), une série d'aide à la méditation issue de la lettre apostolique Rosarium Virginis Mariae de Saint Jean-Paul II, des mystères spécifiques présents aux dates liturgiques, des sélections choisies par les paroissiens, ainsi que des séries découverte explorant des passages bibliques méconnus, la vie des saints et des thématiques spirituelles spécifiques. Chaque grain est accompagné de versets bibliques, de fruits spirituels et des prières en français et en latin." } },
           { "@type": "Question", "name": "L'application Oraison remplace-t-elle la messe ou la vie sacramentelle ?", "acceptedAnswer": { "@type": "Answer", "text": "Non, en aucun cas. Oraison a pour but de promouvoir et soutenir la pratique quotidienne du chapelet et de la prière silencieuse au rythme de chacun. Elle a été pensée comme un compagnon de recueillement personnel et ne se substitue jamais à la vie en communauté paroissiale, à la présence à la messe et à la réception de l'Eucharistie." } },
@@ -92,6 +94,14 @@
       <p class="hero-microcopy">
         <span>Accès libre</span> <span class="dot" aria-hidden="true">·</span> <span>Sans inscription</span> <span class="dot" aria-hidden="true">·</span> <span>Sans publicité</span>
       </p>
+      <div class="hero-store">
+        <a class="hero-store-link" id="link-playstore" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Oraison disponible sur le Google Play Store pour Android">
+          <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+          </svg>
+          <span>Disponible aussi sur Google Play</span>
+        </a>
+      </div>
     </div>
     <a href="#decouvrir" class="scroll-cue" aria-label="Découvrir l'application et l'installer">
       <span>Découvrir</span>
@@ -153,6 +163,7 @@
                 <span>Confirmez l'ajout. L'application s'ouvre en plein écran épuré (sans barre d'adresse, d'heure ni de notifications), propice au recueillement.</span>
               </li>
             </ol>
+            <p class="panel-store-cue">Disponible également en application officielle sur le <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">Google Play Store</a>.</p>
           </div>
 
           <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
@@ -261,42 +272,6 @@
         <p class="transparency-action"><a class="btn btn-outline btn-compact" id="btn-soutien-stripe" href="https://donate.stripe.com/aFabIUa0Bg255v6gYlco003" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:0.95rem;height:0.95rem;fill:currentColor;vertical-align:-0.12rem;margin-right:0.35rem;"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>Soutenir le projet Oraison</a></p>
       </div>
     </section>
-
-    <section class="beta" aria-labelledby="alpha-title">
-      <details class="alpha-details">
-        <summary>
-          <span class="kicker">Programme Alpha Google Play</span>
-          <strong id="alpha-title">Vous faisiez partie des premiers testeurs Android sur Google Play ?</strong>
-          <small>Afficher les accès au canal de test Google Play</small>
-        </summary>
-        <div class="alpha-content">
-          <p class="note">Merci pour votre présence depuis l'origine du projet. La version Web (PWA) proposée en haut de cette page est désormais la voie privilégiée, plus directe et sans dépendance au Play Store. Si vous préférez toutefois conserver l'installation via le canal Alpha Google Play, les trois étapes restent accessibles ci-dessous.</p>
-          <ol class="steps">
-            <li>
-              <small class="kicker">Étape 1 sur 3</small>
-              <strong>Rejoindre le groupe des testeurs</strong>
-              <span>Avec l'adresse Google associée au Play Store de votre téléphone Android.</span>
-              <a class="btn btn-outline" href="https://groups.google.com/g/oraison-testeurs" target="_blank" rel="noopener">Rejoindre le groupe</a>
-            </li>
-            <li>
-              <small class="kicker">Étape 2 sur 3</small>
-              <strong>Valider l'accès au test</strong>
-              <span>Acceptez l'invitation au programme de test après avoir rejoint le groupe.</span>
-              <a class="btn btn-outline" href="https://play.google.com/apps/testing/app.oraison" target="_blank" rel="noopener">Activer l'accès testeur</a>
-            </li>
-            <li>
-              <small class="kicker">Étape 3 sur 3</small>
-              <strong>Ouvrir la fiche sur Google Play</strong>
-              <span>Téléchargez ou mettez à jour l'application depuis la boutique Google Play.</span>
-              <a class="store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.2 20.5 12 5 20.8z"/></svg>
-                <span><b>Google Play</b> <small>Canal testeurs Alpha</small></span>
-              </a>
-            </li>
-          </ol>
-        </div>
-      </details>
-    </section>
   </main>
 
   <footer>
@@ -387,15 +362,8 @@
         });
       }
 
-      var alpha = document.querySelector('.alpha-details');
-      if (alpha) alpha.addEventListener('toggle', function () { if (this.open) track('alpha-details-open', 'Consultation section Alpha Play Store'); });
-      document.querySelectorAll('.alpha-content a').forEach(function (link) {
-        link.addEventListener('click', function () {
-          var h = this.getAttribute('href') || '';
-          if (h.indexOf('groups.google.com') !== -1) track('alpha-groupe-click', 'Clic Rejoindre groupe Alpha');
-          else if (h.indexOf('play.google.com/apps/testing') !== -1) track('alpha-activer-click', 'Clic Activer accès Alpha');
-          else if (h.indexOf('play.google.com/store') !== -1) track('alpha-playstore-click', 'Clic Fiche Google Play Store');
-        });
+      document.querySelectorAll('a[href*="play.google.com/store"]').forEach(function (link) {
+        link.addEventListener('click', function () { track('playstore-click', 'Clic Fiche Google Play Store'); });
       });
 
       var sBtn = document.getElementById('btn-soutien-stripe');
