@@ -77,7 +77,7 @@
     "nom": "Prière de Fatima",
     "langue": "Français",
     "code_langue": "fr",
-    "categorie": "chapelet",
+    "categorie": "fin_dizaine",
     "texte": "Ô mon Jésus, pardonnez-nous nos péchés, préservez-nous du feu de l'enfer, et conduisez au ciel toutes les âmes, surtout celles qui ont le plus besoin de votre miséricorde. Amen."
   },
   {
@@ -86,7 +86,115 @@
     "nom": "Oratio Fatimae",
     "langue": "Latin",
     "code_langue": "la",
-    "categorie": "chapelet",
+    "categorie": "fin_dizaine",
     "texte": "Domine Iesu, dimitte nobis debita nostra, salva nos ab igne inferiori, perduc in caelum omnes animas, praesertim eas quae misericordiae tuae maxime indigent. Amen."
+  },
+  {
+    "id": "saint_michel_fr",
+    "code": "saint_michel",
+    "nom": "Prière à Saint Michel Archange",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "fin_dizaine",
+    "texte": "Saint Michel Archange, défendez-nous dans le combat ; soyez notre secours contre la malice et les embûches du démon. Que Dieu exerce sur lui son empire, nous vous le demandons en suppliant ; et vous, Prince de la milice céleste, repoussez en enfer, par la force divine, Satan et les autres esprits mauvais qui rôdent dans le monde pour la perte des âmes. Amen."
+  },
+  {
+    "id": "saint_michel_la",
+    "code": "saint_michel",
+    "nom": "Oratio ad Sanctum Michaelem",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "fin_dizaine",
+    "texte": "Sancte Michael Archangele, defende nos in proelio; contra nequitiam et insidias diaboli esto praesidium. Imperet illi Deus, supplices deprecamur: tuque, Princeps militiae caelestis, Satanam aliosque spiritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtute in infernum detrude. Amen."
+  },
+  {
+    "id": "sainte_rita_fr",
+    "code": "sainte_rita",
+    "nom": "Prière à Sainte Rita",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "fin_dizaine",
+    "texte": "Sous le poids de la douleur, j'ai recours à vous, ô sainte Rita, si puissante auprès de Dieu, avec la certitude d'être exaucé. Libérez mon cœur des angoisses qui l'oppressent et rendez la paix à mon esprit accablé. Vous que Dieu a choisie pour être l'avocate des causes désespérées, obtenez-moi la grâce que je sollicite avec confiance. Sainte Rita, priez pour nous et venez à notre secours. Amen."
+  },
+  {
+    "id": "sainte_rita_la",
+    "code": "sainte_rita",
+    "nom": "Oratio ad Sanctam Ritam",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "fin_dizaine",
+    "texte": "Sub pondere doloris ad te confugio, sancta Rita, apud Deum tam potens, certa spe exaudiendi. Libera cor meum ab angustiis quae illud opprimunt, et redde pacem spiritui meo afflicto. Tu quam Deus patronam causarum desperatarum elegit, impetra mihi gratiam quam fidenter deposco. Sancta Rita, ora pro nobis et succurre nobis. Amen."
+  },
+  {
+    "id": "memorare_fr",
+    "code": "memorare",
+    "nom": "Souvenez-vous (Saint Bernard)",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "fin_dizaine",
+    "texte": "Souvenez-vous, ô très miséricordieuse Vierge Marie, qu'on n'a jamais entendu dire qu'aucun de ceux qui ont eu recours à votre protection, imploré votre assistance et réclamé votre secours, ait été abandonné. Animé d'une pareille confiance, ô Vierge des vierges, ô ma Mère, je viens à vous et, gémissant sous le poids de mes péchés, je me prosterne à vos pieds. Ô Mère du Verbe incarné, ne méprisez pas mes prières, mais écoutez-les favorablement et daignez les exaucer. Amen."
+  },
+  {
+    "id": "memorare_la",
+    "code": "memorare",
+    "nom": "Memorare",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "fin_dizaine",
+    "texte": "Memorare, o piissima Virgo Maria, non esse auditum a saeculo, quemquam ad tua currentem praesidia, tua implorantem auxilia, tua petentem suffragia, esse derelictum. Ego tali animatus confidentia, ad te, Virgo Virginum, Mater, curro, ad te venio, coram te gemens peccator assisto. Noli, Mater Verbi, verba mea despicere, sed audi propitia et exaudi. Amen."
+  },
+  {
+    "id": "salve_regina_fr",
+    "code": "salve_regina",
+    "nom": "Salut, Reine (Salve Regina)",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "fin_dizaine",
+    "texte": "Salut, Reine, Mère de miséricorde, notre vie, notre douceur et notre espérance, salut ! Enfants d'Ève, exilés, nous crions vers vous ; vers vous nous soupirons, gémissant et pleurant dans cette vallée de larmes. Ô vous, notre avocate, tournez vers nous vos regards miséricordieux. Et, après cet exil, montrez-nous Jésus, le fruit béni de vos entrailles. Ô clémente, ô miséricordieuse, ô douce Vierge Marie ! Amen."
+  },
+  {
+    "id": "salve_regina_la",
+    "code": "salve_regina",
+    "nom": "Salve Regina",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "fin_dizaine",
+    "texte": "Salve, Regina, Mater misericordiae, vita, dulcedo, et spes nostra, salve. Ad te clamamus, exsules filii Hevae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte; et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria. Amen."
+  },
+  {
+    "id": "sub_tuum_fr",
+    "code": "sub_tuum",
+    "nom": "Sous l'abri de votre miséricorde",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "fin_dizaine",
+    "texte": "Sous l'abri de votre miséricorde, nous nous réfugions, sainte Mère de Dieu. Ne méprisez pas nos prières quand nous sommes dans l'épreuve, mais de tous les dangers délivrez-nous toujours, Vierge glorieuse et bénie. Amen."
+  },
+  {
+    "id": "sub_tuum_la",
+    "code": "sub_tuum",
+    "nom": "Sub tuum praesidium",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "fin_dizaine",
+    "texte": "Sub tuum praesidium confugimus, sancta Dei Genetrix; nostras deprecationes ne despicias in necessitatibus, sed a periculis cunctis libera nos semper, Virgo gloriosa et benedicta. Amen."
+  },
+  {
+    "id": "ange_gardien_fr",
+    "code": "ange_gardien",
+    "nom": "Prière à l'Ange gardien",
+    "langue": "Français",
+    "code_langue": "fr",
+    "categorie": "fin_dizaine",
+    "texte": "Ange de Dieu, qui êtes mon gardien, et à qui la bonté divine m'a confié, éclairez-moi, protégez-moi, guidez-moi et gouvernez-moi. Amen."
+  },
+  {
+    "id": "ange_gardien_la",
+    "code": "ange_gardien",
+    "nom": "Oratio ad Angelum Custodem",
+    "langue": "Latin",
+    "code_langue": "la",
+    "categorie": "fin_dizaine",
+    "texte": "Angele Dei, qui custos es mei, me, tibi commissum pietate superna, illumina, custodi, rege et guberna. Amen."
   }
 ]
