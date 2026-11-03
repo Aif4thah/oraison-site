@@ -1137,7 +1137,6 @@ async
 cli_util
 collection
 stream_channel
-typed_data
 
 Copyright 2015, the Dart project authors. 
 
