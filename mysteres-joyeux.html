@@ -63,7 +63,18 @@
 <body>
   <header class="page-topbar">
     <a href="/" class="brand-link" aria-label="Retour à l'accueil Oraison"><img src="logo.svg" alt="Logo Oraison" width="34" height="34"> <span>Oraison</span></a>
-    <a href="app/" class="btn btn-compact" data-track="cta-topbar-joyeux">Ouvrir l'application</a>
+    <div class="topbar-actions">
+      <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" class="btn-store-compact" aria-label="Oraison sur Google Play">
+        <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+          <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+          <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+          <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
+        </svg>
+        <span>Google Play</span>
+      </a>
+      <a href="app/" class="btn btn-compact" data-track="cta-topbar-joyeux">Ouvrir l'application</a>
+    </div>
   </header>
 
   <main class="pillar-main">
@@ -78,10 +89,36 @@
     </nav>
 
     <div class="pillar-hero">
-      <p class="kicker-badge">Lundi &amp; Samedi</p>
+      <p class="kicker-badge" data-page-days="1,6">Lundi &amp; Samedi</p>
       <h1>Les 5 Mystères Joyeux du Rosaire</h1>
       <p class="lead">Les <strong>mystères joyeux</strong> nous font entrer dans la joie silencieuse de l'Incarnation. De la maison de Nazareth à la crèche de Bethléem et au Temple de Jérusalem, nous contemplons avec Marie l'humilité d'un Dieu qui se fait enfant et se laisse accueillir dans le silence du cœur.</p>
     </div>
+
+    <nav class="quick-overview" aria-label="Aperçu et accès rapide aux 5 mystères joyeux">
+      <p class="quick-overview-title">Les 5 mystères joyeux &amp; leurs fruits en un coup d'œil</p>
+      <div class="overview-grid">
+        <a href="#annonciation" class="overview-item"><strong><span>1.</span> L'Annonciation</strong><small>Fruit : L'humilité</small></a>
+        <a href="#visitation" class="overview-item"><strong><span>2.</span> La Visitation</strong><small>Fruit : La charité fraternelle</small></a>
+        <a href="#nativite" class="overview-item"><strong><span>3.</span> La Nativité</strong><small>Fruit : L'esprit de pauvreté</small></a>
+        <a href="#presentation" class="overview-item"><strong><span>4.</span> La Présentation</strong><small>Fruit : La pureté et l'obéissance</small></a>
+        <a href="#recouvrement" class="overview-item"><strong><span>5.</span> Le Recouvrement</strong><small>Fruit : La recherche de Dieu</small></a>
+      </div>
+      <div class="overview-cta-bar">
+        <p class="overview-cta-text"><strong>Prier ce chapelet dans le calme&nbsp;:</strong> les 5 dizaines guidées grain par grain (50 versets bibliques &amp; clausules)</p>
+        <div class="overview-cta-buttons">
+          <a href="app/" class="btn btn-compact" data-track="cta-overview-joyeux">Prier dans Oraison</a>
+          <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" class="btn-store-compact" aria-label="Télécharger sur Google Play">
+            <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+              <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+              <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+              <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
+            </svg>
+            <span>Google Play</span>
+          </a>
+        </div>
+      </div>
+    </nav>
 
     <div class="mystery-detail-list">
       <article class="mystery-detail-card" id="annonciation">
@@ -104,6 +141,10 @@
             <div class="verse-meta"><span>Luc 1, 38</span> <span class="clausule-tag">…et Jésus, accueilli dans l'obéissance…</span></div>
           </li>
         </ul>
+        <p class="verse-footer-cue">
+          <span>Extraits (3 versets sur les 10 de la dizaine)</span>
+          <a href="app/" data-track="cta-verse-cue-joyeux">Méditer les 10 grains dans l'application →</a>
+        </p>
       </article>
 
       <article class="mystery-detail-card" id="visitation">
@@ -186,20 +227,35 @@
     <aside class="cta-tunnel" aria-label="Prier les Mystères Joyeux dans Oraison">
       <h2>Méditez chaque grain avec son propre verset d'Évangile</h2>
       <p>Les extraits ci-dessus ne sont qu'un aperçu : dans l'application <strong>Oraison</strong>, chacun des 50 <em>Je vous salue Marie</em> du chapelet est accompagné d'un verset biblique distinct et de sa clausule en violet liturgique, sur fond sombre apaisé.</p>
-      <a class="btn btn-primary" href="app/" data-track="cta-bottom-joyeux">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
-        Prier les Mystères Joyeux dans Oraison
-      </a>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="app/" data-track="cta-bottom-joyeux">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
+          Prier les Mystères Joyeux dans Oraison
+        </a>
+        <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
+          <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+            <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+            <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+            <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
+          </svg>
+          <span class="btn-store-text">
+            <span class="btn-store-kicker">Disponible sur</span>
+            <span class="btn-store-title">Google Play</span>
+          </span>
+        </a>
+      </div>
+      <p class="cta-reassurance">Accès libre · Sans inscription · Mode avion · iPhone, Android &amp; Ordinateur</p>
     </aside>
 
     <nav class="silo-section" aria-label="Les autres mystères du Rosaire">
       <h2>Parcourir les autres mystères de la semaine</h2>
       <div class="silo-grid">
         <a href="prier-le-chapelet.html" class="silo-card"><strong>Guide du Chapelet</strong> <small>Étapes &amp; prières FR / Latin</small></a>
-        <a href="mysteres-joyeux.html" class="silo-card" aria-current="page"><strong>Mystères Joyeux</strong> <small>Lundi &amp; Samedi</small></a>
-        <a href="mysteres-lumineux.html" class="silo-card"><strong>Mystères Lumineux</strong> <small>Jeudi</small></a>
-        <a href="mysteres-douloureux.html" class="silo-card"><strong>Mystères Douloureux</strong> <small>Mardi &amp; Vendredi</small></a>
-        <a href="mysteres-glorieux.html" class="silo-card"><strong>Mystères Glorieux</strong> <small>Mercredi &amp; Dimanche</small></a>
+        <a href="mysteres-joyeux.html" class="silo-card" aria-current="page" data-days="1,6"><strong>Mystères Joyeux</strong> <small>Lundi &amp; Samedi</small></a>
+        <a href="mysteres-lumineux.html" class="silo-card" data-days="4"><strong>Mystères Lumineux</strong> <small>Jeudi</small></a>
+        <a href="mysteres-douloureux.html" class="silo-card" data-days="2,5"><strong>Mystères Douloureux</strong> <small>Mardi &amp; Vendredi</small></a>
+        <a href="mysteres-glorieux.html" class="silo-card" data-days="0,3"><strong>Mystères Glorieux</strong> <small>Mercredi &amp; Dimanche</small></a>
         <a href="oraison-meditation.html" class="silo-card"><strong>Oraison &amp; Méditation</strong> <small>Silence &amp; temps liturgiques</small></a>
       </div>
     </nav>
@@ -208,6 +264,8 @@
   <footer>
     <nav class="footer-nav" aria-label="Guides liturgiques et mystères du Rosaire">
       <a href="/">Accueil</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="app/">Lancer l'application</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">Google Play</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="prier-le-chapelet.html">Guide du Chapelet</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-joyeux.html">Mystères Joyeux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-lumineux.html">Mystères Lumineux</a> <span class="footer-sep" aria-hidden="true">·</span>
@@ -225,12 +283,39 @@
   </footer>
 
   <script>
-    document.querySelectorAll('[data-track]').forEach(function (el) {
-      el.addEventListener('click', function () {
-        var name = this.getAttribute('data-track');
-        if (window.goatcounter && typeof window.goatcounter.count === 'function') window.goatcounter.count({ path: name, title: name, event: true });
+    (function () {
+      function track(name, title) {
+        if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+          window.goatcounter.count({ path: name, title: title || name, event: true });
+        }
+      }
+      document.querySelectorAll('[data-track]').forEach(function (el) {
+        el.addEventListener('click', function () {
+          var name = this.getAttribute('data-track');
+          track(name, name);
+        });
       });
-    });
+      document.querySelectorAll('a[href*="play.google.com/store"]').forEach(function (link) {
+        link.addEventListener('click', function () { track('playstore-click', 'Clic Fiche Google Play Store'); });
+      });
+      var today = new Date().getDay();
+      var pageBadge = document.querySelector('[data-page-days]');
+      if (pageBadge && pageBadge.getAttribute('data-page-days').split(',').map(Number).indexOf(today) !== -1) {
+        pageBadge.textContent = "Aujourd'hui · " + pageBadge.textContent;
+      }
+      document.querySelectorAll('.silo-card[data-days]').forEach(function (card) {
+        if (card.getAttribute('data-days').split(',').map(Number).indexOf(today) !== -1) {
+          card.classList.add('is-today');
+          var s = card.querySelector('strong');
+          if (s) {
+            var pill = document.createElement('span');
+            pill.className = 'today-pill';
+            pill.textContent = "Aujourd'hui";
+            s.appendChild(pill);
+          }
+        }
+      });
+    })();
   </script>
 </body>
 </html>

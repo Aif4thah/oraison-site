@@ -82,33 +82,73 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .hero-store {
   display: flex;
   justify-content: center;
-  margin: 1rem auto 0;
+  margin: 1.15rem auto 0;
 }
-.hero-store-link {
+.btn-store {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.32rem 0.85rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-  color: #a8a2ae;
-  background: rgba(255, 255, 255, 0.02);
-  font-size: clamp(0.74rem, 2.3vw, 0.82rem);
+  justify-content: center;
+  gap: 0.7rem;
+  padding: 0.58rem 1.25rem;
+  border: 1px solid rgba(181, 126, 194, 0.38);
+  border-radius: 0.75rem;
+  color: var(--fg);
+  background: rgba(25, 20, 29, 0.75);
   text-decoration: none;
+  text-align: left;
   letter-spacing: 0.01em;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
-.hero-store-link:hover {
-  color: #f1edfa;
+.btn-store:hover {
+  color: #fff;
   border-color: var(--purple);
-  background: rgba(181, 126, 194, 0.08);
+  background: rgba(181, 126, 194, 0.14);
+  box-shadow: 0 6px 20px rgba(181, 126, 194, 0.2);
   transform: translateY(-1px);
 }
-.hero-store-link .playstore-icon,
-.hero-store-link .android-icon {
+.btn-store .playstore-icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  flex-shrink: 0;
+}
+.btn-store-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.18;
+}
+.btn-store-kicker {
+  font-size: 0.64rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #b8b2be;
+  font-weight: 500;
+}
+.btn-store-title {
+  font-size: 0.94rem;
+  font-weight: 600;
+  color: var(--fg);
+}
+.btn-store-compact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid rgba(181, 126, 194, 0.35);
+  border-radius: 0.65rem;
+  background: rgba(25, 20, 29, 0.65);
+  color: #e6e1ec;
+  font: 500 0.84rem/1.2 system-ui, sans-serif;
+  text-decoration: none;
+  transition: border-color 0.18s ease, background-color 0.18s ease, color 0.18s ease;
+}
+.btn-store-compact:hover {
+  border-color: var(--purple);
+  background: rgba(181, 126, 194, 0.14);
+  color: #fff;
+}
+.btn-store-compact .playstore-icon {
   width: 0.95rem;
   height: 0.95rem;
-  fill: currentColor;
   flex-shrink: 0;
 }
 .scroll-cue {
@@ -159,8 +199,8 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 }
 .pwa-card h2 { margin: 0 0 0.95rem; font: 400 1.65rem/1.3 var(--serif); }
 .pwa-intro { max-width: 35rem; margin: 0 auto 1.75rem; color: #d6d0dc; font-size: 1rem; line-height: 1.7; }
-.pwa-actions { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-bottom: 0; }
-#btn-install-pwa:not([hidden]) { margin-bottom: 1.5rem; }
+.pwa-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.85rem 1rem; justify-content: center; margin-bottom: 1.35rem; }
+#btn-install-pwa:not([hidden]) { margin-bottom: 0; }
 
 /* Boutons */
 .btn {
@@ -334,7 +374,8 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
 .footer-nav a:hover { color: var(--purple); text-decoration: underline; }
 
 /* En-tête et structure des pages piliers liturgiques */
-.page-topbar { width: 100%; max-width: 52rem; margin: 0 auto; padding: 1.75rem 1.5rem 0.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.page-topbar { width: 100%; max-width: 52rem; margin: 0 auto; padding: 1.75rem 1.5rem 0.5rem; display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; }
+.topbar-actions { display: inline-flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; justify-content: flex-end; }
 .brand-link { display: inline-flex; align-items: center; gap: 0.65rem; color: var(--fg); text-decoration: none; font: 400 1.28rem var(--serif); }
 .brand-link img { width: 36px; height: 36px; filter: drop-shadow(0 2px 8px rgba(181, 126, 194, 0.28)); }
 .brand-link:hover { color: var(--purple); }
@@ -345,9 +386,198 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
 .breadcrumb a { color: var(--muted); text-decoration: none; }
 .breadcrumb a:hover { color: var(--purple); text-decoration: underline; }
 .breadcrumb [aria-current="page"] { color: var(--purple); }
-.pillar-hero { margin-bottom: 3.25rem; padding-bottom: 2.25rem; border-bottom: 1px solid var(--line); text-align: center; }
+.pillar-hero { margin-bottom: 2.5rem; padding-bottom: 2.25rem; border-bottom: 1px solid var(--line); text-align: center; }
 .pillar-hero h1 { margin: 0.75rem 0 1rem; font-size: clamp(1.95rem, 5.5vw, 2.75rem); letter-spacing: -0.01em; }
 .pillar-hero .lead { margin: 0 auto; max-width: 40rem; line-height: 1.8; }
+
+/* Repère liturgique du jour & Navigation rapide (UX d'accueil) */
+.today-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+  margin: 0 0 1.5rem;
+  padding: 0.95rem 1.35rem;
+  border: 1px solid rgba(181, 126, 194, 0.42);
+  border-radius: 0.9rem;
+  background: rgba(181, 126, 194, 0.07);
+  text-align: left;
+}
+.today-banner-text {
+  color: #e6e1ec;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+.today-banner-text strong {
+  color: var(--purple);
+  font: 400 1.04rem var(--serif);
+}
+.today-banner-actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 0.95rem;
+  font-size: 0.86rem;
+}
+.today-banner-link {
+  color: var(--purple);
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.today-banner-link:hover { text-decoration: underline; }
+.mystery-item.is-today, .silo-card.is-today {
+  border-color: rgba(181, 126, 194, 0.65);
+  background: rgba(181, 126, 194, 0.09);
+  box-shadow: 0 6px 22px rgba(181, 126, 194, 0.12);
+}
+.today-pill {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid rgba(181, 126, 194, 0.45);
+  border-radius: 999px;
+  background: rgba(181, 126, 194, 0.16);
+  color: #ebd7f2;
+  font: 500 0.68rem/1.3 system-ui, sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+/* Aperçu immédiat des 5 mystères & Sommaires d'orientation */
+.quick-overview {
+  margin: 0 0 2.75rem;
+  padding: 1.65rem 1.75rem;
+  border: 1px solid rgba(181, 126, 194, 0.32);
+  border-radius: 1.1rem;
+  background: rgba(255, 255, 255, 0.018);
+}
+.quick-overview-title {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.overview-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  gap: 0.65rem;
+}
+.overview-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid rgba(58, 52, 64, 0.75);
+  border-radius: 0.7rem;
+  background: rgba(18, 18, 18, 0.55);
+  color: var(--fg);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+}
+.overview-item:hover {
+  border-color: var(--purple);
+  background: rgba(181, 126, 194, 0.1);
+  transform: translateY(-1px);
+}
+.overview-item strong {
+  color: var(--fg);
+  font: 400 0.96rem/1.3 var(--serif);
+}
+.overview-item strong span {
+  color: var(--purple);
+  margin-right: 0.25rem;
+}
+.overview-item small {
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+.overview-cta-bar {
+  margin-top: 1.25rem;
+  padding-top: 1.15rem;
+  border-top: 1px dashed rgba(181, 126, 194, 0.28);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem 1.25rem;
+}
+.overview-cta-text {
+  margin: 0;
+  color: #cfc9d4;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.overview-cta-text strong {
+  color: var(--fg);
+  font-weight: 500;
+}
+.overview-cta-buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+.quick-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 0.65rem;
+  margin: 0 0 2.5rem;
+}
+.quick-nav a, .prayer-jump-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(18, 18, 18, 0.55);
+  color: #d6d0dc;
+  font-size: 0.84rem;
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+.quick-nav a:hover, .prayer-jump-nav a:hover {
+  border-color: var(--purple);
+  background: rgba(181, 126, 194, 0.12);
+  color: #fff;
+}
+.prayer-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 0.5rem;
+  margin: 0 0 2rem;
+}
+.prayer-jump-nav a {
+  padding: 0.32rem 0.75rem;
+  font-size: 0.78rem;
+}
+.verse-footer-cue {
+  margin: 1.15rem 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px dashed rgba(58, 52, 64, 0.65);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.verse-footer-cue a {
+  color: var(--purple);
+  text-decoration: none;
+  font-weight: 500;
+}
+.verse-footer-cue a:hover { text-decoration: underline; }
 
 /* Cartes détaillées des 5 mystères & Prières bilingues */
 .mystery-detail-list { display: flex; flex-direction: column; gap: 2.25rem; margin: 2rem 0 3.25rem; }
@@ -372,17 +602,31 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
 
 /* Tunnel de conversion & Maillage interne (Silo Liturgique) */
 .cta-tunnel {
-  margin: 3.75rem 0;
+  width: 100%;
+  margin: 3.5rem 0;
   padding: 2.75rem 2.25rem;
   border: 1px solid rgba(181, 126, 194, 0.5);
   border-radius: 1.25rem;
-  background: radial-gradient(ellipse at 50% 0%, rgba(181, 126, 194, 0.14), rgba(18, 18, 18, 0.7) 75%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(181, 126, 194, 0.14), rgba(18, 18, 18, 0.72) 75%);
   box-shadow: 0 14px 36px rgba(0, 0, 0, 0.32);
   text-align: center;
   max-width: 100%;
 }
 .cta-tunnel h2, .cta-tunnel h3 { margin: 0 0 0.75rem; font: 400 1.5rem/1.3 var(--serif); color: var(--fg); }
 .cta-tunnel p { max-width: 36rem; margin: 0 auto 1.75rem; color: #d6d0dc; font-size: 1rem; line-height: 1.75; }
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem 1.1rem;
+}
+.cta-reassurance {
+  margin: 1.1rem auto 0 !important;
+  color: var(--muted) !important;
+  font-size: 0.82rem !important;
+  letter-spacing: 0.01em;
+}
 .silo-section { margin: 3.5rem 0 1.5rem; padding-top: 2.5rem; border-top: 1px solid var(--line); }
 .silo-section h2 { margin: 0 0 1.35rem; font: 400 1.35rem var(--serif); text-align: center; }
 .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: 1rem; }
@@ -404,12 +648,19 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   .manifesto-section { margin-bottom: 2.75rem; }
   .lead { font-size: 1.02rem; line-height: 1.75; }
   .pwa-card, .editorial { padding: 2rem 1.25rem; margin-bottom: 2.75rem; border-radius: 1.1rem; }
-  .pwa-actions .btn { width: 100%; }
+  .pwa-actions .btn, .pwa-actions .btn-store, .cta-actions .btn, .cta-actions .btn-store { width: 100%; max-width: 22rem; }
   .mysteries-grid, .mysteries-extra-grid { gap: 1.15rem; grid-template-columns: 1fr; }
   .mystery-item { padding: 1.35rem 1.25rem; }
   .page-topbar { padding: 1.25rem 1rem 0; }
-  .btn-compact { padding: 0.45rem 0.85rem; font-size: 0.82rem; }
-  .pillar-hero { margin-bottom: 2.5rem; padding-bottom: 1.75rem; }
+  .btn-compact { padding: 0.45rem 0.82rem; font-size: 0.8rem; }
+  .btn-store-compact { padding: 0.44rem 0.72rem; font-size: 0.78rem; }
+  .pillar-hero { margin-bottom: 2rem; padding-bottom: 1.75rem; }
+  .quick-overview { padding: 1.35rem 1.15rem; margin-bottom: 2.25rem; }
+  .overview-grid { grid-template-columns: 1fr; }
+  .overview-cta-bar { flex-direction: column; align-items: stretch; text-align: center; }
+  .overview-cta-buttons { justify-content: center; width: 100%; }
+  .overview-cta-buttons .btn, .overview-cta-buttons .btn-store-compact { flex: 1; justify-content: center; }
+  .today-banner { flex-direction: column; align-items: flex-start; padding: 0.9rem 1.1rem; }
   .mystery-detail-list, .prayer-list { gap: 1.75rem; margin-bottom: 2.5rem; }
   .mystery-detail-card { padding: 1.65rem 1.25rem; border-radius: 1rem; }
   .verse-item { padding: 1rem 1.15rem; }

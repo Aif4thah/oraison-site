@@ -96,15 +96,21 @@
         <span>Accès libre</span> <span class="dot" aria-hidden="true">·</span> <span>Sans inscription</span> <span class="dot" aria-hidden="true">·</span> <span>Sans publicité</span>
       </p>
       <div class="hero-store">
-        <a class="hero-store-link" id="link-playstore" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Oraison disponible sur le Google Play Store pour Android">
+        <a class="btn-store" id="link-playstore" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger l'application Oraison sur le Google Play Store pour Android">
           <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+            <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+            <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+            <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+            <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
           </svg>
-          <span>Disponible aussi sur Google Play</span>
+          <span class="btn-store-text">
+            <span class="btn-store-kicker">Disponible sur</span>
+            <span class="btn-store-title">Google Play</span>
+          </span>
         </a>
       </div>
     </div>
-    <a href="#decouvrir" class="scroll-cue" aria-label="Découvrir l'application et l'installer">
+    <a href="#decouvrir" class="scroll-cue" aria-label="Découvrir l'application et les mystères du chapelet">
       <span>Découvrir</span>
       <svg class="scroll-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </a>
@@ -117,20 +123,36 @@
 
     <section class="pwa-card" aria-labelledby="pwa-title">
       <p class="kicker-badge">iPhone · Android · Ordinateur</p>
-      <h2 id="pwa-title">Poser l'application sur votre écran d'accueil</h2>
-      <p class="pwa-intro">Pour retrouver Oraison d'un geste chaque jour dans le calme et la méditation, ajoutez-la sur votre appareil sans passer par une boutique d'applications.</p>
+      <h2 id="pwa-title">Garder Oraison sur votre écran d'accueil</h2>
+      <p class="pwa-intro">Pour retrouver Oraison d'un geste chaque jour dans le calme, ajoutez l'application web directement sur votre écran d'accueil (iPhone, Android, PC) ou installez l'application officielle depuis le Google Play Store.</p>
 
       <div class="pwa-actions" id="pwa-install-actions">
-        <button type="button" id="btn-install-pwa" class="btn btn-outline" hidden>
+        <button type="button" id="btn-install-pwa" class="btn btn-primary" hidden>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           Installer en 1 clic sur cet appareil
         </button>
+        <a class="btn btn-outline" href="app/" data-track="cta-pwa-card-open">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
+          Lancer dans le navigateur
+        </a>
+        <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
+          <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+            <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+            <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+            <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
+          </svg>
+          <span class="btn-store-text">
+            <span class="btn-store-kicker">Application Android</span>
+            <span class="btn-store-title">Google Play</span>
+          </span>
+        </a>
       </div>
 
       <details class="install-accordion" aria-label="Guide d'installation sur l'écran d'accueil">
         <summary>
           <svg class="summary-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Comment installer l'application sur mon écran d'accueil ?</span>
+          <span>Comment ajouter Oraison sur l'écran d'accueil (iPhone, Android, PC) ?</span>
           <svg class="chevron-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="install-accordion-content">
@@ -148,7 +170,7 @@
               </li>
               <li>
                 <strong>Appuyez sur « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></strong>
-                <span>Validez sur <strong>Ajouter</strong> en haut à droite. Oraison s'ouvre alors en plein écran, sans les barres de navigation de Safari.</span>
+                <span>Validez sur <strong>Ajouter</strong> en haut à droite. Oraison s'ouvre alors en plein écran, sans les barres de navigation de Safari, prête pour le mode avion.</span>
               </li>
             </ol>
           </div>
@@ -156,15 +178,14 @@
           <div id="panel-android" class="device-panel" role="tabpanel" aria-labelledby="tab-android">
             <ol class="steps compact-steps">
               <li>
-                <strong>Ouvrez le menu <span class="badge-icon" aria-hidden="true">⋮</span> de votre navigateur</strong>
-                <span>Si le bouton <em>« Installer en 1 clic »</em> ne s'affiche pas ci-dessus, touchez les trois points en haut à droite de Chrome, Samsung Internet ou Edge.</span>
+                <strong>Option 1 · Depuis le Google Play Store</strong>
+                <span>Installez l'application Android officielle directement depuis la fiche <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener"><strong>Oraison sur Google Play</strong></a>.</span>
               </li>
               <li>
-                <strong>Sélectionnez « Installer l'application » ou « Ajouter à l'écran d'accueil »</strong>
-                <span>Confirmez l'ajout. L'application s'ouvre en plein écran épuré (sans barre d'adresse, d'heure ni de notifications), propice au recueillement.</span>
+                <strong>Option 2 · Sur l'écran d'accueil sans boutique (PWA)</strong>
+                <span>Touchez le bouton <em>« Installer en 1 clic »</em> ci-dessus, ou ouvrez le menu <span class="badge-icon" aria-hidden="true">⋮</span> en haut à droite de votre navigateur (Chrome, Samsung Internet, Edge) puis sélectionnez <strong>« Installer l'application »</strong>.</span>
               </li>
             </ol>
-            <p class="panel-store-cue">Disponible également en application officielle sur le <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">Google Play Store</a>.</p>
           </div>
 
           <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
@@ -206,26 +227,34 @@
       <h2 class="sub-heading">Les mystères du chapelet au fil de la semaine</h2>
       <p class="sub-intro">Fidèle à la tradition catholique et au rythme liturgique, l'application propose chaque jour la série de mystères correspondante ainsi que des méditations propres aux temps de l'année.</p>
 
+      <div class="today-banner" id="today-mystery-banner" aria-live="polite" hidden>
+        <div class="today-banner-text" id="today-mystery-text"></div>
+        <div class="today-banner-actions">
+          <a href="prier-le-chapelet.html" id="today-mystery-guide" class="today-banner-link" data-track="today-banner-guide">Lire les 5 mystères →</a>
+          <a href="app/" class="today-banner-link" data-track="today-banner-app">Prier dans l'application →</a>
+        </div>
+      </div>
+
       <div class="mysteries-grid">
-        <a href="mysteres-joyeux.html" class="mystery-item">
+        <a href="mysteres-joyeux.html" class="mystery-item" data-days="1,6" data-mystery-name="Mystères joyeux">
           <h3>Mystères joyeux</h3>
           <p class="mystery-days">Lundi &amp; Samedi</p>
           <p>L'accueil silencieux et humble de la vie, de l'Annonciation à Nazareth jusqu'à la présentation au Temple.</p>
           <span class="mystery-link-cue">Découvrir les 5 mystères &amp; versets →</span>
         </a>
-        <a href="mysteres-lumineux.html" class="mystery-item">
+        <a href="mysteres-lumineux.html" class="mystery-item" data-days="4" data-mystery-name="Mystères lumineux">
           <h3>Mystères lumineux</h3>
           <p class="mystery-days">Jeudi</p>
           <p>Les grands récits de la Bible, du baptême au Jourdain et du signe de Cana jusqu'au partage du pain.</p>
           <span class="mystery-link-cue">Découvrir les 5 mystères &amp; versets →</span>
         </a>
-        <a href="mysteres-douloureux.html" class="mystery-item">
+        <a href="mysteres-douloureux.html" class="mystery-item" data-days="2,5" data-mystery-name="Mystères douloureux">
           <h3>Mystères douloureux</h3>
           <p class="mystery-days">Mardi &amp; Vendredi</p>
           <p>La veille intérieure à Gethsémani, l'épreuve de la patience et le don silencieux du Christ sur la Croix.</p>
           <span class="mystery-link-cue">Découvrir les 5 mystères &amp; versets →</span>
         </a>
-        <a href="mysteres-glorieux.html" class="mystery-item">
+        <a href="mysteres-glorieux.html" class="mystery-item" data-days="0,3" data-mystery-name="Mystères glorieux">
           <h3>Mystères glorieux</h3>
           <p class="mystery-days">Mercredi &amp; Dimanche</p>
           <p>La paix de la Résurrection, le souffle intérieur de la Pentecôte et l'espérance qui traverse le temps.</p>
@@ -267,6 +296,30 @@
         </div>
       </div>
 
+      <aside class="cta-tunnel" aria-label="Entrer en prière avec Oraison">
+        <h2>Prenez un temps de silence et de prière aujourd'hui</h2>
+        <p>Le mystère du jour, ses 50 versets de la Bible (Crampon 1923) et les prières traditionnelles en français et en latin vous attendent déjà dans un écran sombre reposant.</p>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="app/" data-track="cta-bottom-home">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
+            Ouvrir l'application Oraison
+          </a>
+          <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
+            <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+              <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+              <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+              <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
+            </svg>
+            <span class="btn-store-text">
+              <span class="btn-store-kicker">Disponible sur</span>
+              <span class="btn-store-title">Google Play</span>
+            </span>
+          </a>
+        </div>
+        <p class="cta-reassurance">Accès libre · Sans inscription · Compatible mode avion · iPhone, Android &amp; Ordinateur</p>
+      </aside>
+
       <div class="transparency-note" role="note" aria-label="Gratitude, transparence et esprit paroissial">
         <p><strong>Gratitude &amp; esprit paroissial&nbsp;:</strong> Oraison est née au cœur d'une paroisse et vit grâce à la fidélité de ses priants. L'application a pour vocation d'encourager et de promouvoir la pratique quotidienne du chapelet et de la méditation silencieuse&nbsp;; elle ne remplace en aucun cas la vie en communauté paroissiale, la présence à la <strong>messe</strong> et la grâce de l'<strong>Eucharistie</strong>, source et sommet de la vie chrétienne. Merci de tout cœur à notre communauté paroissiale et aux premiers bienfaiteurs qui soutiennent cette initiative par leur prière, leurs retours bienveillants et leur générosité.</p>
         <p>Les 4 mystères traditionnels du chapelet, le temps liturgique en cours et la découverte du mois sont et resteront <strong>100&nbsp;% gratuits pour tous et sans publicité</strong>. Si vous appréciez l'application, vous pouvez soutenir le projet et nous aider à couvrir les frais techniques (nom de domaine, hébergement, développement, recueil des versets en paroisse).</p>
@@ -276,7 +329,9 @@
   </main>
 
   <footer>
-    <nav class="footer-nav" aria-label="Guides liturgiques et mystères du Rosaire">
+    <nav class="footer-nav" aria-label="Guides liturgiques et accès à l'application">
+      <a href="app/">Lancer l'application</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener">Google Play</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="prier-le-chapelet.html">Guide du Chapelet</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-joyeux.html">Mystères Joyeux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-lumineux.html">Mystères Lumineux</a> <span class="footer-sep" aria-hidden="true">·</span>
@@ -311,10 +366,41 @@
         else { queue.push(ev); if (attempts < 20) flush(); }
       }
 
-      var openBtn = document.querySelector('.btn-hero') || document.querySelector('.btn-primary');
+      var openBtn = document.querySelector('.btn-hero');
       if (openBtn) openBtn.addEventListener('click', function () { track('cta-ouvrir-app', 'Clic CTA Ouvrir Oraison'); });
       var scrollCue = document.querySelector('.scroll-cue');
       if (scrollCue) scrollCue.addEventListener('click', function () { track('scroll-cue-click', 'Clic Découvrir Oraison vers le bas'); });
+
+      document.querySelectorAll('[data-track]').forEach(function (el) {
+        el.addEventListener('click', function () {
+          var name = this.getAttribute('data-track');
+          track(name, name);
+        });
+      });
+
+      var dayNames = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
+      var today = new Date().getDay();
+      var banner = document.getElementById('today-mystery-banner');
+      var bannerText = document.getElementById('today-mystery-text');
+      var bannerGuide = document.getElementById('today-mystery-guide');
+      document.querySelectorAll('.mystery-item[data-days]').forEach(function (card) {
+        var days = card.getAttribute('data-days').split(',').map(Number);
+        if (days.indexOf(today) !== -1) {
+          card.classList.add('is-today');
+          var h3 = card.querySelector('h3');
+          if (h3) {
+            var pill = document.createElement('span');
+            pill.className = 'today-pill';
+            pill.textContent = "Aujourd'hui";
+            h3.appendChild(pill);
+          }
+          if (banner && bannerText && bannerGuide) {
+            bannerText.innerHTML = "Chapelet d'aujourd'hui (" + dayNames[today] + ")&nbsp;: <strong>" + card.getAttribute('data-mystery-name') + "</strong>";
+            bannerGuide.href = card.getAttribute('href');
+            banner.hidden = false;
+          }
+        }
+      });
 
       var tabs = document.querySelectorAll('.device-tabs [role="tab"]');
       var panels = { ios: document.getElementById('panel-ios'), android: document.getElementById('panel-android'), pc: document.getElementById('panel-pc') };
