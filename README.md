@@ -30,7 +30,8 @@ Née au cœur d'une paroisse en France, l'application a pour vocation de promouv
 
 ## Éthique & Confidentialité
 
+- [Qui sommes-nous ? L'histoire d'Oraison](https://oraison.app/qui-sommes-nous.html) — Initiative personnelle et indépendante créée par Michaël Vacarella.
 - [Politique de confidentialité](https://oraison.app/privacy.html) — Zéro donnée personnelle collectée, zéro cookie publicitaire.
 - [Mentions légales](https://oraison.app/mentions-legales.html)
 
-© 2026 Oraison · Tous droits réservés · vacarelm
+© 2026 Oraison · Tous droits réservés · Michaël Vacarella

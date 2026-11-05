@@ -41,13 +41,10 @@
     <p>Comme aucune donnée personnelle n'est collectée, l'application peut être utilisée par tous en toute sérénité.</p>
 
     <h2>Vos droits</h2>
-    <p>Conformément au Règlement général sur la protection des données (RGPD), vous disposez de droits d'accès, de rectification et d'effacement de vos données. Aucune donnée n'étant détenue par Oraison, il n'y a rien à consulter ni à supprimer. Vous pouvez néanmoins saisir la CNIL (cnil.fr) ou nous écrire en cas de question.</p>
+    <p>Conformément au Règlement général sur la protection des données (RGPD), vous disposez de droits d'accès, de rectification et d'effacement de vos données. Aucune donnée n'étant détenue par Oraison, il n'y a rien à consulter ni à supprimer. Vous pouvez néanmoins saisir la CNIL (cnil.fr) ou contacter l'éditeur via la rubrique <a href="qui-sommes-nous.html">Qui sommes-nous&nbsp;?</a> en cas de question.</p>
 
     <h2>Modifications</h2>
     <p>Si l'application évolue et que cette politique est amenée à changer, la nouvelle version sera publiée sur cette page avec sa date de mise à jour.</p>
-
-    <h2>Contact</h2>
-    <p>Éditeur · vacarelm · <button type="button" id="privacy-contact-btn" class="footer-link-btn">Afficher l'adresse de contact</button><span id="privacy-contact-slot" hidden></span></p>
   </main>
   <footer>
     <nav class="footer-nav" aria-label="Guides liturgiques et mystères du Rosaire">
@@ -61,19 +58,15 @@
       <a href="app/">Lancer l'application</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener noreferrer">Google Play</a>
     </nav>
-    <p class="footer-initiative">Initiative catholique indépendante née en paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
-    <p class="footer-thanks">♥ Merci à notre communauté paroissiale et à tous ceux qui soutiennent ce projet par leur prière et leur générosité.</p>
-    <div><span>© 2026 Oraison · Tous droits réservés · vacarelm</span> <span class="footer-sep" aria-hidden="true">·</span> <a href="conditions-utilisation.html">Conditions d'utilisation</a> <span class="footer-sep" aria-hidden="true">·</span> <a href="mentions-legales.html">Mentions légales</a> <span class="footer-sep" aria-hidden="true">·</span> <a href="privacy.html">Confidentialité</a></div>
+    <p class="footer-initiative">Initiative personnelle et indépendante née au cœur d'une paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
+    <p class="footer-thanks">♥ Merci aux paroissiens et à tous ceux qui soutiennent ce projet par leur prière, leurs conseils et leur générosité.</p>
+    <div>
+      <span>© 2026 Oraison · Tous droits réservés</span> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="qui-sommes-nous.html">Qui sommes-nous ?</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="conditions-utilisation.html">Conditions d'utilisation</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="mentions-legales.html">Mentions légales</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="privacy.html" aria-current="page">Confidentialité</a>
+    </div>
   </footer>
-  <script>
-    (function () {
-      var b = document.getElementById('privacy-contact-btn'), s = document.getElementById('privacy-contact-slot');
-      if (b && s) b.addEventListener('click', function () {
-        var addr = 'vacarelm' + '@' + 'gmail.com', a = document.createElement('a');
-        a.href = 'mailto:' + addr + '?subject=Oraison'; a.textContent = addr;
-        s.appendChild(a); s.hidden = false; b.hidden = true;
-      });
-    })();
-  </script>
 </body>
 </html>

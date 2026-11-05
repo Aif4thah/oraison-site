@@ -330,7 +330,7 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .transparency-note p { margin: 0; color: #d6d0dc; font-size: 0.94rem; line-height: 1.55; }
 .transparency-note p + p { margin-top: 0.65rem; }
 .transparency-note strong { color: var(--purple); font: 500 0.98rem var(--serif); }
-.transparency-action { margin-top: 1rem !important; text-align: center; }
+.transparency-action { margin-top: 1rem !important; display: flex; flex-wrap: wrap; gap: 0.65rem; justify-content: center; }
 .badge-icon { display: inline-block; padding: 0 0.35rem; border: 1px solid var(--line); border-radius: 0.3rem; color: var(--purple); font-weight: 700; }
 
 .panel-store-cue { margin: 0.9rem 0 0; padding-top: 0.75rem; border-top: 1px dashed var(--line); color: var(--muted); font-size: 0.84rem; }
@@ -343,8 +343,6 @@ footer { padding: 1.5rem 1rem; color: var(--muted); font-size: 0.82rem; }
 .footer-sep { margin: 0 0.35rem; opacity: 0.6; }
 footer a { text-decoration: none; }
 footer a:hover { text-decoration: underline; }
-.footer-link-btn { padding: 0; border: 0; background: none; color: var(--muted); font: inherit; cursor: pointer; text-decoration: none; }
-.footer-link-btn:hover { color: var(--purple); text-decoration: underline; }
 .legal { align-items: stretch; justify-content: flex-start; width: 100%; max-width: 42rem; margin: 0 auto; text-align: left; }
 .legal h1 { margin: 1.5rem 0 0.25rem; font-size: clamp(2rem, 7vw, 2.75rem); }
 .legal h2 { margin: 2rem 0 0.5rem; font: 400 1.35rem var(--serif); color: var(--purple); }
