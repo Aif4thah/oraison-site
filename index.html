@@ -89,7 +89,7 @@
       <div class="hero-actions">
         <a class="btn btn-primary btn-hero" href="app/">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
-          Ouvrir Oraison maintenant
+          Ouvrir l'application Oraison
         </a>
       </div>
       <p class="hero-microcopy">
@@ -128,103 +128,63 @@
 
   <main id="decouvrir">
     <section class="manifesto-section" aria-label="Présentation d'Oraison">
-      <p class="lead">Pensée comme une halte de silence et de paix intérieure, Oraison offre un espace sobre et apaisé pour prier le <strong>chapelet</strong>, entrer dans l'<strong>oraison</strong> et approfondir la <strong>méditation</strong> à la lumière de la <strong>Bible</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer — simplement s'asseoir, respirer et prier.</p>
+      <p class="lead">Oraison offre un espace sobre et apaisé pour prier le <strong>chapelet</strong> et entrer dans l'<strong>oraison</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer. Prier, tout simplement.</p>
     </section>
 
     <section class="pwa-card" aria-labelledby="pwa-title">
-      <p class="kicker-badge">iPhone · Android · Ordinateur</p>
       <h2 id="pwa-title">Garder Oraison sur votre écran d'accueil</h2>
-      <p class="pwa-intro">Pour retrouver Oraison d'un geste chaque jour dans le calme, ajoutez l'application web directement sur votre écran d'accueil (iPhone, Android, PC) ou installez l'application officielle depuis le Google Play Store.</p>
+      <p class="pwa-intro">Ajoutez l'icône Oraison sur votre écran d'accueil pour retrouver votre prière d'un geste chaque jour, en plein écran et hors-ligne.</p>
 
-      <div class="pwa-actions" id="pwa-install-actions">
-        <button type="button" id="btn-install-pwa" class="btn btn-primary" hidden>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Installer en 1 clic sur cet appareil
-        </button>
-        <div class="hero-store">
-          <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
-            <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
-              <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
-              <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
-              <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
-            </svg>
-            <span class="btn-store-text">
-              <span class="btn-store-kicker">Disponible sur</span>
-              <span class="btn-store-title">Google Play</span>
-            </span>
-          </a>
-          <a class="btn-store" href="app/" data-track="ios-webapp-click" aria-label="Accès direct à l'application Oraison sur iPhone et iPad (Web-App)">
-            <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="#b57ec2" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09z"/>
-              <path fill="#d7b4e2" d="M12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-            </svg>
-            <span class="btn-store-text">
-              <span class="btn-store-kicker">Accès direct sur</span>
-              <span class="btn-store-title">iPhone (Web-App)</span>
-            </span>
-          </a>
-        </div>
+      <button type="button" id="btn-install-pwa" class="btn btn-primary" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Installer en 1 clic sur cet appareil
+      </button>
+
+      <div class="device-tabs" role="tablist" aria-label="Choisir votre appareil">
+        <button type="button" role="tab" id="tab-ios" aria-selected="false" aria-controls="panel-ios" data-target="ios">iPhone / iPad</button>
+        <button type="button" role="tab" id="tab-android" aria-selected="true" aria-controls="panel-android" data-target="android">Android</button>
+        <button type="button" role="tab" id="tab-pc" aria-selected="false" aria-controls="panel-pc" data-target="pc">Ordinateur</button>
       </div>
 
-      <details class="install-accordion" aria-label="Guide d'installation sur l'écran d'accueil">
-        <summary>
-          <svg class="summary-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Comment installer l'icône Oraison sur l'écran d'accueil (iPhone, Android, PC) ?</span>
-          <svg class="chevron-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </summary>
-        <div class="install-accordion-content">
-          <div class="device-tabs" role="tablist" aria-label="Choisir votre appareil">
-            <button type="button" role="tab" id="tab-ios" aria-selected="false" aria-controls="panel-ios" data-target="ios">iPhone / iPad</button>
-            <button type="button" role="tab" id="tab-android" aria-selected="true" aria-controls="panel-android" data-target="android">Android</button>
-            <button type="button" role="tab" id="tab-pc" aria-selected="false" aria-controls="panel-pc" data-target="pc">Ordinateur</button>
-          </div>
+      <div id="panel-ios" class="device-panel" role="tabpanel" aria-labelledby="tab-ios" hidden>
+        <ol class="steps compact-steps">
+          <li>
+            <strong>Touchez l'icône Partager <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12-4 4m4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> dans Safari</strong>
+            <span>Située dans la barre de Safari (en bas sur iPhone, en haut sur iPad). <em class="ios-tip">Depuis WhatsApp ou Mail, touchez d'abord la boussole en bas à droite pour basculer dans Safari.</em></span>
+          </li>
+          <li>
+            <strong>Choisissez « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> puis Ajouter</strong>
+            <span>L'icône Oraison s'installe sur votre iPhone en plein écran, prête pour le mode avion.</span>
+          </li>
+        </ol>
+      </div>
 
-          <div id="panel-ios" class="device-panel" role="tabpanel" aria-labelledby="tab-ios" hidden>
-            <ol class="steps compact-steps">
-              <li>
-                <strong>Ouvrez l'application et touchez Partager <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12-4 4m4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> dans Safari</strong>
-                <span>Sur iPhone, Oraison s'utilise directement sans passer par l'App Store. Touchez l'icône <strong>Partager</strong> de la barre Safari (en bas sur iPhone, en haut sur iPad). <em class="ios-tip">Astuce WhatsApp / Mail&nbsp;: si vous avez ouvert ce lien depuis un message, touchez d'abord la boussole en bas à droite pour basculer dans Safari.</em></span>
-              </li>
-              <li>
-                <strong>Choisissez « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> puis Ajouter</strong>
-                <span>L'icône Oraison s'installe sur votre iPhone comme une application native, en plein écran et compatible avec le mode avion.</span>
-              </li>
-            </ol>
-          </div>
+      <div id="panel-android" class="device-panel" role="tabpanel" aria-labelledby="tab-android">
+        <ol class="steps compact-steps">
+          <li>
+            <strong>Depuis le navigateur (sans boutique)</strong>
+            <span>Touchez <em>« Installer en 1 clic »</em> ci-dessus, ou ouvrez le menu <span class="badge-icon" aria-hidden="true">⋮</span> de votre navigateur puis <strong>« Installer l'application »</strong>.</span>
+          </li>
+          <li>
+            <strong>Depuis le Google Play Store</strong>
+            <span>Ou téléchargez l'application officielle sur <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener"><strong>Google Play</strong></a>.</span>
+          </li>
+        </ol>
+      </div>
 
-          <div id="panel-android" class="device-panel" role="tabpanel" aria-labelledby="tab-android">
-            <ol class="steps compact-steps">
-              <li>
-                <strong>Option 1 · Depuis le Google Play Store</strong>
-                <span>Installez l'application Android officielle directement depuis la fiche <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener"><strong>Oraison sur Google Play</strong></a>.</span>
-              </li>
-              <li>
-                <strong>Option 2 · Sur l'écran d'accueil sans boutique (PWA)</strong>
-                <span>Touchez le bouton <em>« Installer en 1 clic »</em> ci-dessus, ou ouvrez le menu <span class="badge-icon" aria-hidden="true">⋮</span> en haut à droite de votre navigateur (Chrome, Samsung Internet, Edge) puis sélectionnez <strong>« Installer l'application »</strong>.</span>
-              </li>
-            </ol>
-          </div>
-
-          <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
-            <ol class="steps compact-steps">
-              <li>
-                <strong>Méditez sur grand écran</strong>
-                <span>Cliquez sur <a href="app/"><em>« Ouvrir Oraison maintenant »</em></a>. L'interface s'adapte aux écrans larges et se parcourt à la souris, à la molette ou avec les flèches du clavier.</span>
-              </li>
-              <li>
-                <strong>Raccourci bureau optionnel</strong>
-                <span>Dans Chrome ou Edge, cliquez sur l'icône d'installation à droite de la barre d'adresse pour ouvrir Oraison dans sa propre fenêtre épurée.</span>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </details>
+      <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
+        <ol class="steps compact-steps">
+          <li>
+            <strong>Raccourci bureau</strong>
+            <span>Dans Chrome ou Edge, cliquez sur l'icône d'installation à droite de la barre d'adresse pour ouvrir Oraison dans sa propre fenêtre.</span>
+          </li>
+        </ol>
+      </div>
     </section>
 
     <section class="editorial" aria-labelledby="meditation-title">
       <h2 id="meditation-title">Une sobriété pensée pour le recueillement</h2>
-      <p>Oraison fait le choix délibéré d'un dépouillement bienfaisant. Chaque élément s'efface naturellement pour laisser toute la place au silence intérieur, à la prière du chapelet et à l'écoute de la Bible.</p>
+      <p>Chaque élément s'efface pour laisser toute la place au silence intérieur, à la prière du chapelet et à l'écoute de la Bible.</p>
 
       <ul class="pillars">
         <li>
@@ -234,22 +194,21 @@
         <li>
           <strong>La méditation sans attente ni artifice</strong>
           <span>Aucun compteur de performance, aucune notification, aucune publicité. On ouvre l'application uniquement pour être présent et méditer en paix.</span>
-          <p class="pillar-note"><strong>Compatible avec le mode avion&nbsp;:</strong> Une fois votre prière ouverte, vous pouvez passer votre appareil en mode avion le temps de votre chapelet ou de votre oraison à l'église, pour n'être dérangé par aucune sollicitation extérieure.</p>
+          <p class="pillar-note"><strong>Compatible avec le mode avion&nbsp;:</strong> Une fois la prière ouverte, passez en mode avion à l'église ou à l'oratoire pour prier sans aucune sollicitation.</p>
         </li>
         <li>
           <strong>La richesse de la Bible et de la tradition</strong>
-          <span>Un recueil vivant de plus de 800 versets de la Bible (traduction catholique Crampon 1923) accompagne chaque grain du chapelet pour soutenir l'attention, enrichi de repères de méditation tirés de Saint Jean-Paul II et des prières en français ou en latin (<em>Pater Noster</em>, <em>Ave Maria</em>, <em>Gloria Patri</em>).</span>
+          <span>Plus de 800 versets de la Bible (traduction Crampon 1923) accompagnent chaque grain du chapelet, avec les repères de méditation de Saint Jean-Paul II et les prières en français et en latin (<em>Pater Noster</em>, <em>Ave Maria</em>, <em>Gloria Patri</em>).</span>
         </li>
       </ul>
 
       <h2 class="sub-heading">Les mystères du chapelet au fil de la semaine</h2>
-      <p class="sub-intro">Fidèle à la tradition catholique et au rythme liturgique, l'application propose chaque jour la série de mystères correspondante ainsi que des méditations propres aux temps de l'année.</p>
+      <p class="sub-intro">Fidèle à la tradition catholique, l'application propose chaque jour les mystères du chapelet correspondants et les méditations du temps liturgique.</p>
 
       <div class="today-banner" id="today-mystery-banner" aria-live="polite" hidden>
         <div class="today-banner-text" id="today-mystery-text"></div>
         <div class="today-banner-actions">
           <a href="prier-le-chapelet.html" id="today-mystery-guide" class="today-banner-link" data-track="today-banner-guide">Lire les 5 mystères →</a>
-          <a href="app/" class="today-banner-link" data-track="today-banner-app">Prier dans l'application →</a>
         </div>
       </div>
 
@@ -287,7 +246,7 @@
 
       <div class="mysteries-extra">
         <h3 class="mysteries-extra-title">La sobriété liturgique&nbsp;: méditer sans dispersion</h3>
-        <p class="mysteries-extra-lead">Pour préserver le calme intérieur sans surcharger l'application, les séries complémentaires apparaissent <strong>au fil des temps liturgiques et des fêtes de l'Église</strong>&nbsp;: méditer l'Avent en Avent, la Croix en Carême ou la vie d'un saint le jour de sa fête permet d'unir sa prière à la liturgie, l'esprit reposé.</p>
+        <p class="mysteries-extra-lead">Pour ne pas surcharger l'écran, les séries complémentaires s'affichent <strong>au fil du calendrier liturgique</strong> (Avent, Carême, Pâques, fêtes des saints) afin d'unir sa prière à celle de l'Église.</p>
         <div class="mysteries-extra-grid">
           <a href="oraison-meditation.html#conseils-jean-paul-ii" class="mystery-item mystery-item-special">
             <h3>Conseils pour la méditation</h3>
@@ -351,8 +310,8 @@
       </aside>
 
       <div class="transparency-note" role="note" aria-label="Gratitude, transparence et démarche personnelle">
-        <p><strong>Une démarche personnelle née au cœur de la paroisse&nbsp;:</strong> Oraison est une initiative personnelle et indépendante, qui a grandi grâce aux conseils et aux retours bienveillants de paroissiens et de prêtres de son entourage. L'application a pour vocation d'encourager la pratique quotidienne du chapelet et de la méditation silencieuse&nbsp;; elle ne remplace en aucun cas la vie en communauté paroissiale, la présence à la <strong>messe</strong> et la grâce de l'<strong>Eucharistie</strong>, source et sommet de la vie chrétienne.</p>
-        <p>Les 4 mystères traditionnels du chapelet, le temps liturgique en cours et la découverte du mois sont et resteront <strong>100&nbsp;% gratuits pour tous, sans publicité et sans collecte de données</strong>. Si vous appréciez ce travail, vous pouvez découvrir l'histoire du projet ou apporter un soutien ponctuel pour aider à couvrir les frais techniques (nom de domaine, hébergement, matériel et développement).</p>
+        <p><strong>Une démarche née au cœur de la paroisse&nbsp;:</strong> Oraison est une initiative personnelle mûrie avec les conseils de paroissiens et de prêtres. Elle soutient la prière quotidienne du chapelet mais ne remplace jamais la vie paroissiale, la <strong>messe</strong> et l'<strong>Eucharistie</strong>.</p>
+        <p>Les 4 mystères traditionnels, le temps liturgique en cours et la découverte du mois restent <strong>100&nbsp;% gratuits, sans publicité ni collecte de données</strong>. Vous pouvez découvrir l'histoire du projet ou participer aux frais techniques d'hébergement et de développement.</p>
         <p class="transparency-action">
           <a class="btn btn-outline btn-compact" href="qui-sommes-nous.html" data-track="cta-qui-sommes-nous">Qui sommes-nous&nbsp;? Découvrir notre histoire</a>
           <a class="btn btn-outline btn-compact" id="btn-soutien-stripe" href="https://donate.stripe.com/aFabIUa0Bg255v6gYlco003" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:0.95rem;height:0.95rem;fill:currentColor;vertical-align:-0.12rem;margin-right:0.35rem;"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>Soutenir le projet Oraison</a>
@@ -451,10 +410,6 @@
       var ua = navigator.userAgent || '';
       var isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
       selectTab(isIOS ? 'ios' : (/Android/i.test(ua) ? 'android' : 'pc'));
-
-      var acc = document.querySelector('.install-accordion');
-      if (isIOS && acc) acc.open = true;
-      if (acc) acc.addEventListener('toggle', function () { if (this.open) track('guide-install-accordion-open', 'Ouverture accordéon guide installation'); });
 
       var deferredPrompt = null, installBtn = document.getElementById('btn-install-pwa');
       if (isIOS && installBtn) { installBtn.hidden = true; installBtn.style.display = 'none'; }

@@ -204,9 +204,8 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
   text-transform: uppercase;
 }
 .pwa-card h2 { margin: 0 0 0.95rem; font: 400 1.65rem/1.3 var(--serif); }
-.pwa-intro { max-width: 35rem; margin: 0 auto 1.75rem; color: #d6d0dc; font-size: 1rem; line-height: 1.7; }
-.pwa-actions { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; justify-content: center; margin-bottom: 1.35rem; }
-#btn-install-pwa:not([hidden]) { margin-bottom: 0; }
+.pwa-intro { max-width: 35rem; margin: 0 auto 1.5rem; color: #d6d0dc; font-size: 1rem; line-height: 1.7; }
+#btn-install-pwa:not([hidden]) { margin: 0 auto 1.25rem; }
 
 /* Boutons */
 .btn {
@@ -231,36 +230,7 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .btn-outline { border-color: var(--purple); background: transparent; color: var(--purple); }
 .btn-outline:hover { background: rgba(181, 126, 194, 0.14); filter: none; }
 
-/* Accordéon & Onglets d'installation */
-.install-accordion { margin-top: 1.25rem; padding-top: 1.15rem; border-top: 1px solid var(--line); text-align: left; }
-.install-accordion summary { list-style: none; cursor: pointer; }
-.install-accordion summary::-webkit-details-marker { display: none; }
-.install-accordion summary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.55rem;
-  width: 100%;
-  padding: 0.65rem 1rem;
-  border: 1px solid rgba(181, 126, 194, 0.25);
-  border-radius: 0.65rem;
-  background: rgba(18, 18, 18, 0.4);
-  color: var(--purple);
-  font-size: 0.92rem;
-  font-weight: 500;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
-  user-select: none;
-}
-.install-accordion summary:hover { background: rgba(181, 126, 194, 0.12); border-color: rgba(181, 126, 194, 0.5); }
-.install-accordion summary .summary-icon { width: 1.05rem; height: 1.05rem; flex-shrink: 0; color: var(--purple); }
-.install-accordion summary .chevron-icon { width: 1rem; height: 1rem; flex-shrink: 0; margin-left: 0.25rem; color: var(--muted); transition: transform 0.2s ease; }
-.install-accordion[open] summary .chevron-icon { transform: rotate(180deg); }
-.install-accordion[open] summary { margin-bottom: 1.25rem; border-color: var(--purple); }
-.install-accordion-content { animation: fadeIn 0.2s ease; }
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-4px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+/* Onglets d'installation */
 .device-tabs { display: flex; flex-wrap: wrap; gap: 0.45rem; justify-content: center; margin-bottom: 1.15rem; }
 .device-tabs button {
   padding: 0.4rem 0.9rem;
@@ -519,32 +489,6 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   color: var(--muted);
   font-size: 0.76rem;
 }
-.overview-cta-bar {
-  margin-top: 1.25rem;
-  padding-top: 1.15rem;
-  border-top: 1px dashed rgba(181, 126, 194, 0.28);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.85rem 1.25rem;
-}
-.overview-cta-text {
-  margin: 0;
-  color: #cfc9d4;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-.overview-cta-text strong {
-  color: var(--fg);
-  font-weight: 500;
-}
-.overview-cta-buttons {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.6rem;
-}
 .quick-nav {
   display: flex;
   flex-wrap: wrap;
@@ -580,24 +524,6 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   padding: 0.32rem 0.75rem;
   font-size: 0.78rem;
 }
-.verse-footer-cue {
-  margin: 1.15rem 0 0;
-  padding-top: 0.85rem;
-  border-top: 1px dashed rgba(58, 52, 64, 0.65);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem 1rem;
-  font-size: 0.82rem;
-  color: var(--muted);
-}
-.verse-footer-cue a {
-  color: var(--purple);
-  text-decoration: none;
-  font-weight: 500;
-}
-.verse-footer-cue a:hover { text-decoration: underline; }
 
 /* Cartes détaillées des 5 mystères & Prières bilingues */
 .mystery-detail-list { display: flex; flex-direction: column; gap: 2.25rem; margin: 2rem 0 3.25rem; }
@@ -668,7 +594,7 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   .manifesto-section { margin-bottom: 2.75rem; }
   .lead { font-size: 1.02rem; line-height: 1.75; }
   .pwa-card, .editorial { padding: 2rem 1.25rem; margin-bottom: 2.75rem; border-radius: 1.1rem; }
-  .pwa-actions .btn, .cta-actions .btn { width: 100%; max-width: 22rem; }
+  .cta-actions .btn { width: 100%; max-width: 22rem; }
   .hero-store { gap: 0.5rem; }
   .btn-store { flex: 1 1 8.5rem; max-width: 10.8rem; padding: 0.5rem 0.65rem; gap: 0.45rem; }
   .btn-store .playstore-icon { width: 1.15rem; height: 1.15rem; }
@@ -682,9 +608,6 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   .pillar-hero { margin-bottom: 2rem; padding-bottom: 1.75rem; }
   .quick-overview { padding: 1.35rem 1.15rem; margin-bottom: 2.25rem; }
   .overview-grid { grid-template-columns: 1fr; }
-  .overview-cta-bar { flex-direction: column; align-items: stretch; text-align: center; }
-  .overview-cta-buttons { justify-content: center; width: 100%; }
-  .overview-cta-buttons .btn, .overview-cta-buttons .btn-store-compact { flex: 1; justify-content: center; }
   .today-banner { flex-direction: column; align-items: flex-start; padding: 0.9rem 1.1rem; }
   .mystery-detail-list, .prayer-list { gap: 1.75rem; margin-bottom: 2.5rem; }
   .mystery-detail-card { padding: 1.65rem 1.25rem; border-radius: 1rem; }
