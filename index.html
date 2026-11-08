@@ -68,7 +68,7 @@
       {
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "Comment installer et utiliser Oraison sur iPhone, Android ou ordinateur ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application). Oraison est également disponible en application officielle sur le Google Play Store pour Android, sans publicité ni inscription." } },
+          { "@type": "Question", "name": "Comment installer et utiliser Oraison sur iPhone et Android ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application). Oraison est également disponible en application officielle sur le Google Play Store pour Android, sans publicité ni inscription." } },
           { "@type": "Question", "name": "En quoi Oraison favorise-t-elle le calme et la méditation ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison privilégie le dépouillement, l'accès libre et le silence visuel. Entièrement dédiée au recueillement, son interface sombre et apaisée laisse toute la place à l'oraison, au chapelet et à la méditation de la Bible, sans publicité, sans inscription et sans distraction." } },
           { "@type": "Question", "name": "Quels mystères du chapelet et quels textes de la Bible sont proposés ?", "acceptedAnswer": { "@type": "Answer", "text": "L'application réunit les quatre séries traditionnelles du Rosaire (mystères joyeux, lumineux, douloureux et glorieux), une série d'aide à la méditation issue de la lettre apostolique Rosarium Virginis Mariae de Saint Jean-Paul II, des mystères spécifiques présents aux dates liturgiques, des sélections choisies par les paroissiens, ainsi que des séries découverte explorant des passages bibliques méconnus, la vie des saints et des thématiques spirituelles spécifiques. Chaque grain est accompagné de versets bibliques, de fruits spirituels et des prières en français et en latin." } },
           { "@type": "Question", "name": "L'application Oraison remplace-t-elle la messe ou la vie sacramentelle ?", "acceptedAnswer": { "@type": "Answer", "text": "Non, en aucun cas. Oraison a pour but de promouvoir et soutenir la pratique quotidienne du chapelet et de la prière silencieuse au rythme de chacun. Elle a été pensée comme un compagnon de recueillement personnel et ne se substitue jamais à la vie en communauté paroissiale, à la présence à la messe et à la réception de l'Eucharistie." } },
@@ -89,7 +89,7 @@
       <div class="hero-actions">
         <a class="btn btn-primary btn-hero" href="app/">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
-          Ouvrir l'application Oraison
+          Ouvrir l'application
         </a>
       </div>
       <p class="hero-microcopy">
@@ -143,7 +143,6 @@
       <div class="device-tabs" role="tablist" aria-label="Choisir votre appareil">
         <button type="button" role="tab" id="tab-ios" aria-selected="false" aria-controls="panel-ios" data-target="ios">iPhone / iPad</button>
         <button type="button" role="tab" id="tab-android" aria-selected="true" aria-controls="panel-android" data-target="android">Android</button>
-        <button type="button" role="tab" id="tab-pc" aria-selected="false" aria-controls="panel-pc" data-target="pc">Ordinateur</button>
       </div>
 
       <div id="panel-ios" class="device-panel" role="tabpanel" aria-labelledby="tab-ios" hidden>
@@ -154,7 +153,7 @@
           </li>
           <li>
             <strong>Choisissez « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> puis Ajouter</strong>
-            <span>L'icône Oraison s'installe sur votre iPhone en plein écran, prête pour le mode avion.</span>
+            <span>L'icône Oraison s'installe sur votre iPhone ou iPad en plein écran, prête pour le mode avion.</span>
           </li>
         </ol>
       </div>
@@ -168,15 +167,6 @@
           <li>
             <strong>Depuis le Google Play Store</strong>
             <span>Ou téléchargez l'application officielle sur <a href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener"><strong>Google Play</strong></a>.</span>
-          </li>
-        </ol>
-      </div>
-
-      <div id="panel-pc" class="device-panel" role="tabpanel" aria-labelledby="tab-pc" hidden>
-        <ol class="steps compact-steps">
-          <li>
-            <strong>Raccourci bureau</strong>
-            <span>Dans Chrome ou Edge, cliquez sur l'icône d'installation à droite de la barre d'adresse pour ouvrir Oraison dans sa propre fenêtre.</span>
           </li>
         </ol>
       </div>
@@ -306,7 +296,7 @@
             </a>
           </div>
         </div>
-        <p class="cta-reassurance">Accès libre · Sans inscription · Compatible mode avion · iPhone, Android &amp; Ordinateur</p>
+        <p class="cta-reassurance">Accès libre · Sans inscription · Compatible mode avion · iPhone &amp; Android</p>
       </aside>
 
       <div class="transparency-note" role="note" aria-label="Gratitude, transparence et démarche personnelle">
@@ -395,7 +385,7 @@
       });
 
       var tabs = document.querySelectorAll('.device-tabs [role="tab"]');
-      var panels = { ios: document.getElementById('panel-ios'), android: document.getElementById('panel-android'), pc: document.getElementById('panel-pc') };
+      var panels = { ios: document.getElementById('panel-ios'), android: document.getElementById('panel-android') };
       function selectTab(target) {
         tabs.forEach(function (t) { t.setAttribute('aria-selected', t.dataset.target === target ? 'true' : 'false'); });
         Object.keys(panels).forEach(function (k) { if (panels[k]) panels[k].hidden = (k !== target); });
@@ -409,7 +399,7 @@
 
       var ua = navigator.userAgent || '';
       var isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-      selectTab(isIOS ? 'ios' : (/Android/i.test(ua) ? 'android' : 'pc'));
+      selectTab(isIOS ? 'ios' : 'android');
 
       var deferredPrompt = null, installBtn = document.getElementById('btn-install-pwa');
       if (isIOS && installBtn) { installBtn.hidden = true; installBtn.style.display = 'none'; }

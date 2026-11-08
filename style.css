@@ -137,8 +137,10 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .btn-store-compact {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.42rem;
-  padding: 0.5rem 0.9rem;
+  min-width: 6.25rem;
+  padding: 0.5rem 0.85rem;
   border: 1px solid rgba(181, 126, 194, 0.35);
   border-radius: 0.65rem;
   background: rgba(25, 20, 29, 0.65);
@@ -604,7 +606,7 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   .mystery-item { padding: 1.35rem 1.25rem; }
   .page-topbar { padding: 1.25rem 1rem 0; }
   .btn-compact { padding: 0.45rem 0.82rem; font-size: 0.8rem; }
-  .btn-store-compact { padding: 0.44rem 0.72rem; font-size: 0.78rem; }
+  .btn-store-compact { min-width: 5.1rem; padding: 0.44rem 0.65rem; font-size: 0.78rem; }
   .pillar-hero { margin-bottom: 2rem; padding-bottom: 1.75rem; }
   .quick-overview { padding: 1.35rem 1.15rem; margin-bottom: 2.25rem; }
   .overview-grid { grid-template-columns: 1fr; }
