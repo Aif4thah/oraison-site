@@ -81,15 +81,21 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .hero-microcopy .dot { color: var(--purple); margin: 0 0.25rem; font-weight: 700; }
 .hero-store {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
   margin: 1.15rem auto 0;
 }
+.pwa-actions .hero-store, .cta-actions .hero-store { margin-top: 0; }
 .btn-store {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.7rem;
-  padding: 0.58rem 1.25rem;
+  flex: 1 1 11.5rem;
+  max-width: 13.5rem;
+  gap: 0.65rem;
+  padding: 0.58rem 1.1rem;
   border: 1px solid rgba(181, 126, 194, 0.38);
   border-radius: 0.75rem;
   color: var(--fg);
@@ -199,7 +205,7 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 }
 .pwa-card h2 { margin: 0 0 0.95rem; font: 400 1.65rem/1.3 var(--serif); }
 .pwa-intro { max-width: 35rem; margin: 0 auto 1.75rem; color: #d6d0dc; font-size: 1rem; line-height: 1.7; }
-.pwa-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.85rem 1rem; justify-content: center; margin-bottom: 1.35rem; }
+.pwa-actions { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; justify-content: center; margin-bottom: 1.35rem; }
 #btn-install-pwa:not([hidden]) { margin-bottom: 0; }
 
 /* Boutons */
@@ -351,9 +357,6 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .transparency-note strong { color: var(--purple); font: 500 0.98rem var(--serif); }
 .transparency-action { margin-top: 1rem !important; display: flex; flex-wrap: wrap; gap: 0.65rem; justify-content: center; }
 .badge-icon { display: inline-block; padding: 0 0.35rem; border: 1px solid var(--line); border-radius: 0.3rem; color: var(--purple); font-weight: 700; }
-
-.panel-store-cue { margin: 0.9rem 0 0; padding-top: 0.75rem; border-top: 1px dashed var(--line); color: var(--muted); font-size: 0.84rem; }
-.panel-store-cue a { color: var(--purple); font-weight: 500; text-decoration: underline; }
 
 /* Pied de page & Pages légales */
 footer { padding: 1.5rem 1rem; color: var(--muted); font-size: 0.82rem; }
@@ -633,10 +636,10 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
 .cta-tunnel p { max-width: 36rem; margin: 0 auto 1.75rem; color: #d6d0dc; font-size: 1rem; line-height: 1.75; }
 .cta-actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.85rem 1.1rem;
+  gap: 0.95rem;
 }
 .cta-reassurance {
   margin: 1.1rem auto 0 !important;
@@ -665,7 +668,12 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   .manifesto-section { margin-bottom: 2.75rem; }
   .lead { font-size: 1.02rem; line-height: 1.75; }
   .pwa-card, .editorial { padding: 2rem 1.25rem; margin-bottom: 2.75rem; border-radius: 1.1rem; }
-  .pwa-actions .btn, .pwa-actions .btn-store, .cta-actions .btn, .cta-actions .btn-store { width: 100%; max-width: 22rem; }
+  .pwa-actions .btn, .cta-actions .btn { width: 100%; max-width: 22rem; }
+  .hero-store { gap: 0.5rem; }
+  .btn-store { flex: 1 1 8.5rem; max-width: 10.8rem; padding: 0.5rem 0.65rem; gap: 0.45rem; }
+  .btn-store .playstore-icon { width: 1.15rem; height: 1.15rem; }
+  .btn-store-kicker { font-size: 0.56rem; letter-spacing: 0.04em; white-space: nowrap; }
+  .btn-store-title { font-size: 0.8rem; white-space: nowrap; }
   .mysteries-grid, .mysteries-extra-grid { gap: 1.15rem; grid-template-columns: 1fr; }
   .mystery-item { padding: 1.35rem 1.25rem; }
   .page-topbar { padding: 1.25rem 1rem 0; }

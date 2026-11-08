@@ -108,6 +108,16 @@
             <span class="btn-store-title">Google Play</span>
           </span>
         </a>
+        <a class="btn-store" id="link-ios-webapp" href="app/" data-track="ios-webapp-click" aria-label="Accès direct à l'application Oraison sur iPhone et iPad (Web-App)">
+          <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="#b57ec2" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09z"/>
+            <path fill="#d7b4e2" d="M12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+          </svg>
+          <span class="btn-store-text">
+            <span class="btn-store-kicker">Accès direct sur</span>
+            <span class="btn-store-title">iPhone (Web-App)</span>
+          </span>
+        </a>
       </div>
     </div>
     <a href="#decouvrir" class="scroll-cue" aria-label="Découvrir l'application et les mystères du chapelet">
@@ -131,28 +141,36 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           Installer en 1 clic sur cet appareil
         </button>
-        <a class="btn btn-outline" href="app/" data-track="cta-pwa-card-open">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
-          Lancer dans le navigateur
-        </a>
-        <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
-          <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
-            <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
-            <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
-            <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
-          </svg>
-          <span class="btn-store-text">
-            <span class="btn-store-kicker">Application Android</span>
-            <span class="btn-store-title">Google Play</span>
-          </span>
-        </a>
+        <div class="hero-store">
+          <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
+            <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+              <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+              <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+              <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
+            </svg>
+            <span class="btn-store-text">
+              <span class="btn-store-kicker">Disponible sur</span>
+              <span class="btn-store-title">Google Play</span>
+            </span>
+          </a>
+          <a class="btn-store" href="app/" data-track="ios-webapp-click" aria-label="Accès direct à l'application Oraison sur iPhone et iPad (Web-App)">
+            <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="#b57ec2" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09z"/>
+              <path fill="#d7b4e2" d="M12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+            </svg>
+            <span class="btn-store-text">
+              <span class="btn-store-kicker">Accès direct sur</span>
+              <span class="btn-store-title">iPhone (Web-App)</span>
+            </span>
+          </a>
+        </div>
       </div>
 
       <details class="install-accordion" aria-label="Guide d'installation sur l'écran d'accueil">
         <summary>
           <svg class="summary-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span>Comment ajouter Oraison sur l'écran d'accueil (iPhone, Android, PC) ?</span>
+          <span>Comment installer l'icône Oraison sur l'écran d'accueil (iPhone, Android, PC) ?</span>
           <svg class="chevron-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </summary>
         <div class="install-accordion-content">
@@ -165,12 +183,12 @@
           <div id="panel-ios" class="device-panel" role="tabpanel" aria-labelledby="tab-ios" hidden>
             <ol class="steps compact-steps">
               <li>
-                <strong>Touchez l'icône Partager <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12-4 4m4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> de Safari</strong>
-                <span>Située dans la barre de votre navigateur (en bas sur iPhone, en haut sur iPad), directement depuis cette page ou depuis l'application. <em class="ios-tip">(Si vous venez de WhatsApp, touchez d'abord la boussole en bas à droite pour ouvrir dans Safari.)</em></span>
+                <strong>Ouvrez l'application et touchez Partager <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0-12-4 4m4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> dans Safari</strong>
+                <span>Sur iPhone, Oraison s'utilise directement sans passer par l'App Store. Touchez l'icône <strong>Partager</strong> de la barre Safari (en bas sur iPhone, en haut sur iPad). <em class="ios-tip">Astuce WhatsApp / Mail&nbsp;: si vous avez ouvert ce lien depuis un message, touchez d'abord la boussole en bas à droite pour basculer dans Safari.</em></span>
               </li>
               <li>
-                <strong>Appuyez sur « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></strong>
-                <span>Validez sur <strong>Ajouter</strong> en haut à droite. Oraison s'ouvre alors en plein écran, sans les barres de navigation de Safari, prête pour le mode avion.</span>
+                <strong>Choisissez « Sur l'écran d'accueil » <svg class="inline-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v8m-4-4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> puis Ajouter</strong>
+                <span>L'icône Oraison s'installe sur votre iPhone comme une application native, en plein écran et compatible avec le mode avion.</span>
               </li>
             </ol>
           </div>
@@ -304,18 +322,30 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
             Ouvrir l'application Oraison
           </a>
-          <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
-            <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
-              <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
-              <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
-              <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
-            </svg>
-            <span class="btn-store-text">
-              <span class="btn-store-kicker">Disponible sur</span>
-              <span class="btn-store-title">Google Play</span>
-            </span>
-          </a>
+          <div class="hero-store">
+            <a class="btn-store" href="https://play.google.com/store/apps/details?id=app.oraison" target="_blank" rel="noopener" aria-label="Télécharger Oraison sur Google Play">
+              <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="#b57ec2" d="M1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924z"/>
+                <path fill="#d7b4e2" d="M13.544 10.989l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973z"/>
+                <path fill="#935fa0" d="M13.544 13.056l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/>
+                <path fill="#f4f0f6" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594z"/>
+              </svg>
+              <span class="btn-store-text">
+                <span class="btn-store-kicker">Disponible sur</span>
+                <span class="btn-store-title">Google Play</span>
+              </span>
+            </a>
+            <a class="btn-store" href="app/" data-track="ios-webapp-click" aria-label="Accès direct à l'application Oraison sur iPhone et iPad (Web-App)">
+              <svg class="playstore-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="#b57ec2" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09z"/>
+                <path fill="#d7b4e2" d="M12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+              </svg>
+              <span class="btn-store-text">
+                <span class="btn-store-kicker">Accès direct sur</span>
+                <span class="btn-store-title">iPhone (Web-App)</span>
+              </span>
+            </a>
+          </div>
         </div>
         <p class="cta-reassurance">Accès libre · Sans inscription · Compatible mode avion · iPhone, Android &amp; Ordinateur</p>
       </aside>
@@ -423,6 +453,7 @@
       selectTab(isIOS ? 'ios' : (/Android/i.test(ua) ? 'android' : 'pc'));
 
       var acc = document.querySelector('.install-accordion');
+      if (isIOS && acc) acc.open = true;
       if (acc) acc.addEventListener('toggle', function () { if (this.open) track('guide-install-accordion-open', 'Ouverture accordéon guide installation'); });
 
       var deferredPrompt = null, installBtn = document.getElementById('btn-install-pwa');
