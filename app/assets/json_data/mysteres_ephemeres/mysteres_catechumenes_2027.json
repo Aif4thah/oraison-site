@@ -2,102 +2,135 @@
   {
     "id": "catechumenes_1",
     "periode": {
-      "debut": "03-01",
-      "fin": "03-31"
+      "debut": "02-15",
+      "fin": "04-04"
     },
     "commands": [
       {
         "op": "moveTo",
-        "x": 0.18,
-        "y": 0.55
+        "x": 0.14,
+        "y": 0.44
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.17,
+        "y1": 0.28,
+        "x": 0.28,
+        "y": 0.26
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.34,
+        "y1": 0.18,
+        "x": 0.42,
+        "y": 0.2
       },
       {
         "op": "quadraticBezierTo",
         "x1": 0.5,
-        "y1": 0.0,
-        "x": 0.82,
-        "y": 0.55
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.5,
-        "y": 0.8
-      },
-      {
-        "op": "lineTo",
-        "x": 0.18,
-        "y": 0.55
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.5,
-        "y": 0.8
-      },
-      {
-        "op": "lineTo",
-        "x": 0.82,
-        "y": 0.55
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.5,
-        "y": 0.8
-      },
-      {
-        "op": "lineTo",
-        "x": 0.34,
-        "y": 0.344
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.5,
-        "y": 0.8
-      },
-      {
-        "op": "lineTo",
-        "x": 0.5,
-        "y": 0.275
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.5,
-        "y": 0.8
-      },
-      {
-        "op": "lineTo",
-        "x": 0.66,
-        "y": 0.344
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.42,
-        "y": 0.86
-      },
-      {
-        "op": "lineTo",
+        "y1": 0.14,
         "x": 0.58,
-        "y": 0.86
+        "y": 0.2
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.66,
+        "y1": 0.18,
+        "x": 0.72,
+        "y": 0.26
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.83,
+        "y1": 0.28,
+        "x": 0.86,
+        "y": 0.44
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.76,
+        "y1": 0.66,
+        "x": 0.58,
+        "y": 0.76
+      },
+      {
+        "op": "lineTo",
+        "x": 0.64,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.36,
+        "y": 0.82
+      },
+      {
+        "op": "lineTo",
+        "x": 0.42,
+        "y": 0.76
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.24,
+        "y1": 0.66,
+        "x": 0.14,
+        "y": 0.44
       },
       {
         "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.22
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "op": "lineTo",
+        "x": 0.35,
+        "y": 0.26
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "op": "lineTo",
+        "x": 0.65,
+        "y": 0.26
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "op": "lineTo",
+        "x": 0.22,
+        "y": 0.4
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.75
+      },
+      {
+        "op": "lineTo",
+        "x": 0.78,
+        "y": 0.4
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
       }
     ],
     "nom": "Le Verbe fait chair",

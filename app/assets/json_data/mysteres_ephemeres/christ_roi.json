@@ -2,93 +2,66 @@
   {
     "id": "roi_1",
     "periode": {
-      "debut": "11-14",
+      "debut": "11-16",
       "fin": "11-28"
     },
     "commands": [
       {
         "op": "circle",
         "cx": 0.5,
-        "cy": 0.56,
-        "r": 0.28
+        "cy": 0.65,
+        "r": 0.24
+      },
+      {
+        "op": "moveTo",
+        "x": 0.26,
+        "y": 0.65
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.5,
+        "y1": 0.74,
+        "x": 0.74,
+        "y": 0.65
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.41
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.61,
+        "y1": 0.65,
+        "x": 0.5,
+        "y": 0.89
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "op": "lineTo",
+        "x": 0.5,
+        "y": 0.41
+      },
+      {
+        "op": "moveTo",
+        "x": 0.35,
+        "y": 0.24
+      },
+      {
+        "op": "lineTo",
+        "x": 0.65,
+        "y": 0.24
       },
       {
         "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.22,
-        "y": 0.56
-      },
-      {
-        "op": "lineTo",
-        "x": 0.78,
-        "y": 0.56
-      },
-      {
-        "op": "stroke",
-        "trait": "fin"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.5,
-        "y": 0.28
-      },
-      {
-        "op": "lineTo",
-        "x": 0.5,
-        "y": 0.56
-      },
-      {
-        "op": "stroke",
-        "trait": "fin"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.5,
-        "y": 0.28
-      },
-      {
-        "op": "lineTo",
-        "x": 0.5,
-        "y": 0.1
-      },
-      {
-        "op": "moveTo",
-        "x": 0.4,
-        "y": 0.18
-      },
-      {
-        "op": "lineTo",
-        "x": 0.6,
-        "y": 0.18
-      },
-      {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.4,
-        "y": 0.14
-      },
-      {
-        "op": "lineTo",
-        "x": 0.4,
-        "y": 0.22
-      },
-      {
-        "op": "moveTo",
-        "x": 0.6,
-        "y": 0.14
-      },
-      {
-        "op": "lineTo",
-        "x": 0.6,
-        "y": 0.22
-      },
-      {
-        "op": "stroke",
-        "trait": "fin"
       }
     ],
     "nom": "Mon Royaume n'est pas de ce Monde",

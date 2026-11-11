@@ -2,8 +2,8 @@
   {
     "id": "famille_1",
     "periode": {
-      "debut": "12-26",
-      "fin": "12-31"
+      "debut": "12-25",
+      "fin": "01-01"
     },
     "commands": [
       {

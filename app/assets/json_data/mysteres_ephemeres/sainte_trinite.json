@@ -2,15 +2,35 @@
   {
     "id": "trinite_1",
     "periode": {
-      "debut": "05-18",
-      "fin": "06-20"
+      "debut": "05-22",
+      "fin": "06-12"
     },
     "commands": [
       {
         "op": "circle",
         "cx": 0.5,
-        "cy": 0.54,
-        "r": 0.22
+        "cy": 0.58,
+        "r": 0.27,
+        "trait": "fin"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.5,
+        "y": 0.14
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.75,
+        "y1": 0.42,
+        "x": 0.5,
+        "y": 0.7
+      },
+      {
+        "op": "quadraticBezierTo",
+        "x1": 0.25,
+        "y1": 0.42,
+        "x": 0.5,
+        "y": 0.14
       },
       {
         "op": "stroke",
@@ -18,69 +38,49 @@
       },
       {
         "op": "moveTo",
-        "x": 0.5,
-        "y": 0.16
+        "x": 0.881,
+        "y": 0.8
       },
       {
         "op": "quadraticBezierTo",
-        "x1": 0.68,
-        "y1": 0.45,
-        "x": 0.5,
-        "y": 0.76
+        "x1": 0.514,
+        "y1": 0.877,
+        "x": 0.396,
+        "y": 0.52
       },
       {
         "op": "quadraticBezierTo",
-        "x1": 0.32,
-        "y1": 0.45,
-        "x": 0.5,
-        "y": 0.16
+        "x1": 0.764,
+        "y1": 0.443,
+        "x": 0.881,
+        "y": 0.8
       },
       {
-        "op": "stroke"
+        "op": "stroke",
+        "trait": "fin"
       },
       {
         "op": "moveTo",
-        "x": 0.22,
-        "y": 0.7
+        "x": 0.119,
+        "y": 0.8
       },
       {
         "op": "quadraticBezierTo",
-        "x1": 0.56,
-        "y1": 0.7,
-        "x": 0.65,
-        "y": 0.4
+        "x1": 0.236,
+        "y1": 0.443,
+        "x": 0.604,
+        "y": 0.52
       },
       {
         "op": "quadraticBezierTo",
-        "x1": 0.35,
-        "y1": 0.35,
-        "x": 0.22,
-        "y": 0.7
+        "x1": 0.486,
+        "y1": 0.877,
+        "x": 0.119,
+        "y": 0.8
       },
       {
-        "op": "stroke"
-      },
-      {
-        "op": "moveTo",
-        "x": 0.78,
-        "y": 0.7
-      },
-      {
-        "op": "quadraticBezierTo",
-        "x1": 0.44,
-        "y1": 0.7,
-        "x": 0.35,
-        "y": 0.4
-      },
-      {
-        "op": "quadraticBezierTo",
-        "x1": 0.65,
-        "y1": 0.35,
-        "x": 0.78,
-        "y": 0.7
-      },
-      {
-        "op": "stroke"
+        "op": "stroke",
+        "trait": "fin"
       }
     ],
     "nom": "Le Père, Source de tout Amour",

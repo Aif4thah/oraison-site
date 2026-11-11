@@ -2,38 +2,35 @@
   {
     "id": "esperance_1",
     "periode": {
-      "debut": "04-01",
-      "fin": "04-30"
+      "debut": "04-05",
+      "fin": "04-29"
     },
     "commands": [
       {
         "op": "circle",
         "cx": 0.5,
-        "cy": 0.17,
+        "cy": 0.18,
         "r": 0.07
       },
       {
         "op": "moveTo",
         "x": 0.5,
-        "y": 0.24
+        "y": 0.25
       },
       {
         "op": "lineTo",
         "x": 0.5,
-        "y": 0.8
-      },
-      {
-        "op": "stroke"
+        "y": 0.82
       },
       {
         "op": "moveTo",
-        "x": 0.37,
-        "y": 0.36
+        "x": 0.34,
+        "y": 0.37
       },
       {
         "op": "lineTo",
-        "x": 0.63,
-        "y": 0.36
+        "x": 0.66,
+        "y": 0.37
       },
       {
         "op": "stroke"
@@ -41,17 +38,53 @@
       {
         "op": "moveTo",
         "x": 0.2,
-        "y": 0.6
+        "y": 0.64
       },
       {
-        "op": "quadraticBezierTo",
-        "x1": 0.5,
-        "y1": 1.0,
+        "op": "cubicTo",
+        "x1": 0.28,
+        "y1": 0.88,
+        "x2": 0.72,
+        "y2": 0.88,
         "x": 0.8,
-        "y": 0.6
+        "y": 0.64
       },
       {
         "op": "stroke"
+      },
+      {
+        "op": "moveTo",
+        "x": 0.16,
+        "y": 0.68
+      },
+      {
+        "op": "lineTo",
+        "x": 0.2,
+        "y": 0.58
+      },
+      {
+        "op": "lineTo",
+        "x": 0.27,
+        "y": 0.66
+      },
+      {
+        "op": "moveTo",
+        "x": 0.84,
+        "y": 0.68
+      },
+      {
+        "op": "lineTo",
+        "x": 0.8,
+        "y": 0.58
+      },
+      {
+        "op": "lineTo",
+        "x": 0.73,
+        "y": 0.66
+      },
+      {
+        "op": "stroke",
+        "trait": "fin"
       }
     ],
     "nom": "L'Attente de la Promesse",
