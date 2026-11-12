@@ -564,7 +564,7 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   font-style: normal;
   font-size: 0.78rem;
 }
-.faq-list { display: grid; gap: 0.85rem; }
+.faq-list { display: grid; gap: 0.85rem; text-align: left; }
 .faq-item {
   border: 1px solid var(--line);
   border-radius: 0.85rem;
