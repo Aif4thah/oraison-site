@@ -278,7 +278,7 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 }
 .editorial h2 { margin: 0 0 0.85rem; font: 400 1.55rem/1.3 var(--serif); color: var(--fg); text-align: center; }
 .editorial > p { max-width: 38rem; margin: 0 auto 2rem; color: #cfc9d4; font-size: 1rem; line-height: 1.7; text-align: center; }
-.editorial .sub-heading { margin-top: 2.75rem; padding-top: 2rem; border-top: 1px solid var(--line); font-size: 1.35rem; }
+.editorial .sub-heading { margin: 2.75rem auto 0.85rem; padding-top: 2rem; border-top: 1px solid var(--line); font: 400 1.35rem/1.3 var(--serif); color: var(--fg); text-align: center; }
 .editorial .sub-intro { margin-bottom: 1.75rem; }
 .author-portrait-wrap {
   display: flex;
@@ -301,16 +301,20 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 }
 .pillars { margin: 0; padding: 0; list-style: none; display: grid; gap: 1.15rem; }
 .pillars li { padding: 1.2rem 1.35rem; border: 1px solid rgba(181, 126, 194, 0.2); border-radius: 0.85rem; background: rgba(18, 18, 18, 0.45); }
-.pillars > li > strong:first-child { display: block; margin-bottom: 0.35rem; color: var(--purple); font: 400 1.1rem var(--serif); }
+.pillars > li > strong:first-child,
+.pillars > li > h3:first-child { display: block; margin: 0 0 0.35rem; color: var(--purple); font: 400 1.1rem/1.35 var(--serif); }
 .pillars span { display: block; color: #cfc9d4; font-size: 0.95rem; line-height: 1.6; }
 .pillars span strong { display: inline; color: inherit; font: inherit; font-weight: 600; }
 .pillar-note { margin: 0.85rem 0 0; padding-top: 0.75rem; border-top: 1px dashed rgba(181, 126, 194, 0.25); color: #cfc9d4; font-size: 0.9rem; line-height: 1.55; }
 .pillar-note strong { display: inline; color: var(--purple); font: 600 inherit inherit; }
 .mysteries-grid, .mysteries-extra-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr)); gap: 1.25rem; }
-.mystery-item { padding: 1.45rem 1.35rem; border: 1px solid var(--line); border-radius: 0.9rem; background: rgba(18, 18, 18, 0.55); }
+.mystery-item { display: flex; flex-direction: column; padding: 1.45rem 1.35rem; border: 1px solid var(--line); border-radius: 0.9rem; background: rgba(18, 18, 18, 0.55); }
 .mystery-item h3 { margin: 0 0 0.25rem; font: 400 1.2rem var(--serif); color: var(--purple); }
 .mystery-days { margin: 0.15rem 0 0.65rem; color: var(--muted); font-size: 0.76rem; letter-spacing: 0.07em; text-transform: uppercase; }
-.mystery-item p:last-child { margin: 0; color: #cfc9d4; font-size: 0.94rem; line-height: 1.6; }
+.mystery-item > p:not(.mystery-days) { margin: 0 0 0.95rem; color: #cfc9d4; font-size: 0.94rem; line-height: 1.6; }
+.mystery-item > p:last-child { margin-bottom: 0; }
+.mystery-item .saint-quote:not(:last-child) { margin: 0.25rem 0 0.95rem; }
+.mystery-item p.pillar-note { margin: auto 0 0; }
 .mysteries-extra { margin-top: 2.75rem; padding-top: 2.25rem; border-top: 1px dashed var(--line); }
 .mysteries-extra-title { margin: 0 0 0.85rem; font: 400 1.35rem/1.3 var(--serif); color: var(--purple); text-align: center; }
 .mysteries-extra-lead { max-width: 40rem; margin: 0 auto 1.75rem; color: #cfc9d4; font-size: 0.98rem; line-height: 1.65; text-align: center; }
@@ -541,6 +545,65 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
 .prayer-lang { display: block; margin-bottom: 0.5rem; color: var(--muted); font-size: 0.74rem; letter-spacing: 0.07em; text-transform: uppercase; }
 .prayer-text { margin: 0; color: #e6e1ec; font: 0.96rem/1.75 var(--serif); }
 
+/* Citations de saints & FAQ accordéon sobre */
+.saint-quote {
+  margin: auto 0 0;
+  padding: 0.85rem 1rem 0.75rem;
+  border-left: 2px solid var(--purple);
+  border-radius: 0 0.55rem 0.55rem 0;
+  background: rgba(181, 126, 194, 0.05);
+}
+.saint-quote blockquote {
+  margin: 0 0 0.35rem;
+  color: var(--fg);
+  font: italic 0.94rem/1.65 var(--serif);
+}
+.saint-quote cite {
+  display: block;
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.78rem;
+}
+.faq-list { display: grid; gap: 0.85rem; }
+.faq-item {
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: rgba(18, 18, 18, 0.55);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.faq-item[open] {
+  border-color: rgba(181, 126, 194, 0.55);
+  background: rgba(181, 126, 194, 0.05);
+}
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1.05rem 1.35rem;
+  color: var(--fg);
+  font: 400 1.04rem/1.4 var(--serif);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+";
+  color: var(--purple);
+  font: 400 1.25rem/1 system-ui, sans-serif;
+  flex-shrink: 0;
+}
+.faq-item[open] summary::after { content: "−"; }
+.faq-item[open] summary { color: var(--purple); }
+.faq-answer {
+  padding: 0 1.35rem 1.15rem;
+  color: #d6d0dc;
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+.faq-answer p { margin: 0; }
+.faq-answer p + p { margin-top: 0.6rem; }
+
 /* Tunnel de conversion & Maillage interne (Silo Liturgique) */
 .cta-tunnel {
   width: 100%;
@@ -569,7 +632,7 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   letter-spacing: 0.01em;
 }
 .silo-section { margin: 3.5rem 0 1.5rem; padding-top: 2.5rem; border-top: 1px solid var(--line); }
-.silo-section h2 { margin: 0 0 1.35rem; font: 400 1.35rem var(--serif); text-align: center; }
+.silo-section h2, .silo-section h3 { margin: 0 0 1.35rem; font: 400 1.35rem var(--serif); text-align: center; }
 .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: 1rem; }
 .silo-card { display: block; padding: 1.15rem 1.25rem; border: 1px solid var(--line); border-radius: 0.85rem; background: rgba(18, 18, 18, 0.5); color: var(--fg); text-decoration: none; transition: border-color 0.15s ease, background-color 0.15s ease; }
 .silo-card:hover { border-color: var(--purple); background: rgba(181, 126, 194, 0.08); }
