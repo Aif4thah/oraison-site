@@ -42,7 +42,7 @@
     "langue": "Français",
     "code_langue": "fr",
     "categorie": "chapelet",
-    "texte": "Je vous salue Marie, pleine de grâce ; le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous pauvres pécheurs, maintenant et à l'heure de notre mort. Amen."
+    "texte": "Je vous salue, Marie, pleine de grâce ; le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen."
   },
   {
     "id": "ave_maria_la",
@@ -92,7 +92,7 @@
   {
     "id": "saint_michel_fr",
     "code": "saint_michel",
-    "nom": "Prière à Saint Michel Archange",
+    "nom": "Prière à saint Michel Archange",
     "langue": "Français",
     "code_langue": "fr",
     "categorie": "fin_dizaine",
@@ -110,7 +110,7 @@
   {
     "id": "sainte_rita_fr",
     "code": "sainte_rita",
-    "nom": "Prière à Sainte Rita",
+    "nom": "Prière à sainte Rita",
     "langue": "Français",
     "code_langue": "fr",
     "categorie": "fin_dizaine",
@@ -128,7 +128,7 @@
   {
     "id": "memorare_fr",
     "code": "memorare",
-    "nom": "Souvenez-vous (Saint Bernard)",
+    "nom": "Souvenez-vous (tradition bernardine)",
     "langue": "Français",
     "code_langue": "fr",
     "categorie": "fin_dizaine",
@@ -164,11 +164,11 @@
   {
     "id": "sub_tuum_fr",
     "code": "sub_tuum",
-    "nom": "Sous l'abri de votre miséricorde",
+    "nom": "Sous l'abri de ta miséricorde",
     "langue": "Français",
     "code_langue": "fr",
     "categorie": "fin_dizaine",
-    "texte": "Sous l'abri de votre miséricorde, nous nous réfugions, sainte Mère de Dieu. Ne méprisez pas nos prières quand nous sommes dans l'épreuve, mais de tous les dangers délivrez-nous toujours, Vierge glorieuse et bénie. Amen."
+    "texte": "Sous l'abri de ta miséricorde, nous nous réfugions, Sainte Mère de Dieu. Ne méprise pas nos prières quand nous sommes dans l'épreuve, mais de tous les dangers délivre-nous toujours, Vierge glorieuse, Vierge bienheureuse. Amen."
   },
   {
     "id": "sub_tuum_la",

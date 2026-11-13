@@ -321,8 +321,11 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
 .mystery-item-special { border-color: rgba(181, 126, 194, 0.3); background: rgba(181, 126, 194, 0.04); }
 .mystery-item-special .mystery-days { color: #c9a4d6; }
 .transparency-note { margin-top: 2.25rem; padding: 1.35rem 1.65rem; border: 1px solid rgba(181, 126, 194, 0.35); border-radius: 0.9rem; background: rgba(181, 126, 194, 0.05); text-align: left; }
+.transparency-note h3 { margin: 0 0 0.65rem; color: var(--purple); font: 400 1.08rem/1.35 var(--serif); }
 .transparency-note p { margin: 0; color: #d6d0dc; font-size: 0.94rem; line-height: 1.55; }
-.transparency-note p + p { margin-top: 0.65rem; }
+.transparency-note p + p, .transparency-note ol + p, .transparency-note ul + p { margin-top: 0.65rem; }
+.transparency-note ol, .transparency-note ul { margin: 0.65rem 0; padding-left: 1.25rem; color: #d6d0dc; font-size: 0.94rem; line-height: 1.55; }
+.transparency-note li + li { margin-top: 0.45rem; }
 .transparency-note strong { color: var(--purple); font: 500 0.98rem var(--serif); }
 .transparency-action { margin-top: 1rem !important; display: flex; flex-wrap: wrap; gap: 0.65rem; justify-content: center; }
 .badge-icon { display: inline-block; padding: 0 0.35rem; border: 1px solid var(--line); border-radius: 0.3rem; color: var(--purple); font-weight: 700; }
@@ -652,6 +655,8 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   .manifesto-section { margin-bottom: 2.75rem; }
   .lead { font-size: 1.02rem; line-height: 1.75; }
   .pwa-card, .editorial { padding: 2rem 1.25rem; margin-bottom: 2.75rem; border-radius: 1.1rem; }
+  .pillars li { padding: 1.05rem 1.1rem; }
+  .transparency-note { padding: 1.15rem 1.15rem; }
   .cta-actions .btn { width: 100%; max-width: 22rem; }
   .hero-store { gap: 0.5rem; }
   .btn-store { flex: 1 1 8.5rem; max-width: 10.8rem; padding: 0.5rem 0.65rem; gap: 0.45rem; }

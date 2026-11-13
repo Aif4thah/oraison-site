@@ -157,7 +157,7 @@
       }
     ],
     "nom": "L'Appel de Joseph le Juste",
-    "type": "Mystères de Saint Joseph",
+    "type": "Mystères de saint Joseph",
     "numero": 1,
     "fruit": "La foi et l'obéissance silencieuse",
     "clausule_et_jesus": "confié à Joseph le Juste",
@@ -172,7 +172,7 @@
   {
     "id": "joseph_2",
     "nom": "La Fuite et l'Exil en Égypte",
-    "type": "Mystères de Saint Joseph",
+    "type": "Mystères de saint Joseph",
     "numero": 2,
     "fruit": "La protection et le dévouement familial",
     "clausule_et_jesus": "protégé en Égypte",
@@ -186,7 +186,7 @@
   {
     "id": "joseph_3",
     "nom": "L'Atelier et le Silence de Nazareth",
-    "type": "Mystères de Saint Joseph",
+    "type": "Mystères de saint Joseph",
     "numero": 3,
     "fruit": "La dignité du travail humble",
     "clausule_et_jesus": "humble artisan de Nazareth",
@@ -200,7 +200,7 @@
   {
     "id": "joseph_4",
     "nom": "La Recherche à Jérusalem",
-    "type": "Mystères de Saint Joseph",
+    "type": "Mystères de saint Joseph",
     "numero": 4,
     "fruit": "La persévérance dans la recherche de Dieu",
     "clausule_et_jesus": "cherché dans la douleur",
@@ -214,7 +214,7 @@
   {
     "id": "joseph_5",
     "nom": "L'Espérance des Mourants",
-    "type": "Mystères de Saint Joseph",
+    "type": "Mystères de saint Joseph",
     "numero": 5,
     "fruit": "La grâce d'une sainte agonie et d'une heureuse mort",
     "clausule_et_jesus": "espérance des mourants",

@@ -110,7 +110,7 @@
       }
     ],
     "nom": "Le Joug doux du Seigneur",
-    "type": "Sur les pas de Saint Benoît",
+    "type": "Sur les pas de saint Benoît",
     "numero": 1,
     "fruit": "L'obéissance du cœur et la paix intérieure",
     "clausule_et_jesus": "maître doux et humble de cœur",
@@ -125,7 +125,7 @@
   {
     "id": "benoit_2",
     "nom": "La Croix comme Armure et Lumière",
-    "type": "Sur les pas de Saint Benoît",
+    "type": "Sur les pas de saint Benoît",
     "numero": 2,
     "fruit": "La force dans le combat spirituel",
     "clausule_et_jesus": "notre unique gloire",
@@ -139,7 +139,7 @@
   {
     "id": "benoit_3",
     "nom": "Ora et Labora : Prière et Travail",
-    "type": "Sur les pas de Saint Benoît",
+    "type": "Sur les pas de saint Benoît",
     "numero": 3,
     "fruit": "La sanctification du quotidien",
     "clausule_et_jesus": "glorifié dans nos œuvres",
@@ -153,7 +153,7 @@
   {
     "id": "benoit_4",
     "nom": "L'Hospitalité envers le Pauvre",
-    "type": "Sur les pas de Saint Benoît",
+    "type": "Sur les pas de saint Benoît",
     "numero": 4,
     "fruit": "La charité fraternelle",
     "clausule_et_jesus": "accueilli dans nos frères",
@@ -167,7 +167,7 @@
   {
     "id": "benoit_5",
     "nom": "La Paix du Christ",
-    "type": "Sur les pas de Saint Benoît",
+    "type": "Sur les pas de saint Benoît",
     "numero": 5,
     "fruit": "La paix et l'harmonie de l'âme",
     "clausule_et_jesus": "dispensateur de la paix",
