@@ -509,20 +509,6 @@
     "type": "Glorieux",
     "numero": 4,
     "fruit": "La grâce d'une bonne mort et l'union à Marie",
-    "clausule_et_jesus": "qui élève les siens dans la gloire",
-    "traduction": "Crampon 1923",
-    "auteur": "2 Rois",
-    "chapitre": 2,
-    "premier_verset": 11,
-    "verset_fin": 11,
-    "texte": "Comme ils continuaient à marcher en parlant, voici qu'un char de feu et des chevaux de feu les séparèrent l'un de l'autre, et Élie monta au ciel dans un tourbillon."
-  },
-  {
-    "id": "glorieux_4_3",
-    "nom": "L'Assomption",
-    "type": "Glorieux",
-    "numero": 4,
-    "fruit": "La grâce d'une bonne mort et l'union à Marie",
     "clausule_et_jesus": "qui vous appelle : Lève-toi, mon amie, et viens",
     "traduction": "Crampon 1923",
     "auteur": "Cantique des Cantiques",
@@ -532,7 +518,7 @@
     "texte": "Mon bien-aimé prend la parole et me dit : Lève-toi, mon amie, ma belle, et viens ! Car voici que l'hiver est passé, la pluie a cessé, elle s'en est allée."
   },
   {
-    "id": "glorieux_4_4",
+    "id": "glorieux_4_3",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
@@ -546,7 +532,7 @@
     "texte": "Tu es toute belle, mon amie, et il n'y a point en toi de tache. Viens avec moi du Liban, mon épouse, viens avec moi du Liban !"
   },
   {
-    "id": "glorieux_4_5",
+    "id": "glorieux_4_4",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
@@ -560,7 +546,7 @@
     "texte": "Qui est celle-ci qui monte du désert, appuyée sur son bien-aimé ?"
   },
   {
-    "id": "glorieux_4_6",
+    "id": "glorieux_4_5",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
@@ -574,12 +560,12 @@
     "texte": "La reine est à ta droite, parée de l'or d'Ophir... Le roi s'éprendra de ta beauté, car il est ton Seigneur : prosterne-toi devant lui."
   },
   {
-    "id": "glorieux_4_7",
+    "id": "glorieux_4_6",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
     "fruit": "La grâce d'une bonne mort et l'union à Marie",
-    "clausule_et_jesus": "faisant entrer son Arche sainte au repos éternel",
+    "clausule_et_jesus": "qui vous fait entrer, Arche sainte, dans son repos éternel",
     "traduction": "Crampon 1923",
     "auteur": "Psaumes",
     "chapitre": 131,
@@ -588,7 +574,7 @@
     "texte": "Lève-toi, Yahweh, viens à ton repos, toi et l'arche de ta force !"
   },
   {
-    "id": "glorieux_4_8",
+    "id": "glorieux_4_7",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
@@ -602,7 +588,7 @@
     "texte": "Et le temple de Dieu s'ouvrit dans le ciel, et l'arche de son alliance apparut dans son temple."
   },
   {
-    "id": "glorieux_4_9",
+    "id": "glorieux_4_8",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
@@ -616,7 +602,7 @@
     "texte": "Bénie sois-tu, ma fille, par le Dieu Très-Haut, plus que toutes les femmes sur la terre ; et béni soit le Seigneur Dieu, créateur du ciel et de la terre !"
   },
   {
-    "id": "glorieux_4_10",
+    "id": "glorieux_4_9",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
@@ -630,7 +616,7 @@
     "texte": "Tu es la gloire de Jérusalem, tu es la joie d'Israël, tu es l'honneur de notre peuple ! Tu as agi virilement... que le Seigneur tout-puissant te bénisse pour l'éternité !"
   },
   {
-    "id": "glorieux_4_11",
+    "id": "glorieux_4_10",
     "nom": "L'Assomption",
     "type": "Glorieux",
     "numero": 4,
@@ -663,7 +649,7 @@
     "type": "Glorieux",
     "numero": 5,
     "fruit": "La persévérance finale et la confiance en Marie",
-    "clausule_et_jesus": "qui vous associe à son trône royal",
+    "clausule_et_jesus": "qui vous fait partager sa gloire royale",
     "traduction": "Crampon 1923",
     "auteur": "Apocalypse",
     "chapitre": 12,
@@ -719,7 +705,7 @@
     "type": "Glorieux",
     "numero": 5,
     "fruit": "La persévérance finale et la confiance en Marie",
-    "clausule_et_jesus": "qui couronne sa Mère dans le ciel",
+    "clausule_et_jesus": "qui vous couronne de gloire dans le ciel",
     "traduction": "Crampon 1923",
     "auteur": "Cantique des Cantiques",
     "chapitre": 6,
@@ -747,7 +733,7 @@
     "type": "Glorieux",
     "numero": 5,
     "fruit": "La persévérance finale et la confiance en Marie",
-    "clausule_et_jesus": "qui vous fait asseoir avec lui sur son trône",
+    "clausule_et_jesus": "qui vous couronne auprès de son trône",
     "traduction": "Crampon 1923",
     "auteur": "Apocalypse",
     "chapitre": 3,
@@ -757,34 +743,6 @@
   },
   {
     "id": "glorieux_5_9",
-    "nom": "Le Couronnement de Marie",
-    "type": "Glorieux",
-    "numero": 5,
-    "fruit": "La persévérance finale et la confiance en Marie",
-    "clausule_et_jesus": "qui a fixé sa demeure sainte en vous",
-    "traduction": "Crampon 1923",
-    "auteur": "Siracide",
-    "chapitre": 24,
-    "premier_verset": 7,
-    "verset_fin": 10,
-    "texte": "Parmi tous ceux-là, j'ai cherché le repos... Alors le Créateur de toutes choses m'a donné ses ordres, et celui qui m'a créée a fixé le lieu de ma tente. Il m'a dit : Habite en Jacob, aie ton héritage en Israël."
-  },
-  {
-    "id": "glorieux_5_10",
-    "nom": "Le Couronnement de Marie",
-    "type": "Glorieux",
-    "numero": 5,
-    "fruit": "La persévérance finale et la confiance en Marie",
-    "clausule_et_jesus": "qui vous a contemplée de toute éternité",
-    "traduction": "Crampon 1923",
-    "auteur": "Proverbes",
-    "chapitre": 8,
-    "premier_verset": 22,
-    "verset_fin": 30,
-    "texte": "Yahweh m'a possédée au commencement de ses voies, avant ses œuvres les plus anciennes. J'ai été établie dès l'éternité, dès le commencement, avant l'origine de la terre... j'étais tous les jours ses délices."
-  },
-  {
-    "id": "glorieux_5_11",
     "nom": "Le Couronnement de Marie",
     "type": "Glorieux",
     "numero": 5,
