@@ -2,7 +2,7 @@
   {
     "id": "rosaire_1",
     "periode": {
-      "debut": "09-30",
+      "debut": "09-22",
       "fin": "10-23"
     },
     "commands": [
@@ -126,12 +126,12 @@
     "numero": 1,
     "fruit": "L'amour de la prière du chapelet",
     "clausule_et_jesus": "contemplé avec Marie",
-    "auteur": "Siracide",
+    "auteur": "Ecclésiastique",
     "chapitre": 24,
     "premier_verset": 14,
     "verset_fin": 14,
     "traduction": "Crampon 1923",
-    "texte": "J'ai grandi comme les palmiers d'Engaddi, comme les plants de rosiers de Jéricho, comme un bel olivier dans la plaine.",
+    "texte": "Je me suis élevée comme le palmier sur les rivages, et comme les rosiers à Jéricho ; comme un bel olivier dans la plaine, et je me suis élevée comme un platane.",
     "categorie": "liturgique"
   },
   {
@@ -188,6 +188,6 @@
     "premier_verset": 3,
     "verset_fin": 4,
     "traduction": "Crampon 1923",
-    "texte": "Et un autre ange vint se placer devant l'autel... et la fumée des parfums, avec les prières des saints, monta de la main de l'ange devant Dieu."
+    "texte": "Et un autre ange vint se placer devant l'autel… et la fumée des parfums, avec les prières des saints, monta de la main de l'ange devant Dieu."
   }
 ]

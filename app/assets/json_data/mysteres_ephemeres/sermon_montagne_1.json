@@ -94,7 +94,7 @@
     "premier_verset": 14,
     "verset_fin": 16,
     "traduction": "Crampon 1923",
-    "texte": "Vous êtes la lumière du monde. Une ville située sur une montagne ne peut être cachée... Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes œuvres, et qu'ils glorifient votre Père qui est dans les cieux."
+    "texte": "Vous êtes la lumière du monde. Une ville située au sommet d'une montagne ne peut être cachée… Qu'ainsi votre lumière brille devant les hommes, afin que, voyant vos bonnes œuvres, ils glorifient votre Père qui est dans les cieux."
   },
   {
     "id": "sermon_accomplissement",
@@ -109,7 +109,7 @@
     "premier_verset": 17,
     "verset_fin": 17,
     "traduction": "Crampon 1923",
-    "texte": "Ne pensez pas que je sois venu pour abolir la loi ou les prophètes; je suis venu non pour abolir, mais pour accomplir."
+    "texte": "Ne pensez pas que je sois venu abolir la Loi ou les Prophètes ; je ne suis pas venu les abolir, mais les accomplir."
   },
   {
     "id": "sermon_reconciliation",
@@ -124,7 +124,7 @@
     "premier_verset": 23,
     "verset_fin": 24,
     "traduction": "Crampon 1923",
-    "texte": "Si donc tu présentes ton offrande à l'autel, et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande devant l'autel, et va d'abord te réconcilier avec ton frère; puis viens présenter ton offrande."
+    "texte": "Si donc tu viens présenter ton offrande à l'autel et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande, devant l'autel, et va d'abord te réconcilier avec ton frère ; et alors viens présenter ton offrande."
   },
   {
     "id": "sermon_amour_ennemis",
@@ -139,7 +139,7 @@
     "premier_verset": 44,
     "verset_fin": 45,
     "traduction": "Crampon 1923",
-    "texte": "Mais moi, je vous dis: Aimez vos ennemis, bénissez ceux qui vous maudissent, faites du bien à ceux qui vous haïssent, et priez pour ceux qui vous maltraitent et qui vous persécutent, afin que vous soyez les enfants de votre Père qui est dans les cieux."
+    "texte": "Et moi, je vous dis : Aimez vos ennemis, bénissez ceux qui vous maudissent, faites du bien à ceux qui vous haïssent, et priez pour ceux qui vous maltraitent et qui vous persécutent : afin que vous soyez les enfants de votre Père qui est dans les cieux."
   },
   {
     "id": "sermon_aumone",
@@ -154,7 +154,7 @@
     "premier_verset": 3,
     "verset_fin": 4,
     "traduction": "Crampon 1923",
-    "texte": "Mais toi, quand tu fais l'aumône, que ta main gauche ne sache pas ce que fait ta main droite, afin que ton aumône se fasse en secret; et ton Père, qui voit dans le secret, te le rendra."
+    "texte": "Pour toi, quand tu fais l'aumône, que ta main gauche ne sache pas ce que fait ta main droite, afin que ton aumône soit dans le secret ; et ton Père, qui voit dans le secret, te le rendra."
   },
   {
     "id": "sermon_pater",
@@ -169,6 +169,6 @@
     "premier_verset": 9,
     "verset_fin": 10,
     "traduction": "Crampon 1923",
-    "texte": "Vous donc, priez ainsi: Notre Père qui es dans les cieux, que ton nom soit sanctifié; que ton règne vienne; que ta volonté soit faite sur la terre comme au ciel."
+    "texte": "Vous donc, priez ainsi : Notre Père qui êtes aux cieux, que votre nom soit sanctifié. Que votre règne arrive ; que votre volonté soit faite sur la terre comme au ciel."
   }
 ]

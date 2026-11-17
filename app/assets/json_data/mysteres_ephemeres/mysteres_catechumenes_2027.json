@@ -134,7 +134,7 @@
       }
     ],
     "nom": "Le Verbe fait chair",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 1,
     "fruit": "L'accueil de la Parole",
     "clausule_et_jesus": "Verbe fait chair",
@@ -149,7 +149,7 @@
   {
     "id": "catechumenes_2",
     "nom": "Les disciples d'Emmaüs",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 2,
     "fruit": "Le cœur brûlant",
     "clausule_et_jesus": "qui marche avec nous",
@@ -158,12 +158,12 @@
     "premier_verset": 31,
     "verset_fin": 32,
     "traduction": "Crampon 1923",
-    "texte": "Alors leurs yeux s'ouvrirent, et ils le reconnurent ; mais il disparut de devant eux. Et ils se dirent l'un à l'autre : Notre cœur n'était-il pas brûlant au dedans de nous, lorsqu'il nous parlait en chemin et nous expliquait les Écritures ?"
+    "texte": "Alors leurs yeux s'ouvrirent, et ils le reconnurent ; mais il disparut de devant eux. Et ils se dirent l'un à l'autre : « N'est-il pas vrai que notre cœur était tout brûlant au dedans de nous, lorsqu'il nous parlait en chemin et qu'il nous expliquait les Écritures ? »"
   },
   {
     "id": "catechumenes_3",
     "nom": "Le Christ, Lumière du Monde",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 3,
     "fruit": "La marche dans la lumière",
     "clausule_et_jesus": "lumière du monde",
@@ -177,7 +177,7 @@
   {
     "id": "catechumenes_5",
     "nom": "Qui dites-vous que je suis ?",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 4,
     "fruit": "La profession de foi",
     "clausule_et_jesus": "Christ, Fils du Dieu vivant",
@@ -191,7 +191,7 @@
   {
     "id": "catechumenes_8",
     "nom": "Tout est possible à celui qui croit",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 5,
     "fruit": "La foi agissante",
     "clausule_et_jesus": "qui fortifie notre foi",
@@ -200,12 +200,12 @@
     "premier_verset": 23,
     "verset_fin": 23,
     "traduction": "Crampon 1923",
-    "texte": "Jésus lui dit : Si tu peux !... Tout est possible à celui qui croit."
+    "texte": "Jésus lui dit : Si tu peux !… Tout est possible à celui qui croit."
   },
   {
     "id": "catechumenes_4",
     "nom": "Porter sa croix",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 6,
     "fruit": "Le courage de suivre le Christ",
     "clausule_et_jesus": "qui nous appelle à le suivre",
@@ -214,12 +214,12 @@
     "premier_verset": 24,
     "verset_fin": 24,
     "traduction": "Crampon 1923",
-    "texte": "Alors Jésus dit à ses disciples : Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge de sa croix, et qu'il me suive."
+    "texte": "Alors Jésus dit à ses disciples : « Si quelqu'un veut venir à ma suite, qu'il renonce à soi-même, qu'il prenne sa croix et me suive. »"
   },
   {
     "id": "catechumenes_6",
     "nom": "Le pardon mutuel",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 7,
     "fruit": "La miséricorde",
     "clausule_et_jesus": "qui nous pardonne",
@@ -233,7 +233,7 @@
   {
     "id": "catechumenes_9",
     "nom": "Si Dieu est pour nous",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 8,
     "fruit": "La confiance inébranlable",
     "clausule_et_jesus": "notre secours et notre force",
@@ -247,7 +247,7 @@
   {
     "id": "catechumenes_7",
     "nom": "Un avenir et de l'espérance",
-    "type": "Sélection des Catéchumènes 2027",
+    "type": "Sélection des Catéchumènes",
     "numero": 9,
     "fruit": "L'espérance et la confiance en Dieu",
     "clausule_et_jesus": "qui nous donne l'espérance",
@@ -256,6 +256,6 @@
     "premier_verset": 11,
     "verset_fin": 11,
     "traduction": "Crampon 1923",
-    "texte": "Car moi, je connais les pensées que j'ai pour vous, oracle de Yahweh, pensées de paix, et non de malheur, afin de vous donner un avenir et de l'espérance."
+    "texte": "Car moi, je connais les pensées que j'ai pour vous, — oracle de Yahweh, — pensées de paix, et non de malheur, afin de vous donner un avenir et de l'espérance."
   }
 ]

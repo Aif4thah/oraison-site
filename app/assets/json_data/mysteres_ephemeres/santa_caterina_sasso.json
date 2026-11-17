@@ -3,7 +3,7 @@
     "id": "caterina_1",
     "periode": {
       "debut": "07-24",
-      "fin": "09-05"
+      "fin": "09-12"
     },
     "commands": [
       {
@@ -288,7 +288,7 @@
     "premier_verset": 28,
     "verset_fin": 30,
     "traduction": "Crampon 1923",
-    "texte": "Dans leur détresse, ils crièrent à Yahweh, et il les délivra de leurs angoisses. Il calma la tempête, fit taire le tumulte, et les flots s'apaisèrent. Ils se réjouirent de ce que les eaux étaient calmes, et Yahweh les conduisit au port désiré.",
+    "texte": "Dans leur détresse, ils crièrent vers Yahweh, et il les tira de leurs angoisses. Il changea l'ouragan en brise légère, et les vagues de la mer se turent. Ils se réjouirent en les voyant apaisées, et Yahweh les conduisit au port désiré.",
     "categorie": "decouverte"
   },
   {
@@ -303,7 +303,7 @@
     "premier_verset": 2,
     "verset_fin": 3,
     "traduction": "Crampon 1923",
-    "texte": "Oui, c'est en Dieu que mon âme se confie ; de lui vient mon salut. Oui, c'est lui qui est mon rocher et mon salut, ma haute retraite : je ne serai pas ébranlé."
+    "texte": "Oui, à Dieu mon âme en paix s'abandonne, de lui vient mon secours. Oui, il est mon rocher et mon salut ; il est ma forteresse : je ne serai pas tout à fait ébranlé."
   },
   {
     "id": "caterina_3",
@@ -317,7 +317,7 @@
     "premier_verset": 24,
     "verset_fin": 25,
     "traduction": "Crampon 1923",
-    "texte": "Le Christ, puissance de Dieu et sagesse de Dieu. Car la folie de Dieu est plus sage que les hommes, et la faiblesse de Dieu est plus forte que les hommes."
+    "texte": "Le Christ, puissance de Dieu et sagesse de Dieu. Car ce qui serait folie de Dieu est plus sage que la sagesse des hommes, et ce qui serait faiblesse de Dieu est plus fort que la faiblesse des hommes."
   },
   {
     "id": "caterina_4",
@@ -345,6 +345,6 @@
     "premier_verset": 27,
     "verset_fin": 27,
     "traduction": "Crampon 1923",
-    "texte": "Je vous laisse la paix, je vous donne ma paix ; ce n'est pas comme le monde donne que je vous donne. Que votre cœur ne se trouble point, et ne s'effraie point."
+    "texte": "Je vous laisse la paix, je vous donne ma paix ; je ne la donne pas comme la donne le monde. Que votre cœur ne se trouble point, et ne s'effraie point."
   }
 ]

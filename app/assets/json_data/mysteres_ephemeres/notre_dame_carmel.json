@@ -55,7 +55,7 @@
       {
         "op": "cubicTo",
         "x1": 0.32,
-        "y1": 0.70,
+        "y1": 0.7,
         "x2": 0.35,
         "y2": 0.56,
         "x": 0.37,
@@ -130,7 +130,7 @@
     "premier_verset": 44,
     "verset_fin": 44,
     "traduction": "Crampon 1923",
-    "texte": "Et à la septième fois, le serviteur dit : « Voici une petite nuée, comme la paume de la main d'un homme, qui monte de la mer. » Et Élie dit : « Monte, dis à Achab : Attelle et descends, de peur que la pluie ne t'arrête. »",
+    "texte": "À la septième fois, il dit : « Voici un petit nuage, comme la paume de la main d'un homme, qui s'élève de la mer. » Et Élie dit : « Va dire à Achab : Attelle et descends, afin que la pluie ne te surprenne pas. »",
     "categorie": "liturgique"
   },
   {
@@ -145,7 +145,7 @@
     "premier_verset": 10,
     "verset_fin": 10,
     "traduction": "Crampon 1923",
-    "texte": "Je tressaillirai de joie en Yahweh, et mon âme sera ravie d'allégresse en mon Dieu ; car il m'a revêtu des vêtements du salut, il m'a couvert du manteau de la justice."
+    "texte": "Je me réjouirai en Yahweh, mon âme sera dans l'allégresse en mon Dieu ; car il m'a revêtu des vêtements du salut, et m'a couvert du manteau de la justice."
   },
   {
     "id": "carmel_3",
@@ -159,7 +159,7 @@
     "premier_verset": 12,
     "verset_fin": 13,
     "traduction": "Crampon 1923",
-    "texte": "Et après le feu, le murmure d'une brise légère. Quand Élie l'entendit, il s'enveloppa le visage de son manteau, et il sortit se tenir à l'entrée de la caverne."
+    "texte": "Et après le feu, un murmure doux et léger. Quand Élie l'entendit, il s'enveloppa le visage de son manteau et, étant sorti, il se tint à l'entrée de la caverne."
   },
   {
     "id": "carmel_4",
@@ -170,10 +170,10 @@
     "clausule_et_jesus": "parure de la Vierge sainte",
     "auteur": "Cantique des Cantiques",
     "chapitre": 7,
-    "premier_verset": 5,
-    "verset_fin": 5,
+    "premier_verset": 6,
+    "verset_fin": 6,
     "traduction": "Crampon 1923",
-    "texte": "Ta tête s'élève comme le Carmel, et la chevelure de ta tête est comme la pourpre d'un roi."
+    "texte": "Ta tête est posée sur toi comme le Carmel, la chevelure de ta tête est comme la pourpre rouge : un roi est enchaîné à ses boucles."
   },
   {
     "id": "carmel_5",
@@ -187,6 +187,6 @@
     "premier_verset": 7,
     "verset_fin": 8,
     "traduction": "Crampon 1923",
-    "texte": "Yahweh te gardera de tout mal, il gardera ton âme ; Yahweh gardera ton départ et ton arrivée, dès maintenant et à jamais."
+    "texte": "Yahweh te gardera de tout mal, il gardera ton âme : Yahweh gardera ton départ et ton arrivée maintenant et à jamais."
   }
 ]

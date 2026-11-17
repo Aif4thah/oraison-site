@@ -2,7 +2,7 @@
   {
     "id": "therese_1",
     "periode": {
-      "debut": "09-22",
+      "debut": "09-13",
       "fin": "10-25"
     },
     "commands": [
@@ -149,7 +149,7 @@
     "premier_verset": 2,
     "verset_fin": 2,
     "traduction": "Crampon 1923",
-    "texte": "Loin de là, j'ai tenu mon âme calme et tranquille ; comme un enfant sevré sur le sein de sa mère, comme un enfant sevré, mon âme est en moi."
+    "texte": "Non ! Je tiens mon âme dans le calme et le silence. Comme un enfant sevré sur le sein de sa mère, comme l'enfant sevré mon âme est en moi."
   },
   {
     "id": "therese_3",
@@ -177,7 +177,7 @@
     "premier_verset": 12,
     "verset_fin": 13,
     "traduction": "Crampon 1923",
-    "texte": "Car ainsi parle Yahweh : Voici que je vais diriger vers elle la paix comme un fleuve... vous serez allaités, vous serez portés sur les bras et caressés sur les genoux. Comme un homme que sa mère console, ainsi je vous consolerai."
+    "texte": "Car ainsi parle Yahweh : Je vais faire couler sur elle la paix comme un fleuve, et la gloire des nations comme un torrent qui déborde, et vous serez allaités, portés sur le sein, caressés sur les genoux. Comme un homme que sa mère console, ainsi je vous consolerai, et vous serez consolés dans Jérusalem."
   },
   {
     "id": "therese_5",

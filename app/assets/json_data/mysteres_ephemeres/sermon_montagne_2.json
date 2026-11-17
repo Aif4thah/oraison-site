@@ -132,7 +132,7 @@
     "premier_verset": 19,
     "verset_fin": 21,
     "traduction": "Crampon 1923",
-    "texte": "Ne vous amassez pas des trésors sur la terre... mais amassez-vous des trésors dans le ciel, où ni les vers ni la rouille ne détruisent... Car là où est ton trésor, là aussi sera ton cœur.",
+    "texte": "Ne vous amassez pas des trésors sur la terre, où la rouille et les vers rongent, et où les voleurs percent les murs et dérobent. Mais amassez-vous des trésors dans le ciel, où ni les vers ni la rouille ne rongent, et où les voleurs ne percent pas les murs ni ne dérobent. Car là où est votre trésor, là aussi sera votre cœur.",
     "categorie": "decouverte"
   },
   {
@@ -148,7 +148,7 @@
     "premier_verset": 31,
     "verset_fin": 33,
     "traduction": "Crampon 1923",
-    "texte": "Ne vous inquiétez donc point, disant: Que mangerons-nous? ou que boirons-nous?... Cherchez premièrement le royaume de Dieu et sa justice, et toutes ces choses vous seront données par-dessus."
+    "texte": "Ne vous mettez donc point en peine, disant : Que mangerons-nous, ou que boirons-nous, ou de quoi nous vêtirons-nous ?… Cherchez premièrement le royaume de Dieu et sa justice, et tout cela vous sera donné par-dessus."
   },
   {
     "id": "sermon_jugement",
@@ -163,7 +163,7 @@
     "premier_verset": 1,
     "verset_fin": 2,
     "traduction": "Crampon 1923",
-    "texte": "Ne jugez point, afin que vous ne soyez point jugés. Car on vous jugera du jugement dont vous aurez jugé, et l'on vous mesurera avec la mesure dont vous aurez mesuré."
+    "texte": "Ne jugez point, afin que vous ne soyez point jugés. Car selon ce que vous aurez jugé, on vous jugera, et de la même mesure dont vous aurez mesuré, on vous mesurera."
   },
   {
     "id": "sermon_demande",
@@ -178,7 +178,7 @@
     "premier_verset": 7,
     "verset_fin": 8,
     "traduction": "Crampon 1923",
-    "texte": "Demandez, et l'on vous donnera; cherchez, et vous trouverez; frappez, et l'on vous ouvrira. Car quiconque demande reçoit, celui qui cherche trouve, et l'on ouvre à celui qui frappe."
+    "texte": "Demandez, et l'on vous donnera ; cherchez et vous trouverez ; frappez et l'on vous ouvrira. Car quiconque demande, reçoit ; qui cherche, trouve ; et l'on ouvrira à celui qui frappe."
   },
   {
     "id": "sermon_regle_or",
@@ -193,7 +193,7 @@
     "premier_verset": 12,
     "verset_fin": 12,
     "traduction": "Crampon 1923",
-    "texte": "Tout ce que vous voulez que les hommes fassent pour vous, faites-le de même pour eux: car c'est la loi et les prophètes."
+    "texte": "Ainsi donc tout ce que vous voulez que les hommes vous fassent, faites-le aussi pour eux ; car c'est la Loi et les Prophètes."
   },
   {
     "id": "sermon_porte_etroite",
@@ -208,7 +208,7 @@
     "premier_verset": 13,
     "verset_fin": 14,
     "traduction": "Crampon 1923",
-    "texte": "Entrez par la porte étroite. Car large est la porte, spacieux est le chemin qui mènent à la perdition, et il y en a beaucoup qui entrent par là. Mais étroite est la porte, resserré le chemin qui mènent à la vie, et il y en a peu qui les trouvent."
+    "texte": "Entrez par la porte étroite ; car la porte large et la voie spacieuse conduisent à la perdition, et nombreux sont ceux qui y passent ; car elle est étroite la porte et resserrée la voie qui conduit à la vie, et il en est peu qui la trouvent !"
   },
   {
     "id": "sermon_maison_roc",
@@ -223,6 +223,6 @@
     "premier_verset": 24,
     "verset_fin": 25,
     "traduction": "Crampon 1923",
-    "texte": "Quiconque entend ces paroles que je dis et les met en pratique, sera comparé à un homme prudent qui a bâti sa maison sur le roc. La pluie est tombée, les torrents sont venus, les vents ont soufflé... et elle n'est point tombée, car elle était fondée sur le roc."
+    "texte": "Tout homme donc qui entend ces paroles que je viens de dire, et les met en pratique, sera comparé à un homme sage, qui a bâti sa maison sur la pierre. La pluie est tombée, les torrents sont venus, les vents ont soufflé et se sont déchaînés contre cette maison, et elle n'a pas été renversée, car elle était fondée sur la pierre."
   }
 ]

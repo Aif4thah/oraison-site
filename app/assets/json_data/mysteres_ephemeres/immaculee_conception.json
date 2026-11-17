@@ -145,7 +145,7 @@
     "premier_verset": 15,
     "verset_fin": 15,
     "traduction": "Crampon 1923",
-    "texte": "Je mettrai une inimitié entre toi et la femme, entre ta postérité et sa postérité ; celle-ci te brisera la tête, et tu la blesseras au talon.",
+    "texte": "Et je mettrai une inimitié entre toi et la femme, entre ta postérité et sa postérité ; celle-ci te meurtrira à la tête, et tu la meurtriras au talon.",
     "categorie": "liturgique"
   },
   {
@@ -160,7 +160,7 @@
     "premier_verset": 7,
     "verset_fin": 7,
     "traduction": "Crampon 1923",
-    "texte": "Tu es toute belle, mon amie, et il n'y a point de tache en toi."
+    "texte": "Tu es toute belle, mon amie, et il n'y a pas de tache en toi !"
   },
   {
     "id": "immaculee_3",
@@ -168,13 +168,13 @@
     "type": "L'Immaculée Conception",
     "numero": 3,
     "fruit": "La pureté du cœur et la sainteté",
-    "clausule_et_jesus": "fils de l'Immaculée",
-    "auteur": "Cantique",
-    "chapitre": 4,
-    "premier_verset": 7,
-    "verset_fin": 7,
+    "clausule_et_jesus": "qui préserva sa Mère de toute tache",
+    "auteur": "Cantique des Cantiques",
+    "chapitre": 6,
+    "premier_verset": 9,
+    "verset_fin": 9,
     "traduction": "Crampon 1923",
-    "texte": "Tu es toute belle, mon amie, et il n'y a point en toi de tache."
+    "texte": "Une seule est ma colombe, mon immaculée ; elle est l'unique de sa mère, la préférée de celle qui lui donna le jour."
   },
   {
     "id": "immaculee_4",
@@ -188,7 +188,7 @@
     "premier_verset": 19,
     "verset_fin": 19,
     "traduction": "Crampon 1923",
-    "texte": "Et le temple de Dieu fut ouvert dans le ciel, et l'arche de son alliance apparut dans son temple."
+    "texte": "Et le sanctuaire de Dieu dans le ciel fut ouvert, et l'arche de son alliance apparut dans son sanctuaire."
   },
   {
     "id": "immaculee_5",
@@ -202,6 +202,6 @@
     "premier_verset": 3,
     "verset_fin": 4,
     "traduction": "Crampon 1923",
-    "texte": "Béni soit le Dieu et Père de notre Seigneur Jésus-Christ, qui nous a comblés en Jésus-Christ de toutes les bénédictions spirituelles dans les cieux ! En lui, il nous a élus avant la fondation du monde, pour que nous soyons saints et sans tache devant lui dans l'amour."
+    "texte": "Béni soit Dieu, le Père de notre Seigneur Jésus-Christ, qui nous a bénis dans le Christ de toutes sortes de bénédictions spirituelles dans les cieux ! C'est en lui qu'il nous a choisis dès avant la création du monde, pour que nous soyons saints et irrépréhensibles devant lui."
   }
 ]
