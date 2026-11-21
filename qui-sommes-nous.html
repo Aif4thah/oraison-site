@@ -35,9 +35,20 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://oraison.app/#organization",
+        "name": "Oraison",
+        "alternateName": "Édition Oraison",
+        "url": "https://oraison.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://oraison.app/favicon.png"
+        }
+      },
+      {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Oraison", "item": "https://oraison.app/" },
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://oraison.app/" },
           { "@type": "ListItem", "position": 2, "name": "Qui sommes-nous ?", "item": "https://oraison.app/qui-sommes-nous.html" }
         ]
       },
@@ -67,12 +78,12 @@
         "alternateName": "Recueil complet du Chapelet : Méditations du Saint Rosaire d'après la Bible Crampon 1923",
         "description": "Recueil imprimé et numérique complémentaire à l'application Oraison : 11 prières traditionnelles en français et en latin, 20 Mystères du Rosaire avec 225 péricopes bibliques (traduction catholique Crampon 1923), clausules christologiques selon saint Jean-Paul II, 14 Béatitudes, 36 séries liturgiques et Litanies de Lorette.",
         "inLanguage": ["fr", "la"],
-        "datePublished": "2026-11",
+        "genre": ["Religion et spiritualité", "Prière catholique", "Chapelet et Rosaire"],
+        "datePublished": "2026-11-21",
         "image": "https://oraison.app/couverture-recueil-chapelet.jpg",
         "author": { "@id": "https://oraison.app/#author" },
-        "publisher": { "@type": "Organization", "@id": "https://oraison.app/#organization", "name": "Édition Oraison", "url": "https://oraison.app/" },
-        "isBasedOn": { "@id": "https://oraison.app/#app" },
-        "isRelatedTo": { "@id": "https://oraison.app/#app" },
+        "publisher": { "@id": "https://oraison.app/#organization" },
+        "isBasedOn": "https://oraison.app/",
         "url": "https://oraison.app/recueil-chapelet.html",
         "sameAs": [
           "https://www.amazon.fr/dp/B0HSJ7JQ4R",
@@ -88,7 +99,10 @@
             "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSJ7JQ4R" },
             "numberOfPages": 192,
             "inLanguage": ["fr", "la"],
-            "datePublished": "2026-11",
+            "bookEdition": "Première édition (format poche 5×8 pouces, papier crème)",
+            "datePublished": "2026-11-21",
+            "author": { "@id": "https://oraison.app/#author" },
+            "publisher": { "@id": "https://oraison.app/#organization" },
             "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
             "sameAs": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
             "offers": {
@@ -108,7 +122,10 @@
             "bookFormat": "https://schema.org/EBook",
             "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSCCVM53" },
             "inLanguage": ["fr", "la"],
-            "datePublished": "2026-11",
+            "bookEdition": "Édition numérique Kindle (EPUB 3)",
+            "datePublished": "2026-11-21",
+            "author": { "@id": "https://oraison.app/#author" },
+            "publisher": { "@id": "https://oraison.app/#organization" },
             "url": "https://www.amazon.fr/dp/B0HSCCVM53",
             "sameAs": "https://www.amazon.fr/dp/B0HSCCVM53",
             "offers": {

@@ -36,9 +36,20 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://oraison.app/#organization",
+        "name": "Oraison",
+        "alternateName": "Édition Oraison",
+        "url": "https://oraison.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://oraison.app/favicon.png"
+        }
+      },
+      {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Oraison", "item": "https://oraison.app/" },
+          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://oraison.app/" },
           { "@type": "ListItem", "position": 2, "name": "Recueil complet du Chapelet", "item": "https://oraison.app/recueil-chapelet.html" }
         ]
       },
@@ -60,11 +71,11 @@
         "description": "Recueil imprimé et numérique complémentaire à l'application Oraison : 11 prières traditionnelles en français et en latin, 20 Mystères du Rosaire avec 225 péricopes bibliques (traduction catholique Crampon 1923), clausules christologiques selon saint Jean-Paul II, 14 Béatitudes, 36 séries liturgiques et Litanies de Lorette.",
         "inLanguage": ["fr", "la"],
         "genre": ["Religion et spiritualité", "Prière catholique", "Chapelet et Rosaire"],
-        "datePublished": "2026-11",
-        "author": { "@type": "Organization", "@id": "https://oraison.app/#organization", "name": "Édition Oraison", "url": "https://oraison.app/" },
-        "publisher": { "@type": "Organization", "@id": "https://oraison.app/#organization", "name": "Édition Oraison", "url": "https://oraison.app/" },
-        "isBasedOn": { "@type": "SoftwareApplication", "@id": "https://oraison.app/#app", "name": "Oraison", "url": "https://oraison.app/" },
-        "isRelatedTo": { "@type": "SoftwareApplication", "@id": "https://oraison.app/#app", "name": "Oraison", "url": "https://oraison.app/" },
+        "datePublished": "2026-11-21",
+        "image": "https://oraison.app/og.png",
+        "author": { "@id": "https://oraison.app/#organization" },
+        "publisher": { "@id": "https://oraison.app/#organization" },
+        "isBasedOn": "https://oraison.app/",
         "url": "https://oraison.app/recueil-chapelet.html",
         "sameAs": [
           "https://www.amazon.fr/dp/B0HSJ7JQ4R",
@@ -81,7 +92,8 @@
             "numberOfPages": 192,
             "inLanguage": ["fr", "la"],
             "bookEdition": "Première édition (format poche 5×8 pouces, papier crème)",
-            "datePublished": "2026-11",
+            "datePublished": "2026-11-21",
+            "author": { "@id": "https://oraison.app/#organization" },
             "publisher": { "@id": "https://oraison.app/#organization" },
             "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
             "sameAs": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
@@ -103,7 +115,8 @@
             "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSCCVM53" },
             "inLanguage": ["fr", "la"],
             "bookEdition": "Édition numérique Kindle (EPUB 3)",
-            "datePublished": "2026-11",
+            "datePublished": "2026-11-21",
+            "author": { "@id": "https://oraison.app/#organization" },
             "publisher": { "@id": "https://oraison.app/#organization" },
             "url": "https://www.amazon.fr/dp/B0HSCCVM53",
             "sameAs": "https://www.amazon.fr/dp/B0HSCCVM53",
