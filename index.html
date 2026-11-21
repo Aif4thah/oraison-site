@@ -45,9 +45,28 @@
   {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "WebSite", "@id": "https://oraison.app/#website", "name": "Oraison", "url": "https://oraison.app/", "inLanguage": "fr" },
+      {
+        "@type": "Organization",
+        "@id": "https://oraison.app/#organization",
+        "name": "Oraison",
+        "alternateName": "Édition Oraison",
+        "url": "https://oraison.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://oraison.app/favicon.png"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://oraison.app/#website",
+        "name": "Oraison",
+        "url": "https://oraison.app/",
+        "inLanguage": "fr",
+        "publisher": { "@id": "https://oraison.app/#organization" }
+      },
       {
         "@type": ["WebApplication", "SoftwareApplication"],
+        "@id": "https://oraison.app/#app",
         "name": "Oraison",
         "headline": "Oraison — Chapelet, méditation et prière dans le calme",
         "applicationCategory": "LifestyleApplication",
@@ -63,7 +82,75 @@
         "sameAs": ["https://play.google.com/store/apps/details?id=app.oraison"],
         "image": "https://oraison.app/og.png",
         "keywords": "oraison, chapelet, méditation, prière, rosaire, bible, vie des saints, mystères joyeux, mystères lumineux, mystères douloureux, mystères glorieux, liturgie catholique, messe, eucharistie, vie paroissiale, calme, silence",
+        "publisher": { "@id": "https://oraison.app/#organization" },
+        "isRelatedTo": { "@id": "https://oraison.app/#book" },
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" }
+      },
+      {
+        "@type": "Book",
+        "@id": "https://oraison.app/#book",
+        "name": "Recueil complet du Chapelet, compilé par un priant",
+        "alternateName": "Recueil complet du Chapelet : Méditations du Saint Rosaire d'après la Bible Crampon 1923",
+        "description": "Recueil imprimé et numérique complémentaire à l'application Oraison : 11 prières traditionnelles en français et en latin, 20 Mystères du Rosaire avec 225 péricopes bibliques (traduction catholique Crampon 1923), clausules christologiques selon saint Jean-Paul II, 14 Béatitudes, 36 séries liturgiques et Litanies de Lorette.",
+        "inLanguage": ["fr", "la"],
+        "genre": ["Religion et spiritualité", "Prière catholique", "Chapelet et Rosaire"],
+        "datePublished": "2026-11",
+        "author": { "@id": "https://oraison.app/#organization" },
+        "publisher": { "@id": "https://oraison.app/#organization" },
+        "isBasedOn": { "@id": "https://oraison.app/#app" },
+        "isRelatedTo": { "@id": "https://oraison.app/#app" },
+        "url": "https://oraison.app/recueil-chapelet.html",
+        "sameAs": [
+          "https://www.amazon.fr/dp/B0HSJ7JQ4R",
+          "https://www.amazon.fr/dp/B0HSCCVM53"
+        ],
+        "workExample": [
+          {
+            "@type": "Book",
+            "@id": "https://oraison.app/#book-paperback",
+            "name": "Recueil complet du Chapelet (Édition brochée)",
+            "bookFormat": "https://schema.org/Paperback",
+            "isbn": "979-8143824034",
+            "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSJ7JQ4R" },
+            "numberOfPages": 192,
+            "inLanguage": ["fr", "la"],
+            "bookEdition": "Première édition (format poche 5×8 pouces, papier crème)",
+            "datePublished": "2026-11",
+            "publisher": { "@id": "https://oraison.app/#organization" },
+            "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
+            "sameAs": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
+            "offers": {
+              "@type": "Offer",
+              "price": "12.90",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
+              "seller": { "@type": "Organization", "name": "Amazon.fr" }
+            }
+          },
+          {
+            "@type": "Book",
+            "@id": "https://oraison.app/#book-ebook",
+            "name": "Recueil complet du Chapelet (Édition Kindle)",
+            "bookFormat": "https://schema.org/EBook",
+            "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSCCVM53" },
+            "inLanguage": ["fr", "la"],
+            "bookEdition": "Édition numérique Kindle (EPUB 3)",
+            "datePublished": "2026-11",
+            "publisher": { "@id": "https://oraison.app/#organization" },
+            "url": "https://www.amazon.fr/dp/B0HSCCVM53",
+            "sameAs": "https://www.amazon.fr/dp/B0HSCCVM53",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "url": "https://www.amazon.fr/dp/B0HSCCVM53",
+              "seller": { "@type": "Organization", "name": "Amazon.fr" }
+            }
+          }
+        ]
       },
       {
         "@type": "FAQPage",
@@ -71,7 +158,8 @@
           { "@type": "Question", "name": "Comment installer et utiliser Oraison sur iPhone et Android ?", "acceptedAnswer": { "@type": "Answer", "text": "Oraison s'ouvre instantanément dans le navigateur et s'ajoute en deux gestes sur l'écran d'accueil de votre iPhone (via le bouton Partager de Safari puis Sur l'écran d'accueil) ou de votre téléphone Android (via Installer l'application). Oraison est également disponible en application Android sur le Google Play Store, sans publicité ni inscription." } },
           { "@type": "Question", "name": "Comment Oraison favorise-t-elle le calme, le recueillement et la prière ?", "acceptedAnswer": { "@type": "Answer", "text": "En éliminant toute publicité, notification, compteur de performance ou inscription obligatoire, Oraison offre une interface sombre, sobre et épurée propice au silence intérieur et à la méditation de la Bible. Une fois la session de prière ouverte, l'application fonctionne en mode avion pour prier à l'église ou à l'oratoire sans aucune onde ni distraction." } },
           { "@type": "Question", "name": "Quels mystères du chapelet et quels textes de la Bible sont proposés ?", "acceptedAnswer": { "@type": "Answer", "text": "L'application réunit les quatre séries traditionnelles du Rosaire (mystères joyeux, lumineux, douloureux et glorieux), une série d'aide à la méditation issue de la lettre apostolique Rosarium Virginis Mariae de saint Jean-Paul II, des mystères spécifiques présents aux dates liturgiques, des sélections paroissiales ainsi que des séries découverte autour de la Bible et de la vie des saints. Chaque grain est accompagné de versets bibliques (Crampon 1923), de fruits spirituels et des prières en français et en latin." } },
-          { "@type": "Question", "name": "L'application Oraison remplace-t-elle la messe ou la vie sacramentelle ?", "acceptedAnswer": { "@type": "Answer", "text": "Non, en aucun cas. Oraison soutient la pratique quotidienne du chapelet et de l'oraison silencieuse au rythme de chacun. Elle a été pensée comme un compagnon de recueillement personnel et ne se substitue jamais à la vie en communauté paroissiale, à la présence à la messe et à la réception de l'Eucharistie." } }
+          { "@type": "Question", "name": "L'application Oraison remplace-t-elle la messe ou la vie sacramentelle ?", "acceptedAnswer": { "@type": "Answer", "text": "Non, en aucun cas. Oraison soutient la pratique quotidienne du chapelet et de l'oraison silencieuse au rythme de chacun. Elle a été pensée comme un compagnon de recueillement personnel et ne se substitue jamais à la vie en communauté paroissiale, à la présence à la messe et à la réception de l'Eucharistie." } },
+          { "@type": "Question", "name": "Existe-t-il une version papier ou Kindle d'Oraison pour prier sans smartphone ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Le Recueil complet du Chapelet rassemble en 192 pages tout le contenu d'Oraison : les 11 prières traditionnelles en français et en latin, les 20 mystères du Rosaire avec 225 péricopes bibliques (Crampon 1923), les clausules, les 14 Béatitudes, les 36 séries liturgiques et les Litanies de Lorette. Il est disponible sur Amazon en livre broché (12,90 €, ISBN 979-8143824034) et en e-book Kindle (6,99 €), pour prier loin des écrans ou soutenir le projet." } }
         ]
       }
     ]
@@ -281,6 +369,10 @@
           <summary>L'application Oraison remplace-t-elle la messe ou la vie sacramentelle ?</summary>
           <div class="faq-answer"><p>Non, en aucun cas. Oraison soutient la pratique quotidienne du chapelet et de l'oraison silencieuse au rythme de chacun. Elle a été pensée comme un compagnon de recueillement personnel et ne se substitue jamais à la vie en communauté paroissiale, à la présence à la messe et à la réception de l'Eucharistie.</p></div>
         </details>
+        <details class="faq-item">
+          <summary>Existe-t-il une version papier ou Kindle d'Oraison pour prier sans smartphone ?</summary>
+          <div class="faq-answer"><p>Oui. Le Recueil complet du Chapelet rassemble en 192 pages tout le contenu d'Oraison : les 11 prières traditionnelles en français et en latin, les 20 mystères du Rosaire avec 225 péricopes bibliques (Crampon 1923), les clausules, les 14 Béatitudes, les 36 séries liturgiques et les Litanies de Lorette. Il est disponible sur Amazon en livre broché (12,90 €, ISBN 979-8143824034) et en e-book Kindle (6,99 €), pour prier loin des écrans ou soutenir le projet.</p></div>
+        </details>
       </div>
 
       <aside class="cta-tunnel" aria-label="Entrer en prière avec Oraison">
@@ -319,9 +411,26 @@
         <p class="cta-reassurance">Application gratuite · Sans inscription · Mode avion</p>
       </aside>
 
+      <div class="book-card" id="recueil-chapelet" role="region" aria-labelledby="recueil-home-title">
+        <div class="book-card-header">
+          <svg class="book-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+          <div>
+            <span class="book-card-kicker">Édition papier &amp; liseuse</span>
+            <h3 id="recueil-home-title">Vous préférez prier loin des écrans tout en apportant votre soutien&nbsp;?</h3>
+          </div>
+        </div>
+        <p>Le <strong><em>Recueil complet du Chapelet</em></strong> rassemble en un seul volume sobre de <strong>192 pages</strong> (format poche, papier crème) l'intégralité du contenu d'Oraison&nbsp;: guide pas à pas, 11 prières traditionnelles en français et en latin, les 20 mystères du Rosaire (225 péricopes de la Bible <em>Crampon 1923</em> avec clausules), les 14 Béatitudes, les 36 séries liturgiques de l'année et les Litanies de Lorette. Pensé comme support complémentaire à l'application pour prier sans téléphone ou l'offrir autour de soi, chaque exemplaire commandé contribue à financer l'hébergement et la gratuité d'Oraison.</p>
+        <p class="transparency-action">
+          <a class="btn btn-outline btn-compact" href="https://www.amazon.fr/dp/B0HSJ7JQ4R" target="_blank" rel="noopener" data-track="kdp-broche-home" aria-label="Commander le Recueil complet du Chapelet en livre broché à 12€90 sur Amazon">Livre broché à 12€90 (Amazon)</a>
+          <a class="btn btn-outline btn-compact" href="https://www.amazon.fr/dp/B0HSCCVM53" target="_blank" rel="noopener" data-track="kdp-kindle-home" aria-label="Télécharger le Recueil complet du Chapelet en édition Kindle à 6€99 sur Amazon">Édition Kindle à 6€99 (Amazon)</a>
+          <a class="btn btn-outline btn-compact" href="recueil-chapelet.html" data-track="kdp-details-home">Sommaire &amp; détails (192 p.)</a>
+        </p>
+        <p class="book-meta">Édition Oraison · 192 pages · Format poche (12,7 × 20,3 cm) · ISBN 979-8143824034</p>
+      </div>
+
       <div class="transparency-note" role="note" aria-label="Gratitude, transparence et démarche personnelle">
         <p><strong>Une démarche née au cœur de la paroisse&nbsp;:</strong> Oraison est une initiative personnelle mûrie avec les conseils de paroissiens. Elle soutient la prière quotidienne du chapelet mais ne remplace jamais la vie paroissiale, la <strong>messe</strong> et l'<strong>Eucharistie</strong>.</p>
-        <p>Les 4 séries traditionnelles, le temps liturgique en cours et la découverte du mois restent <strong>100&nbsp;% gratuits, sans publicité ni collecte de données</strong>. Vous pouvez découvrir l'histoire du projet ou participer aux frais techniques d'hébergement et de développement.</p>
+        <p>Les 4 séries traditionnelles, le temps liturgique en cours et la découverte du mois restent <strong>100&nbsp;% gratuits, sans publicité ni collecte de données</strong>. Si Oraison accompagne votre prière, vous pouvez découvrir l'histoire du projet, soutenir les frais techniques et l'impression de marque-pages paroissiaux par un don libre ou en commandant le recueil papier.</p>
         <p class="transparency-action">
           <a class="btn btn-outline btn-compact" href="qui-sommes-nous.html" data-track="cta-qui-sommes-nous">Qui sommes-nous&nbsp;? Découvrir notre histoire</a>
           <a class="btn btn-outline btn-compact" id="btn-soutien-stripe" href="https://donate.stripe.com/aFabIUa0Bg255v6gYlco003" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:0.95rem;height:0.95rem;fill:currentColor;vertical-align:-0.12rem;margin-right:0.35rem;"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>Soutenir le projet Oraison</a>
@@ -339,7 +448,8 @@
       <a href="mysteres-lumineux.html">Mystères Lumineux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-douloureux.html">Mystères Douloureux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-glorieux.html">Mystères Glorieux</a> <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="oraison-meditation.html">Oraison &amp; Méditation</a>
+      <a href="oraison-meditation.html">Oraison &amp; Méditation</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="recueil-chapelet.html">Recueil imprimé</a>
     </nav>
     <p class="footer-initiative">Initiative personnelle et indépendante née au cœur d'une paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
     <p class="footer-thanks">♥ Merci aux paroissiens et à tous ceux qui soutiennent ce projet par leur prière, leurs conseils et leur générosité.</p>
@@ -450,6 +560,12 @@
 
       document.querySelectorAll('a[href*="play.google.com/store"]').forEach(function (link) {
         link.addEventListener('click', function () { track('playstore-click', 'Clic Fiche Google Play Store'); });
+      });
+      document.querySelectorAll('a[href*="amazon.fr/dp/B0HSJ7JQ4R"]').forEach(function (link) {
+        link.addEventListener('click', function () { track('kdp-broche-click', 'Clic Livre Broche Amazon'); });
+      });
+      document.querySelectorAll('a[href*="amazon.fr/dp/B0HSCCVM53"]').forEach(function (link) {
+        link.addEventListener('click', function () { track('kdp-kindle-click', 'Clic Edition Kindle Amazon'); });
       });
 
       var sBtn = document.getElementById('btn-soutien-stripe');

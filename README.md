@@ -26,6 +26,11 @@ Née au cœur d'une paroisse en France, l'application a pour vocation de promouv
 ### Approfondissement spirituel
 - **[L'Oraison et la Méditation Chrétienne](https://oraison.app/oraison-meditation.html)** — Les 12 repères de Saint Jean-Paul II (*Rosarium Virginis Mariae*) et le calendrier des 36 séries liturgiques (Avent, Noël, Carême, Semaine Sainte, Pâques, Pentecôte, Toussaint, Défunts, vie des saints).
 
+### Édition imprimée & E-book Kindle (support complémentaire)
+- **[Recueil complet du Chapelet : présentation & sommaire (192 pages)](https://oraison.app/recueil-chapelet.html)** : pour prier loin des écrans ou soutenir le projet Oraison (20 Mystères, 225 péricopes *Crampon 1923*, 11 prières FR/Latin, 14 Béatitudes, 36 séries liturgiques et Litanies de Lorette).
+- **[Livre broché à 12€90 (Amazon.fr)](https://www.amazon.fr/dp/B0HSJ7JQ4R)** : format poche 5×8 pouces, papier crème · ISBN-13 : `979-8143824034` · ASIN : `B0HSJ7JQ4R`.
+- **[Édition Kindle à 6€99 (Amazon.fr)](https://www.amazon.fr/dp/B0HSCCVM53)** : liseuse e-ink · ASIN : `B0HSCCVM53`.
+
 ---
 
 ## Éthique & Confidentialité

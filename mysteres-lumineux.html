@@ -46,7 +46,7 @@
         "@type": "Article",
         "headline": "Les 5 Mystères Lumineux du Rosaire : textes bibliques, fruits et méditation (Jeudi)",
         "description": "Présentation complète des cinq mystères lumineux du chapelet proposés par saint Jean-Paul II dans Rosarium Virginis Mariae, accompagnés des versets de l'Évangile (Crampon 1923), de leurs fruits spirituels et des enseignements de saint Jean-Paul II et saint Jean-Marie Vianney.",
-        "image": "https://oraison.app/og.png", "datePublished": "2026-10-26", "dateModified": "2026-11-12", "inLanguage": "fr", "mainEntityOfPage": "https://oraison.app/mysteres-lumineux.html",
+        "image": "https://oraison.app/og.png", "datePublished": "2026-10-26", "dateModified": "2026-11-21", "inLanguage": "fr", "mainEntityOfPage": "https://oraison.app/mysteres-lumineux.html",
         "author": { "@type": "Organization", "name": "Oraison", "url": "https://oraison.app/" },
         "publisher": { "@type": "Organization", "name": "Oraison", "url": "https://oraison.app/", "logo": { "@type": "ImageObject", "url": "https://oraison.app/favicon.png" } }
       },
@@ -297,6 +297,7 @@
         </div>
       </div>
       <p class="cta-reassurance">Application gratuite · Sans inscription · Mode avion</p>
+      <p class="cta-book-note">Vous préférez prier sans écran&nbsp;? Retrouvez les 20 mystères (225 versets) dans le <a href="recueil-chapelet.html" data-track="kdp-details-mysteres">Recueil complet du Chapelet</a>&nbsp;: <a href="https://www.amazon.fr/dp/B0HSJ7JQ4R" target="_blank" rel="noopener" data-track="kdp-broche-mysteres">Livre broché à 12€90 (Amazon)</a> · <a href="https://www.amazon.fr/dp/B0HSCCVM53" target="_blank" rel="noopener" data-track="kdp-kindle-mysteres">Édition Kindle à 6€99 (Amazon)</a></p>
     </aside>
 
     <nav class="silo-section" aria-label="Les autres mystères du Rosaire">
@@ -308,6 +309,7 @@
         <a href="mysteres-douloureux.html" class="silo-card" data-days="2,5"><strong>Mystères Douloureux</strong> <small>Mardi &amp; Vendredi</small></a>
         <a href="mysteres-glorieux.html" class="silo-card" data-days="0,3"><strong>Mystères Glorieux</strong> <small>Mercredi &amp; Dimanche</small></a>
         <a href="oraison-meditation.html" class="silo-card"><strong>Oraison &amp; Méditation</strong> <small>Silence &amp; temps liturgiques</small></a>
+        <a href="recueil-chapelet.html" class="silo-card"><strong>Recueil imprimé</strong> <small>Livre broché 192 p. &amp; Kindle</small></a>
       </div>
     </nav>
   </main>
@@ -322,7 +324,8 @@
       <a href="mysteres-lumineux.html">Mystères Lumineux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-douloureux.html">Mystères Douloureux</a> <span class="footer-sep" aria-hidden="true">·</span>
       <a href="mysteres-glorieux.html">Mystères Glorieux</a> <span class="footer-sep" aria-hidden="true">·</span>
-      <a href="oraison-meditation.html">Oraison &amp; Méditation</a>
+      <a href="oraison-meditation.html">Oraison &amp; Méditation</a> <span class="footer-sep" aria-hidden="true">·</span>
+      <a href="recueil-chapelet.html">Recueil imprimé</a>
     </nav>
     <p class="footer-initiative">Initiative personnelle et indépendante née au cœur d'une paroisse (France), conçue au service de l'oraison et dans la fidélité à la tradition liturgique de l'Église.</p>
     <p class="footer-thanks">♥ Merci aux paroissiens et à tous ceux qui soutiennent ce projet par leur prière, leurs conseils et leur générosité.</p>
@@ -350,6 +353,12 @@
       });
       document.querySelectorAll('a[href*="play.google.com/store"]').forEach(function (link) {
         link.addEventListener('click', function () { track('playstore-click', 'Clic Fiche Google Play Store'); });
+      });
+      document.querySelectorAll('a[href*="amazon.fr/dp/B0HSJ7JQ4R"]').forEach(function (link) {
+        link.addEventListener('click', function () { track('kdp-broche-click', 'Clic Livre Broche Amazon'); });
+      });
+      document.querySelectorAll('a[href*="amazon.fr/dp/B0HSCCVM53"]').forEach(function (link) {
+        link.addEventListener('click', function () { track('kdp-kindle-click', 'Clic Edition Kindle Amazon'); });
       });
       var today = new Date().getDay();
       var pageBadge = document.querySelector('[data-page-days]');

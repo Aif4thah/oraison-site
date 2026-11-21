@@ -1,0 +1,692 @@
+[
+  {
+    "id": "litanie_01",
+    "numero": 1,
+    "categorie": "kyrie",
+    "fr_invocation": "Seigneur, ayez pitié de nous.",
+    "fr_repons": "",
+    "la_invocation": "Kyrie, eleison.",
+    "la_repons": "",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_02",
+    "numero": 2,
+    "categorie": "kyrie",
+    "fr_invocation": "Jésus-Christ, ayez pitié de nous.",
+    "fr_repons": "",
+    "la_invocation": "Christe, eleison.",
+    "la_repons": "",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_03",
+    "numero": 3,
+    "categorie": "kyrie",
+    "fr_invocation": "Seigneur, ayez pitié de nous.",
+    "fr_repons": "",
+    "la_invocation": "Kyrie, eleison.",
+    "la_repons": "",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_04",
+    "numero": 4,
+    "categorie": "kyrie",
+    "fr_invocation": "Jésus-Christ, écoutez-nous.",
+    "fr_repons": "",
+    "la_invocation": "Christe, audi nos.",
+    "la_repons": "",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_05",
+    "numero": 5,
+    "categorie": "kyrie",
+    "fr_invocation": "Jésus-Christ, exaucez-nous.",
+    "fr_repons": "",
+    "la_invocation": "Christe, exaudi nos.",
+    "la_repons": "",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_06",
+    "numero": 6,
+    "categorie": "trinite",
+    "fr_invocation": "Père céleste, qui êtes Dieu,",
+    "fr_repons": "ayez pitié de nous.",
+    "la_invocation": "Pater de caelis, Deus,",
+    "la_repons": "miserere nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_07",
+    "numero": 7,
+    "categorie": "trinite",
+    "fr_invocation": "Fils, Rédempteur du monde, qui êtes Dieu,",
+    "fr_repons": "ayez pitié de nous.",
+    "la_invocation": "Fili, Redemptor mundi, Deus,",
+    "la_repons": "miserere nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_08",
+    "numero": 8,
+    "categorie": "trinite",
+    "fr_invocation": "Esprit-Saint, qui êtes Dieu,",
+    "fr_repons": "ayez pitié de nous.",
+    "la_invocation": "Spiritus Sancte, Deus,",
+    "la_repons": "miserere nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_09",
+    "numero": 9,
+    "categorie": "trinite",
+    "fr_invocation": "Trinité Sainte, qui êtes un seul Dieu,",
+    "fr_repons": "ayez pitié de nous.",
+    "la_invocation": "Sancta Trinitas, unus Deus,",
+    "la_repons": "miserere nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_10",
+    "numero": 10,
+    "categorie": "marie",
+    "fr_invocation": "Sainte Marie,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Sancta Maria,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_11",
+    "numero": 11,
+    "categorie": "marie",
+    "fr_invocation": "Sainte Mère de Dieu,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Sancta Dei Genetrix,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_12",
+    "numero": 12,
+    "categorie": "marie",
+    "fr_invocation": "Sainte Vierge des vierges,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Sancta Virgo virginum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_13",
+    "numero": 13,
+    "categorie": "marie",
+    "fr_invocation": "Mère du Christ,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater Christi,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_14",
+    "numero": 14,
+    "categorie": "marie",
+    "fr_invocation": "Mère de l'Église,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater Ecclesiae,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_15",
+    "numero": 15,
+    "categorie": "marie",
+    "fr_invocation": "Mère de miséricorde,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater misericordiae,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Décret romain du 20 juin 2020 / Rituel romain"
+  },
+  {
+    "id": "litanie_16",
+    "numero": 16,
+    "categorie": "marie",
+    "fr_invocation": "Mère de la divine grâce,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater divinae gratiae,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_17",
+    "numero": 17,
+    "categorie": "marie",
+    "fr_invocation": "Mère de l'espérance,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater spei,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Décret romain du 20 juin 2020 / Rituel romain"
+  },
+  {
+    "id": "litanie_18",
+    "numero": 18,
+    "categorie": "marie",
+    "fr_invocation": "Mère très pure,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater purissima,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_19",
+    "numero": 19,
+    "categorie": "marie",
+    "fr_invocation": "Mère très chaste,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater castissima,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_20",
+    "numero": 20,
+    "categorie": "marie",
+    "fr_invocation": "Mère toujours vierge,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater inviolata,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_21",
+    "numero": 21,
+    "categorie": "marie",
+    "fr_invocation": "Mère sans tache,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater intemerata,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_22",
+    "numero": 22,
+    "categorie": "marie",
+    "fr_invocation": "Mère aimable,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater amabilis,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_23",
+    "numero": 23,
+    "categorie": "marie",
+    "fr_invocation": "Mère admirable,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater admirabilis,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_24",
+    "numero": 24,
+    "categorie": "marie",
+    "fr_invocation": "Mère du bon conseil,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater boni consilii,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_25",
+    "numero": 25,
+    "categorie": "marie",
+    "fr_invocation": "Mère du Créateur,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater Creatoris,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_26",
+    "numero": 26,
+    "categorie": "marie",
+    "fr_invocation": "Mère du Sauveur,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Mater Salvatoris,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_27",
+    "numero": 27,
+    "categorie": "marie",
+    "fr_invocation": "Vierge très prudente,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Virgo prudentissima,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_28",
+    "numero": 28,
+    "categorie": "marie",
+    "fr_invocation": "Vierge vénérable,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Virgo veneranda,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_29",
+    "numero": 29,
+    "categorie": "marie",
+    "fr_invocation": "Vierge digne de louange,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Virgo praedicanda,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_30",
+    "numero": 30,
+    "categorie": "marie",
+    "fr_invocation": "Vierge puissante,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Virgo potens,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_31",
+    "numero": 31,
+    "categorie": "marie",
+    "fr_invocation": "Vierge clémente,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Virgo clemens,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_32",
+    "numero": 32,
+    "categorie": "marie",
+    "fr_invocation": "Vierge fidèle,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Virgo fidelis,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_33",
+    "numero": 33,
+    "categorie": "marie",
+    "fr_invocation": "Miroir de justice,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Speculum iustitiae,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_34",
+    "numero": 34,
+    "categorie": "marie",
+    "fr_invocation": "Siège de la sagesse,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Sedes sapientiae,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_35",
+    "numero": 35,
+    "categorie": "marie",
+    "fr_invocation": "Cause de notre joie,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Causa nostrae laetitiae,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_36",
+    "numero": 36,
+    "categorie": "marie",
+    "fr_invocation": "Vase spirituel,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Vas spirituale,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_37",
+    "numero": 37,
+    "categorie": "marie",
+    "fr_invocation": "Vase d'honneur,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Vas honorabile,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_38",
+    "numero": 38,
+    "categorie": "marie",
+    "fr_invocation": "Vase insigne de dévotion,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Vas insigne devotionis,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_39",
+    "numero": 39,
+    "categorie": "marie",
+    "fr_invocation": "Rose mystique,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Rosa mystica,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_40",
+    "numero": 40,
+    "categorie": "marie",
+    "fr_invocation": "Tour de David,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Turris Davidica,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_41",
+    "numero": 41,
+    "categorie": "marie",
+    "fr_invocation": "Tour d'ivoire,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Turris eburnea,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_42",
+    "numero": 42,
+    "categorie": "marie",
+    "fr_invocation": "Maison d'or,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Domus aurea,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_43",
+    "numero": 43,
+    "categorie": "marie",
+    "fr_invocation": "Arche d'alliance,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Foederis arca,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_44",
+    "numero": 44,
+    "categorie": "marie",
+    "fr_invocation": "Porte du ciel,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Ianua caeli,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_45",
+    "numero": 45,
+    "categorie": "marie",
+    "fr_invocation": "Étoile du matin,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Stella matutina,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_46",
+    "numero": 46,
+    "categorie": "marie",
+    "fr_invocation": "Salut des infirmes,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Salus infirmorum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_47",
+    "numero": 47,
+    "categorie": "marie",
+    "fr_invocation": "Refuge des pécheurs,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Refugium peccatorum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_48",
+    "numero": 48,
+    "categorie": "marie",
+    "fr_invocation": "Réconfort des migrants,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Solacium migrantium,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Décret romain du 20 juin 2020 / Rituel romain"
+  },
+  {
+    "id": "litanie_49",
+    "numero": 49,
+    "categorie": "marie",
+    "fr_invocation": "Consolatrice des affligés,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Consolatrix afflictorum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_50",
+    "numero": 50,
+    "categorie": "marie",
+    "fr_invocation": "Secours des chrétiens,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Auxilium Christianorum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_51",
+    "numero": 51,
+    "categorie": "marie",
+    "fr_invocation": "Reine des Anges,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Angelorum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_52",
+    "numero": 52,
+    "categorie": "marie",
+    "fr_invocation": "Reine des Patriarches,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Patriarcharum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_53",
+    "numero": 53,
+    "categorie": "marie",
+    "fr_invocation": "Reine des Prophètes,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Prophetarum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_54",
+    "numero": 54,
+    "categorie": "marie",
+    "fr_invocation": "Reine des Apôtres,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Apostolorum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_55",
+    "numero": 55,
+    "categorie": "marie",
+    "fr_invocation": "Reine des Martyrs,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Martyrum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_56",
+    "numero": 56,
+    "categorie": "marie",
+    "fr_invocation": "Reine des Confesseurs,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Confessorum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_57",
+    "numero": 57,
+    "categorie": "marie",
+    "fr_invocation": "Reine des Vierges,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Virginum,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_58",
+    "numero": 58,
+    "categorie": "marie",
+    "fr_invocation": "Reine de tous les Saints,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina Sanctorum omnium,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_59",
+    "numero": 59,
+    "categorie": "marie",
+    "fr_invocation": "Reine conçue sans le péché originel,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina sine labe originali concepta,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_60",
+    "numero": 60,
+    "categorie": "marie",
+    "fr_invocation": "Reine élevée aux cieux,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina in caelum assumpta,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_61",
+    "numero": 61,
+    "categorie": "marie",
+    "fr_invocation": "Reine du très saint Rosaire,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina sacratissimi Rosarii,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_62",
+    "numero": 62,
+    "categorie": "marie",
+    "fr_invocation": "Reine de la famille,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina familiae,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_63",
+    "numero": 63,
+    "categorie": "marie",
+    "fr_invocation": "Reine de la paix,",
+    "fr_repons": "priez pour nous.",
+    "la_invocation": "Regina pacis,",
+    "la_repons": "ora pro nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_64",
+    "numero": 64,
+    "categorie": "agnus",
+    "fr_invocation": "Agneau de Dieu, qui effacez les péchés du monde,",
+    "fr_repons": "pardonnez-nous, Seigneur.",
+    "la_invocation": "Agnus Dei, qui tollis peccata mundi,",
+    "la_repons": "parce nobis, Domine.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_65",
+    "numero": 65,
+    "categorie": "agnus",
+    "fr_invocation": "Agneau de Dieu, qui effacez les péchés du monde,",
+    "fr_repons": "exaucez-nous, Seigneur.",
+    "la_invocation": "Agnus Dei, qui tollis peccata mundi,",
+    "la_repons": "exaudi nos, Domine.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_66",
+    "numero": 66,
+    "categorie": "agnus",
+    "fr_invocation": "Agneau de Dieu, qui effacez les péchés du monde,",
+    "fr_repons": "ayez pitié de nous.",
+    "la_invocation": "Agnus Dei, qui tollis peccata mundi,",
+    "la_repons": "miserere nobis.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_67",
+    "numero": 67,
+    "categorie": "verset",
+    "fr_invocation": "℣. Priez pour nous, sainte Mère de Dieu.",
+    "fr_repons": "",
+    "la_invocation": "℣. Ora pro nobis, sancta Dei Genetrix.",
+    "la_repons": "",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_68",
+    "numero": 68,
+    "categorie": "verset",
+    "fr_invocation": "℟.",
+    "fr_repons": "Afin que nous devenions dignes des promesses du Christ.",
+    "la_invocation": "℟.",
+    "la_repons": "Ut digni efficiamur promissionibus Christi.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  },
+  {
+    "id": "litanie_69",
+    "numero": 69,
+    "categorie": "oraison",
+    "fr_invocation": "Prions.",
+    "fr_repons": "Accordez à vos serviteurs, nous vous en supplions, Seigneur Dieu, de jouir d'une perpétuelle santé de l'âme et du corps ; et, par la glorieuse intercession de la bienheureuse Marie toujours vierge, délivrez-nous des tristesses du temps présent et donnez-nous la joie du bonheur éternel. Par le Christ notre Seigneur. Amen.",
+    "la_invocation": "Oremus.",
+    "la_repons": "Concede nos famulos tuos, quaesumus, Domine Deus, perpetua mentis et corporis sanitate gaudere : et, gloriosa beatae Mariae semper Virginis intercessione, a praesenti liberari tristitia, et aeterna perfrui laetitia. Per Christum Dominum nostrum. Amen.",
+    "traduction": "Traduction catholique traditionnelle / Rituel romain (domaine public)"
+  }
+]

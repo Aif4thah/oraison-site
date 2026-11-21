@@ -19,6 +19,7 @@ const PRECACHE_URLS = [
   'assets/json_data/permanent/prieres.json',
   'assets/json_data/permanent/beatitudes.json',
   'assets/json_data/permanent/rosarium.json',
+  'assets/json_data/permanent/litanies.json',
 ];
 
 self.addEventListener('install', (event) => {

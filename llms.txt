@@ -10,6 +10,14 @@
 - **Richesse scripturaire et liturgique** : Plus de 800 versets bibliques (traduction Augustin Crampon 1923, domaine public) accompagnent chaque grain du chapelet avec une clausule après le nom de Jésus, ainsi que 36 séries au fil de l'année liturgique et de la vie des saints.
 - **Complémentarité sacramentelle et vie paroissiale** : Oraison a pour vocation d'encourager la pratique régulière du chapelet et de l'oraison silencieuse. Elle s'inscrit au service de la vie de foi et ne remplace en aucun cas la participation à la vie en communauté paroissiale, la présence fidèle à la messe et la communion à l'Eucharistie.
 
+## Édition imprimée & E-book Kindle (Recueil complet du Chapelet)
+Pour les fidèles qui préfèrent prier sans smartphone ou qui souhaitent soutenir le projet Oraison, l'intégralité du corpus est publiée en auto-édition (**Édition Oraison**, auteur : Michaël Vacarella, dépôt légal BnF novembre 2026) sous le titre **Recueil complet du Chapelet, compilé par un priant** (*Méditations du Saint Rosaire d'après la Bible Crampon 1923*) :
+- **Page de présentation officielle** : [Recueil complet du Chapelet (Livre & Kindle)](https://oraison.app/recueil-chapelet.html)
+- **Contenu (192 pages, format poche 5×8 pouces, papier crème)** : guide pas à pas (*Rosarium Virginis Mariae*), 11 prières traditionnelles en français et en latin, 20 Mystères du Rosaire avec 225 péricopes bibliques (traduction catholique Crampon 1923) et clausules christologiques, 14 Béatitudes, 36 séries liturgiques et Litanies de Lorette.
+- **Livre broché (12,90 € TTC)** : [Commander sur Amazon.fr (ASIN B0HSJ7JQ4R · ISBN-13 : 979-8143824034)](https://www.amazon.fr/dp/B0HSJ7JQ4R)
+- **E-book Kindle (6,99 € TTC)** : [Télécharger sur Amazon.fr (ASIN B0HSCCVM53)](https://www.amazon.fr/dp/B0HSCCVM53)
+- **Relation avec l'application** : Le recueil papier/Kindle est un support complémentaire et un achat de soutien ; l'application mobile et web Oraison (https://oraison.app/app/) reste gratuite pour le socle quotidien (4 séries du Rosaire, temps liturgique, découverte mensuelle, sans compte ni publicité).
+
 ## Liens Principaux & Guides Liturgiques
 - [Accueil & Installation d'Oraison](https://oraison.app/) : Présentation, FAQ et guide d'installation PWA sur iPhone, Android et PC.
 - [Lancer l'application Oraison (PWA)](https://oraison.app/app/) : Accès direct au chapelet interactif et aux méditations.
@@ -20,6 +28,7 @@
 - [Les 5 Mystères Douloureux (Mardi et Vendredi)](https://oraison.app/mysteres-douloureux.html) : L'Agonie à Gethsémani, la Flagellation, le Couronnement d'épines, le Portement de la Croix et la Crucifixion.
 - [Les 5 Mystères Glorieux (Mercredi et Dimanche)](https://oraison.app/mysteres-glorieux.html) : La Résurrection, l'Ascension, la Pentecôte, l'Assomption de Marie et le Couronnement de Marie au ciel.
 - [Oraison et Méditation Chrétienne](https://oraison.app/oraison-meditation.html) : Qu'est-ce que l'oraison silencieuse selon sainte Thérèse d'Avila, saint François de Sales et le Catéchisme de l'Église catholique, les 12 repères de saint Jean-Paul II (*Rosarium Virginis Mariae*) et le calendrier des 36 séries liturgiques et thématiques.
+- [Recueil complet du Chapelet (Livre broché & Kindle)](https://oraison.app/recueil-chapelet.html) : Présentation détaillée de l'édition papier 192 pages (ISBN 979-8143824034, ASIN B0HSJ7JQ4R, 12,90 €) et Kindle (ASIN B0HSCCVM53, 6,99 €).
 - [Qui sommes-nous ? L'histoire d'Oraison](https://oraison.app/qui-sommes-nous.html) : Démarche personnelle et indépendante de Michaël (consultant en cybersécurité et catholique), née au cœur d'une paroisse.
 - [Politique de confidentialité](https://oraison.app/privacy.html) : Engagements RGPD et mesure d'audience anonyme sans cookie (`noindex, follow`).
 - [Mentions légales](https://oraison.app/mentions-legales.html) : Informations légales d'édition (Michaël Vacarella) et d'hébergement (`noindex, follow`).

@@ -636,6 +636,99 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   font-size: 0.82rem !important;
   letter-spacing: 0.01em;
 }
+.cta-book-note {
+  margin: 0.85rem auto 0 !important;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(58, 52, 64, 0.55);
+  color: var(--muted) !important;
+  font-size: 0.84rem !important;
+  line-height: 1.6 !important;
+}
+.cta-book-note a {
+  color: var(--purple);
+  text-decoration: none;
+}
+.cta-book-note a:hover { text-decoration: underline; }
+
+/* Encart complémentaire : Recueil imprimé & Kindle (sobre, non intrusif) */
+.book-card {
+  margin: 2.25rem 0 0;
+  padding: 1.65rem 1.75rem;
+  border: 1px solid rgba(181, 126, 194, 0.35);
+  border-radius: 1rem;
+  background: rgba(181, 126, 194, 0.045);
+  text-align: left;
+}
+.book-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.book-card-icon {
+  width: 1.45rem;
+  height: 1.45rem;
+  color: var(--purple);
+  flex-shrink: 0;
+}
+.book-card-kicker {
+  display: block;
+  color: var(--purple);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.15rem;
+}
+.book-card h2, .book-card h3 {
+  margin: 0;
+  font: 400 1.22rem/1.35 var(--serif);
+  color: var(--fg);
+}
+.book-card p {
+  margin: 0 0 0.9rem;
+  color: #d6d0dc;
+  font-size: 0.94rem;
+  line-height: 1.7;
+}
+.book-card-with-cover {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+.book-cover-thumb {
+  width: 144px;
+  height: auto;
+  border-radius: 0.45rem;
+  border: 1px solid rgba(181, 126, 194, 0.4);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.45);
+  display: block;
+}
+.book-meta {
+  margin: 0.9rem 0 0 !important;
+  color: var(--muted) !important;
+  font-size: 0.78rem !important;
+  line-height: 1.5 !important;
+}
+.book-compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+  font-size: 0.9rem;
+}
+.book-compare-table th, .book-compare-table td {
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.book-compare-table th {
+  color: var(--purple);
+  font: 400 0.92rem var(--serif);
+  background: rgba(181, 126, 194, 0.06);
+}
+.book-compare-table td { color: #d6d0dc; }
+.book-compare-table td strong { color: var(--fg); }
 .silo-section { margin: 3.5rem 0 1.5rem; padding-top: 2.5rem; border-top: 1px solid var(--line); }
 .silo-section h2, .silo-section h3 { margin: 0 0 1.35rem; font: 400 1.35rem var(--serif); text-align: center; }
 .silo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: 1rem; }
@@ -682,6 +775,10 @@ a.mystery-item:hover { border-color: var(--purple); background: rgba(181, 126, 1
   .prayer-col, .silo-card { padding: 1rem 1.1rem; }
   .btn-primary { padding: 0.85rem 1.35rem; font-size: 1.02rem; }
   .cta-tunnel { padding: 2.25rem 1.25rem; margin: 2.75rem 0; border-radius: 1.1rem; }
+  .book-card { padding: 1.35rem 1.15rem; }
+  .book-card-with-cover { grid-template-columns: 1fr; justify-items: center; }
+  .book-cover-thumb { width: 132px; }
+  .book-compare-table th, .book-compare-table td { padding: 0.65rem 0.55rem; font-size: 0.82rem; }
   .silo-section { margin: 2.75rem 0 1rem; padding-top: 2rem; }
   .silo-grid { gap: 0.85rem; grid-template-columns: 1fr; }
 }
