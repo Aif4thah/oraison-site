@@ -68,6 +68,11 @@
     .splash-logo { width: 72px; height: 72px; border-radius: 16px; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4); animation: splash-pulse 2.2s ease-in-out infinite; }
     .splash-title { font: 400 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Georgia, serif; letter-spacing: 1.5px; color: #EDEDED; margin: 18px 0 0; opacity: 0.9; }
     .splash-bar { width: 36px; height: 2px; background: #B06CAE; border-radius: 2px; margin-top: 14px; opacity: 0.6; animation: splash-bar-pulse 2.2s ease-in-out infinite; }
+    @media (prefers-color-scheme: light) {
+      html, body, #splash-screen { background-color: #FAF6EE; color: #1A1817; }
+      .splash-title { color: #1A1817; }
+      .splash-bar { background: #7A3F8C; }
+    }
     @keyframes splash-pulse {
       0%, 100% { transform: scale(0.97); opacity: 0.85; }
       50% { transform: scale(1.02); opacity: 1; }

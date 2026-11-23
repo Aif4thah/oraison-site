@@ -27,7 +27,7 @@
     "code_langue": "fr",
     "categorie": "chapelet",
     "traduction": "Traduction traditionnelle catholique",
-    "texte": "Notre Père, qui êtes aux cieux, que votre nom soit sanctifié, que votre règne arrive, que votre volonté soit faite sur la terre comme au ciel. Donnez-nous aujourd'hui notre pain quotidien ; pardonnez-nous nos offenses, comme nous pardonnons à ceux qui nous ont offensés ; et ne nous laissez pas succomber à la tentation, mais délivrez-nous du mal. Amen."
+    "texte": "Notre Père, qui êtes aux cieux, que votre nom soit sanctifié, que votre règne arrive, que votre volonté soit faite sur la terre comme au ciel.\nDonnez-nous aujourd'hui notre pain quotidien ; pardonnez-nous nos offenses, comme nous pardonnons à ceux qui nous ont offensés ; et ne nous laissez pas succomber à la tentation, mais délivrez-nous du mal. Amen."
   },
   {
     "id": "pater_noster_la",
@@ -37,7 +37,7 @@
     "code_langue": "la",
     "categorie": "chapelet",
     "traduction": "Vulgate / Rituel romain",
-    "texte": "Pater noster, qui es in caelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in caelo et in terra. Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo. Amen."
+    "texte": "Pater noster, qui es in caelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in caelo et in terra.\nPanem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo. Amen."
   },
   {
     "id": "ave_maria_fr",
@@ -47,7 +47,7 @@
     "code_langue": "fr",
     "categorie": "chapelet",
     "traduction": "Traduction traditionnelle catholique",
-    "texte": "Je vous salue, Marie, pleine de grâce ; le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen."
+    "texte": "Je vous salue, Marie, pleine de grâce ; le Seigneur est avec vous. Vous êtes bénie entre toutes les femmes et Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu, priez pour nous, pauvres pécheurs, maintenant et à l'heure de notre mort. Amen."
   },
   {
     "id": "ave_maria_la",
@@ -57,7 +57,7 @@
     "code_langue": "la",
     "categorie": "chapelet",
     "traduction": "Rituel romain",
-    "texte": "Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen."
+    "texte": "Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus.\nSancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen."
   },
   {
     "id": "gloria_patri_fr",
@@ -67,7 +67,7 @@
     "code_langue": "fr",
     "categorie": "chapelet",
     "traduction": "Traduction traditionnelle catholique",
-    "texte": "Gloire au Père, et au Fils, et au Saint-Esprit. Comme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen."
+    "texte": "Gloire au Père, et au Fils, et au Saint-Esprit.\nComme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen."
   },
   {
     "id": "gloria_patri_la",
@@ -77,7 +77,7 @@
     "code_langue": "la",
     "categorie": "chapelet",
     "traduction": "Rituel romain",
-    "texte": "Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen."
+    "texte": "Gloria Patri, et Filio, et Spiritui Sancto.\nSicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen."
   },
   {
     "id": "fatima_fr",
