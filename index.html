@@ -83,76 +83,8 @@
         "image": "https://oraison.app/og.png",
         "keywords": "oraison, chapelet, méditation, prière, rosaire, bible, vie des saints, mystères joyeux, mystères lumineux, mystères douloureux, mystères glorieux, liturgie catholique, messe, eucharistie, vie paroissiale, calme, silence",
         "publisher": { "@id": "https://oraison.app/#organization" },
-        "mentions": { "@id": "https://oraison.app/#book" },
+        "mentions": { "@type": "CreativeWork", "@id": "https://oraison.app/#book", "name": "Recueil complet du Chapelet, compilé par un priant", "url": "https://oraison.app/recueil-chapelet.html" },
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" }
-      },
-      {
-        "@type": "Book",
-        "@id": "https://oraison.app/#book",
-        "name": "Recueil complet du Chapelet, compilé par un priant",
-        "alternateName": "Recueil complet du Chapelet : Méditations du Saint Rosaire d'après la Bible Crampon 1923",
-        "description": "Recueil imprimé et numérique complémentaire à l'application Oraison : 11 prières traditionnelles en français et en latin, 20 Mystères du Rosaire avec 225 péricopes bibliques (traduction catholique Crampon 1923), clausules christologiques selon saint Jean-Paul II, 14 Béatitudes, 36 séries liturgiques et Litanies de Lorette.",
-        "inLanguage": ["fr", "la"],
-        "genre": ["Religion et spiritualité", "Prière catholique", "Chapelet et Rosaire"],
-        "datePublished": "2026-11-21",
-        "image": "https://oraison.app/og.png",
-        "author": { "@id": "https://oraison.app/#organization" },
-        "publisher": { "@id": "https://oraison.app/#organization" },
-        "isBasedOn": { "@id": "https://oraison.app/#app" },
-        "url": "https://oraison.app/recueil-chapelet.html",
-        "sameAs": [
-          "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-          "https://www.amazon.fr/dp/B0HSCCVM53"
-        ],
-        "workExample": [
-          {
-            "@type": "Book",
-            "@id": "https://oraison.app/#book-paperback",
-            "name": "Recueil complet du Chapelet (Édition brochée)",
-            "bookFormat": "https://schema.org/Paperback",
-            "isbn": "979-8143824034",
-            "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSJ7JQ4R" },
-            "numberOfPages": 192,
-            "inLanguage": ["fr", "la"],
-            "bookEdition": "Première édition (format poche 5×8 pouces, papier crème)",
-            "datePublished": "2026-11-21",
-            "author": { "@id": "https://oraison.app/#organization" },
-            "publisher": { "@id": "https://oraison.app/#organization" },
-            "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-            "sameAs": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-            "offers": {
-              "@type": "Offer",
-              "price": "12.90",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "itemCondition": "https://schema.org/NewCondition",
-              "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-              "seller": { "@type": "Organization", "name": "Amazon.fr" }
-            }
-          },
-          {
-            "@type": "Book",
-            "@id": "https://oraison.app/#book-ebook",
-            "name": "Recueil complet du Chapelet (Édition Kindle)",
-            "bookFormat": "https://schema.org/EBook",
-            "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSCCVM53" },
-            "inLanguage": ["fr", "la"],
-            "bookEdition": "Édition numérique Kindle (EPUB 3)",
-            "datePublished": "2026-11-21",
-            "author": { "@id": "https://oraison.app/#organization" },
-            "publisher": { "@id": "https://oraison.app/#organization" },
-            "url": "https://www.amazon.fr/dp/B0HSCCVM53",
-            "sameAs": "https://www.amazon.fr/dp/B0HSCCVM53",
-            "offers": {
-              "@type": "Offer",
-              "price": "6.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "url": "https://www.amazon.fr/dp/B0HSCCVM53",
-              "seller": { "@type": "Organization", "name": "Amazon.fr" }
-            }
-          }
-        ]
       },
       {
         "@type": "FAQPage",
@@ -217,7 +149,7 @@
 
   <main id="decouvrir">
     <section class="manifesto-section" aria-label="Présentation d'Oraison">
-      <p class="lead">Oraison offre un espace sobre et apaisé pour prier le <strong>chapelet</strong> et entrer dans l'<strong>oraison</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer. Prier, tout simplement.</p>
+      <p class="lead">Oraison offre un espace sobre et apaisé pour prier le <strong>chapelet</strong> et entrer dans l'<strong>oraison</strong>. Rien à paramétrer, aucun compte à créer, aucun objectif à calculer. Prier, tout simplement. <a href="qui-sommes-nous.html">Découvrir l'histoire du projet</a> ou consulter le <a href="recueil-chapelet.html">recueil imprimé de 192 pages</a>.</p>
     </section>
 
     <section class="pwa-card" aria-labelledby="pwa-title">
@@ -413,21 +345,21 @@
         <p class="cta-reassurance">Application gratuite · Sans inscription · Mode avion</p>
       </aside>
 
-      <div class="book-card" id="recueil-chapelet" role="region" aria-labelledby="recueil-home-title">
-        <div class="book-card-header">
-          <svg class="book-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-          <div>
-            <span class="book-card-kicker">Édition papier &amp; liseuse</span>
-            <h3 id="recueil-home-title">Vous préférez prier loin des écrans tout en apportant votre soutien&nbsp;?</h3>
-          </div>
+      <div class="book-card book-card-with-cover" id="recueil-chapelet" role="region" aria-labelledby="recueil-home-title">
+        <a href="recueil-chapelet.html" data-track="kdp-cover-home" aria-label="Découvrir le sommaire du Recueil complet du Chapelet">
+          <img src="couverture-recueil-chapelet.jpg" alt="Couverture du Recueil complet du Chapelet (Édition Oraison)" class="book-cover-thumb" width="360" height="576" loading="lazy" decoding="async">
+        </a>
+        <div>
+          <span class="book-card-kicker">Édition papier &amp; liseuse</span>
+          <h3 id="recueil-home-title">Vous préférez prier loin des écrans tout en apportant votre soutien&nbsp;?</h3>
+          <p>Le <strong><em>Recueil complet du Chapelet</em></strong> rassemble en un seul volume sobre de <strong>192 pages</strong> (format poche, papier crème) l'intégralité du contenu d'Oraison&nbsp;: guide pas à pas, 11 prières traditionnelles en français et en latin, les 20 mystères du Rosaire (225 péricopes de la Bible <em>Crampon 1923</em> avec clausules), les 14 Béatitudes, les 36 séries liturgiques de l'année et les Litanies de Lorette. Pensé comme support complémentaire à l'application pour prier sans téléphone ou l'offrir autour de soi, chaque exemplaire commandé contribue à financer l'hébergement et la gratuité d'Oraison.</p>
+          <p class="transparency-action">
+            <a class="btn btn-outline btn-compact" href="https://www.amazon.fr/dp/B0HSJ7JQ4R" target="_blank" rel="noopener" data-track="kdp-broche-home" aria-label="Commander le Recueil complet du Chapelet en livre broché à 12€90 sur Amazon">Livre broché à 12€90 (Amazon)</a>
+            <a class="btn btn-outline btn-compact" href="https://www.amazon.fr/dp/B0HSCCVM53" target="_blank" rel="noopener" data-track="kdp-kindle-home" aria-label="Télécharger le Recueil complet du Chapelet en édition Kindle à 6€99 sur Amazon">Édition Kindle à 6€99 (Amazon)</a>
+            <a class="btn btn-outline btn-compact" href="recueil-chapelet.html" data-track="kdp-details-home">Sommaire &amp; détails (192 p.)</a>
+          </p>
+          <p class="book-meta">Édition Oraison · 192 pages · Format poche (12,7 × 20,3 cm) · ISBN 979-8143824034</p>
         </div>
-        <p>Le <strong><em>Recueil complet du Chapelet</em></strong> rassemble en un seul volume sobre de <strong>192 pages</strong> (format poche, papier crème) l'intégralité du contenu d'Oraison&nbsp;: guide pas à pas, 11 prières traditionnelles en français et en latin, les 20 mystères du Rosaire (225 péricopes de la Bible <em>Crampon 1923</em> avec clausules), les 14 Béatitudes, les 36 séries liturgiques de l'année et les Litanies de Lorette. Pensé comme support complémentaire à l'application pour prier sans téléphone ou l'offrir autour de soi, chaque exemplaire commandé contribue à financer l'hébergement et la gratuité d'Oraison.</p>
-        <p class="transparency-action">
-          <a class="btn btn-outline btn-compact" href="https://www.amazon.fr/dp/B0HSJ7JQ4R" target="_blank" rel="noopener" data-track="kdp-broche-home" aria-label="Commander le Recueil complet du Chapelet en livre broché à 12€90 sur Amazon">Livre broché à 12€90 (Amazon)</a>
-          <a class="btn btn-outline btn-compact" href="https://www.amazon.fr/dp/B0HSCCVM53" target="_blank" rel="noopener" data-track="kdp-kindle-home" aria-label="Télécharger le Recueil complet du Chapelet en édition Kindle à 6€99 sur Amazon">Édition Kindle à 6€99 (Amazon)</a>
-          <a class="btn btn-outline btn-compact" href="recueil-chapelet.html" data-track="kdp-details-home">Sommaire &amp; détails (192 p.)</a>
-        </p>
-        <p class="book-meta">Édition Oraison · 192 pages · Format poche (12,7 × 20,3 cm) · ISBN 979-8143824034</p>
       </div>
 
       <div class="transparency-note" role="note" aria-label="Gratitude, transparence et démarche personnelle">

@@ -59,6 +59,7 @@
         "name": "Qui sommes-nous ? L'histoire d'Oraison",
         "inLanguage": "fr",
         "description": "Présentation de la genèse d'Oraison par son créateur Michaël, consultant en cybersécurité et catholique.",
+        "publisher": { "@id": "https://oraison.app/#organization" },
         "mainEntity": {
           "@type": "Person",
           "@id": "https://oraison.app/#author",
@@ -69,74 +70,10 @@
           "sameAs": [
             "https://www.linkedin.com/in/mvacarella/"
           ]
-        }
-      },
-      {
-        "@type": "Book",
-        "@id": "https://oraison.app/#book",
-        "name": "Recueil complet du Chapelet, compilé par un priant",
-        "alternateName": "Recueil complet du Chapelet : Méditations du Saint Rosaire d'après la Bible Crampon 1923",
-        "description": "Recueil imprimé et numérique complémentaire à l'application Oraison : 11 prières traditionnelles en français et en latin, 20 Mystères du Rosaire avec 225 péricopes bibliques (traduction catholique Crampon 1923), clausules christologiques selon saint Jean-Paul II, 14 Béatitudes, 36 séries liturgiques et Litanies de Lorette.",
-        "inLanguage": ["fr", "la"],
-        "genre": ["Religion et spiritualité", "Prière catholique", "Chapelet et Rosaire"],
-        "datePublished": "2026-11-21",
-        "image": "https://oraison.app/couverture-recueil-chapelet.jpg",
-        "author": { "@id": "https://oraison.app/#author" },
-        "publisher": { "@id": "https://oraison.app/#organization" },
-        "isBasedOn": "https://oraison.app/",
-        "url": "https://oraison.app/recueil-chapelet.html",
-        "sameAs": [
-          "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-          "https://www.amazon.fr/dp/B0HSCCVM53"
-        ],
-        "workExample": [
-          {
-            "@type": "Book",
-            "@id": "https://oraison.app/#book-paperback",
-            "name": "Recueil complet du Chapelet (Édition brochée)",
-            "bookFormat": "https://schema.org/Paperback",
-            "isbn": "979-8143824034",
-            "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSJ7JQ4R" },
-            "numberOfPages": 192,
-            "inLanguage": ["fr", "la"],
-            "bookEdition": "Première édition (format poche 5×8 pouces, papier crème)",
-            "datePublished": "2026-11-21",
-            "author": { "@id": "https://oraison.app/#author" },
-            "publisher": { "@id": "https://oraison.app/#organization" },
-            "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-            "sameAs": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-            "offers": {
-              "@type": "Offer",
-              "price": "12.90",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "itemCondition": "https://schema.org/NewCondition",
-              "url": "https://www.amazon.fr/dp/B0HSJ7JQ4R",
-              "seller": { "@type": "Organization", "name": "Amazon.fr" }
-            }
-          },
-          {
-            "@type": "Book",
-            "@id": "https://oraison.app/#book-ebook",
-            "name": "Recueil complet du Chapelet (Édition Kindle)",
-            "bookFormat": "https://schema.org/EBook",
-            "identifier": { "@type": "PropertyValue", "propertyID": "ASIN", "value": "B0HSCCVM53" },
-            "inLanguage": ["fr", "la"],
-            "bookEdition": "Édition numérique Kindle (EPUB 3)",
-            "datePublished": "2026-11-21",
-            "author": { "@id": "https://oraison.app/#author" },
-            "publisher": { "@id": "https://oraison.app/#organization" },
-            "url": "https://www.amazon.fr/dp/B0HSCCVM53",
-            "sameAs": "https://www.amazon.fr/dp/B0HSCCVM53",
-            "offers": {
-              "@type": "Offer",
-              "price": "6.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "url": "https://www.amazon.fr/dp/B0HSCCVM53",
-              "seller": { "@type": "Organization", "name": "Amazon.fr" }
-            }
-          }
+        },
+        "mentions": [
+          { "@type": "WebSite", "@id": "https://oraison.app/#website", "name": "Oraison", "url": "https://oraison.app/" },
+          { "@type": "CreativeWork", "@id": "https://oraison.app/#book", "name": "Recueil complet du Chapelet, compilé par un priant", "url": "https://oraison.app/recueil-chapelet.html" }
         ]
       }
     ]
@@ -227,6 +164,36 @@
           <p class="book-meta">Édition Oraison · 192 pages · ISBN-13&nbsp;: 979-8143824034 · ASIN&nbsp;: B0HSJ7JQ4R / B0HSCCVM53</p>
         </div>
       </div>
+
+      <h2 class="sub-heading" id="charte-doctrinale-title">Notre charte éditoriale, biblique et liturgique</h2>
+      <p class="sub-intro">Parce qu'un outil de prière exige une grande fidélité aux sources de l'Église, chaque texte publié sur Oraison (application, guides et recueil imprimé) obéit à des règles strictes et vérifiables.</p>
+      <ul class="pillars">
+        <li>
+          <strong>Traduction biblique Augustin Crampon 1923 et numérotation hébraïque</strong>
+          <span>L'ensemble du corpus biblique (les 225 péricopes des 20 mystères, les 14 Béatitudes et les 36 séries liturgiques) provient exclusivement de la traduction catholique du chanoine Augustin Crampon (édition 1923, domaine public), vérifiée mot pour mot et harmonisée sur la numérotation hébraïque des Psaumes (Ps 1 à 150) pour éviter toute confusion lors de la lecture.</span>
+        </li>
+        <li>
+          <strong>Prières traditionnelles en français et en latin</strong>
+          <span>Les 11 prières du chapelet et les Litanies de Lorette suivent les textes historiques du patrimoine catholique et du Rituel romain, proposés en miroir français et latin. Les clausules christologiques facultatives s'inspirent directement de la lettre apostolique <em>Rosarium Virginis Mariae</em> (n° 33) de saint Jean-Paul II.</span>
+        </li>
+        <li>
+          <strong>Transparence canonique et primauté de la vie sacramentelle</strong>
+          <span>Oraison est une œuvre laïque personnelle, conçue sans mandat canonique ni Imprimatur, mûrie dans l'écoute de la communauté paroissiale. Elle ne se substitue jamais à la participation à la sainte Messe, à la réception de l'Eucharistie ni à l'accompagnement spirituel en paroisse.</span>
+        </li>
+      </ul>
+
+      <h2 class="sub-heading" id="engagements-title">Sobriété technique, vie privée et indépendance</h2>
+      <p class="sub-intro">L'éthique numérique fait partie intégrante du recueillement : un espace de prière ne doit jamais capter l'attention ni exploiter les données de ceux qui s'y recueillent.</p>
+      <ul class="pillars">
+        <li>
+          <strong>Mode hors-ligne natif et zéro pistage</strong>
+          <span>L'application fonctionne sans création de compte, sans mot de passe, sans notification push et sans cookie publicitaire. Une fois ouverte ou ajoutée sur l'écran d'accueil, elle s'utilise intégralement en <strong>mode avion</strong>. Les réglages (thème clair ou sombre, langue, clausules) restent stockés uniquement sur votre appareil.</span>
+        </li>
+        <li>
+          <strong>Un modèle économique indépendant et lisible</strong>
+          <span>Le socle quotidien de l'application (les 4 séries du Rosaire, les 12 conseils de méditation, le temps liturgique en cours et la découverte du mois) reste gratuit à vie et sans publicité. Les frais techniques annuels et l'impression de marque-pages gratuits pour les paroisses sont couverts uniquement par les soutiens volontaires et les ventes du recueil papier.</span>
+        </li>
+      </ul>
 
       <div class="transparency-note" id="contact" role="note" aria-label="Contacter Michaël">
         <p><strong>Une remarque ou une suggestion&nbsp;?</strong> Mon contact est disponible pour toute remarque, retour d'expérience ou suggestion concernant mon travail.</p>

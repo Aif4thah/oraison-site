@@ -87,7 +87,7 @@ h1 { margin: 1.25rem 0 0.35rem; font: 400 clamp(2.3rem, 7vw, 3.5rem)/1.15 var(--
   width: 100%;
   margin: 1.15rem auto 0;
 }
-.pwa-actions .hero-store, .cta-actions .hero-store { margin-top: 0; }
+.cta-actions .hero-store { margin-top: 0; }
 .btn-store,
 .btn-store-compact {
   display: inline-flex;
